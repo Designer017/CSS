@@ -1,0 +1,211 @@
+.modal-body {
+    font-size: 14px
+}
+
+.first_section {
+    background-image: none;
+    background-color: #F4F8FD;
+    height: auto;
+    margin-bottom: 0;
+    padding-bottom: 35px !important
+}
+
+.right_blue_box {
+    width: 330px;
+    margin-left: auto
+}
+
+.first_section .right_content_div {
+    padding-left: 0
+}
+
+.left_img_sectuion {
+    width: calc(100% - 450px)
+}
+
+.left_img_sectuion img {
+    width: auto;
+    max-width: 100%
+}
+
+.banner_content {
+    padding: 25px
+}
+
+.banner_content h3 {
+    font-size: 18px;
+    font-weight: 400
+}
+
+.cmn_points h2 {
+    margin: 0;
+    width: 100%;
+    position: relative;
+    padding-left: 20px
+}
+
+.cmn_points h2:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 0;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    background-color: #fff
+}
+
+.get_txt {
+    font-size: 18px
+}
+
+.discount_amount {
+    font-size: 38px;
+    font-weight: 600;
+    font-family: 'Montserrat'
+}
+
+.invoice_bg_div .try_free_btn_div {
+    text-align: center
+}
+
+.try_free_btn {
+    font-size: 16px;
+    padding: 10px 50px
+}
+
+.try_free_btn:hover {
+    background-color: #fff;
+    color: #fea700;
+    transition: all 0.2s ease-in
+}
+
+.try_free_link_div {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 8px;
+    float: left
+}
+
+.try_free_link_div span {
+    font-size: 16px;
+    color: #fff
+}
+
+.try_free_link {
+    font-size: 16px;
+    color: #FEA700;
+    border-bottom: 1px solid #FEA700;
+    padding-left: 5px;
+    font-weight: 500
+}
+
+.try_free_link:hover {
+    color: #fff
+}
+
+.no_card_div {
+    float: left;
+    width: 100%;
+    text-align: center;
+    margin-top: 25px
+}
+
+.no_card_div span {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500
+}
+
+.banner_btm_txt {
+    float: left;
+    width: 100%;
+    text-align: center;
+    padding-top: 35px
+}
+
+.banner_btm_txt h4 {
+    margin: 0;
+    color: #000;
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 45px
+}
+
+.margin_new_top {
+    margin-top: 0
+}
+
+@media screen and (max-width:1366px) {
+    .new_width .container {
+        width: 95% !important
+    }
+
+    .left_img_sectuion {
+        width: calc(100% - 380px)
+    }
+
+    .first_section {
+        padding-top: 30px !important
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .banner_btm_txt h4 {
+        font-size: 26px;
+        line-height: 40px
+    }
+}
+
+@media screen and (max-width:991px) {
+    .left_img_sectuion {
+        width: 100%
+    }
+
+    .right_blue_box {
+        width: 100%
+    }
+
+    .first_section .right_content_div {
+        width: 360px !important;
+        padding: 30px 0 0 0
+    }
+
+    .margin_new_top {
+        padding-top: 50px
+    }
+
+    .banner_btm_txt h4 br {
+        display: none
+    }
+}
+
+@media screen and (max-width:767px) {
+    .banner_btm_txt h4 {
+        font-size: 22px;
+        line-height: 35px
+    }
+}
+
+@media screen and (max-width:680px) {
+    .invoice_bg_div {
+        margin-top: 64px !important
+    }
+}
+
+@media screen and (max-width:414px) {
+    .first_section .right_content_div {
+        width: 100% !important
+    }
+
+    .discount_amount {
+        font-size: 32px
+    }
+
+    .banner_btm_txt h4 {
+        font-size: 20px;
+        line-height: 30px
+    }
+}

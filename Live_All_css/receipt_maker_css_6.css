@@ -1,0 +1,1499 @@
+.w-100,
+.youtube_img img,
+img,
+img.img-fluid,
+label {
+    max-width: 100%
+}
+
+.modal,
+svg:not(:root) {
+    overflow: hidden
+}
+
+.form-control,
+.panel,
+body {
+    background-color: #fff
+}
+
+.btn,
+.que_title h2,
+.text-center,
+.title {
+    text-align: center
+}
+
+.btn,
+button {
+    cursor: pointer
+}
+
+.btn,
+.cn-button.wp-default,
+.menu_bar ul.nav li a {
+    white-space: nowrap
+}
+
+.btn,
+img {
+    vertical-align: middle
+}
+
+a,
+table {
+    background-color: transparent
+}
+
+.col-xs-12,
+.footer_newslater,
+.logo_img,
+.menu_bar {
+    float: left
+}
+
+.add-logo-label.logo-preview .close-add-logo,
+.collapse.in,
+.nav>li,
+footer,
+header,
+input[type=file],
+nav {
+    display: block
+}
+
+.bottom_footer,
+.btn,
+.cmn_question,
+.cmn_question_div,
+.fa,
+.four_col_footer .card_img,
+.lds-ring,
+.logo_div,
+.logo_img,
+.menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link:hover img.static_img,
+.menu_item,
+.qaes_ans_div,
+.que_title,
+.social_icon,
+.submenu_li img.static_img,
+a.blue_big_button,
+a.blue_small_button,
+label,
+span.title_text {
+    display: inline-block
+}
+
+.add-logo-label.logo-preview .add-logo-text,
+.collapse,
+.desktop_hide,
+.main_menu .fa-angle-right {
+    display: none
+}
+
+a {
+    color: #337ab7
+}
+
+.close,
+b {
+    font-weight: 700
+}
+
+h1 {
+    margin: .67em 0
+}
+
+h1,
+h2,
+h3,
+h4,
+ul {
+    margin-bottom: 10px
+}
+
+.home_try_free_btn.try_free_btn,
+img {
+    border: 0
+}
+
+button,
+input,
+select {
+    margin: 0;
+    font: inherit;
+    color: inherit
+}
+
+button {
+    overflow: visible;
+    -webkit-appearance: button
+}
+
+button,
+select {
+    text-transform: none
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent
+}
+
+button,
+input,
+select {
+    font-size: inherit;
+    line-height: inherit
+}
+
+h1,
+h2,
+h3,
+h4 {
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+h1,
+h2,
+h3 {
+    margin-top: 20px
+}
+
+h4 {
+    margin-top: 10px
+}
+
+h1 {
+    font-size: 36px
+}
+
+h2 {
+    font-size: 30px
+}
+
+h3 {
+    font-size: 24px
+}
+
+.try_free_btn,
+h4 {
+    font-size: 18px
+}
+
+p {
+    margin: 0 0 10px;
+    font-size: 16px
+}
+
+#PaymentPopup .modal-header .close,
+.download_app_div h3,
+.frequent_question_div.faq-box.faq_no_mt,
+.panel-title,
+ul {
+    margin-top: 0
+}
+
+small {
+    font-size: 85%
+}
+
+.btn,
+.nav,
+ul ul {
+    margin-bottom: 0
+}
+
+#PaymentPopup .modal-content,
+.form input,
+.four_col_footer h3,
+.payment .modal-footer button,
+.title h2,
+.title p,
+body {
+    font-family: Raleway, sans-serif
+}
+
+.container {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+.card_icons,
+.footer_newslater,
+.form-control,
+.ftr_schedule_demo,
+.ftr_schedule_demo .schedule_demo_link,
+.qaes_ans_div,
+.qaes_ans_div .panel,
+.social_icons_div,
+.w-100 {
+    width: 100%
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+#header_main,
+.modal {
+    position: fixed;
+    left: 0;
+    top: 0
+}
+
+.form-control {
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143
+}
+
+.cmn_question a:hover,
+.form input,
+.login_signup_main p.new_user_txt,
+.text-black,
+.title h2 {
+    color: #000
+}
+
+.form-control {
+    display: block;
+    height: 34px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+.btn,
+.btn-primary:active,
+.form-control,
+.navbar-toggle {
+    background-image: none
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+input[type=checkbox] {
+    margin: 4px 0 0;
+    line-height: normal
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear
+}
+
+.panel-default {
+    border-color: #ddd
+}
+
+.panel-title,
+.panel-title>a {
+    color: inherit
+}
+
+.panel {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
+
+.panel-body {
+    padding: 15px
+}
+
+.panel-heading {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent
+}
+
+.panel-title {
+    margin-bottom: 0;
+    font-size: 16px
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #ddd
+}
+
+.modal {
+    right: 0;
+    bottom: 0;
+    z-index: 1050;
+    display: none;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+#header_main,
+.card_icons img,
+.free_trial,
+.header,
+body {
+    width: 100%;
+    float: left
+}
+
+.container:after,
+.container:before,
+.modal-footer:after,
+.modal-footer:before,
+.modal-header:after,
+.modal-header:before,
+.nav:after,
+.nav:before,
+.navbar:after,
+.navbar:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
+.row:before {
+    display: table;
+    content: " "
+}
+
+.container:after,
+.modal-footer:after,
+.modal-header:after,
+.nav:after,
+.navbar:after,
+.panel-body:after,
+.row:after {
+    clear: both
+}
+
+#header_main,
+.sub_menu {
+    background-color: #fff;
+    z-index: 99
+}
+
+body {
+    margin: 0;
+    line-height: 1.42857143;
+    color: #333;
+    cursor: default;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    overflow-x: hidden
+}
+
+body,
+html {
+    scroll-behavior: smooth
+}
+
+a,
+a:focus,
+a:hover,
+button,
+button:focus,
+button:hover {
+    text-decoration: none;
+    outline: 0
+}
+
+.container,
+.header .container {
+    width: 85%
+}
+
+#footer_main,
+.section_left_img {
+    float: left;
+    width: 100%
+}
+
+.title_description p {
+    line-height: 25px;
+    font-size: 16px;
+    margin-bottom: 20px
+}
+
+.top_footer {
+    float: left;
+    width: 100%;
+    background-color: #192a3c !important;
+    padding: 50px 0
+}
+
+.top_footer .container {
+    width: 95%
+}
+
+.four_col_footer h3 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 5px
+}
+
+.four_col_footer {
+    float: left;
+    width: 100%;
+    padding: 0 25px
+}
+
+.footer_txt a,
+.submit_newslater:focus,
+.submit_newslater:hover,
+.top_footer ul.faq_footer li a:hover,
+h4 {
+    color: #fff
+}
+
+.cmn_question_div {
+    text-align: left;
+    width: 100%;
+    padding: 50px 0 0
+}
+
+.que_title {
+    width: 100%;
+    padding-bottom: 30px
+}
+
+.cmn_question .panel-heading {
+    background-color: transparent;
+    padding: 0
+}
+
+.cmn_question {
+    width: 100%;
+    margin-top: 15px !important
+}
+
+.cmn_question .panel-body p {
+    font-size: 18px;
+    color: #777;
+    font-weight: 400
+}
+
+.font-weight-500 {
+    font-weight: 500
+}
+
+.try_free_btn {
+    background-color: #fea700;
+    color: #fff;
+    padding: 7px 40px;
+    font-weight: 500;
+    border-radius: 6px
+}
+
+.p_0 {
+    padding: 0 !important
+}
+
+.new_frequent_question {
+    float: left;
+    width: 100%;
+    margin: 10px 0 50px
+}
+
+.new_frequent_question .panel {
+    box-shadow: none;
+    border: 0;
+    border-top: 1px solid #c5c5c5;
+    border-radius: 0 !important
+}
+
+.new_frequent_question .panel-default>.panel-heading {
+    border: 0;
+    background-color: transparent
+}
+
+.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border: 0;
+    padding: 10px 15px 15px
+}
+
+.new_frequent_question .cmn_question .panel-body p {
+    font-size: 20px;
+    color: #707070;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: Raleway, sans-serif;
+    line-height: 1.8
+}
+
+.inquiry_banner_div {
+    background-color: #12222f;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.inquire_txt_div h4 {
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    margin: 0;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center
+}
+
+.inquire_txt_div a {
+    color: #fff;
+    padding: 0 5px;
+    font-size: 18px;
+    transition: .2s ease-in;
+    -webkit-transition: .2s ease-in
+}
+
+.mt-0 {
+    margin-top: 0 !important
+}
+
+.container {
+    width: 85% !important
+}
+
+.try_free_btn {
+    border: 2px solid transparent;
+    position: relative
+}
+
+.try_free_btn::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    transform: translate(-50%, 0) scale(1, 1);
+    width: calc(100%+4px);
+    height: calc(100%+8px);
+    border-radius: 10px;
+    z-index: -1;
+    -webkit-animation: 2s ease-in-out infinite grow;
+    animation: 2s ease-in-out infinite grow;
+    transition: .3s ease-in-out;
+    opacity: 0;
+    background: rgba(0, 122, 255, .4)
+}
+
+span.mobile_view {
+    display: none;
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 10
+}
+
+.que_title h2 {
+    font-weight: 600;
+    font-size: 34px;
+    color: #0783fc;
+    margin-bottom: 10px;
+    margin-top: 0
+}
+
+.footer_right_border,
+.invoice-hackingwrapper.invoive-estimateblock {
+    min-height: auto
+}
+
+.schedule_demo_link {
+    color: #fff;
+    transform: rotate(0);
+    font-size: 15px;
+    font-weight: 600;
+    float: left;
+    background-color: #007aff;
+    padding: 15px 0;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ftr_schedule_demo {
+    float: left;
+    margin-top: 30px
+}
+
+.ftr_schedule_demo .schedule_demo_link {
+    background-color: #fea700;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.text_left {
+    text-align: left;
+    vertical-align: middle !important;
+    width: 51%
+}
+
+.table-responsive {
+    min-height: auto;
+    overflow-x: hidden
+}
+
+.row.row-flex,
+.wrap_flex_div {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.footer_right_border,
+.inquire_txt_div {
+    padding: 0 15px
+}
+
+.top_footer .wrap_flex_div {
+    padding: 0;
+    margin: 0 -15px
+}
+
+a.blue_big_button,
+a.blue_small_button {
+    background: #007ffa;
+    align-items: center
+}
+
+.text_center {
+    text-align: center;
+    padding-bottom: 15px
+}
+
+a.blue_big_button {
+    color: #fff;
+    transition: .5s;
+    width: 235px;
+    border-radius: 5px;
+    font-size: 22px;
+    border: 2px solid transparent;
+    padding: 18px 0;
+    margin-top: 20px
+}
+
+a.blue_small_button {
+    width: 160px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-top: 25px;
+    transition: .5s;
+    color: #fff;
+    border: 2px solid transparent
+}
+
+.body_invoice_order_reverse .invoice-infowrap:nth-child(2n)>.row>[class*=col-]:last-child,
+.body_invoice_order_reverse .invoice-infowrap:nth-child(odd)>.row>[class*=col-]:first-child {
+    order: 1
+}
+
+.add-logo-label,
+.add-logo-label *,
+.freetrial-btn {
+    cursor: pointer !important
+}
+
+.font-weight-600 {
+    font-weight: 600 !important
+}
+
+div.logo {
+    min-height: 50px
+}
+
+.lds-ring,
+.lds-roller_parent {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.lds-roller_parent {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 9999
+}
+
+@media screen and (max-width:1400px) {
+    .container {
+        width: 95% !important
+    }
+}
+
+@media screen and (max-width:1366px) {
+    .container {
+        width: 95% !important
+    }
+}
+
+@media screen and (max-width:1280px) {
+    .title_description h2 {
+        font-size: 22px;
+        line-height: 35px;
+        padding-bottom: 12px
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .title_description h2 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .title_description p {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    .four_col_footer {
+        padding: 0
+    }
+
+    .four_col_footer h3 {
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: normal
+    }
+}
+
+@media screen and (max-width:991px) {
+    #header_main {
+        z-index: 999
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    .section_left_img {
+        float: none;
+        width: 70%
+    }
+}
+
+@media screen and (max-width:680px) {
+    .cmn_question .panel-body p {
+        font-size: 16px
+    }
+}
+
+@media screen and (max-width:600px) {
+    .logo_div {
+        width: 40%
+    }
+
+    .sidepanel {
+        width: 50%
+    }
+
+    .sticky_header .font_24.receipt_titlebar_title {
+        width: 126px
+    }
+}
+
+@media screen and (max-width:568px) {
+    .section_left_img {
+        width: 80%
+    }
+
+    .no_padding {
+        padding: 0 !important
+    }
+
+    .inquire_txt_div a,
+    .inquire_txt_div h4 {
+        font-size: 16px !important
+    }
+}
+
+@media screen and (max-width:480px) {
+    .logo_div {
+        width: 50%;
+        margin-left: 20px
+    }
+
+    .sidepanel {
+        margin-right: 15px;
+        width: 40%
+    }
+
+    .title_description h2 {
+        font-size: 20px;
+        line-height: 28px
+    }
+
+    .title_description p {
+        font-size: 15px;
+        line-height: 22px
+    }
+
+    .card_icons,
+    .footer_newslater,
+    .ftr_schedule_demo,
+    .social_icons_div {
+        width: 100%
+    }
+
+    .menu_bar {
+        max-height: 400px;
+        overflow-y: auto;
+        padding-bottom: 0
+    }
+
+    #header_main {
+        z-index: 999999
+    }
+}
+
+@media screen and (max-width:360px) {
+    .offer_text p {
+        font-size: 11px !important
+    }
+
+    .section_left_img {
+        width: 100%
+    }
+}
+
+@media screen and (orientation:landscape) and (min-device-width:319px) and (max-device-width:736px) {
+    .menu_bar {
+        max-height: 220px;
+        overflow-y: auto;
+        padding-bottom: 0
+    }
+
+    #header_main {
+        z-index: 999999
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+    .text_left {
+        text-align: left;
+        vertical-align: middle !important;
+        width: 48% !important
+    }
+
+    a.blue_big_button {
+        width: 200px;
+        font-size: 20px;
+        padding: 10px 0
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1216px) {
+    .text_left {
+        text-align: left;
+        vertical-align: middle !important;
+        width: 46% !important
+    }
+}
+
+@media screen and (min-width:1800px) {
+    .container {
+        width: 75% !important
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .que_title h2,
+    .trial_inner.free_trial_home h2 {
+        font-size: 20px;
+        line-height: 24px
+    }
+
+    .top_footer .wrap_flex_div {
+        padding: 0;
+        margin: 0
+    }
+
+    .offer_text p {
+        font-size: 13px
+    }
+
+    h4 {
+        text-align: center
+    }
+
+    .new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul li::marker {
+        font-size: 18px
+    }
+
+    .payment .modal-header img.logo_payment {
+        margin-top: 0 !important;
+        width: auto;
+        overflow: hidden !important
+    }
+
+    .payment .modal-dialog {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto !important
+    }
+
+    #PaymentPopup .modal-content {
+        width: 100% !important;
+        margin: 0 auto !important;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .payment .modal-body,
+    .payment .modal-footer,
+    .payment .modal-header {
+        width: 100%
+    }
+
+    a.blue_big_button {
+        width: 150px;
+        font-size: 12px;
+        padding: 7px 0
+    }
+
+    .menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link {
+        min-height: auto
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner {
+        flex-direction: column;
+        width: 100%;
+        display: none
+    }
+
+    .menu_bar {
+        overflow-x: hidden
+    }
+}
+
+@media screen and (min-width:240px) and (max-width:320px) {
+    .inquire_txt_div h4 {
+        font-size: 16px !important
+    }
+
+    .inquire_txt_div a {
+        font-size: 15px !important
+    }
+}
+
+#PaymentPopup .modal-content {
+    width: 340px;
+    margin: 100px auto 0;
+    border-radius: 2px
+}
+
+.payment .modal-header img.logo_payment {
+    width: 31%;
+    margin-top: -69px
+}
+
+.payment .modal-header {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 0;
+    padding-bottom: 0
+}
+
+.title h2 span {
+    font-weight: 400;
+    color: rgba(0, 0, 0, .75)
+}
+
+.title h2 {
+    font-weight: 600;
+    letter-spacing: .02em;
+    font-size: 1.8rem
+}
+
+.title {
+    border-bottom: .5px solid rgba(0, 0, 0, .1);
+    padding-bottom: 0
+}
+
+.form {
+    padding: 14px 13px 0
+}
+
+.form input {
+    height: 45px;
+    border-color: #cfcfcf !important;
+    letter-spacing: .01em;
+    font-size: 1.4rem;
+    line-height: 2rem;
+    width: 100%
+}
+
+.payment .modal-footer button:hover {
+    background-color: #0071ed !important;
+    transition: .5s
+}
+
+.form input:focus {
+    outline: 0;
+    box-shadow: none;
+    border-color: #000 !important
+}
+
+.form input:placeholder {
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: .01em;
+    color: #a1a2b1
+}
+
+.title p {
+    color: #545465;
+    font-size: 1.3rem;
+    line-height: 1.7rem;
+    font-weight: 500
+}
+
+.payment img.close {
+    opacity: 1 !important;
+    width: 80%
+}
+
+.payment button.close {
+    position: absolute;
+    right: 10px;
+    opacity: 1;
+    top: 15px
+}
+
+.payment .modal-footer button {
+    width: 100%;
+    background-color: #007aff !important;
+    box-shadow: none;
+    border: transparent;
+    font-weight: 600;
+    transition: .5s;
+    padding: 10px 0 12px;
+    font-size: 1.8rem
+}
+
+@media screen and (min-width:1899px) {
+    .text_center {
+        padding-bottom: 20px
+    }
+}
+
+@media screen and (min-width:2025px) {
+    .text_center {
+        padding-bottom: 25px;
+        padding-top: 25px
+    }
+}
+
+@media screen and (min-width:2278px) {
+    .text_center {
+        padding-bottom: 35px;
+        padding-top: 40px
+    }
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.eot?v=4.7.0);
+    src: url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.fa {
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+.fa-arrow-right:before {
+    content: "\f061"
+}
+
+.fa-angle-right:before {
+    content: "\f105"
+}
+
+.menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link span.item_text.padding_right {
+    padding-left: 0;
+    color: #007ffa
+}
+
+.menu_bar .navbar-nav li .sub_menu .submenu_li:first-child {
+    padding: 5px 0
+}
+
+.sub_menu {
+    box-shadow: 1px 1px 5px 0 rgba(32, 33, 36, .28);
+    -webkit-box-shadow: 1px 1px 5px 0 rgba(32, 33, 36, .28);
+    -moz-box-shadow: 1px 1px 5px 0 rgba(32, 33, 36, .28);
+    border-radius: 5px
+}
+
+.free_invoice_faq.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul li::marker {
+    width: 5px;
+    height: 5px;
+    font-size: 20px;
+    color: #707070
+}
+
+@media(max-width:991.98px) {
+    .new_frequent_question .cmn_question .panel-body p {
+        font-size: 16px
+    }
+}
+
+.invoice-hackingwrapper.invoive-estimateblock::after {
+    backdrop-filter: blur(5px)
+}
+
+.freetrial-btn {
+    padding: 10px 40px !important;
+    margin-top: 20px !important;
+    color: #fff !important
+}
+
+.invoice-hackingwrapper.invoive-estimateblock .home_try_free_btn {
+    padding: 10px 40px !important;
+    margin-top: 20px !important;
+    cursor: pointer
+}
+
+.invoice-hackingwrapper.invoive-estimateblock .invoice-subtext {
+    padding: 90px 20px
+}
+
+@media(max-width:1650px) {
+    .frequent_question_div.sidebar-open .cmn_question_div.faq-innerwrap {
+        width: 100%;
+        margin-left: 0
+    }
+}
+
+@media(max-width:1200px) {
+    .invoice-hackingwrapper.invoive-estimateblock .invoice-subtext {
+        padding: 50px 20px 30px
+    }
+}
+
+.body_invoice_order_reverse .invoice-infowrap:nth-child(2n)>.row>[class*=col-]:first-child,
+.body_invoice_order_reverse .invoice-infowrap:nth-child(odd)>.row>[class*=col-]:last-child {
+    order: 0
+}
+
+.bg-abstract.bg-abstract-1,
+.bg-abstract.bg-abstract-2,
+.bg-abstract.bg-abstract-3 {
+    width: 176px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.receipt-infowrapper-bg {
+    background-color: #f7fbff;
+    margin-top: 100px;
+    padding-bottom: 70px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative
+}
+
+.bg-abstract.bg-abstract-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 388px;
+    width: 230px
+}
+
+.bg-abstract.bg-abstract-2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    height: 578px;
+    width: 205px
+}
+
+.bg-abstract.bg-abstract-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 259px
+}
+
+.receipt-infowrapper-bg .main-title {
+    margin: 0;
+    color: rgba(30, 41, 59, 1);
+}
+
+.add-logo-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    width: 0
+}
+
+.add-logo-label {
+    width: 215px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px dashed #c2c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    background-size: calc(100% - 20px) auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 135px;
+    position: relative
+}
+
+.add-logo-label .close-add-logo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none
+}
+
+.add-logo-label img {
+    width: 30px
+}
+
+.add-logo-label .add-logo-text {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    line-height: 100%;
+    color: #000
+}
+
+.after-border.no-border::after {
+    opacity: 0;
+    margin-bottom: 10px
+}
+
+.invoice-subtext.receipt-maker-subtext {
+    max-width: 670px
+}
+
+.add-logo-label.logo-preview img {
+    max-width: 100%;
+    width: auto;
+    max-height: 100%
+}
+
+.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ol,
+.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul {
+    padding: 0 0 0 24px
+}
+
+.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ol li,
+.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul li {
+    font-size: 18px;
+    color: #707070;
+    font-weight: 500
+}
+
+@media screen and (max-width:991px) {
+    .menu_bar .navbar-nav li:last-child {
+        border-bottom: 0 !important
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner {
+        flex-direction: column;
+        width: 100%;
+        display: none
+    }
+
+    .menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link,
+    .new_header .menu_bar ul.nav li:last-child a {
+        min-height: auto
+    }
+
+    .menu_bar {
+        overflow-x: hidden
+    }
+
+    .new_header .menu_bar ul.nav li a {
+        text-align: left;
+        min-height: 48px;
+        display: flex;
+        align-items: center
+    }
+
+    .new_header .menu_bar ul.nav li a.bg_menu_link {
+        width: auto
+    }
+
+    span.title_text {
+        padding: 12px 16px !important
+    }
+
+    .add-logo-label {
+        margin-right: auto
+    }
+
+    .receipt-infowrapper-bg {
+        margin-top: 50px;
+        background-image: unset
+    }
+}
+
+.banner-text h1 {
+    margin-bottom: 6px
+}
+
+.banner-text p {
+    margin-bottom: 34px
+}
+
+@media screen and (max-width:991.98px) {
+    .banner-text p {
+        margin-bottom: 24px
+    }
+}
+
+.active {
+    color: #00ba34 !important
+}
+
+@media screen and (max-width:767px) {
+    .text_right {
+        text-align: center;
+        margin-top: 15px
+    }
+
+    .header_menu .un_style.text_right {
+        margin-top: 0 !important
+    }
+
+    .new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul li,
+    div.blog_inner .link span {
+        font-size: 14px
+    }
+
+    .bg-abstract.bg-abstract-2 {
+        height: 428px;
+        width: 115px
+    }
+}
+
+@media screen and (min-width:768px) {
+    .text_right {
+        text-align: right
+    }
+}
+
+@media(max-width:1199.98px) {
+    .font-34 {
+        font-size: 30px !important
+    }
+}
+
+@media(max-width:767.98px) {
+    .font-34 {
+        font-size: 24px !important
+    }
+}
+
+@media(min-width:768px) {
+    .frequent_question_div {
+        padding: 100px 0px !important;
+    }
+}
+
+@media(min-width:992px) {
+    .invoice-infowrap>.row.row-align-top {
+        align-items: flex-start
+    }
+}
+
+.faqPanel .panelBody p strong {
+    color: #000;
+}
+
+.faqPanel .panelBody ul li {
+    list-style-type: decimal;
+}
+
+.width-452 {
+    width: 452px !important;
+}
+
+@media screen and (max-width:576px) {
+    .width-452 {
+        width: 100% !important;
+    }
+}

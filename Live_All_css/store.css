@@ -1,0 +1,569 @@
+.microsoftstore-section * {
+    color: #131316;
+    font-family: Segoe UI;
+    margin: 0px;
+    font-size: 16px;
+}
+
+html,
+body {
+    background: #F3F3F3;
+    margin: 0px;
+}
+
+a {
+    text-decoration: none;
+    cursor: pointer;
+    font-family: Segoe UI;
+    color: #131316;
+}
+
+.d-flex {
+    display: flex;
+}
+
+.items-center {
+    align-items: center;
+}
+
+.justify-between {
+    justify-content: space-between;
+}
+
+.flex-wrap {
+    flex-wrap: wrap;
+}
+
+.m-0 {
+    margin: 0px !important;
+}
+
+.mt-15 {
+    margin-top: 15px;
+}
+
+.padding-100 {
+    padding: 15px 100px;
+}
+
+.p-0 {
+    padding: 0px;
+}
+
+.main-header {
+    width: 100%;
+    --shimmer-height: 84px;
+    --shimmer-border-radius: 0;
+    position: sticky;
+    top: 0px;
+    background-color: #fff;
+    z-index: 1000;
+}
+
+header,
+footer {
+    background: #fff;
+}
+
+header.sticky {
+    box-shadow: rgba(0, 0, 0, 0.14) 0px 4px 5px 0px, rgba(0, 0, 0, 0.12) 0px 1px 10px 0px, rgba(0, 0, 0, 0.2) 0px 2px 4px -1px;
+}
+
+header a {
+    font-size: 20px;
+    color: #131316;
+}
+
+header .logo {
+    border-right: 2px solid gray;
+    padding-right: 15px;
+    margin-right: 15px;
+}
+
+.footer-links .privacy-container {
+    text-wrap: nowrap;
+    gap: 10px;
+}
+
+.footer-links .privacy-container img {
+    max-width: 36px;
+    margin-top: 2px;
+}
+
+.sec-container {
+    gap: 24px;
+}
+
+.banner-images {
+    position: relative;
+    background: #F3F3F3;
+    z-index: 0;
+    /* background: url('../../../../public/assets_website/images/microsoft-store/banner-img.svg') no-repeat;  */
+}
+
+.banner-sections::after {
+    content: '';
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+    background: url('https://cdn.mooninvoice.com/image/images_new/banner-img.svg') no-repeat;
+    background-size: 100%;
+}
+
+.microsoftstore-section {
+    margin: 0px 136px;
+    max-width: 1900px;
+}
+
+.banner-sections {
+    gap: 32px;
+    padding: 100px 0px 60px;
+}
+
+.banner-sections h1 {
+    font-size: 28px;
+    font-weight: 700;
+    margin: 12px 0px 16px;
+}
+
+.readmore-extra,
+.readmore-extra-one {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.5s ease-in-out;
+}
+
+.readmore-extra .dec-heading {
+    margin-top: 18px;
+    margin-bottom: 6px !important;
+    font-weight: 500;
+}
+
+.readmore-extra.marginbottom-0 p {
+    margin-bottom: 0px !important;
+}
+
+.readmore-block p {
+    margin-bottom: 15px;
+}
+
+.readmore-block button {
+    margin-top: 15px;
+    padding: 0px;
+    font-size: 14px;
+    background-color: transparent;
+    color: #005FB8;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.4s;
+}
+
+.readmore-block button:hover {
+    background-color: transparent;
+}
+
+/* Add some padding for a smoother transition */
+.readmore-extra.expanded,
+.readmore-extra-one.expanded {
+    max-height: max-content;
+    /* Adjust this value to a large enough height to accommodate content */
+}
+
+.text-darkblue {
+    color: #005FB8;
+}
+
+.text-lighgray {
+    color: #52525B;
+}
+
+.bg-darkblue {
+    background: #005FB8;
+}
+
+.banner-subcontent {
+    gap: 34px;
+    margin-bottom: 25px;
+}
+
+.border-right {
+    border-right: 1px solid #00000014;
+}
+
+.rating-block {
+    margin-top: 16px;
+}
+
+.rating-block span {
+    padding-inline: 6px;
+    display: flex;
+    align-items: center;
+    gap: 4px;
+    font-size: 16px;
+}
+
+.banner-subcontent img {
+    max-width: 137px;
+}
+
+.rating-block span:first-child {
+    padding-left: 0px;
+}
+
+.gap-12 {
+    gap: 12px;
+}
+
+.button-groups button {
+    width: 180px;
+    height: 46px;
+    padding: 11px 12px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    border: 1px solid transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.button-groups .view-store-btn {
+    color: #3F3F46;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    border-color: #3F3F46;
+    background: #FFF;
+}
+
+.button-groups .view-store-btn:hover {
+    background: #FFFFFFB2;
+}
+
+.button-groups div p {
+    font-size: 14px;
+    display: flex;
+    height: 46px;
+    align-items: center;
+}
+
+.button-groups img {
+    max-width: 18px;
+}
+
+.banner-logo {
+    min-width: 200px;
+    max-width: 200px;
+}
+
+.description-section {
+    background: #FFFFFF;
+    padding: 20px 25px;
+    border: 1px solid #E4E4E7;
+    border-radius: 8px;
+    margin-bottom: 20px;
+}
+
+.description-section h4 {
+    margin-bottom: 18px;
+    padding-bottom: 18px;
+    border-bottom: 1px solid #E4E4E7;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.product-content {
+    gap: 60px;
+}
+
+.product-content .description-main {
+    width: calc(100% - 420px);
+}
+
+.product-content .right-bar {
+    width: 360px;
+    min-width: 360px;
+    align-self: flex-start;
+    position: sticky;
+    top: 90px;
+    overflow: visible;
+    z-index: 10;
+}
+
+.right-bar h3 {
+    padding-inline: 17px;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 26.6px;
+
+}
+
+.right-bar .rightbar-card {
+    padding: 18px 7px;
+    border-bottom: 1px solid #E4E4E7;
+    margin: 10px 10px;
+}
+
+.right-bar .rightbar-card:hover {
+    background: #fff;
+    border-radius: 0.5rem;
+    box-shadow: 0 2px 8px hsl(240 3.8% 46.1% / 12%);
+}
+
+.right-bar .rightbar-card .free-tag {
+    font-size: 12px;
+    padding: 4px 10px;
+    background: #0000000A;
+    border-radius: 2px;
+    line-height: 16px;
+}
+
+.right-bar .rightbar-card .rating-block {
+    margin-top: 0px;
+}
+
+.rightbar-card-img {
+    min-width: 52px;
+}
+
+.fs-66 {
+    font-size: 66px;
+    font-weight: 600;
+    line-height: 85px;
+}
+
+.rating-main {
+    gap: 40px;
+}
+
+.rating-main p {
+    font-size: 12px;
+    color: #3F3F46;
+}
+
+.rating-five {
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 18.62px;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.rating-five span {
+    gap: 2px;
+    padding-right: 5px;
+    margin-right: 5px;
+}
+
+.title-date {
+    color: #0000009C;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18.62px;
+
+}
+
+.user-block {
+    margin: 14px 0;
+}
+
+.like-block {
+    gap: 25px;
+}
+
+.like-icon {
+    gap: 8px;
+}
+
+.unlike-img img {
+    transform: rotate(180deg);
+}
+
+.rating-main-img img {
+    scale: 1.05;
+}
+
+.back-icons {
+    margin-right: 20px;
+}
+
+.paddingLeft-40 {
+    padding-left: 40px;
+}
+
+.company-name {
+    margin-bottom: 14px;
+}
+
+.paddingLeft-40:not(:last-child) {
+    margin-bottom: 8px;
+}
+
+.paddingLeft-28 {
+    padding-left: 28px;
+}
+
+.paddingLeft-28 a {
+    font-size: 14px;
+}
+
+.additional-block {
+    gap: 30px;
+}
+
+.additional-card {
+    width: calc(20.4% - 30px);
+}
+
+.additional-name {
+    gap: 10px;
+    color: #71717A;
+    fill: #71717A;
+}
+
+.additional-name svg {
+    fill: #71717A;
+}
+
+
+.microsoftstore-slider .owl-nav button.owl-next {
+    right: -15px;
+}
+
+.microsoftstore-slider .owl-nav button.owl-prev {
+    left: -15px;
+}
+
+.microsoftstore-slider .owl-nav button.owl-prev svg {
+    transform: rotate(180deg);
+}
+
+.microsoftstore-slider {
+    position: relative;
+}
+
+.microsoftstore-slider .slider__item img {
+    border-radius: 6px;
+}
+
+.microsoftstore-slider .owl-nav button {
+    position: absolute;
+    top: 50% !important;
+    transform: translateY(-50%);
+    border: 1px solid #EAEAEA !important;
+    border-radius: 50px;
+}
+
+@media screen and (max-width: 1650.98px) {
+    .additional-card {
+        width: calc(25% - 30px);
+    }
+
+}
+
+@media screen and (max-width: 1450.98px) {
+    .microsoftstore-section {
+        margin: 0px 80px;
+    }
+
+    .additional-card {
+        width: calc(33% - 20px);
+    }
+
+    .additional-block {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 1199.98px) {
+    .microsoftstore-section {
+        margin: 0px 40px;
+    }
+
+    .banner-sections {
+        padding: 50px 0px;
+    }
+
+    .product-content .description-main,
+    .product-content .right-bar {
+        width: 100%;
+    }
+
+    .rightbar-block {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    .rightbar-card {
+        width: calc(50% - 10px);
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .product-content {
+        gap: 20px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .microsoftstore-section {
+        margin-top: 0px 40px;
+    }
+
+    .rightbar-card {
+        width: calc(100% - 10px);
+    }
+
+    .additional-card {
+        width: calc(50% - 20px);
+    }
+
+    .sec-container {
+        gap: 10px;
+    }
+}
+
+@media screen and (max-width: 576.98px) {
+    .banner-sections {
+        flex-wrap: wrap;
+        padding: 50px 0px;
+        justify-content: center;
+        gap: 24px;
+        text-align: center;
+    }
+
+    .banner-sections * {
+        text-align: center;
+    }
+
+    .banner-subcontent,
+    .button-groups {
+        justify-content: center;
+        flex-direction: column;
+    }
+
+    .rating-block {
+        margin-top: 5px;
+    }
+
+    .button-groups div p {
+        height: auto;
+    }
+
+    .banner-subcontent {
+        gap: 16px;
+        margin-bottom: 18px;
+    }
+
+    .additional-card {
+        width: 100%;
+    }
+}

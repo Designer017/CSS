@@ -1,0 +1,9410 @@
+.modal,
+.modal-open,
+svg:not(:root) {
+    overflow: hidden
+}
+
+.btn,
+.btn_sm_primary,
+.cn-button.wp-default,
+.indu_inner span,
+.input-group-btn,
+.label,
+.menu_bar ul.nav li a,
+.stripe_banner p span,
+.trial_inner.trial_inner_schedule a {
+    white-space: nowrap
+}
+
+.btn,
+.btn-group,
+.checkbox-inline,
+.input-group-btn,
+img {
+    vertical-align: middle
+}
+
+.compare_table table tr:first-child:hover,
+.fill_btn:hover,
+.form-control-new button,
+.frequently_asked_quest_main .active,
+.frequently_asked_quest_main .collapsible:hover,
+.new_invoice_banner.invoice_bg_div .banner_content,
+.outline_btn,
+a,
+table {
+    background-color: transparent
+}
+
+#custom_html-2,
+.btn-group>.btn,
+.btn-group>.btn-group,
+.btn-toolbar .btn,
+.btn-toolbar .btn-group,
+.btn-toolbar .input-group,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9,
+.footer_newslater,
+.logo_img,
+.menu_bar,
+.seventh_section .service_disc_main img {
+    float: left
+}
+
+.add-logo-label.logo-preview .close-add-logo,
+.benifit_colm:hover .hover_show,
+.blog_banner .padding_top_bottom .blog_inner,
+.collapse.in,
+.getstore-wrapper li a,
+.landingtestipart .owl-theme .owl-dots,
+.menu_bar .navbar-nav li .sub_menu .submenu_li.dropdown-submenu:hover .dropdown-menu,
+.nav>li,
+.payment_process_main .payment_process_cnt_sc p strong,
+.pricing_plan_div .owl-carousel .owl-nav.disabled,
+.proforma_reference_main .content_section p strong,
+.tab-content>.active,
+.tab-pane.fade.active,
+details,
+footer,
+header,
+input[type=file],
+main,
+menu,
+nav,
+section,
+summary {
+    display: block
+}
+
+.app_store_img,
+.block_bg,
+.block_section,
+.blog_img a,
+.bottom_footer,
+.btn,
+.btn-group,
+.chooseinvoicewrap,
+.downloadbtns-wrap .download-btn,
+.four_col_div,
+.four_col_footer .card_img,
+.free_trial_bottom_link,
+.free_trial_price h6,
+.indu_main_inner:hover .icon img.hover,
+.indu_main_inner:hover span img.hover,
+.lds-ring,
+.lds-roller,
+.logo_div,
+.logo_img,
+.menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link:hover img.static_img,
+.menu_item,
+.off_price_div,
+.off_price_div h6,
+.plan_tab .nav-tabs,
+.row_section,
+.second_section,
+.service_img_main,
+.social_icon,
+.store_img_div,
+.story_inner .footer a,
+.submenu_li img.static_img,
+.toggle-password-new img.hide_password,
+.toggle-password-new.hide_password img.show_password,
+.whypaymentwrap,
+.whypaypart h2,
+a.white_new_button,
+div.blog_inner:hover .link span .hover_arrow,
+label,
+progress,
+span.title_text {
+    display: inline-block
+}
+
+.add-logo-label.logo-preview .add-logo-text,
+.benifit_colm:hover .hover_hide,
+.collapse,
+.custom_plan_btn br,
+.desktop_hide,
+.download_free_invoice .title_description_new .left_align:before,
+.free_trial .row .col-md-1,
+.gold_month_btn,
+.gold_month_per_month,
+.gold_year_btn,
+.gold_year_per_month,
+.hover_show,
+.indu_main_inner .icon img.hover,
+.indu_main_inner span img.hover,
+.indu_main_inner:hover .icon img.normal,
+.indu_main_inner:hover span img.normal,
+.label:empty,
+.main_menu .fa-angle-right,
+.menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link:hover img.hvr_img,
+.new_header .menu_bar ul.nav.newsletter_page_menu,
+.newsletter-wrap .title_description_new h2:before,
+.offer_price_tab_show,
+.owl-theme .owl-dots,
+.plan_tab .nav-tabs>li.more_tab_show,
+.plan_white_details ul .moretext,
+.pos_mobile_img,
+.silver_month_btn,
+.silver_month_per_month,
+.smaller .try_new_div,
+.submenu_li img.hvr_img,
+.tab-content>.tab-pane,
+.tab-pane.fade,
+.testimonialfreepart .owl-next span::after,
+.testimonialfreepart .owl-prev span::after,
+.thank_you_message .feedback_logo_div,
+.toggle-password-new img.show_password,
+.toggle-password-new.hide_password img.hide_password,
+[hidden],
+button.w3-bar-item.w3-button.tablink:last-child:after,
+div.blog_inner .link span .hover_arrow,
+div.blog_inner:hover .link span .gray_arrow {
+    display: none
+}
+
+.free_invoice_template .free-inv-ul li a:hover,
+.text-primary,
+a {
+    color: #337ab7
+}
+
+.close,
+.fe_free_proforma_invoce.feature_banner.feature_banner_new .same_div_inner h1,
+.font-bold,
+.font_bold,
+.free_invoice_faq .que_title .font-bold,
+.label,
+b {
+    font-weight: 700
+}
+
+h1 {
+    margin: .67em 0
+}
+
+.home_try_free_btn.try_free_btn,
+img {
+    border: 0
+}
+
+button,
+input,
+select {
+    margin: 0;
+    font: inherit;
+    color: inherit
+}
+
+button {
+    overflow: visible
+}
+
+button,
+select {
+    text-transform: none
+}
+
+button,
+html input[type=button],
+input[type=reset],
+input[type=submit] {
+    -webkit-appearance: button;
+    cursor: pointer
+}
+
+input {
+    line-height: normal
+}
+
+input[type=checkbox],
+input[type=radio] {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 4px 0 0;
+    line-height: normal
+}
+
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    height: auto
+}
+
+table {
+    border-spacing: 0;
+    border-collapse: collapse
+}
+
+@media print {
+
+    *,
+    :after,
+    :before {
+        color: #000 !important;
+        text-shadow: none !important;
+        background: 0 0 !important;
+        -webkit-box-shadow: none !important;
+        box-shadow: none !important
+    }
+
+    a,
+    a:visited {
+        text-decoration: underline
+    }
+
+    a[href]:after {
+        content: " (" attr(href) ")"
+    }
+
+    a[href^="#"]:after,
+    a[href^="javascript:"]:after {
+        content: ""
+    }
+
+    img {
+        page-break-inside: avoid;
+        max-width: 100% !important
+    }
+
+    h2,
+    h3,
+    p {
+        orphans: 3;
+        widows: 3
+    }
+
+    h2,
+    h3 {
+        page-break-after: avoid
+    }
+
+    .navbar {
+        display: none
+    }
+
+    .label {
+        border: 1px solid #000
+    }
+
+    .table {
+        border-collapse: collapse !important
+    }
+
+    .hidden-print {
+        display: none !important
+    }
+}
+
+.form-control,
+.panel,
+body {
+    background-color: #fff
+}
+
+@font-face {
+    font-family: "Glyphicons Halflings";
+    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot);
+    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff) format("woff"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
+}
+
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+html {
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    font-size: 10px;
+    -webkit-tap-highlight-color: transparent
+}
+
+body {
+    margin: 0;
+    line-height: 1.42857143;
+    color: #333
+}
+
+button,
+input,
+select {
+    font-size: inherit;
+    line-height: inherit
+}
+
+[role=button] {
+    cursor: pointer
+}
+
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit
+}
+
+.btn,
+.form-control,
+.nav-tabs>li>a,
+output {
+    line-height: 1.42857143
+}
+
+.h1,
+.h2,
+.h3,
+h1,
+h2,
+h3 {
+    margin-top: 20px;
+    margin-bottom: 10px
+}
+
+.h4,
+.h5,
+.h6,
+.navbar-btn.btn-sm,
+h4,
+h5,
+h6 {
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.h1,
+h1 {
+    font-size: 36px
+}
+
+.h2,
+h2 {
+    font-size: 30px
+}
+
+.h3,
+.trial_inner.change_size h4,
+h3 {
+    font-size: 24px
+}
+
+.h4,
+.try_free_btn,
+h4 {
+    font-size: 18px
+}
+
+p {
+    margin: 0 0 10px;
+    font-size: 16px
+}
+
+.small,
+small {
+    font-size: 85%
+}
+
+#basicExampleModal .modal-body,
+.banner_none .banner_image,
+.block_section,
+.box_div h4,
+.box_div_main,
+.btn,
+.col_img_div,
+.common_titledecwrap,
+.count_inner,
+.desc,
+.desc h3,
+.disc_div,
+.fa-li,
+.factor_section .order_1,
+.featurecountbox,
+.gredientsignuppart p,
+.gredientsignupwrap,
+.invoicefaq-block.new_frequent_question .container,
+.item.customer_sliderbox,
+.label,
+.landingtestipart,
+.news_letter_image,
+.pay_facility_col .pay_facility_img_sc,
+.progress-bar,
+.que_title h3,
+.same_height .left_image_div.animation-element.slide-left,
+.service_section,
+.sixth_section .cmn_try_it_free_btn,
+.sixth_section .left_image_div,
+.tab_main_div,
+.text-center,
+.title,
+.youtubecontent {
+    text-align: center
+}
+
+.maintop-wrap .happyuser-wrapp .toptitle-wrapper h2,
+ul {
+    margin-top: 0;
+    margin-bottom: 10px
+}
+
+.accordion-block,
+.app_store_img:nth-child(3),
+.app_store_img:nth-child(4),
+.btn,
+.desc-listwrapper li:last-child,
+.freeinvoicebannercontent p:last-child,
+.nav,
+.newsletter-banner.feature_banner.feature_banner_new .same_div_inner>:last-child,
+.panel>.panel-collapse>.table,
+.panel>.table,
+.panel>.table-responsive>.table,
+.w_100 .title_description_new p,
+ul ul {
+    margin-bottom: 0
+}
+
+#PaymentPopup .modal-content,
+.faq-secwrap .que_title h2,
+.faq-secwrap .toggle_icon,
+.form input,
+.four_col_footer h3,
+.payment .modal-footer button,
+.title h2,
+.title p,
+body {
+    font-family: Raleway, sans-serif
+}
+
+.container,
+.container-fluid {
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto
+}
+
+@media(min-width:768px) {
+    .container {
+        width: 750px
+    }
+
+    .col-sm-1,
+    .col-sm-10,
+    .col-sm-11,
+    .col-sm-12,
+    .col-sm-2,
+    .col-sm-3,
+    .col-sm-4,
+    .col-sm-5,
+    .col-sm-6,
+    .col-sm-7,
+    .col-sm-8,
+    .col-sm-9 {
+        float: left
+    }
+
+    .col-sm-12 {
+        width: 100%
+    }
+
+    .col-sm-11 {
+        width: 91.66666667%
+    }
+
+    .col-sm-10 {
+        width: 83.33333333%
+    }
+
+    .col-sm-9 {
+        width: 75%
+    }
+
+    .col-sm-8 {
+        width: 66.66666667%
+    }
+
+    .col-sm-7 {
+        width: 58.33333333%
+    }
+
+    .col-sm-6 {
+        width: 50%
+    }
+
+    .col-sm-5 {
+        width: 41.66666667%
+    }
+
+    .col-sm-4 {
+        width: 33.33333333%
+    }
+
+    .col-sm-3 {
+        width: 25%
+    }
+
+    .col-sm-2 {
+        width: 16.66666667%
+    }
+
+    .col-sm-1 {
+        width: 8.33333333%
+    }
+
+    .col-sm-push-12 {
+        left: 100%
+    }
+
+    .col-sm-push-11 {
+        left: 91.66666667%
+    }
+
+    .col-sm-push-10 {
+        left: 83.33333333%
+    }
+
+    .col-sm-push-9 {
+        left: 75%
+    }
+
+    .col-sm-push-8 {
+        left: 66.66666667%
+    }
+
+    .col-sm-push-7 {
+        left: 58.33333333%
+    }
+
+    .col-sm-push-6 {
+        left: 50%
+    }
+
+    .col-sm-push-5 {
+        left: 41.66666667%
+    }
+
+    .col-sm-push-4 {
+        left: 33.33333333%
+    }
+
+    .col-sm-push-3 {
+        left: 25%
+    }
+
+    .col-sm-push-2 {
+        left: 16.66666667%
+    }
+
+    .col-sm-push-1 {
+        left: 8.33333333%
+    }
+
+    .col-sm-push-0 {
+        left: auto
+    }
+}
+
+.container-fluid>.navbar-collapse,
+.container-fluid>.navbar-header,
+.container>.navbar-collapse,
+.container>.navbar-header,
+.row {
+    margin-right: -15px;
+    margin-left: -15px
+}
+
+.col-lg-1,
+.col-lg-10,
+.col-lg-11,
+.col-lg-12,
+.col-lg-2,
+.col-lg-3,
+.col-lg-4,
+.col-lg-5,
+.col-lg-6,
+.col-lg-7,
+.col-lg-8,
+.col-lg-9,
+.col-md-1,
+.col-md-10,
+.col-md-11,
+.col-md-12,
+.col-md-2,
+.col-md-3,
+.col-md-4,
+.col-md-5,
+.col-md-6,
+.col-md-7,
+.col-md-8,
+.col-md-9,
+.col-sm-1,
+.col-sm-10,
+.col-sm-11,
+.col-sm-12,
+.col-sm-2,
+.col-sm-3,
+.col-sm-4,
+.col-sm-5,
+.col-sm-6,
+.col-sm-7,
+.col-sm-8,
+.col-sm-9,
+.col-xs-1,
+.col-xs-10,
+.col-xs-11,
+.col-xs-12,
+.col-xs-2,
+.col-xs-3,
+.col-xs-4,
+.col-xs-5,
+.col-xs-6,
+.col-xs-7,
+.col-xs-8,
+.col-xs-9 {
+    position: relative;
+    min-height: 1px;
+    padding-right: 15px;
+    padding-left: 15px
+}
+
+#header_main,
+.modal {
+    position: fixed;
+    top: 0
+}
+
+#custom_html-2,
+.card_icons,
+.case-study-inner-page.inner_page_main .section_left_img,
+.city_img img,
+.clutter_ui_sc .clutter_ui_box .clutter_img_sc img,
+.cmn_try_it_free_btn .try_free_btn:hover:after,
+.cmn_try_it_free_btn .try_free_btn:hover:before,
+.col-xs-12,
+.content-main-form,
+.customer_story.owl-carousel.owl-theme,
+.footer_newslater,
+.ftr_schedule_demo,
+.ftr_schedule_demo .schedule_demo_link,
+.inner_page_main.new_width.stripe_setion.pad_top .flex_section_new .section_left_img,
+.invc_soft_mac_banner .same_div_img img,
+.invoice_bg_div .try_free_btn_div .buy_now_btn,
+.invoice_main_img img,
+.invoice_webapp_link:hover::after,
+.invoice_webapp_link:hover::before,
+.new_invoice_banner .try_free_btn:hover:after,
+.new_invoice_banner .try_free_btn:hover:before,
+.new_section .off_price_div,
+.proforma_grd_box .profoma_img_cnt_sc .pro_img_sc img,
+.qaes_ans_div .panel,
+.review_banner img,
+.service_banner img,
+.social_icons_div,
+div#customer_review,
+input[type=button].btn-block,
+input[type=reset].btn-block,
+input[type=submit].btn-block {
+    width: 100%
+}
+
+.col-xs-9,
+.header_section .container,
+.inner_page_main.stripe_setion .container,
+.qr_banner .container,
+div.blog_banner .container {
+    width: 75%
+}
+
+.cmn_question a:hover,
+.desc-listwrapper li,
+.form input,
+.login_signup_main p.new_user_txt,
+.more_details i,
+.pure-material-textfield-outlined.outline-new-height>input:focus+span,
+.pure-material-textfield-outlined.outline-new-height>textarea:focus+span,
+.text-black,
+.title h2,
+.title_description h1 {
+    color: #000
+}
+
+.featuretime_img img,
+.table,
+.timefeaturepart .mobile_second img,
+.w-100 {
+    width: 100%;
+    max-width: 100%
+}
+
+.avl_on_sc .avl_logo_sc img,
+.banner-imgblock img,
+.downloadbtns-wrap img,
+.feature_banner.feature_banner_new .same_div_img img,
+.getstore-wrapper li a img,
+.icon_address_holder img,
+.inlogobox img,
+.invoice_payment_process_banner .same_div_img img,
+.pay_facility_col .pay_facility_img_sc img,
+.payment_process_img_sc img,
+.proforma_reference_main .reference_image_sc img,
+.send_bills_main img,
+.youtube_img img,
+.yt_image iframe,
+img,
+img.img-fluid,
+label {
+    max-width: 100%
+}
+
+.cmn_question_div,
+.featurebox,
+.freeinvoice_features .featurecontent p,
+.invoice_bg_div .try_free_btn_div,
+.text-left,
+.title_description_new {
+    text-align: left
+}
+
+.form-control,
+output {
+    font-size: 14px
+}
+
+.btn,
+.btn-default.active,
+.btn-default:active,
+.btn-primary.active,
+.btn-primary:active,
+.btn-success.active,
+.btn-success:active,
+.form-control,
+.navbar-toggle {
+    background-image: none
+}
+
+@media(min-width:992px) {
+    .container {
+        width: 970px
+    }
+
+    .col-md-1,
+    .col-md-10,
+    .col-md-11,
+    .col-md-12,
+    .col-md-2,
+    .col-md-3,
+    .col-md-4,
+    .col-md-5,
+    .col-md-6,
+    .col-md-7,
+    .col-md-8,
+    .col-md-9 {
+        float: left
+    }
+
+    .col-md-12 {
+        width: 100%
+    }
+
+    .col-md-11 {
+        width: 91.66666667%
+    }
+
+    .col-md-10 {
+        width: 83.33333333%
+    }
+
+    .col-md-9 {
+        width: 75%
+    }
+
+    .col-md-8 {
+        width: 66.66666667%
+    }
+
+    .col-md-7 {
+        width: 58.33333333%
+    }
+
+    .col-md-6 {
+        width: 50%
+    }
+
+    .col-md-5 {
+        width: 41.66666667%
+    }
+
+    .col-md-4 {
+        width: 33.33333333%
+    }
+
+    .col-md-3 {
+        width: 25%
+    }
+
+    .col-md-2 {
+        width: 16.66666667%
+    }
+
+    .col-md-1 {
+        width: 8.33333333%
+    }
+
+    .col-md-push-12 {
+        left: 100%
+    }
+
+    .col-md-push-11 {
+        left: 91.66666667%
+    }
+
+    .col-md-push-10 {
+        left: 83.33333333%
+    }
+
+    .col-md-push-9 {
+        left: 75%
+    }
+
+    .col-md-push-8 {
+        left: 66.66666667%
+    }
+
+    .col-md-push-7 {
+        left: 58.33333333%
+    }
+
+    .col-md-push-6 {
+        left: 50%
+    }
+
+    .col-md-push-5 {
+        left: 41.66666667%
+    }
+
+    .col-md-push-4 {
+        left: 33.33333333%
+    }
+
+    .col-md-push-3 {
+        left: 25%
+    }
+
+    .col-md-push-2 {
+        left: 16.66666667%
+    }
+
+    .col-md-push-1 {
+        left: 8.33333333%
+    }
+
+    .col-md-push-0 {
+        left: auto
+    }
+
+    .modal-lg {
+        width: 900px
+    }
+
+    .menu_bar .navbar-nav li.plateform_item .sub_menu.megamenu_inner.wrap_menu ul:first-child {
+        width: 35%
+    }
+
+    .menu_bar .navbar-nav li.plateform_item .sub_menu.megamenu_inner.wrap_menu ul:nth-child(2) {
+        width: 64%
+    }
+
+    .menu_bar .navbar-nav li.download_menu:hover .sub_menu.megamenu_inner.wrap_menu {
+        width: 290px;
+        left: calc(50% - 145px)
+    }
+
+    .case-study-inner-page .mobile_second {
+        padding-right: 22px
+    }
+
+    .case-study-inner-page .mobile_first {
+        padding-left: 22px
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner {
+        display: flex !important
+    }
+
+    .align_center_lg {
+        display: flex;
+        align-items: center
+    }
+
+    .invoice-infowrap>.row.row-align-top {
+        align-items: flex-start
+    }
+
+    .invoice-infowrap>.row.row-align-top .title_description {
+        margin-top: 15px
+    }
+
+    .invoice-infowrap>.row.row-align-top .title_description .block_p_title {
+        margin-top: 30px
+    }
+
+    .newsletter-wrap .tab-content .tab-pane>.row>[class*=col-]:nth-child(2n) .mobile_first img {
+        margin-left: auto;
+        margin-right: 0;
+        display: block;
+        float: none
+    }
+
+    .list-beside {
+        display: flex;
+        flex-wrap: wrap;
+        margin-left: 0 !important;
+        padding-left: 0
+    }
+
+    .list-beside li {
+        padding-left: 30px;
+        padding-right: 10px;
+        width: 100%
+    }
+
+    .list-beside li:before {
+        left: 0 !important
+    }
+
+    .imagecontent-block [class*=col-] {
+        padding-left: 20px;
+        padding-right: 20px
+    }
+
+    .imagecontent-block .row {
+        margin-left: -20px;
+        margin-right: -20px
+    }
+}
+
+label {
+    margin-bottom: 5px;
+    font-weight: 700
+}
+
+.form-control {
+    display: block;
+    width: 100%;
+    height: 34px;
+    padding: 6px 12px;
+    color: #555;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
+    -o-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
+    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
+}
+
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+
+    input[type=date].form-control,
+    input[type=datetime-local].form-control,
+    input[type=month].form-control,
+    input[type=time].form-control {
+        line-height: 34px
+    }
+
+    .input-group-sm input[type=date],
+    .input-group-sm input[type=datetime-local],
+    .input-group-sm input[type=month],
+    .input-group-sm input[type=time],
+    input[type=date].input-sm,
+    input[type=datetime-local].input-sm,
+    input[type=month].input-sm,
+    input[type=time].input-sm {
+        line-height: 30px
+    }
+
+    .input-group-lg input[type=date],
+    .input-group-lg input[type=datetime-local],
+    .input-group-lg input[type=month],
+    .input-group-lg input[type=time],
+    input[type=date].input-lg,
+    input[type=datetime-local].input-lg,
+    input[type=month].input-lg,
+    input[type=time].input-lg {
+        line-height: 46px
+    }
+}
+
+.btn {
+    padding: 6px 12px;
+    font-size: 14px;
+    font-weight: 400;
+    -ms-touch-action: manipulation;
+    touch-action: manipulation;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    border-radius: 4px
+}
+
+.fade {
+    opacity: 0;
+    -webkit-transition: opacity .15s linear;
+    -o-transition: opacity .15s linear;
+    transition: opacity .15s linear
+}
+
+.navbar-default .navbar-toggle,
+.panel-default {
+    border-color: #ddd
+}
+
+.panel-title,
+.panel-title>.small,
+.panel-title>.small>a,
+.panel-title>a,
+.panel-title>small,
+.panel-title>small>a {
+    color: inherit
+}
+
+.indu_main_inner span img,
+.media-right,
+.menu_bar .navbar-nav li .feature_submenu ul .submenu_li .submenu_link,
+.secure_content,
+.trial_inner a img,
+.white_bg_btn img {
+    padding-left: 10px
+}
+
+.panel {
+    margin-bottom: 20px;
+    border: 1px solid transparent;
+    border-radius: 4px;
+    -webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, .05);
+    box-shadow: 0 1px 1px rgba(0, 0, 0, .05)
+}
+
+.panel-heading,
+.panel>.table-responsive:first-child>.table:first-child,
+.panel>.table-responsive:first-child>.table:first-child>tbody:first-child>tr:first-child,
+.panel>.table-responsive:first-child>.table:first-child>thead:first-child>tr:first-child,
+.panel>.table:first-child,
+.panel>.table:first-child>tbody:first-child>tr:first-child,
+.panel>.table:first-child>thead:first-child>tr:first-child {
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px
+}
+
+.panel-body {
+    padding: 15px
+}
+
+.panel-heading {
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent
+}
+
+.panel-title {
+    margin-top: 0;
+    margin-bottom: 0;
+    font-size: 16px
+}
+
+.panel-default>.panel-heading {
+    color: #333;
+    background-color: #f5f5f5;
+    border-color: #ddd
+}
+
+.panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border-top-color: #ddd
+}
+
+.modal {
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1050;
+    display: none;
+    -webkit-overflow-scrolling: touch;
+    outline: 0
+}
+
+@media(min-width:768px) {
+
+    .navbar-form,
+    .navbar-right~.navbar-right {
+        margin-right: 0
+    }
+
+    .form-inline .form-control-static,
+    .form-inline .form-group,
+    .navbar-form .form-control-static,
+    .navbar-form .form-group {
+        display: inline-block
+    }
+
+    .form-inline .checkbox,
+    .form-inline .control-label,
+    .form-inline .form-group,
+    .navbar-form .checkbox,
+    .navbar-form .control-label,
+    .navbar-form .form-group {
+        margin-bottom: 0;
+        vertical-align: middle
+    }
+
+    .form-inline .form-control,
+    .navbar-form .form-control {
+        display: inline-block;
+        width: auto;
+        vertical-align: middle
+    }
+
+    .form-inline .input-group,
+    .navbar-form .input-group {
+        display: inline-table;
+        vertical-align: middle
+    }
+
+    .form-inline .input-group .form-control,
+    .form-inline .input-group .input-group-btn,
+    .navbar-form .input-group .form-control,
+    .navbar-form .input-group .input-group-btn {
+        width: auto
+    }
+
+    .form-inline .input-group>.form-control,
+    .navbar-form .input-group>.form-control {
+        width: 100%
+    }
+
+    .form-inline .checkbox,
+    .navbar-form .checkbox {
+        display: inline-block;
+        margin-top: 0
+    }
+
+    .form-inline .checkbox label,
+    .navbar-form .checkbox label {
+        padding-left: 0
+    }
+
+    .form-inline .checkbox input[type=checkbox],
+    .navbar-form .checkbox input[type=checkbox] {
+        position: relative;
+        margin-left: 0
+    }
+
+    .navbar {
+        border-radius: 4px
+    }
+
+    .navbar-header,
+    .navbar-nav>li {
+        float: left
+    }
+
+    .navbar-collapse {
+        width: auto;
+        border-top: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+    .navbar-collapse.collapse {
+        display: block !important;
+        height: auto !important;
+        padding-bottom: 0;
+        overflow: visible !important
+    }
+
+    .navbar-collapse.in {
+        overflow-y: visible
+    }
+
+    .navbar-static-top .navbar-collapse {
+        padding-right: 0;
+        padding-left: 0
+    }
+
+    .container-fluid>.navbar-collapse,
+    .container-fluid>.navbar-header,
+    .container>.navbar-collapse,
+    .container>.navbar-header {
+        margin-right: 0;
+        margin-left: 0
+    }
+
+    .navbar-static-top {
+        border-radius: 0
+    }
+
+    .navbar-toggle {
+        display: none
+    }
+
+    .navbar-nav {
+        float: left;
+        margin: 0
+    }
+
+    .navbar-nav>li>a {
+        padding-top: 15px;
+        padding-bottom: 15px
+    }
+
+    .navbar-form {
+        width: auto;
+        padding-top: 0;
+        padding-bottom: 0;
+        margin-left: 0;
+        border: 0;
+        -webkit-box-shadow: none;
+        box-shadow: none
+    }
+
+    .navbar-text {
+        float: left;
+        margin-right: 15px;
+        margin-left: 15px
+    }
+
+    .navbar-left {
+        float: left !important
+    }
+
+    .navbar-right {
+        float: right !important;
+        margin-right: -15px
+    }
+
+    .modal-dialog {
+        width: 600px;
+        margin: 30px auto
+    }
+
+    .modal-content {
+        -webkit-box-shadow: 0 5px 15px rgba(0, 0, 0, .5);
+        box-shadow: 0 5px 15px rgba(0, 0, 0, .5)
+    }
+
+    .modal-sm {
+        width: 300px
+    }
+}
+
+.menu_bar ul.nav li a,
+.menu_item {
+    box-shadow: 0 0 1px transparent;
+    -webkit-transition-duration: .3s;
+    vertical-align: middle;
+    transition-duration: .3s;
+    position: relative
+}
+
+.carousel-inner {
+    position: relative;
+    width: 100%;
+    overflow: hidden
+}
+
+.carousel-inner>.item {
+    position: relative;
+    display: none;
+    -webkit-transition: left .6s ease-in-out;
+    -o-transition: left .6s ease-in-out;
+    transition: left .6s ease-in-out
+}
+
+@media all and (transform-3d),
+(-webkit-transform-3d) {
+    .carousel-inner>.item {
+        -webkit-transition: -webkit-transform .6s ease-in-out;
+        -o-transition: -o-transform .6s ease-in-out;
+        transition: transform .6s ease-in-out;
+        -webkit-backface-visibility: hidden;
+        backface-visibility: hidden;
+        -webkit-perspective: 1000px;
+        perspective: 1000px
+    }
+
+    .carousel-inner>.item.active.right {
+        left: 0;
+        -webkit-transform: translate3d(100%, 0, 0);
+        transform: translate3d(100%, 0, 0)
+    }
+
+    .carousel-inner>.item.active.left {
+        left: 0;
+        -webkit-transform: translate3d(-100%, 0, 0);
+        transform: translate3d(-100%, 0, 0)
+    }
+
+    .carousel-inner>.item.active {
+        left: 0;
+        -webkit-transform: translate3d(0, 0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+}
+
+.carousel-inner>.active {
+    display: block;
+    left: 0
+}
+
+.carousel-inner>.active.left {
+    left: -100%
+}
+
+.carousel-control {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    width: 15%;
+    font-size: 20px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, .6);
+    background-color: rgba(0, 0, 0, 0);
+    opacity: .5
+}
+
+#header_main,
+.card_icons img,
+.comersion_div,
+.compare_table,
+.feature_plan_div,
+.free_trial,
+.header,
+.no_card_txt,
+.pricing_page_body,
+.top_buy_now,
+body {
+    width: 100%;
+    float: left
+}
+
+.btn-toolbar:after,
+.btn-toolbar:before,
+.container-fluid:after,
+.container-fluid:before,
+.container:after,
+.container:before,
+.modal-footer:after,
+.modal-footer:before,
+.modal-header:after,
+.modal-header:before,
+.nav:after,
+.nav:before,
+.navbar-collapse:after,
+.navbar-collapse:before,
+.navbar-header:after,
+.navbar-header:before,
+.navbar:after,
+.navbar:before,
+.panel-body:after,
+.panel-body:before,
+.row:after,
+.row:before {
+    display: table;
+    content: " "
+}
+
+.btn-toolbar:after,
+.container-fluid:after,
+.container:after,
+.modal-footer:after,
+.modal-header:after,
+.nav:after,
+.navbar-collapse:after,
+.navbar-header:after,
+.navbar:after,
+.panel-body:after,
+.row:after {
+    clear: both
+}
+
+#header_main,
+.sub_menu {
+    background-color: #fff;
+    z-index: 99
+}
+
+@media(min-width:1200px) {
+    .container {
+        width: 1170px
+    }
+
+    .col-lg-1,
+    .col-lg-10,
+    .col-lg-11,
+    .col-lg-12,
+    .col-lg-2,
+    .col-lg-3,
+    .col-lg-4,
+    .col-lg-5,
+    .col-lg-6,
+    .col-lg-7,
+    .col-lg-8,
+    .col-lg-9 {
+        float: left
+    }
+
+    .col-lg-12 {
+        width: 100%
+    }
+
+    .col-lg-11 {
+        width: 91.66666667%
+    }
+
+    .col-lg-10 {
+        width: 83.33333333%
+    }
+
+    .col-lg-9 {
+        width: 75%
+    }
+
+    .col-lg-8 {
+        width: 66.66666667%
+    }
+
+    .col-lg-7 {
+        width: 58.33333333%
+    }
+
+    .col-lg-6 {
+        width: 50%
+    }
+
+    .col-lg-5 {
+        width: 41.66666667%
+    }
+
+    .col-lg-4 {
+        width: 33.33333333%
+    }
+
+    .col-lg-3 {
+        width: 25%
+    }
+
+    .col-lg-2 {
+        width: 16.66666667%
+    }
+
+    .col-lg-1 {
+        width: 8.33333333%
+    }
+
+    .col-lg-push-12 {
+        left: 100%
+    }
+
+    .col-lg-push-11 {
+        left: 91.66666667%
+    }
+
+    .col-lg-push-10 {
+        left: 83.33333333%
+    }
+
+    .col-lg-push-9 {
+        left: 75%
+    }
+
+    .col-lg-push-8 {
+        left: 66.66666667%
+    }
+
+    .col-lg-push-7 {
+        left: 58.33333333%
+    }
+
+    .col-lg-push-6 {
+        left: 50%
+    }
+
+    .col-lg-push-5 {
+        left: 41.66666667%
+    }
+
+    .col-lg-push-4 {
+        left: 33.33333333%
+    }
+
+    .col-lg-push-3 {
+        left: 25%
+    }
+
+    .col-lg-push-2 {
+        left: 16.66666667%
+    }
+
+    .col-lg-push-1 {
+        left: 8.33333333%
+    }
+
+    .col-lg-push-0 {
+        left: auto
+    }
+
+    .hidden-lg {
+        display: none !important
+    }
+
+    .frequent_question_div.faq-box {
+        margin-top: 100px
+    }
+
+    .invoicefaq-block .panel-title {
+        font-size: 24px
+    }
+
+    .invoicefaq-block .cmn_question_div {
+        padding-top: 80px
+    }
+}
+
+body {
+    cursor: default;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    -webkit-user-select: none;
+    -webkit-touch-callout: none;
+    overflow-x: hidden
+}
+
+body,
+html {
+    scroll-behavior: smooth
+}
+
+a,
+a:focus,
+a:hover,
+button,
+button:focus,
+button:hover {
+    text-decoration: none;
+    outline: 0
+}
+
+#header_main {
+    left: 0
+}
+
+.banner_section .store_img_div img,
+.blog_banner.new_width .container,
+.comersion_div .container,
+.compare_table .container,
+.container,
+.header .container {
+    width: 85%
+}
+
+#footer_main,
+.all_plan_main,
+.all_pro_logo,
+.banner_main_txt,
+.busi_pkt_wrap,
+.cmn_points,
+.cmn_try_it_free_btn,
+.company_best_section,
+.company_img,
+.company_star,
+.discount_amount,
+.discount_txt,
+.feture_desc_div,
+.float-left,
+.float_left,
+.four_col_footer,
+.get_txt,
+.inner_page_main,
+.mobile_order_div,
+.new_padding_div,
+.new_pricing_page,
+.pos_feature_div,
+.price_feature_list,
+.pricing_plan_div,
+.range_star,
+.section_left_img,
+.setup_inner,
+.seventh_section .service_disc_main p,
+.slider_main_wrap,
+.start_count,
+.story_inner_wrap,
+.tab_section.tab_section_padding,
+.top_footer,
+.try_free_btn_div,
+.try_free_btn_div span {
+    float: left;
+    width: 100%
+}
+
+@media screen and (min-width:992px) {
+    .menu_bar .navbar-nav li:hover .sub_menu {
+        display: block !important;
+        transition: .3s ease-in;
+        -webkit-transition: .3s ease-in
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu.download_submenu,
+    .menu_bar .navbar-nav li:hover .sub_menu.feature_submenu,
+    .menu_bar .navbar-nav li:hover .sub_menu.plateform_submenu {
+        display: flex !important
+    }
+}
+
+.title_description p {
+    line-height: 30px;
+    font-size: 17px;
+    color: #797979
+}
+
+.top_footer {
+    background-color: #192a3c !important;
+    padding: 50px 0
+}
+
+.top_footer .container {
+    width: 95%
+}
+
+.four_col_footer h3 {
+    color: #fff;
+    margin-bottom: 25px;
+    font-size: 22px;
+    font-weight: 700;
+    margin-top: 5px
+}
+
+.four_col_footer {
+    padding: 0 25px
+}
+
+.banner_black h1,
+.benifit_colm:hover .col_title_desc h4,
+.benifit_colm:hover .col_title_desc p,
+.black_friday_header .menu_bar ul.nav li a,
+.buy_now_link:hover,
+.case-study-banner .banner_text *,
+.comersion_inner:hover .com_content p,
+.feature_banner.banner_black .button_div p,
+.fill_btn:hover,
+.footer_txt a,
+.indu_main_inner:hover span,
+.plan_box_blue h5,
+.pltfrm_str_link:focus,
+.pltfrm_str_link:hover,
+.review_cmn_col:hover h3,
+.review_cmn_col:hover p,
+.review_cmn_col:hover span.last_span,
+.review_cmn_col:hover span.review_blue_txt,
+.seventh_section .main_service_section:hover .service_disc_main h3,
+.seventh_section .main_service_section:hover .service_disc_main p,
+.seventh_section .main_service_section:hover .service_disc_main span,
+.submit_newslater:focus,
+.submit_newslater:hover,
+.top_footer ul.faq_footer li a:hover,
+.trial_inner h2,
+h4 {
+    color: #fff
+}
+
+.inner_page_main {
+    padding: 50px 0;
+    text-align: center
+}
+
+.cmn_question .panel-body p,
+.cmn_question h4,
+.discount_amount span,
+.discount_value_txt,
+.new_head_faq h3,
+.oe_price_del span,
+.off_price_div h6,
+.offer_value_txt span,
+.plan_price_per_month .big_price,
+.que_title h2,
+.que_title h3,
+.small_per_month,
+.year_offer_txt_div span {
+    font-family: Montserrat, sans-serif
+}
+
+@media(min-width:1800px) {
+    .container {
+        width: 75% !important
+    }
+}
+
+.cmn_question,
+.cmn_question_div,
+.qaes_ans_div,
+.que_title {
+    display: inline-block;
+    width: 100%
+}
+
+.cmn_question_div {
+    padding: 50px 0 0
+}
+
+.que_title {
+    padding-bottom: 30px
+}
+
+.que_title h3 {
+    font-size: 30px;
+    font-weight: 400;
+    margin-top: 0
+}
+
+.cmn_question .panel-heading {
+    background-color: transparent;
+    padding: 0
+}
+
+.cmn_question {
+    margin-top: 15px !important
+}
+
+.cmn_question h4 {
+    font-size: 20px;
+    line-height: 25px;
+    color: #333;
+    font-weight: 400
+}
+
+.cmn_question .panel-body p {
+    font-size: 18px;
+    color: #777;
+    font-weight: 400
+}
+
+.android_font .platfrm_txt h5,
+.discount_amount span,
+.font-weight-500,
+.try_free_btn {
+    font-weight: 500
+}
+
+.cmn_question h4 a,
+.new_head_faq h3 a {
+    display: inline-block;
+    width: 100%;
+    cursor: pointer;
+    padding: 18px 15px 0
+}
+
+.try_free_btn {
+    background-color: #fea700;
+    color: #fff;
+    padding: 7px 40px;
+    border-radius: 6px
+}
+
+@media screen and (min-width:1950px) {
+    .cmn_price_feature {
+        display: flex;
+        width: 70%;
+        margin: 0 auto;
+        float: none
+    }
+
+    .owl-carousel.owl-theme {
+        width: 60%;
+        margin: 0 auto
+    }
+
+    .banner_section .store_img_div,
+    .store_img_div {
+        width: 85%
+    }
+}
+
+@media screen and (min-width:2250px) {
+    .owl-carousel.owl-theme {
+        width: 50%;
+        margin: 0 auto
+    }
+
+    .free_trial_bottom {
+        width: 60%;
+        text-align: center
+    }
+
+    .banner_section .store_img_div,
+    .store_img_div {
+        width: 75%
+    }
+}
+
+@media screen and (min-width:3000px) {
+    .owl-carousel.owl-theme {
+        width: 40%;
+        margin: 0 auto
+    }
+}
+
+.feature_banner.feature_banner_new .same_div_new,
+.feature_banner.free_maker_banner.fe_free_proforma_invoce .same_div_new,
+.no_padding_new,
+.p_0,
+.zero_padding {
+    padding: 0 !important
+}
+
+.new_frequent_question {
+    float: left;
+    width: 100%;
+    margin: 10px 0 50px
+}
+
+.new_frequent_question .que_title h3 {
+    font-size: 34px;
+    font-weight: 600;
+    color: #0783fc;
+    margin-bottom: 10px
+}
+
+.new_frequent_question .panel {
+    box-shadow: none;
+    border: 0;
+    border-top: 1px solid #c5c5c5;
+    border-radius: 0 !important
+}
+
+.new_frequent_question .panel-default>.panel-heading {
+    border: 0;
+    background-color: transparent
+}
+
+.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body {
+    border: 0;
+    padding: 10px 15px 15px
+}
+
+.new_frequent_question .cmn_question h4,
+.new_head_faq h3 {
+    font-size: 22px;
+    line-height: 25px;
+    color: #000;
+    font-weight: 600
+}
+
+.new_frequent_question .cmn_question .panel-body p {
+    font-size: 20px;
+    color: #707070;
+    font-weight: 500;
+    margin-bottom: 0;
+    font-family: Raleway, sans-serif;
+    line-height: 1.8
+}
+
+.inquiry_banner_div {
+    background-color: #12222f;
+    height: 85px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.inquire_txt_div h4 {
+    color: rgba(255, 255, 255, .85);
+    font-size: 20px;
+    margin: 0;
+    line-height: 24px;
+    font-weight: 500;
+    text-align: center
+}
+
+.inquire_txt_div a {
+    color: #fff;
+    padding: 0 5px;
+    font-size: 18px;
+    transition: .2s ease-in;
+    -webkit-transition: .2s ease-in
+}
+
+.discount_img,
+.mt-0,
+.santa_img {
+    margin-top: 0 !important
+}
+
+.container,
+.new_invoice_banner .container,
+.new_width .container,
+.stripe_banner .container {
+    width: 85% !important
+}
+
+.new_invoice_banner .try_free_btn,
+.try_free_btn {
+    border: 2px solid transparent;
+    position: relative
+}
+
+.try_free_btn::after {
+    content: "";
+    display: block;
+    position: absolute;
+    top: -4px;
+    left: 50%;
+    transform: translate(-50%, 0) scale(1, 1);
+    width: calc(100%+4px);
+    height: calc(100%+8px);
+    border-radius: 10px;
+    z-index: -1;
+    -webkit-animation: 2s ease-in-out infinite grow;
+    animation: 2s ease-in-out infinite grow;
+    transition: .3s ease-in-out;
+    opacity: 0;
+    background: rgba(0, 122, 255, .4)
+}
+
+span.mobile_view {
+    display: none;
+    content: "";
+    position: fixed;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .4);
+    z-index: 10
+}
+
+@media all and (-ms-high-contrast:none),
+(-ms-high-contrast:active) {
+    .menu_bar .navbar-nav li {
+        display: inline-flex
+    }
+}
+
+@media screen and (-ms-high-contrast:active),
+(-ms-high-contrast:none) {
+    .menu_bar .navbar-nav li {
+        display: inline-flex
+    }
+}
+
+.schedule_demo_link {
+    color: #fff;
+    transform: rotate(0);
+    font-size: 15px;
+    font-weight: 600;
+    float: left;
+    background-color: #007aff;
+    padding: 15px 0;
+    width: 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center
+}
+
+.ftr_schedule_demo {
+    float: left;
+    margin-top: 30px
+}
+
+.ftr_schedule_demo .schedule_demo_link {
+    background-color: #fea700;
+    padding: 10px;
+    border-radius: 5px
+}
+
+.trial_inner {
+    background-color: #fea700;
+    display: flex;
+    box-shadow: 0 40px 60px rgba(0, 0, 0, .2);
+    border-radius: 10px;
+    padding: 20px 15px;
+    margin: 40px 0 80px;
+    align-items: center
+}
+
+.text_left {
+    text-align: left;
+    vertical-align: middle !important;
+    width: 51%
+}
+
+.trial_inner a {
+    width: 250px;
+    padding: 20px;
+    font-size: 20px;
+    text-align: center;
+    color: #007ffa;
+    display: inline-block;
+    background-color: #fff;
+    border-radius: 5px;
+    float: right;
+    font-weight: 700
+}
+
+.table-responsive {
+    min-height: auto;
+    overflow-x: hidden
+}
+
+.challenges_main .challenges_main_col-12,
+.proforma_grd_sc .row,
+.row.row-flex,
+.wrap_flex_div {
+    display: flex;
+    flex-wrap: wrap
+}
+
+.inner_page_main.stripe_setion {
+    padding: 20px 0 50px
+}
+
+.footer_right_border,
+.inquire_txt_div {
+    padding: 0 15px
+}
+
+.top_footer .wrap_flex_div {
+    padding: 0;
+    margin: 0 -15px
+}
+
+@media screen and (min-width:1200px) {
+
+    .pricing_plan_div #three_yearly_plan .owl-carousel .owl-nav.disabled,
+    .pricing_plan_div #two_yearly_plan .owl-carousel .owl-nav.disabled {
+        display: none
+    }
+
+    .top_footer .wrap_flex_div {
+        margin: 0 -25px;
+        padding: 0
+    }
+
+    .top_footer .container {
+        width: 85%
+    }
+
+    .banner-imageblock {
+        width: 100%;
+        margin-left: -70px
+    }
+}
+
+a.blue_big_button,
+a.blue_small_button {
+    background: #007ffa;
+    align-items: center
+}
+
+.text_center {
+    text-align: center;
+    padding-bottom: 15px
+}
+
+a.blue_small_button,
+a.white_small_button {
+    width: 160px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-top: 25px;
+    transition: .5s;
+    display: inline-block
+}
+
+a.blue_small_button {
+    color: #fff;
+    border: 2px solid transparent
+}
+
+.add-logo-label,
+.add-logo-label *,
+.freetrial-btn {
+    cursor: pointer !important
+}
+
+@media screen and (max-height:650px) {
+
+    .popup_login_page .iframe_child iframe,
+    .popup_signup_page .iframe_child iframe {
+        height: 90vh;
+        min-height: auto;
+        overflow-y: auto
+    }
+}
+
+.font-weight-600 {
+    font-weight: 600 !important
+}
+
+div.logo {
+    min-height: 50px
+}
+
+.lds-ring,
+.lds-roller,
+.lds-roller_parent {
+    margin: auto;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0
+}
+
+.lds-roller_parent {
+    position: fixed;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(0, 0, 0, .5);
+    z-index: 9999
+}
+
+@media screen and (max-width:1600px) {
+
+    .new_frequent_question .container,
+    .padding_free_new .container {
+        width: 85% !important
+    }
+}
+
+@media screen and (max-width:1550px) {
+    .trial_inner.trial_inner_schedule a {
+        margin-right: -75px
+    }
+
+    .banner_section .store_img_div,
+    .store_img_div {
+        width: 100%
+    }
+
+    .app_store_img {
+        width: 44%
+    }
+}
+
+@media screen and (max-width:1450px) {
+    h1.custom_font {
+        font-size: 46px
+    }
+
+    .base-button {
+        font-size: 14px;
+        padding: 0 10px
+    }
+
+    section.primaryBanner__content {
+        padding: 10px
+    }
+
+    section.primaryBanner__percent {
+        font-size: 26px;
+        height: 40px
+    }
+
+    section.primaryBanner__container {
+        right: 0
+    }
+
+    .fluidvids-item {
+        width: 200px;
+        height: 200px
+    }
+
+    .get_with_mooninvoice .review_cmn_col {
+        min-height: 440px
+    }
+
+    .owl-carousel.owl-theme {
+        width: 100%
+    }
+
+    .cmn_plan_price,
+    .gold_plan_main,
+    .silver_plan_main {
+        width: auto
+    }
+
+    .bronze_plan_main,
+    .lite_plan_main {
+        width: auto;
+        margin-bottom: 25px
+    }
+
+    .four_col_div,
+    .product_benifites {
+        margin-bottom: 50px
+    }
+
+    .discount_amount {
+        font-size: 36px
+    }
+
+    .no_card_txt {
+        display: inline-block
+    }
+
+    .no_card_txt span {
+        float: left;
+        width: 100%
+    }
+
+    .no_card_txt i.fa {
+        display: none
+    }
+
+    .col_title_desc h4 {
+        font-size: 17px
+    }
+
+    .col_title_desc p {
+        font-size: 15px
+    }
+
+    .product_benifites {
+        margin-top: 50px
+    }
+
+    .new_invoice_banner .banner_content h3,
+    .new_invoice_banner .discount_amount {
+        font-size: 30px
+    }
+
+    .new_frequent_question .cmn_question h4,
+    .new_invoice_banner .banner_content h4 {
+        font-size: 20px
+    }
+
+    .new_invoice_banner .best_point_section {
+        padding: 40px 0
+    }
+
+    .new_invoice_banner .cmn_points i.fa {
+        line-height: 25px
+    }
+
+    .new_invoice_banner .cmn_points h2 {
+        font-size: 18px;
+        line-height: 25px
+    }
+
+    .plan_box_blue h4 {
+        font-size: 18px
+    }
+
+    .stripe_banner.indu_banner.indu_banner_11.new_width.padding_bottom_new.padding_top_bottom_new h1 {
+        font-size: 44px
+    }
+
+    .stripe_banner.indu_banner.indu_banner_10.new_width.padding_bottom_new.padding_top_bottom_new h1 {
+        font-size: 45px
+    }
+}
+
+@media screen and (max-width:1400px) {
+    .home_new_banner_change {
+        background-position: top center !important
+    }
+
+    .container,
+    .new_invoice_banner .container,
+    .stripe_banner.indu_banner.indu_banner_8.new_width.padding_bottom_new.padding_top_bottom_new .container,
+    .stripe_banner.padding.custom_padding_new .container {
+        width: 95% !important
+    }
+
+    .new_header .menu_bar ul.nav {
+        padding-right: 150px
+    }
+
+    .try_new_div {
+        right: 0
+    }
+
+    .plan_box_blue h4 {
+        margin-top: 0;
+        font-size: 16px
+    }
+
+    .offer_value_txt {
+        width: 75px
+    }
+
+    .offer_value_txt span {
+        font-size: 14px
+    }
+
+    .invoice_bg_div {
+        background-position: 120% 110%
+    }
+
+    .trial_inner.trial_inner_schedule a {
+        width: 200px;
+        font-size: 16px;
+        padding: 12px
+    }
+
+    .trial_inner_schedule .trial_inner a img {
+        padding-left: 5px
+    }
+
+    .stripe_banner.indu_banner.indu_banner_9.new_width.padding_bottom_new.padding_top_bottom_new h1 {
+        font-size: 44px
+    }
+
+    .paymentBanner {
+        margin-top: 70px;
+        padding: 120px 0
+    }
+
+    .form-control-new {
+        width: 100%
+    }
+
+    .inte_section,
+    .payment_section {
+        padding: 50px 0
+    }
+
+    .free_section {
+        padding-bottom: 50px
+    }
+
+    .whypaymentwrap {
+        margin-bottom: 50px
+    }
+}
+
+@media screen and (max-width:1366px) {
+
+    .container,
+    .smaller_container,
+    .stripe_banner.indu_banner.indu_banner_10.new_width.padding_bottom_new.padding_top_bottom_new .container,
+    .stripe_banner.indu_banner.indu_banner_11.new_width.padding_bottom_new.padding_top_bottom_new .container,
+    .stripe_banner.indu_banner.indu_banner_7.new_width.padding_bottom_new.padding_top_bottom_new .container,
+    .stripe_banner.indu_banner.indu_banner_9.new_width.padding_bottom_new.padding_top_bottom_new .container {
+        width: 95% !important
+    }
+
+    h1.custom_font {
+        font-size: 43px
+    }
+
+    .pricing_main_div .container {
+        width: 90%
+    }
+
+    .first_section .title_description h1 {
+        max-width: 70%
+    }
+
+    .app_store_img {
+        width: 40%
+    }
+
+    .plan_select_main p {
+        font-size: 14px;
+        letter-spacing: -.4px
+    }
+
+    .pricing_page_main .container {
+        width: 95%
+    }
+
+    .plan_box_blue h5 {
+        font-size: 14px
+    }
+
+    .menu_bar ul.nav li a {
+        padding: 8px 18px
+    }
+
+    .stripe_banner.indu_banner.indu_banner_8.new_width.padding_bottom_new.padding_top_bottom_new h1 {
+        font-size: 47px;
+        line-height: 52px
+    }
+
+    .new_invoice_banner .discount_txt {
+        width: 65%
+    }
+
+    .invoice_pos_wrap {
+        width: 100%
+    }
+
+    .invoice_pos_wrap .cmn_col_wrap:nth-child(2):after,
+    .invoice_pos_wrap .cmn_col_wrap:nth-child(2):before {
+        width: 18%
+    }
+}
+
+@media screen and (max-width:1280px) {
+
+    .stripe_banner.indu_banner.indu_banner_1.new_width.padding_bottom_new.padding_top_bottom_new .container,
+    .stripe_banner.padding.custom_padding_new .container,
+    body .new_frequent_question .container {
+        width: 95% !important
+    }
+
+    .menu_bar ul.nav li a {
+        padding: 8px 13px
+    }
+
+    .title_description h2 {
+        font-size: 22px;
+        line-height: 35px;
+        padding-bottom: 12px
+    }
+
+    .title_description h1 {
+        font-size: 22px
+    }
+
+    .select_plan_btn {
+        width: 35%
+    }
+
+    .get_with_mooninvoice h3.heading_title {
+        font-size: 18px
+    }
+
+    .get_with_mooninvoice .review_cmn_col {
+        min-height: 460px
+    }
+
+    .owl-carousel.owl-theme {
+        width: 80%;
+        margin: 0 auto
+    }
+
+    .app_store_img {
+        width: 44%
+    }
+
+    .discount_amount {
+        font-size: 32px
+    }
+
+    .stripe_banner.indu_banner.indu_banner_9.new_width.padding_bottom_new.padding_top_bottom_new h1 {
+        font-size: 45px
+    }
+
+    .feature_banner h1 {
+        font-size: 44px
+    }
+}
+
+@media screen and (max-width:1200px) {
+
+    .banner_light_black_text br,
+    .banner_main_txt h2 br,
+    .blue_section .title_blog p br,
+    .pos_content_div h1 br,
+    .pos_content_div h2 br,
+    .pos_desktop_img,
+    section.primaryBanner__percent--column.pay_just_txt,
+    section.primaryBanner__text--capital {
+        display: none
+    }
+
+    .blue_section .title_blog p,
+    .cmn_col,
+    .single_pro_logo {
+        padding: 0 20px
+    }
+
+    .home_new_banner_change {
+        background-size: cover !important;
+        background-repeat: no-repeat;
+        background-position: center center !important;
+        height: 620px
+    }
+
+    .menu_bar ul.nav li a {
+        padding: 6px 10px
+    }
+
+    .menu_bar .navbar-nav li {
+        padding: 25px 0
+    }
+
+    .three_col_left_padding {
+        padding-left: 0
+    }
+
+    .three_col_right_padding {
+        padding-right: 0;
+        padding-top: 0
+    }
+
+    .three_col_div {
+        margin-bottom: 0
+    }
+
+    .three_col_div h3 {
+        font-size: 18px;
+        line-height: 25px
+    }
+
+    .three_col_div p {
+        line-height: 25px;
+        font-size: 15px
+    }
+
+    .app_store_img img,
+    .banner_section .store_img_div,
+    .inner_page_main .section_left_img,
+    .pricing_main_div .container {
+        width: 100%
+    }
+
+    .second_section .title_description h2,
+    .title_description h1,
+    .title_description h2 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .second_section .title_description p,
+    .title_description p {
+        font-size: 16px;
+        line-height: 26px
+    }
+
+    section.primaryBanner__container {
+        top: 95px
+    }
+
+    .row_section {
+        padding: 50px 0
+    }
+
+    .first_section {
+        margin-top: 85px !important;
+        padding: 50px 0 0
+    }
+
+    .cmn_title_desc p,
+    .four_col_footer,
+    .review_ordinarry_section,
+    .review_ordinarry_section .col-lg-12,
+    .trial_inner_schedule .resp_flex_div {
+        padding: 0
+    }
+
+    .banner_section .title_description h2 {
+        font-size: 32px;
+        line-height: 32px
+    }
+
+    .banner_section .title_description p {
+        font-size: 17px;
+        line-height: 25px
+    }
+
+    .fluidvids-item {
+        width: 180px;
+        height: 180px
+    }
+
+    .contact_mail .input_main {
+        width: 75%
+    }
+
+    .four_col_footer h3 {
+        margin-bottom: 15px;
+        font-size: 18px;
+        line-height: normal
+    }
+
+    .animation-element.slide-left {
+        -moz-transform: translate3d(-30px, 0, 0);
+        -webkit-transform: translate3d(-30px, 0, 0);
+        -o-transform: translate(-30px, 0);
+        -ms-transform: translate(-30px, 0);
+        transform: translate3d(-30px, 0, 0)
+    }
+
+    .animation-element.slide-left.in-view,
+    .animation-element.slide-right.in-view {
+        -moz-transform: translate3d(0, 0, 0);
+        -webkit-transform: translate3d(0, 0, 0);
+        -o-transform: translate(0, 0);
+        -ms-transform: translate(0, 0);
+        transform: translate3d(0, 0, 0)
+    }
+
+    .animation-element.slide-right {
+        -moz-transform: translate3d(30px, 0, 0);
+        -webkit-transform: translate3d(30px, 0, 0);
+        -o-transform: translate(30px, 0);
+        -ms-transform: translate(30px, 0);
+        transform: translate3d(30px, 0, 0)
+    }
+
+    .inner_banner h1,
+    .inner_banner h2 {
+        font-size: 32px
+    }
+
+    .feture_desc_div p,
+    .inner_banner h4 {
+        font-size: 18px
+    }
+
+    .welcome_div {
+        width: 60%
+    }
+
+    .feature_three_col {
+        text-align: left
+    }
+
+    #generic_price_table .gold_plan .generic_content .generic_feature_list {
+        min-height: 445px
+    }
+
+    .pricing-item.gold_plan ul {
+        min-height: 385px
+    }
+
+    .banner_section {
+        background-attachment: scroll
+    }
+
+    .banner_main_txt h2,
+    .pos_content_div h1,
+    .pos_content_div h2 {
+        font-size: 30px;
+        line-height: 40px
+    }
+
+    .banner_main_txt h1 {
+        font-size: 28px;
+        line-height: 30px
+    }
+
+    .app_store_img {
+        width: 45%
+    }
+
+    .cmn_plan_price,
+    .gold_plan_main,
+    .silver_plan_main {
+        width: 35%
+    }
+
+    .bronze_plan_main,
+    .lite_plan_main {
+        width: 35%;
+        margin-bottom: 25px
+    }
+
+    .banner_main_txt {
+        margin: 50px 0
+    }
+
+    .plan_white_details {
+        padding: 20px 10px
+    }
+
+    .feature_plan_div h2,
+    .pricing_page_body h1,
+    .product_benifites h2 {
+        font-size: 30px
+    }
+
+    .features_plan_details ul li {
+        font-size: 16px;
+        padding-bottom: 15px;
+        float: left;
+        width: 50%;
+        color: #2d2d2d;
+        line-height: 22px;
+        font-weight: 500;
+        word-break: break-word
+    }
+
+    .four_col_div .extra_more_padding {
+        padding: 0 10px
+    }
+
+    .benifit_colm {
+        padding: 20px
+    }
+
+    .col_icon_div {
+        margin-bottom: 12px;
+        width: 70px;
+        height: 70px
+    }
+
+    .col_title_desc h4 {
+        font-size: 18px;
+        margin-bottom: 10px
+    }
+
+    .col_title_desc p {
+        font-size: 16px
+    }
+
+    .benifit_colm:hover {
+        box-shadow: 4px 5px 12px rgba(19, 90, 247, .4)
+    }
+
+    .feture_desc_div h3 {
+        font-size: 26px;
+        margin-bottom: 30px
+    }
+
+    .get_started_now h2 {
+        font-size: 40px
+    }
+
+    .plan_details {
+        margin-bottom: 15px;
+        padding: 0 5px
+    }
+
+    .plan_tab_content .zero_padding {
+        margin: 0 10%;
+        width: 80%
+    }
+
+    .col_icon_div img {
+        width: 40px
+    }
+
+    .features_plan_details ul {
+        width: 100%;
+        margin: 0;
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .logo_img {
+        width: 100% !important
+    }
+
+    .pricing_plan_div .owl-theme .owl-nav button.owl-prev {
+        color: #007aff;
+        left: -25px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px
+    }
+
+    .pricing_plan_div .owl-theme .owl-nav button.owl-next {
+        color: #007aff;
+        right: -25px;
+        height: 40px;
+        width: 40px;
+        line-height: 40px
+    }
+
+    .pricing_plan_div .owl-theme .owl-nav button span {
+        height: 30px;
+        width: 30px;
+        line-height: 25px
+    }
+
+    .pricing_plan_div .owl-next span:after,
+    .pricing_plan_div .owl-prev span:after {
+        line-height: 28px;
+        font-size: 35px
+    }
+
+    .small_size_div h2 {
+        font-size: 26px;
+        line-height: 35px;
+        margin-bottom: 20px
+    }
+
+    .pos_feature_div h4 {
+        font-size: 22px;
+        margin: 20px 0
+    }
+
+    .four_col_parent {
+        padding: 0;
+        align-items: flex-start
+    }
+
+    .most_effective_pos {
+        padding: 50px 0 0
+    }
+
+    .pos_mobile_img {
+        display: block
+    }
+
+    .top_header_banner:after {
+        content: none
+    }
+
+    .top_header_banner {
+        padding-top: 100px
+    }
+
+    .budget_price_section .plan_white_details {
+        padding: 15px 10px;
+        background-color: #fff
+    }
+
+    .trial_inner_schedule {
+        flex-direction: column;
+        justify-content: flex-start;
+        align-items: flex-start
+    }
+
+    .trial_inner .resp_flex_div a {
+        float: left;
+        width: 250px;
+        margin-top: 20px
+    }
+
+    .bg_image_holder {
+        bottom: auto;
+        top: 50%;
+        transform: translatey(-50%);
+        text-align: center
+    }
+
+    .invoice_solution_section .app_store_img {
+        margin: 0 15px 0 0
+    }
+
+    .new_invoice_banner.invoice_bg_div .banner_content h1 {
+        font-size: 30px;
+        line-height: 50px;
+        text-align: left
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_amount.new_style_dis {
+        white-space: nowrap
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_amount {
+        text-align: left;
+        font-size: 23px;
+        line-height: 27px
+    }
+
+    .busi_pkt_wrap h4 {
+        font-size: 40px;
+        line-height: 50px;
+        margin-bottom: 15px
+    }
+
+    .img_wrap img {
+        max-width: 20%
+    }
+
+    .invoice_bg_div {
+        margin-top: 80px
+    }
+
+    .black_friday_bg_image {
+        margin-top: 70px
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1200px) {
+    .discount_value_txt {
+        top: 12px;
+        font-size: 12px;
+        width: 70px;
+        line-height: 14px;
+        right: -13px
+    }
+
+    .plan_box_blue h4 {
+        font-size: 17px
+    }
+
+    .plan_price_per_month .big_price {
+        font-size: 30px
+    }
+
+    .new_pricing_page .col-sm-12 {
+        padding: 0
+    }
+
+    .plan_tab_content .zero_padding {
+        margin: 0;
+        width: 100%
+    }
+}
+
+@media screen and (max-width:1100px) {
+    .review_bg_div .container {
+        width: 100%;
+        padding: 0
+    }
+
+    .cmn_plan_price,
+    .gold_plan_main,
+    .silver_plan_main {
+        width: 40%
+    }
+
+    .bronze_plan_main,
+    .lite_plan_main {
+        width: 40%;
+        margin-bottom: 25px
+    }
+
+    .select_plan_btn {
+        width: 42%
+    }
+
+    .get_with_mooninvoice .review_cmn_col {
+        min-height: 480px;
+        padding-bottom: 15px
+    }
+
+    .box_div_main h3 {
+        font-size: 22px
+    }
+
+    .disc_div p,
+    .tab_main_div .tab-content p {
+        font-size: 18px
+    }
+
+    .owl-carousel.owl-theme {
+        width: 85%
+    }
+
+    .owl-theme .owl-nav button.owl-next:hover,
+    .owl-theme .owl-nav button.owl-prev:hover {
+        background-color: transparent;
+        color: #000
+    }
+
+    .app_store_img {
+        width: 49%
+    }
+
+    .col_title_desc p {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .benifit_colm {
+        padding: 20px 10px
+    }
+
+    .business_grow_div {
+        padding: 30px 0
+    }
+
+    .new_frequent_question .container {
+        width: 80% !important
+    }
+
+    .plan_tab {
+        margin: 50px auto
+    }
+
+    .service_section_contacts .service_disc_main h3,
+    .service_section_new_home .service_disc_main h3 {
+        min-height: 58px
+    }
+
+    .service_section_contacts .service_disc_main p {
+        min-height: 100px
+    }
+
+    .service_section_contacts.new_padding_div .service_disc_main h3 {
+        min-height: auto
+    }
+
+    .new_invoice_banner.invoice_bg_div .banner_content h1 br {
+        display: none
+    }
+}
+
+@media screen and (max-width:1050px) {
+    .pricing-item.gold_plan ul {
+        min-height: 405px
+    }
+}
+
+@media screen and (max-width:1070px) {
+    .pricing-item.gold_plan ul {
+        min-height: 405px
+    }
+
+    .d-flex-1 {
+        flex-direction: column
+    }
+
+    .d-flex-1 .col-md-6 {
+        width: 100%
+    }
+
+    .d-flex-1 .div_center {
+        margin: 20px 0
+    }
+}
+
+@media screen and (max-width:991px) {
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner {
+        flex-direction: column;
+        width: 100%;
+        display: none
+    }
+
+    .menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link {
+        min-height: auto;
+        font-size: 14px;
+        padding: 12px 35px
+    }
+
+    .menu_bar {
+        overflow-x: hidden
+    }
+
+    .pricing_plan_div .owl-theme .owl-dots,
+    body.full_menu span.mobile_view {
+        display: block
+    }
+
+    .full_menu,
+    body.full_menu {
+        overflow: hidden
+    }
+
+    .inte_section .inte_inner,
+    .new_comrisionwrap .comersion_inner {
+        min-height: inherit
+    }
+
+    .menu_bar .navbar-nav li,
+    li .wrap_menu ul li:last-child,
+    li.feature_item .feature_submenu ul li:last-child {
+        border-bottom: 1px solid #ddd !important
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu,
+    .sub_menu {
+        transition: none !important
+    }
+
+    .bg_image_holder,
+    .position-inherit,
+    .sub_menu,
+    .support_div_wrap {
+        position: relative
+    }
+
+    .menu_bar .navbar-nav li .sub_menu .submenu_li.dropdown-submenu .dropdown-menu {
+        position: relative;
+        display: block;
+        left: 0
+    }
+
+    .menu_bar .navbar-nav li .sub_menu .submenu_li.dropdown-submenu .dropdown-menu .submenu_li:first-child {
+        border-top: 1px solid #ddd !important
+    }
+
+    .banner_main_txt h2 br,
+    .border_left br,
+    .menu_bar,
+    .new_invoice_banner.invoice_bg_div .banner_content h1 br,
+    .review_head_div br,
+    .trial_inner.free_trial_home h4 br,
+    .try_new_div,
+    img.static_img.ml-auto.mr-0 {
+        display: none
+    }
+
+    .img_section_left,
+    .img_section_right {
+        left: -30px;
+        width: 100vw
+    }
+
+    body .free_trial .row .col-md-10 {
+        width: 90%
+    }
+
+    .feature_submenu ul,
+    .price_feature_list li,
+    .right_content_div .free_trial_bottom,
+    .store_img_div,
+    .wrap_menu ul {
+        width: 100%
+    }
+
+    .feature_submenu,
+    .new_invoice_banner.first_section .right_content_div,
+    .pd_left_0,
+    .pd_right_0,
+    .privacy_main,
+    .wrap_menu {
+        padding: 0
+    }
+
+    .main_menu,
+    .menu_bar .navbar-nav>li:nth-child(6) {
+        padding-bottom: 5px
+    }
+
+    .feature_submenu ul.full_width .submenu_li .submenu_link,
+    .wrap_menu ul.full_width .submenu_li .submenu_link {
+        justify-content: left;
+        padding-left: 10px
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner.wrap_menu {
+        display: none;
+        flex-direction: column;
+        width: 100%
+    }
+
+    .stripe_banner h1,
+    .stripe_banner h2 {
+        font-size: 40px;
+        line-height: 55px;
+        text-align: center
+    }
+
+    .new_invoice_btn_app {
+        justify-content: center
+    }
+
+    .home_new_banner_change {
+        background-size: cover !important;
+        background-position: 0 -198px !important
+    }
+
+    section.primaryBanner__container {
+        padding-bottom: 20px;
+        background-color: #f8f8f8;
+        align-items: center;
+        width: 100%;
+        top: 80px
+    }
+
+    .header_flex {
+        display: inline-block;
+        height: auto
+    }
+
+    .main_menu {
+        float: left;
+        width: 100%
+    }
+
+    .mobile_header {
+        display: flex;
+        align-items: center
+    }
+
+    #header_main .container {
+        width: 100%;
+        padding: 0
+    }
+
+    .logo_div {
+        width: 30%;
+        padding: 15px 0;
+        margin-left: 30px
+    }
+
+    .page_title_div {
+        padding-left: 0
+    }
+
+    .navbar-toggle .icon-bar {
+        background-color: #0288da
+    }
+
+    .menu_bar .navbar-nav li {
+        padding: 5px 15px 0;
+        float: left;
+        width: 100%;
+        text-align: left
+    }
+
+    li .wrap_menu ul.full_width li:last-child,
+    li.feature_item .feature_submenu ul.full_width li:last-child {
+        border-bottom: none !important
+    }
+
+    .menu_bar ul.nav li a {
+        font-weight: 400;
+        font-size: 15px;
+        float: left;
+        width: 90%;
+        padding: 12px
+    }
+
+    ul.nav li.download_menu:focus .menu_item,
+    ul.nav li.download_menu:hover .menu_item,
+    ul.nav li.feature_item:focus .menu_item,
+    ul.nav li.feature_item:hover .menu_item {
+        color: #727272 !important
+    }
+
+    .menu_item:after,
+    .menu_item:before {
+        content: none !important
+    }
+
+    .menu_item:focus,
+    .menu_item:hover {
+        color: #0288da !important
+    }
+
+    .main_menu .fa-angle-right {
+        display: inline-block;
+        float: right;
+        font-size: 18px;
+        width: 10%;
+        text-align: center;
+        cursor: pointer
+    }
+
+    .first_section {
+        padding: 40px 0 0;
+        margin-top: 90px
+    }
+
+    .pos_padding .right_img_div,
+    .top_padding {
+        padding-top: 20px
+    }
+
+    .cmn_try_it_free_btn,
+    .even_row .try_free_btn_div,
+    .new_invoice_banner .left_image_div,
+    .new_invoice_banner.invoice_bg_div .banner_content h1,
+    .new_invoice_banner.invoice_bg_div .discount_amount,
+    .odd_row .try_free_btn_div,
+    .pos_padding .title_description_new,
+    .sixth_section .left_image_div {
+        text-align: center
+    }
+
+    .sixth_section .section_left_img {
+        width: 50%;
+        float: none;
+        margin: 40px auto 10px;
+        display: inline-block
+    }
+
+    .four_col_div {
+        min-height: 460px
+    }
+
+    .footer_right_border {
+        min-height: 360px;
+        margin-bottom: 50px
+    }
+
+    .footer_right_border:nth-child(3),
+    .footer_right_border:nth-child(4) {
+        margin-bottom: 0;
+        min-height: auto
+    }
+
+    .banner_section {
+        background-image: url(https://cdn.mooninvoice.com/image/images/banner_device_mobile.png);
+        background-position: 50% 0
+    }
+
+    .menu_bar ul.nav {
+        margin: 0
+    }
+
+    .sub_menu {
+        left: 0;
+        margin-top: 5px;
+        border-top: 3px solid #259eff;
+        z-index: 9;
+        float: left;
+        width: 100%;
+        box-shadow: none
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner,
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner.wrap_menu {
+        left: 0
+    }
+
+    .sub_menu .submenu_li:last-child {
+        border-bottom: 0
+    }
+
+    .download_down .fa-angle-right:before,
+    .feature_down .fa-angle-right:before,
+    .plateform_down .fa-angle-right:before {
+        content: "\f107"
+    }
+
+    #generic_price_table,
+    .page_title_bg,
+    .privacy_banner,
+    .review_banner,
+    .service_banner {
+        margin-top: 80px
+    }
+
+    .inner_banner h1 {
+        font-size: 25px
+    }
+
+    .inner_banner h2 {
+        font-size: 25px;
+        line-height: 1.3em
+    }
+
+    .inner_banner h4,
+    .service_disc_main h3 {
+        font-size: 17px
+    }
+
+    .cmn_col {
+        min-height: 100%;
+        margin-top: 20px
+    }
+
+    .welcome_div {
+        width: 70%
+    }
+
+    .credit_btn {
+        width: 46%
+    }
+
+    .pricing-item li {
+        font-size: 15px
+    }
+
+    .pricing-item.gold_plan ul {
+        min-height: 395px
+    }
+
+    .sub_banner_div {
+        background-size: 100% 100%
+    }
+
+    .review_head_div {
+        padding: 130px 0 110px
+    }
+
+    .review_head_div p {
+        padding: 0 20px
+    }
+
+    .menu_bar ul.nav li a.active_page {
+        background-color: transparent;
+        color: #259eff;
+        border-radius: 0
+    }
+
+    .close_menu .icon-bar:first-child {
+        -webkit-transform: rotate(45deg) translate(4px, 4.5px);
+        -moz-transform: rotate(45deg) translate(4px, 4.5px);
+        -ms-transform: rotate(45deg) translate(4px, 4.5px);
+        -o-transform: rotate(45deg) translate(4px, 4.5px);
+        transform: rotate(45deg) translate(4px, 4.5px);
+        -webkit-transition: .4s ease-in;
+        -moz-transition: .4s ease-in;
+        -ms-transition: .4s ease-in;
+        -o-transition: .4s ease-in;
+        transition: .4s ease-in
+    }
+
+    .close_menu .icon-bar:last-child {
+        -webkit-transform: rotate(-45deg);
+        -moz-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        -o-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        -webkit-transition: .4s ease-in-out;
+        -moz-transition: .4s ease-in-out;
+        -ms-transition: .4s ease-in-out;
+        -o-transition: .4s ease-in-out;
+        transition: .4s ease-in-out;
+        margin-top: 4px
+    }
+
+    .close_menu .icon-bar:nth-child(2) {
+        opacity: 0;
+        display: none
+    }
+
+    .pricing_page_main {
+        margin: 80px 0 0
+    }
+
+    .cmn_price_feature {
+        width: 85%;
+        margin: 0 7.5%
+    }
+
+    .get_with_mooninvoice .review_cmn_col {
+        min-height: 100%;
+        padding-bottom: 25px;
+        width: 50%;
+        margin: 0 auto 30px;
+        float: none
+    }
+
+    .box_div,
+    .box_div.middle_div {
+        margin: 0 1% 30px
+    }
+
+    .box_div {
+        width: 48%;
+        padding: 0 5px
+    }
+
+    .main_service_section {
+        width: 100%;
+        margin-bottom: 20px;
+        height: auto
+    }
+
+    #cookie-notice {
+        z-index: 999999
+    }
+
+    #header_main {
+        z-index: 999
+    }
+
+    .free_trial_main {
+        top: 95px
+    }
+
+    .banner_main_txt {
+        margin: 50px 0 40px
+    }
+
+    .banner_main_txt h1,
+    .banner_main_txt h2 {
+        font-size: 26px;
+        line-height: 35px
+    }
+
+    .company_star {
+        min-height: 200px
+    }
+
+    .company_img,
+    .seventh_section .service_disc_main p {
+        min-height: auto
+    }
+
+    .company_star_main:after,
+    .single_pro_logo:after {
+        content: none
+    }
+
+    .menu_bar ul.nav li a.bg_menu_link {
+        background-color: transparent;
+        color: #727272;
+        border-radius: 5px
+    }
+
+    .service_disc_main p {
+        font-size: 15px;
+        min-height: auto
+    }
+
+    .main_menu .fa-angle-right {
+        padding: 12px 0
+    }
+
+    .business_body,
+    .first_section .flex_section,
+    .flx_main_parent {
+        display: inline-block
+    }
+
+    .no_card_txt span {
+        float: none;
+        width: auto
+    }
+
+    .no_card_txt {
+        display: flex
+    }
+
+    .four_col_div .extra_more_padding {
+        margin-bottom: 15px
+    }
+
+    .new_frequent_question .container {
+        width: 90% !important
+    }
+
+    .plan_tab_content .zero_padding {
+        margin: 0 5%;
+        width: 90%
+    }
+
+    .pricing_plan_div {
+        margin-bottom: 40px
+    }
+
+    .product_benifites,
+    .single_pro_logo {
+        margin-bottom: 30px
+    }
+
+    .feature_plan_div h2,
+    .product_benifites h2 {
+        font-size: 24px
+    }
+
+    .feature_plan_div {
+        padding-bottom: 40px
+    }
+
+    .single_pro_logo {
+        padding: 0 10px;
+        width: 33%
+    }
+
+    .single_pro_logo img {
+        padding: 0 10px
+    }
+
+    .all_pro_logo {
+        text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center
+    }
+
+    .first_section .right_content_div {
+        padding: 0 0 25px;
+        width: 100% !important;
+        margin: 0 auto;
+        float: none;
+        display: flex;
+        justify-content: center;
+        align-items: center
+    }
+
+    .new_invoice_banner .discount_txt {
+        width: 100%;
+        padding: 10px 0
+    }
+
+    .trial_inner a {
+        padding: 10px 20px
+    }
+
+    .new_invoice_banner .try_free_btn {
+        width: 280px;
+        font-size: 20px
+    }
+
+    .new_invoice_banner .section_left_img {
+        float: none;
+        width: auto;
+        max-width: 100%
+    }
+
+    .new_header .menu_bar ul.nav {
+        padding-right: 0;
+        display: inline-block
+    }
+
+    .new_invoice_banner .banner_main_txt h1 {
+        padding: 5px 10px;
+        font-size: 16px;
+        line-height: 25px
+    }
+
+    .new_invoice_banner .banner_main_txt {
+        margin: 40px 0 0
+    }
+
+    .try_free_btn lottie-player {
+        top: 1px
+    }
+
+    .buy_plan_btn lottie-player {
+        top: -4px
+    }
+
+    .pltfrm_sprite {
+        margin-right: 8px
+    }
+
+    .platfrm_txt h5 {
+        letter-spacing: 0
+    }
+
+    .sidepanel_btn {
+        display: inline-block !important;
+        margin: 0 !important
+    }
+
+    .sidepanel {
+        float: right;
+        margin-right: 15px;
+        padding: 0;
+        width: auto;
+        margin-left: auto
+    }
+
+    .four_col_parent {
+        flex-wrap: wrap;
+        justify-content: space-around
+    }
+
+    .cmn_col_child {
+        width: 45%;
+        padding: 0 12px 20px;
+        margin-bottom: 10px
+    }
+
+    .flex_box_parent,
+    .invoice_solution_section .flex_section,
+    .resp_flex_section {
+        flex-direction: column
+    }
+
+    .mobile_order_div .most_effective_pos:nth-child(odd) .flex_box_child:first-child {
+        order: 2
+    }
+
+    .pos_content_div,
+    .pos_img_div {
+        text-align: center;
+        margin-bottom: 20px
+    }
+
+    .four_col_section {
+        padding-bottom: 0;
+        padding-top: 50px
+    }
+
+    .pos_img_div img {
+        width: 60%;
+        max-width: 100%
+    }
+
+    .pos_content_div.small_size_div,
+    .pos_feature_div span:last-child,
+    .story_wrap {
+        margin-bottom: 0
+    }
+
+    .small_size_div h2 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .black_friday_bg_image,
+    .flex_box_child {
+        padding: 0 !important
+    }
+
+    .budget_title h2 {
+        font-size: 22px
+    }
+
+    .pos_content_div h1,
+    .pos_content_div h2 {
+        font-size: 24px;
+        line-height: 35px
+    }
+
+    .free_trial_bottom_link {
+        width: 72%
+    }
+
+    .black_friday_header .navbar-toggle .icon-bar,
+    .new_header .menu_bar ul.nav.newsletter_page_menu {
+        background-color: #fff
+    }
+
+    .black_friday_header .logo_div,
+    .menu_bar .navbar-nav li.subscribe_menu_link {
+        margin-left: 0
+    }
+
+    .new_header .menu_bar ul.nav .invoice_menu_link a.menu_item,
+    .new_header .menu_bar ul.nav .subscribe_menu_link a.menu_item {
+        background-color: transparent;
+        color: #000;
+        width: 100%
+    }
+
+    .bg_image_holder {
+        float: left;
+        width: 100%;
+        transform: none;
+        margin-top: 30px
+    }
+
+    .trial_inner .resp_flex_div a {
+        float: none
+    }
+
+    .buy_now_btn {
+        margin: 0 auto
+    }
+
+    .flex_section .flex_order {
+        order: 2;
+        margin-bottom: 30px
+    }
+
+    .invoice_solution_section .store_img_div {
+        margin: 0 0 15px;
+        text-align: center;
+        width: 100%
+    }
+
+    .resp_flex_section .right_content_div {
+        margin-bottom: 20px
+    }
+
+    #client_story .slider_image {
+        margin: 0 40px 50px !important
+    }
+
+    .invoice_bg_div {
+        margin-top: 70px !important;
+        padding: 0 15px !important
+    }
+
+    .service_section_contacts .service_disc_main h3 {
+        font-size: 22px;
+        min-height: auto
+    }
+
+    .service_section_contacts .service_disc_main p {
+        min-height: auto;
+        margin-bottom: 20px
+    }
+
+    .pd_custom {
+        padding: 30px 0
+    }
+
+    .contacts_bg_wrap {
+        max-width: 100%;
+        width: 100%
+    }
+
+    ul.explore_wrap li {
+        margin-right: 20px
+    }
+
+    ul.explore_wrap {
+        flex-wrap: wrap
+    }
+
+    .new_invoice_banner.invoice_bg_div .banner_content h1.pt_t_0 {
+        padding-top: 30px
+    }
+
+    .black_friday_header .sidepanel,
+    .trial_inner.trial_inner_schedule a {
+        margin-right: 0
+    }
+
+    .black_friday_bg_image .try_free_btn_div {
+        padding-bottom: 0
+    }
+
+    .support_div_wrap {
+        margin-bottom: 10px;
+        left: 0
+    }
+
+    .footer_black_firday .bottom_footer {
+        flex-direction: column;
+        height: auto
+    }
+
+    .even_row .section_left_img,
+    .odd_row .section_left_img {
+        width: auto;
+        max-width: 100%;
+        float: none
+    }
+
+    .even_row .flex_section,
+    .odd_row .flex_section {
+        flex-direction: column;
+        display: flex
+    }
+
+    .even_row .flex_section .col-lg-6:last-child,
+    .odd_row .flex_section .col-lg-6:first-child {
+        order: 1;
+        margin-bottom: 20px
+    }
+
+    .even_row .flex_section .col-lg-6:first-child,
+    .odd_row .flex_section .col-lg-6:last-child {
+        order: 2;
+        margin-top: 20px
+    }
+
+    .row_section.decrease_btm_padding .buy_now_btn {
+        float: none;
+        display: inline-block
+    }
+
+    .pos_bg_div {
+        padding: 50px 0
+    }
+
+    .bg_title_desc_div h2 {
+        font-size: 20px
+    }
+
+    .bg_title_desc_div p {
+        font-size: 15px;
+        line-height: 22px
+    }
+
+    .cmn_retail_store {
+        width: 33.33%
+    }
+
+    .invoice_pos_wrap .cmn_col_wrap:nth-child(2):before {
+        left: 200px
+    }
+
+    .invoice_pos_wrap .cmn_col_wrap:nth-child(2):after {
+        right: 200px
+    }
+
+    .service_section_new_home.responsiveissue .col-sm-6:nth-child(7) {
+        clear: both
+    }
+
+    .crisp-client .cc-52lo {
+        z-index: 999 !important
+    }
+}
+
+@media screen and (max-width:900px) {
+    .free_trial_main {
+        top: 88px
+    }
+
+    .right_content_div {
+        padding-left: 0
+    }
+
+    .app_store_img {
+        width: 49%
+    }
+
+    .owl-carousel.owl-theme {
+        width: 95%
+    }
+}
+
+@media screen and (max-width:991.98px) {
+    .flex_section {
+        display: inline-block
+    }
+
+    .free_trial_bottom,
+    .left_image_div,
+    .right_img_div {
+        text-align: center
+    }
+
+    .section_left_img {
+        float: none;
+        width: 70%
+    }
+
+    .right_content_div {
+        padding: 0
+    }
+
+    .left_content_div {
+        padding: 0 0 25px;
+        float: left;
+        width: 100%
+    }
+
+    .first_section .title_description h1 {
+        max-width: 100%
+    }
+
+    .store_img_div {
+        display: block;
+        width: 80%;
+        margin: 40px auto 20px
+    }
+
+    .banner_section .store_img_div {
+        width: 80%;
+        margin: 20px auto
+    }
+
+    .banner_section .store_img_div img {
+        width: 100%
+    }
+
+    .free_trial_bottom_link {
+        float: none;
+        display: inline-block
+    }
+
+    .flex_section.even_div {
+        display: flex;
+        flex-direction: column
+    }
+
+    .mobile_second {
+        order: 2
+    }
+
+    .mobile_first {
+        order: 1
+    }
+
+    .inner_page_main .flex_section {
+        margin-top: 20px
+    }
+
+    .inner_page_main .section_left_img {
+        width: 70%
+    }
+
+    .welcome_div {
+        width: 80%
+    }
+
+    .review_head_div {
+        padding: 90px 0
+    }
+
+    .get_with_mooninvoice .review_cmn_col {
+        width: 60%
+    }
+
+    .left_image_div {
+        margin-top: 30px
+    }
+
+    .home_new_banner_change .left_image_div {
+        margin-top: 0
+    }
+
+    .first_section .right_content_div {
+        width: 55%
+    }
+
+    .chooseinvoicepart .row {
+        flex-wrap: wrap;
+        flex-direction: column-reverse
+    }
+
+    .why_moonimg img,
+    .why_moonimg svg {
+        width: 300px;
+        height: 300px
+    }
+
+    .chooseinvoicecont p {
+        font-size: 14px;
+        padding-bottom: 20px
+    }
+
+    .chooseinvoicecont h3 {
+        font-size: 26px;
+        line-height: 28px
+    }
+
+    .tryitfree_btn a {
+        min-width: 140px
+    }
+
+    .chooseinvoicepart {
+        padding: 20px 0 30px
+    }
+
+    .chooseinvoicewrap {
+        margin: 50px 0
+    }
+}
+
+@media screen and (max-width:800px) {
+    .free_trial_main {
+        top: 80px
+    }
+}
+
+@media screen and (max-width:1024px) {
+    .case_new_slider .slider_image {
+        width: 21% !important;
+        margin: 0 19px 30px
+    }
+
+    .trial_inner.free_trial_home.trial_inner_schedule {
+        margin: 20px 0;
+        text-align: center
+    }
+
+    .trial_inner.trial_inner_schedule a {
+        margin-right: 0
+    }
+
+    .trial_inner .resp_flex_div a {
+        float: none
+    }
+
+    .inner_page_main p.text br {
+        display: none
+    }
+}
+
+@media screen and (max-width:767px) {
+    body .new_width .container {
+        width: 95% !important
+    }
+
+    .table-responsive {
+        width: 100%;
+        margin-bottom: 15px;
+        overflow-y: hidden;
+        -ms-overflow-style: -ms-autohiding-scrollbar;
+        border: 1px solid #ddd
+    }
+
+    .footer_right_border:last-child,
+    .table-responsive>.table,
+    ul.new_list {
+        margin-bottom: 0
+    }
+
+    body .crisp-client .cc-kv6t[data-full-view=true] .cc-1xry .cc-unoo {
+        margin-bottom: 0 !important
+    }
+
+    .d-flex-1,
+    .d-flex-section,
+    .new_section .flex_div_new {
+        flex-direction: column
+    }
+
+    #generic_price_table .gold_plan .generic_content .generic_feature_list,
+    .four_col_div,
+    .pricing-item.gold_plan ul,
+    .silver_plan .generic_feature_list {
+        min-height: 100%
+    }
+
+    .case_new_slider .slider_image {
+        width: 45% !important;
+        margin: 0 14px 20px !important
+    }
+
+    .invoice_inner_pages a.blue_small_button,
+    .margin_new_top,
+    .mt_top_new {
+        margin-top: 0
+    }
+
+    .top_footer .wrap_flex_div {
+        padding: 0;
+        margin: 0
+    }
+
+    .first_section {
+        margin-top: 60px !important
+    }
+
+    .blue_section .title_blog p,
+    .new_frequent_question .cmn_question .panel-body p,
+    .plan_tab .nav-tabs>li>a,
+    .tab-inner ul {
+        font-size: 14px
+    }
+
+    .download_ratings .col-lg-6:last-child,
+    .mt-20 {
+        margin-top: 20px
+    }
+
+    .d-flex-section img {
+        width: 70%
+    }
+
+    .budget_price_section .pricing_plan_div,
+    .container,
+    .d-flex-1 .col-md-6,
+    .pricing_page_main .container,
+    .top_footer .container {
+        width: 100%
+    }
+
+    .feedback_section {
+        padding: 40px 0
+    }
+
+    .div_center {
+        margin: 20px 0
+    }
+
+    .new_section .flex_div_new p {
+        margin-top: 15px
+    }
+
+    .new_section .off_price_div h6,
+    .tab-inner p {
+        font-size: 13px
+    }
+
+    .banner_section .title_description h2,
+    .bg_title_desc h2,
+    .free_section h2,
+    .new_invoice_banner .banner_content h3 {
+        font-size: 22px
+    }
+
+    .new_section .budget_title p {
+        font-size: 12px
+    }
+
+    .download_app_menu li:last-child,
+    img.mr-24,
+    section.primaryBanner__text--discount {
+        margin-right: 0
+    }
+
+    .d-flex-section {
+        display: flex
+    }
+
+    .d-flex-section a {
+        margin-bottom: 15px
+    }
+
+    .compare_table .table-responsive {
+        overflow-x: auto
+    }
+
+    #yearly_plan .plan_details:nth-child(3n) .most_value_txt,
+    .desktop_hide,
+    .stripe_banner .row {
+        display: block
+    }
+
+    .inquiry_banner_div {
+        height: 130px !important
+    }
+
+    .nav-tabs.nav-tab-new>li {
+        width: calc(34% - 5px)
+    }
+
+    .tab-inner {
+        padding: 15px 0
+    }
+
+    .feture_desc_div p,
+    .inte_inner p,
+    .inte_inner span,
+    .nav-tabs.nav-tab-new>li a {
+        font-size: 15px
+    }
+
+    .plan_box_blue h4,
+    .tab-inner ul.inline li img {
+        margin-bottom: 10px
+    }
+
+    .banner_section .title_description p,
+    .blue_title,
+    .cmn_question h4,
+    .cmn_question span,
+    .disc_div p,
+    .get_started_now p,
+    .new_invoice_banner .cmn_points h2,
+    .new_line,
+    .tab-inner h5,
+    .tab_main_div .tab-content p {
+        font-size: 16px
+    }
+
+    .banner_black,
+    .business_pocket_main {
+        background-position: left center
+    }
+
+    .home_new_banner_change {
+        height: 525px !important
+    }
+
+    .stripe_banner.indu_banner.indu_banner_9.new_width.padding_bottom_new.padding_top_bottom_new p span {
+        font-size: 16px;
+        width: 79%
+    }
+
+    .blog_banner.margin_top_new_blog {
+        margin-top: 40px
+    }
+
+    .feature_banner .col-md-6 .section_left_img {
+        min-height: auto
+    }
+
+    .same_div_new {
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 0
+    }
+
+    .black_friday_bg_image.new_invoice_banner.invoice_bg_div,
+    .footer_right_border,
+    body .padding_update {
+        padding: 0 !important
+    }
+
+    .same_height p {
+        text-align: justify !important;
+        text-align-last: center
+    }
+
+    .count_inner h6,
+    .new_invoice_banner.invoice_bg_div .banner_content h1.pt_t_0 {
+        padding-top: 0
+    }
+
+    .count_inner {
+        padding: 10px 0
+    }
+
+    .flex_section_new {
+        overflow: hidden;
+        width: 100%
+    }
+
+    section.primaryBanner__container {
+        position: fixed;
+        top: auto;
+        z-index: 9999;
+        bottom: 0;
+        left: 0;
+        right: 0;
+        padding-bottom: 0;
+        display: inline-block
+    }
+
+    section.primaryBanner__content {
+        padding: 0;
+        flex-flow: row;
+        width: 100%
+    }
+
+    .invoice_pos_wrap .cmn_col_wrap:nth-child(2):after,
+    .invoice_pos_wrap .cmn_col_wrap:nth-child(2):before,
+    .welcome_div h4:after,
+    .welcome_div h4:before,
+    section.primaryBanner__content:after,
+    section.primaryBanner__content:before {
+        content: none
+    }
+
+    .base-button {
+        margin: 10px 10px 10px 0
+    }
+
+    .first_section {
+        padding: 50px 0 0 !important
+    }
+
+    .banner_main_txt h1,
+    .banner_main_txt h2,
+    .feature_plan_div h2,
+    .feture_desc_div h3,
+    .new_frequent_question .que_title h3,
+    .pricing_page_body h1,
+    .product_benifites h2 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .four_col_div {
+        margin-bottom: 20px
+    }
+
+    .logo_div {
+        width: 35%
+    }
+
+    .sidepanel {
+        width: 55%
+    }
+
+    .row_section {
+        padding: 30px 0
+    }
+
+    .cmn_box_main,
+    .cmn_question_div,
+    .four_col_footer {
+        padding: 0
+    }
+
+    .footer_right_border {
+        border-right: 0;
+        min-height: 100%;
+        margin-bottom: 40px
+    }
+
+    .footer_right_border:nth-child(3) {
+        margin-bottom: 40px
+    }
+
+    .yt_icon img {
+        width: 36px;
+        border-radius: 0
+    }
+
+    .welcome_div {
+        width: 90%
+    }
+
+    .no_left_padding {
+        padding-left: 15px
+    }
+
+    .no_right_padding {
+        padding-right: 15px
+    }
+
+    #generic_price_table .no_padding {
+        padding: 0 15px
+    }
+
+    #generic_price_table .generic_content {
+        width: 60%;
+        margin: 0 auto 30px
+    }
+
+    .review_head_div {
+        padding: 50px 0 0
+    }
+
+    .download_ratings {
+        margin-top: 30px
+    }
+
+    .review_head_div p {
+        line-height: 32px;
+        font-size: 18px;
+        padding: 0 15px
+    }
+
+    #monthly_plan .most_value_txt,
+    #monthly_plan .year_offer_txt_div,
+    #three_yearly_plan .most_value_txt,
+    #three_yearly_plan .year_offer_txt_div,
+    #two_yearly_plan .most_value_txt,
+    #two_yearly_plan .year_offer_txt_div,
+    .banner_main_txt h1 br,
+    .most_value_txt,
+    .review_head_div br,
+    .title_main_div h1 br {
+        display: none
+    }
+
+    .download_ratings h2 {
+        font-size: 36px
+    }
+
+    .box_div_main h3,
+    .customer_sliderbox p,
+    .gray_txt,
+    .plan_box_blue h4,
+    .service_section_contacts .service_disc_main a {
+        font-size: 18px
+    }
+
+    .pricing-palden .pricing-item {
+        display: block;
+        width: 65%;
+        margin: 0 auto 30px;
+        float: none
+    }
+
+    .generic_price_btn.clearfix {
+        display: inline-block;
+        width: 100%
+    }
+
+    .scroll_top_div {
+        bottom: 142px;
+        right: 15px
+    }
+
+    #launcher {
+        bottom: 65px !important;
+        margin: 10px !important
+    }
+
+    .sub_banner_div {
+        background-size: cover
+    }
+
+    .review_banner,
+    .service_banner {
+        margin-top: 80px
+    }
+
+    .page_title_div {
+        padding-left: 20px
+    }
+
+    .page_not_found {
+        margin: 20px 0;
+        padding: 0 20px
+    }
+
+    .gold_plan_main,
+    .silver_plan_main {
+        width: 60%;
+        margin: 0
+    }
+
+    .bronze_plan_main,
+    .lite_plan_main {
+        width: 60%;
+        margin-bottom: 30px
+    }
+
+    .silver_plan_main {
+        margin-bottom: 30px
+    }
+
+    .cmn_plan_price {
+        width: 28%
+    }
+
+    .get_with_mooninvoice .review_cmn_col {
+        width: 70%;
+        padding: 30px 12px
+    }
+
+    .box_div h4,
+    .frequently_asked_quest_main .content p,
+    .new_invoice_banner .banner_content h4 {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .review_ordinarry_section h1 {
+        font-size: 24px
+    }
+
+    .tab_main_div .tab-content p {
+        line-height: 30px
+    }
+
+    .get_started_now h2,
+    .new_invoice_banner .discount_amount,
+    .que_title h3 {
+        font-size: 26px
+    }
+
+    .download_app_menu li {
+        margin-right: 10px;
+        width: auto
+    }
+
+    .download_app_img {
+        width: 70%;
+        filter: opacity(.5)
+    }
+
+    .modal .modal-dialog {
+        margin: 10px auto
+    }
+
+    .plan_tab_content .zero_padding,
+    ul.explore_wrap li {
+        margin: 0;
+        width: 100%
+    }
+
+    .free_trial_main {
+        top: 88px
+    }
+
+    .owl-carousel.owl-theme {
+        width: 64%
+    }
+
+    .pltfrm_str_link {
+        width: 96%
+    }
+
+    .app_store_img {
+        width: 49%
+    }
+
+    .company_star {
+        min-height: auto;
+        margin-bottom: 40px
+    }
+
+    .no_card_txt span {
+        float: left;
+        width: 100%
+    }
+
+    .flex_two_three,
+    .no_card_txt {
+        display: inline-block
+    }
+
+    .offer_chield_div span {
+        font-size: 15px;
+        padding-left: 10px
+    }
+
+    .gift_link {
+        width: 155px;
+        font-size: 13px;
+        margin: 0 10px
+    }
+
+    .discount_img {
+        width: 45px
+    }
+
+    .offer_chield_div {
+        display: flex;
+        align-items: center;
+        justify-content: center
+    }
+
+    .plan_tab {
+        margin: 30px auto
+    }
+
+    .new_frequent_question .container,
+    .plan_details {
+        width: 100% !important
+    }
+
+    .plan_box_blue h5 {
+        margin: 10px 0 20px
+    }
+
+    .features_plan_details ul li {
+        width: 100%;
+        padding-right: 0
+    }
+
+    .new_frequent_question .cmn_question h4 {
+        font-size: 16px;
+        line-height: 20px;
+        text-align: left
+    }
+
+    .get_started_now .try_free_btn {
+        font-size: 18px;
+        line-height: 24px;
+        padding: 14px 0
+    }
+
+    .benifit_colm {
+        padding: 20px;
+        text-align: center
+    }
+
+    .col_icon_div {
+        margin-right: auto;
+        margin-left: auto
+    }
+
+    .col_title_desc h4 {
+        justify-content: center
+    }
+
+    .plan_tab .nav-tabs>li {
+        width: 70px
+    }
+
+    .off_price_div {
+        width: 68px
+    }
+
+    .off_price_div.more_padding {
+        width: 68px;
+        padding-left: 0;
+        text-align: center
+    }
+
+    .pricing_page_body {
+        margin-top: 45px
+    }
+
+    .pricing_page_main.new_pricing_main .pricing_page_body {
+        margin-top: 70px
+    }
+
+    .business_body .col-xs-12,
+    .four_col_div .extra_more_padding,
+    .plan_details {
+        padding: 0 5px
+    }
+
+    .que_title {
+        padding-bottom: 10px
+    }
+
+    .cmn_question h3 a,
+    .cmn_question h4 a {
+        padding: 18px 8px 0
+    }
+
+    .new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body {
+        padding: 10px 8px
+    }
+
+    .slider_position {
+        bottom: auto;
+        top: 27px;
+        height: 34px
+    }
+
+    .new_invoice_banner {
+        padding: 30px 0 0 !important
+    }
+
+    .new_invoice_banner .try_free_btn {
+        width: 250px;
+        font-size: 18px
+    }
+
+    .new_invoice_banner.invoice_bg_div .banner_content h1 {
+        font-size: 32px;
+        line-height: 45px;
+        padding-top: 0
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_txt {
+        padding-bottom: 20px
+    }
+
+    .free_trial_home.trial_inner {
+        margin: 30px 0;
+        justify-content: center;
+        align-items: center
+    }
+
+    div.blog_banner h2.grey_text_div {
+        font-size: 26px;
+        line-height: 40px
+    }
+
+    .busi_pkt_wrap h4 {
+        text-align: left;
+        font-size: 30px;
+        line-height: 40px
+    }
+
+    .avatar_wrap span {
+        font-size: 20px
+    }
+
+    .que_title h2,
+    .trial_inner.free_trial_home h2 {
+        font-size: 20px;
+        line-height: 24px
+    }
+
+    .trial_inner.free_trial_home h4 {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .contacts_bg_wrap h4 {
+        text-align: left;
+        font-size: 22px;
+        padding: 20px 0 20px 20px
+    }
+
+    .icon_address_holder a {
+        font-size: 16px;
+        margin-left: 10px
+    }
+
+    .icon_address_holder {
+        padding: 0 0 20px 20px
+    }
+
+    .contacts_bg_wrap {
+        background-image: none
+    }
+
+    .icon_address_holder img {
+        width: 16px
+    }
+
+    .blue_heading_div,
+    .border_center {
+        font-size: 24px;
+        line-height: 30px
+    }
+
+    ul.explore_wrap li a {
+        font-size: 17px
+    }
+
+    ul.explore_wrap {
+        margin: 20 0 0
+    }
+
+    .contacts_usa_main {
+        margin: 50px 0
+    }
+
+    .explore_section_main,
+    .free_section,
+    .free_tri_p {
+        padding-bottom: 50px
+    }
+
+    .new_invoice_banner.invoice_bg_div {
+        padding: 40px 15px 0 !important
+    }
+
+    .black_friday_bg_image {
+        background-color: #141218;
+        margin-bottom: 30px;
+        background-image: none
+    }
+
+    .cmn_col_div,
+    .cmn_col_wrap {
+        margin-bottom: 40px;
+        text-align: center
+    }
+
+    .frequently_asked_quest_main .collapsible {
+        font-size: 18px;
+        line-height: 30px
+    }
+
+    .frequently_asked_quest_main .collapsible:after {
+        font-size: 30px
+    }
+
+    .top_footer .newsletter_main h4 {
+        text-align: left
+    }
+
+    body .footer_black_firday .top_footer .footer_right_border:last-child {
+        border-left: none !important
+    }
+
+    #custom_html-2,
+    .card_icons,
+    .footer_newslater,
+    .ftr_schedule_demo,
+    .social_icons_div {
+        width: 80%
+    }
+
+    .cmn_retail_store {
+        width: 50%
+    }
+
+    .invoice_pos_wrap {
+        flex-wrap: wrap
+    }
+
+    .cmn_col_wrap {
+        width: 100%
+    }
+
+    .go_invoice_pos {
+        padding-bottom: 0
+    }
+
+    .bg_title_desc_div h2,
+    .budget_price_section.pos_budget_div {
+        padding-top: 10px
+    }
+
+    .panel-group .panel-default.cmn_question:last-child h4 a {
+        padding: 18px 8px
+    }
+
+    .cmn_col_div {
+        padding-right: 0
+    }
+
+    .pos_bg_div {
+        padding: 50px 0 10px
+    }
+
+    .banner_wrap_div {
+        padding: 60px 0
+    }
+
+    .title_main_div h1 {
+        font-size: 30px;
+        line-height: 45px
+    }
+
+    .fill_btn,
+    .outline_btn {
+        font-size: 17px;
+        padding: 8px 20px
+    }
+
+    .inte_section,
+    .padding-100,
+    .paymentBanner,
+    .payment_section {
+        padding: 50px 0
+    }
+
+    .paymentBanner {
+        margin-top: 60px
+    }
+
+    .paymentBanner h1 {
+        font-size: 30px;
+        line-height: 47px
+    }
+
+    .paymentBanner p {
+        font-size: 14px;
+        line-height: 23px
+    }
+
+    .outlineNew {
+        font-size: 15px;
+        line-height: 21px
+    }
+
+    .cust_button-new {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .payment_section h2 {
+        font-size: 22px;
+        margin-top: 0
+    }
+
+    .mt-0 {
+        margin-top: 10px !important;
+        margin-left: 0
+    }
+
+    .abouttestimonial h6 {
+        font-size: 20px;
+        line-height: 1.5;
+        margin: 0
+    }
+
+    .landingtestipart .item.customer_sliderbox img {
+        width: 93px;
+        margin: auto;
+        max-width: 93px
+    }
+
+    .test_content h4 {
+        font-size: 28px !important;
+        line-height: 1.5
+    }
+
+    .footermaincontent p {
+        text-align: center
+    }
+
+    .panel-group .cmn_question.panel-default.cmn_question:last-child h3 a {
+        padding-left: 8px !important;
+        padding-right: 8px !important
+    }
+
+    .new_frequent_question .cmn_question h3 {
+        text-align: left;
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .top_space {
+        padding-top: 110px
+    }
+}
+
+@media screen and (max-width:680px) {
+
+    .featurecountbox,
+    .footerbottomright p {
+        text-align: center
+    }
+
+    .bronze_plan_main,
+    .gold_plan_main,
+    .lite_plan_main,
+    .silver_plan_main {
+        width: 80%
+    }
+
+    .cmn_plan_price {
+        width: 38%
+    }
+
+    .tab_main_div .nav-tabs li a {
+        font-size: 20px;
+        letter-spacing: 0;
+        margin-right: 0;
+        padding-right: 0;
+        padding-left: 15px
+    }
+
+    .footerbottomleft,
+    .footerbottomright,
+    .owl-carousel.owl-theme {
+        width: 100%
+    }
+
+    .invoice_bg_div {
+        margin-top: 70px !important
+    }
+
+    .bannercontentpart h2 {
+        font-size: 30px;
+        line-height: 1.5
+    }
+
+    .bannercontentpart p,
+    .cmn_question .panel-body p,
+    .timedescriptionmain span.subtitle {
+        font-size: 16px
+    }
+
+    .timeeffortwrapper {
+        margin-top: 50px;
+        padding-top: 0
+    }
+
+    .timefaqmain .cmn_question h4 {
+        text-align: left
+    }
+
+    .footerform h3 {
+        font-size: 28px;
+        line-height: 1.5
+    }
+
+    .footerbottompart {
+        flex-wrap: wrap
+    }
+
+    .footerbottomleft ul {
+        justify-content: center;
+        padding-left: 0
+    }
+
+    .entensivefeatureswrapper {
+        padding-bottom: 0
+    }
+
+    .featurecountbox {
+        margin-bottom: 40px
+    }
+
+    .morefeatirewrapper {
+        padding: 40px 0
+    }
+}
+
+@media screen and (max-width:640px) {
+    .free_trial_main {
+        top: 80px
+    }
+
+    .free_trial_child a {
+        padding: 12px 15px
+    }
+
+    .first_section .right_content_div {
+        width: 70%
+    }
+
+    .cmn_points h2 br {
+        display: none
+    }
+
+    .contact_custom_plan {
+        padding: 0 20px
+    }
+
+    .custom_plan_btn {
+        width: 100%;
+        padding: 12px 5px;
+        font-size: 17px
+    }
+
+    .bannerinfppart ul,
+    .footerbottompart {
+        flex-wrap: wrap
+    }
+
+    .bannerinfppart ul li {
+        margin-bottom: 10px;
+        font-size: 14px
+    }
+
+    .invoicebannermain img,
+    .timeimage img {
+        width: 75%
+    }
+
+    .common_titledecwrap h3,
+    .footermaincontent h3,
+    .footermaincontent h4,
+    .landingtestipart h3,
+    .timedescriptionmain h3 {
+        font-size: 30px;
+        margin-top: 0
+    }
+
+    .common_titledecwrap p,
+    .timedescriptionmain p,
+    .timedescriptionmain span.subtitle {
+        font-size: 16px
+    }
+
+    .timeeffortwrapper {
+        margin-top: 50px;
+        padding-top: 0 !important
+    }
+
+    .timefaqmain .cmn_question h4 {
+        text-align: left
+    }
+
+    .footerform h3 {
+        font-size: 28px;
+        line-height: 1.5
+    }
+
+    .featurescountpart .col-md-4,
+    .footerbottomleft,
+    .footerbottomright {
+        width: 100%
+    }
+
+    .footerbottomleft ul {
+        justify-content: center
+    }
+
+    .footerbottomright p {
+        text-align: center
+    }
+
+    .featurescountpart {
+        padding-bottom: 0
+    }
+}
+
+@media screen and (max-width:600px) {
+    .logo_div {
+        width: 40%
+    }
+
+    .sidepanel {
+        width: 50%
+    }
+
+    #generic_price_table,
+    .page_title_bg {
+        margin-top: 80px
+    }
+
+    #generic_price_table .generic_content {
+        width: 75%
+    }
+
+    .pricing-palden .pricing-item {
+        width: 80%
+    }
+
+    .sticky_header .font_24.receipt_titlebar_title {
+        width: 126px
+    }
+}
+
+@media screen and (max-width:568px) {
+
+    .app_store_img,
+    .banner_section .store_img_div,
+    .busi_pkt_wrap,
+    .busi_pkt_wrap h4,
+    .store_img_div {
+        text-align: center
+    }
+
+    .free_trial_home,
+    .new_free_trial_section .free_trial_home {
+        padding: 30px 15px
+    }
+
+    .app_store_img,
+    .section_left_img {
+        width: 80%
+    }
+
+    .banner_section .store_img_div,
+    .free_trial_bottom_link,
+    .store_img_div {
+        width: 75%
+    }
+
+    #generic_price_table .generic_content,
+    .bronze_plan_main,
+    .budget_price_section .plan_white_details ul li,
+    .buy_now_btn,
+    .free_trial_bottom_link,
+    .get_with_mooninvoice .review_cmn_col,
+    .gold_plan_main,
+    .inner_page_main .section_left_img,
+    .lite_plan_main,
+    .owl-carousel.owl-theme,
+    .plan_cmn_parent .plan_box_blue,
+    .select_plan_btn,
+    .silver_plan_main,
+    .tab_main_div .nav-tabs li,
+    .welcome_div {
+        width: 100%
+    }
+
+    .inner_banner h1,
+    .inner_banner h2,
+    .small_size_div h2,
+    .trial_inner h2 {
+        font-size: 20px
+    }
+
+    .inner_banner h4,
+    .more_question,
+    .more_question a,
+    .privacy_desc p,
+    .privacy_list_div ul li,
+    .small_size_div p,
+    .sub_desc_div ul li,
+    .title_description p.desc_small_text {
+        font-size: 15px
+    }
+
+    .page_title_div {
+        padding-left: 20px
+    }
+
+    .page_title_div h1,
+    .privacy_title,
+    .trial_inner h4 {
+        font-size: 18px
+    }
+
+    .busi_pkt_wrap p,
+    .privacy_sub_title {
+        font-size: 16px
+    }
+
+    .paypal_confirm_modal .modal-dialog,
+    .pricing-palden .pricing-item {
+        width: 95%
+    }
+
+    .cmn_price_feature {
+        width: 100%;
+        margin: 0
+    }
+
+    .price_feature_list ul {
+        padding-left: 30px
+    }
+
+    .pricing_page_main {
+        margin: 70px 0 0
+    }
+
+    .paypal_confirm_modal .modal-header {
+        padding-bottom: 0;
+        padding-top: 10px
+    }
+
+    .confirm_main_div {
+        padding-bottom: 10px;
+        padding-left: 0;
+        padding-right: 0
+    }
+
+    .popup_title h2 {
+        font-size: 20px;
+        margin-bottom: 10px
+    }
+
+    .paypal_img {
+        width: 65%
+    }
+
+    .setup_later_div {
+        margin-top: 20px
+    }
+
+    .setup_later_div a.setup_later_link {
+        padding: 8px 0;
+        font-size: 16px
+    }
+
+    .box_div,
+    .box_div.middle_div {
+        width: 100%;
+        margin: 0 0 20px;
+        min-height: 70px
+    }
+
+    .app_store_img,
+    .app_store_img:nth-child(3),
+    .app_store_img:nth-child(4) {
+        margin-bottom: 10px
+    }
+
+    .tab_main_div .nav-tabs li.active a:after {
+        width: 15%
+    }
+
+    .tab_main_div .nav-tabs li a {
+        padding-left: 0
+    }
+
+    .owl-theme .owl-nav button.owl-prev {
+        left: -20px
+    }
+
+    .owl-theme .owl-nav button.owl-next {
+        right: -20px
+    }
+
+    .cmn_plan_price {
+        width: 92% !important
+    }
+
+    .pltfrm_str_link {
+        width: 75%;
+        float: none;
+        display: inline-block;
+        padding: 15px 20px
+    }
+
+    .platfrm_txt {
+        text-align: left
+    }
+
+    .pltfrm_sprite {
+        margin-right: 15px
+    }
+
+    .free_trial_bottom {
+        text-align: center;
+        margin-top: 0;
+        width: 100%
+    }
+
+    .pos_img_div img {
+        width: auto;
+        max-width: 100%
+    }
+
+    .plan_cmn_parent {
+        flex-direction: column
+    }
+
+    .plan_box_blue:first-child:after {
+        width: calc(100% - 65px);
+        height: 2px;
+        top: auto;
+        bottom: 0;
+        left: 0
+    }
+
+    .budget_title h2,
+    div.blog_banner h2.grey_text_div {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .pos_feature_div h4 {
+        font-size: 18px;
+        margin: 15px 0
+    }
+
+    .pos_feature_div span {
+        font-size: 15px;
+        margin-bottom: 15px
+    }
+
+    .budget_price_section .plan_price_per_month .big_price {
+        font-size: 30px
+    }
+
+    .budget_price_section .plan_white_details,
+    .trial_inner.free_trial_home a {
+        padding: 15px
+    }
+
+    .cmn_col_child {
+        width: 48%;
+        padding: 0 10px 15px
+    }
+
+    .cmn_col_child h3 {
+        margin: 12px 0;
+        font-size: 18px
+    }
+
+    .cmn_col_child span {
+        font-size: 14px;
+        line-height: 20px
+    }
+
+    .no_padding {
+        padding: 0 !important
+    }
+
+    .new_invoice_banner.invoice_bg_div .banner_content h1 {
+        font-size: 20px;
+        line-height: 30px;
+        padding-bottom: 15px
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_amount.new_style_dis,
+    .story_inner_wrap a {
+        font-size: 17px
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_amount.new_style_dis span,
+    .trial_inner_schedule h2 {
+        font-size: 22px
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_amount {
+        font-size: 18px;
+        line-height: 22px
+    }
+
+    .new_invoice_banner.invoice_bg_div .left_image_div {
+        margin-top: 0
+    }
+
+    .service_section_new_home {
+        padding: 0
+    }
+
+    .busi_pkt_wrap h4,
+    .service_section_new_home.service_section h2 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .service_section_new_home .service_disc_main h3 {
+        font-size: 18px;
+        line-height: 20px
+    }
+
+    .service_section_new_home .service_disc_main {
+        padding-bottom: 30px
+    }
+
+    .service_section_new_home .main_service_section {
+        padding: 30px 0 0
+    }
+
+    .trial_inner_schedule h4 {
+        font-size: 16px;
+        margin-bottom: 0
+    }
+
+    .busi_pkt_wrap p,
+    .frequently_asked_quest_main .content p {
+        margin-bottom: 15px
+    }
+
+    .cust_stories_main .border_center {
+        margin-top: 0;
+        font-size: 22px
+    }
+
+    .story_inner_wrap p,
+    .story_wrap {
+        font-size: 16px;
+        line-height: 24px
+    }
+
+    .story_inner_wrap p {
+        padding: 0 0 10px
+    }
+
+    .img_wrap img {
+        max-width: 30%
+    }
+
+    .busi_pkt_wrap h4 br,
+    .busi_pkt_wrap p br {
+        display: none
+    }
+
+    .invoice_solution_section {
+        padding-bottom: 0
+    }
+
+    .invoice_solution_section .app_store_img .pltfrm_str_link {
+        width: 50px;
+        height: 50px;
+        padding: 15px
+    }
+
+    .invoice_solution_section .app_store_img {
+        width: 50px;
+        height: 50px;
+        margin: 0 10px 0 0
+    }
+
+    .inquire_txt_div a,
+    .inquire_txt_div h4 {
+        font-size: 16px !important
+    }
+
+    .border_center {
+        font-size: 22px;
+        line-height: 28px
+    }
+
+    .blue_heading_div {
+        font-size: 22px;
+        margin-bottom: 20px
+    }
+
+    .frequently_asked_quest_main .collapsible {
+        padding: 10px
+    }
+
+    .frequently_asked_quest_main .content {
+        padding: 0 10px
+    }
+
+    .title_main_div h1 {
+        font-size: 24px
+    }
+
+    .whypaypart h2 {
+        font-size: 26px;
+        line-height: 35px
+    }
+
+    .whypaypart p {
+        font-size: 14px;
+        line-height: 23px
+    }
+
+    .whypaymentwrap {
+        margin-bottom: 30px
+    }
+}
+
+@media screen and (max-width:480px) {
+
+    .feature_title,
+    .free_trial_price h6 {
+        margin-bottom: 0
+    }
+
+    .logo_div {
+        width: 50%;
+        margin-left: 20px
+    }
+
+    .sidepanel {
+        margin-right: 15px;
+        width: 40%
+    }
+
+    .first_section {
+        margin-top: 72px
+    }
+
+    .second_section .title_description h1,
+    .second_section .title_description h2,
+    .title_description h1,
+    .title_description h2 {
+        font-size: 20px;
+        line-height: 28px
+    }
+
+    .second_section .title_description p,
+    .title_description p {
+        font-size: 15px;
+        line-height: 22px
+    }
+
+    .three_col_div h3 {
+        font-size: 16px;
+        line-height: 22px
+    }
+
+    .sixth_section .section_left_img {
+        width: 80%
+    }
+
+    .feature_title {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    #custom_html-2,
+    .banner_section .store_img_div,
+    .card_icons,
+    .first_section .right_content_div,
+    .footer_newslater,
+    .free_trial_bottom_link,
+    .ftr_schedule_demo,
+    .social_icons_div,
+    .store_img_div {
+        width: 100%
+    }
+
+    .credit_btn {
+        width: 48%;
+        padding-left: 0;
+        padding-right: 0;
+        font-size: 15px
+    }
+
+    .year_font {
+        font-size: 13px
+    }
+
+    .page_title_div {
+        padding-left: 10px
+    }
+
+    .page_title_bg {
+        margin-top: 65px
+    }
+
+    .sub_banner_div {
+        background-size: 100% 100%
+    }
+
+    .menu_bar {
+        max-height: 400px;
+        overflow-y: auto;
+        padding-bottom: 0
+    }
+
+    #header_main,
+    .lightboxOverlay,
+    .modal-backdrop {
+        z-index: 999999
+    }
+
+    .lightbox,
+    .modal-open .modal {
+        z-index: 9999999
+    }
+
+    .free_trial_txt span,
+    .santa_img {
+        display: none
+    }
+
+    .first_section {
+        padding: 50px 0 0 !important
+    }
+
+    .free_trial_txt h5 {
+        font-size: 15px;
+        padding: 10px
+    }
+
+    .free_trial_child span {
+        font-size: 14px
+    }
+
+    .free_trial_child h4,
+    .service_section h2 {
+        font-size: 20px
+    }
+
+    .discount_amount {
+        font-size: 32px
+    }
+
+    .banner_main_txt h1,
+    .banner_main_txt h2 {
+        font-size: 20px;
+        line-height: 30px
+    }
+
+    .gold_plan_select span,
+    .silver_plan_select span {
+        left: -8px
+    }
+
+    .offer_chield_div span {
+        font-size: 13px;
+        padding-left: 5px
+    }
+
+    .gift_link {
+        font-size: 12px;
+        margin: 0 0 0 10px;
+        width: 135px
+    }
+
+    .discount_img {
+        width: 40px;
+        margin-left: 5px
+    }
+
+    .new_invoice_banner.invoice_bg_div {
+        padding: 30px 0 0 !important
+    }
+
+    a.schedule {
+        padding: 12px 10px;
+        font-size: 14px
+    }
+
+    .stripe_banner h1,
+    .stripe_banner h2 {
+        font-size: 26px !important;
+        line-height: 35px !important
+    }
+}
+
+@media screen and (max-width:414px) {
+
+    .free_trial_price,
+    .free_trial_txt {
+        display: inline-block;
+        text-align: center;
+        width: 100%
+    }
+
+    .free_trial_main {
+        top: 75px
+    }
+
+    .free_trial_price {
+        margin-left: 0;
+        margin-top: 5px
+    }
+
+    .feature_plan_div h2,
+    .feture_desc_div h3,
+    .new_frequent_question .que_title h3,
+    .product_benifites h2 {
+        font-size: 20px;
+        line-height: 24px
+    }
+
+    .four_col_div {
+        margin-top: 30px
+    }
+
+    .product_benifites {
+        margin-top: 30px;
+        margin-bottom: 10px
+    }
+
+    .single_pro_logo {
+        padding: 0;
+        margin-bottom: 30px
+    }
+
+    .get_started_now .try_free_btn {
+        width: 100%
+    }
+
+    .plan_details {
+        padding: 0 5px
+    }
+
+    .plan_price_per_month .big_price {
+        font-size: 30px
+    }
+
+    .off_price_div h6 {
+        width: 65px;
+        font-size: 10px
+    }
+
+    .get_started_now h2 {
+        font-size: 22px
+    }
+
+    .invoice_solution_section .app_store_img .pltfrm_str_link {
+        width: 40px;
+        height: 40px;
+        padding: 11px
+    }
+
+    .invoice_solution_section .app_store_img {
+        width: 40px;
+        height: 40px
+    }
+
+    .invoice_solution_section .store_img_div {
+        display: flex;
+        justify-content: center
+    }
+}
+
+@media screen and (max-width:375px) {
+
+    .cmn_price_feature,
+    .gold_plan_main,
+    .silver_plan_main {
+        padding: 10px 0
+    }
+
+    .plan_select_main h4 {
+        font-size: 16px;
+        margin-bottom: 7px
+    }
+
+    .cmn_plan_price h2 {
+        margin-bottom: 7px;
+        font-size: 14px
+    }
+
+    .cmn_plan_price {
+        padding: 10px 10px 10px 0
+    }
+
+    .cmn_plan_price p {
+        font-size: 13px
+    }
+
+    .gold_plan_select span,
+    .silver_plan_select span {
+        height: 20px;
+        width: 20px
+    }
+
+    .best_value {
+        border-top: 25px solid #009fda;
+        border-right: 25px solid #009fda;
+        border-left: 25px solid transparent;
+        border-bottom: 25px solid transparent
+    }
+
+    .best_value:after {
+        top: -18px;
+        right: -30px;
+        font-size: 10px;
+        line-height: 9px
+    }
+
+    .pricing_page_main {
+        padding: 30px 0 0;
+        margin: 65px 0 0
+    }
+
+    .price_feature_list li {
+        font-size: 14px;
+        padding: 5px 5px 5px 0
+    }
+
+    .subscription_title {
+        margin: 30px 0
+    }
+
+    .subscription_title h3 {
+        font-size: 20px
+    }
+
+    .sub_banner_div {
+        background-size: 100% 70%
+    }
+
+    .app_store_img {
+        width: 100%
+    }
+
+    .pricing_plan_div .owl-item.active {
+        padding: 0
+    }
+
+    .offer_value_txt {
+        width: 65px
+    }
+
+    .offer_value_txt span {
+        letter-spacing: -.5px;
+        font-size: 13px;
+        line-height: 15px
+    }
+
+    .pricing_plan_div .owl-carousel.owl-theme {
+        padding: 0 10px !important
+    }
+
+    .seventh_section .main_service_section {
+        padding: 10px
+    }
+
+    .service_disc_main h3 {
+        font-size: 16px
+    }
+
+    .seventh_section .service_disc_main img {
+        width: 10%
+    }
+
+    .custom_plan_btn br {
+        display: block
+    }
+}
+
+@media screen and (max-width:360px) {
+    .offer_text p {
+        font-size: 11px !important
+    }
+
+    .section_left_img {
+        width: 100%
+    }
+
+    .free_trial_main {
+        top: 68px
+    }
+
+    .pltfrm_str_link {
+        width: 85%
+    }
+
+    .plan_box_blue h4 {
+        font-size: 15px
+    }
+
+    .margin_new_top {
+        margin-top: 50px !important
+    }
+}
+
+@media screen and (orientation:landscape) and (min-device-width:319px) and (max-device-width:736px) {
+    .menu_bar {
+        max-height: 220px;
+        overflow-y: auto;
+        padding-bottom: 0
+    }
+
+    #header_main,
+    .lightboxOverlay,
+    .modal-backdrop {
+        z-index: 999999
+    }
+
+    .lightbox,
+    .modal-open .modal {
+        z-index: 9999999
+    }
+}
+
+@media screen and (max-width:767px) {
+    .mt-80 {
+        margin-top: 100px
+    }
+
+    .offer_text p {
+        font-size: 13px
+    }
+
+    .padding {
+        padding: 70px 0
+    }
+
+    .stripe_banner h1,
+    .stripe_banner h2 {
+        font-size: 32px !important;
+        line-height: 40px !important
+    }
+
+    .stripe_banner p span {
+        font-size: 14px;
+        width: 50%;
+        padding-left: 10px
+    }
+
+    .flex_section_new {
+        flex-direction: column;
+        padding: 40px 0 0
+    }
+
+    .title_description_new h2 {
+        font-size: 26px
+    }
+
+    .iti-mobile .iti__dial-code,
+    .setup_inner p,
+    .title_description_new p {
+        font-size: 14px
+    }
+
+    .margin_top {
+        margin-top: 70px
+    }
+
+    .inner_page_main.stripe_setion {
+        padding: 20px 0
+    }
+
+    .stripe_innner_detail {
+        margin-bottom: 20px;
+        width: 100%
+    }
+
+    .margin_top_bottom {
+        margin: 40px 0
+    }
+
+    .banner_image img {
+        margin-top: 30px
+    }
+
+    .setup_inner h2 {
+        font-size: 22px;
+        line-height: 30px;
+        margin-top: 0
+    }
+
+    .setup_stripe_full_width p {
+        width: 100%
+    }
+
+    .banner_div,
+    .left_image_div,
+    .right_img_div,
+    .title_description_new h2,
+    .title_description_new p,
+    .trial_inner h2,
+    h4 {
+        text-align: center
+    }
+
+    .new_invoice_banner.invoice_bg_div.black_friday_bg_image .banner_content h3 {
+        padding-top: 30px
+    }
+
+    .iti-mobile .iti__country-list {
+        width: auto !important
+    }
+
+    .business_banner_div a.blue_small_button {
+        width: 180px
+    }
+
+    .cust_demo_setion a.blue_small_button {
+        width: 205px
+    }
+
+    .com_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .com_header span {
+        margin: 10px 0
+    }
+
+    .banner_div h1,
+    .trial_inner h4 {
+        margin-bottom: 30px
+    }
+
+    .banner_div h1 {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 800
+    }
+
+    .banner_div {
+        width: 100%;
+        float: left;
+        padding: 70px 0 15px
+    }
+
+    .trial_inner {
+        flex-direction: column;
+        margin: 0 0 30px
+    }
+
+    .compare_div {
+        width: 100% !important;
+        margin: 55px auto 0
+    }
+
+    .timefeatureswrapper {
+        padding-bottom: 40px
+    }
+
+    .blog_content h4 {
+        text-align: left
+    }
+
+    .relatedblogpart h3 {
+        font-size: 24px;
+        padding-bottom: 10px;
+        margin-top: 0
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1024px) {
+    .pos_main_banner h1 {
+        font-size: 30px
+    }
+
+    .shedual_new_section h2 {
+        font-size: 30px;
+        line-height: 40px
+    }
+
+    .business_banner_div p,
+    .cust_demo_setion p,
+    .shedual_new_section p {
+        font-size: 14px
+    }
+
+    .business_banner_div h3,
+    .cust_demo_setion h3 {
+        font-size: 27px
+    }
+
+    .new_invoice_banner.invoice_bg_div .banner_content h1 {
+        text-align: left !important
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_amount {
+        font-size: 17px !important
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_amount.new_style_dis span {
+        font-size: 28px
+    }
+}
+
+@media screen and (min-width:992px) and (max-width:1048px) {
+    .stripe_banner p span {
+        width: 50%
+    }
+
+    .stripe_banner.indu_banner.indu_banner_9.new_width.padding_bottom_new.padding_top_bottom_new p span {
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .flex_section_new,
+    .same_div_new {
+        flex-direction: column
+    }
+
+    .left_image_div,
+    .right_img_div,
+    .stripe_banner.padding_update h1,
+    .trial_inner {
+        text-align: center
+    }
+
+    .text_left,
+    .title_description_new h2,
+    .title_description_new p {
+        text-align: left
+    }
+
+    .banner_black {
+        background-position: left center
+    }
+
+    .same_div_new {
+        display: flex
+    }
+
+    .business_pocket_main {
+        background-position: 80% center
+    }
+
+    .stripe_innner_detail {
+        margin-bottom: 20px
+    }
+
+    .mt_top_new {
+        margin-top: 0
+    }
+
+    body .padding_update {
+        padding: 90px 0 0 !important
+    }
+
+    .margin_top_bottom {
+        margin: 40px 0
+    }
+
+    .padding {
+        padding: 100px 0
+    }
+
+    .banner_image img {
+        margin-top: 30px
+    }
+
+    .banner_div h1 {
+        font-size: 40px;
+        line-height: 50px
+    }
+
+    .banner_div {
+        width: 100%;
+        float: left;
+        padding: 100px 0 20px
+    }
+
+    .trial_inner {
+        margin: 30px 0 50px;
+        flex-direction: column
+    }
+
+    .trial_inner h4 {
+        margin-bottom: 30px
+    }
+
+    .text_left {
+        vertical-align: middle !important;
+        width: 48% !important
+    }
+
+    .same_div img {
+        width: auto;
+        max-width: 100%
+    }
+
+    .stripe_banner.indu_banner.indu_banner_4.new_width.padding_bottom_new.padding_top_bottom_new {
+        background-size: 68% !important
+    }
+
+    .service_section.service_section_new_home.key_section.new_key_section .main_service_section {
+        height: auto;
+        min-height: 321px
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1216px) {
+    .inner_page_main.new_width.stripe_setion.pad_top {
+        margin-top: 40px
+    }
+
+    .new_invoice_banner.invoice_bg_div .discount_amount {
+        font-size: 23px;
+        white-space: now-wrap
+    }
+
+    .buy_now_btn {
+        width: 284px
+    }
+
+    .indu_main_inner {
+        min-height: 415px;
+        padding: 40px 15px
+    }
+
+    .stripe_banner.indu_banner.new_width.padding_bottom_new.padding_top_bottom_new {
+        background-position: center right
+    }
+
+    .com_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .business_pocket_main {
+        background-position: 100% center
+    }
+
+    .text_left {
+        text-align: left;
+        vertical-align: middle !important;
+        width: 46% !important
+    }
+
+    .compare_div {
+        width: 100% !important
+    }
+
+    .com_header span {
+        margin: 10px 0
+    }
+
+    .banner_div h1 {
+        font-size: 55px;
+        line-height: 70px
+    }
+
+    .banner_div {
+        width: 100%;
+        float: left;
+        padding: 100px 0 20px
+    }
+
+    .trial_inner a {
+        width: 195px
+    }
+
+    .inner_page_main.new_width.stripe_setion.pad_top.cons_pad_top {
+        margin-top: 0
+    }
+}
+
+@media screen and (min-width:1800px) {
+
+    .container,
+    .stripe_banner .container {
+        width: 75% !important
+    }
+
+    .comersion_div .container,
+    .compare_table .container,
+    .free_trial .container,
+    .header_section .container,
+    body .padding_free_new .container {
+        width: 65% !important
+    }
+
+    .indu_main .container {
+        width: 77% !important
+    }
+}
+
+@media screen and (min-width:1500px) {
+
+    .comersion_div .container,
+    .inner_page_main.stripe_setion .container {
+        width: 75% !important
+    }
+
+    .free_trial .container {
+        width: 85% !important
+    }
+
+    .compare_table .container,
+    .header_section .container {
+        width: 70% !important
+    }
+}
+
+@media screen and (min-width:1400px) {
+    .padding_new {
+        padding: 130px 0 100px !important
+    }
+
+    .padding-100 {
+        padding: 50px 0
+    }
+
+    .case_new_slider .slider_image {
+        margin: 0 22px 30px
+    }
+}
+
+@media screen and (max-width:767px) {
+
+    .banner_div,
+    .left_image_div,
+    .right_img_div,
+    .trial_inner h2,
+    h4 {
+        text-align: center
+    }
+
+    .com_header {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .story_section .story {
+        flex-direction: column !important
+    }
+
+    .story_inner {
+        width: 100% !important;
+        margin: 10px 0 !important
+    }
+
+    .stripe_banner.padding_bottom_new {
+        padding: 60px 0 50px !important;
+        background-size: cover !important;
+        background-position: center center !important
+    }
+
+    .banner_text.margin-top_new,
+    .story_section {
+        margin-top: 0 !important
+    }
+
+    .slider_image {
+        margin: 0 50px 90px !important
+    }
+
+    .bg_color:not(.custom_padding_new) {
+        padding: 60px 0 29px !important;
+        margin-bottom: 0 !important
+    }
+
+    .inner_page_main.stripe_setion.pad_top.new_width {
+        padding-bottom: 40px
+    }
+
+    .new_width.stripe_setion .left_align:before {
+        right: 0;
+        margin: 0
+    }
+
+    .compare_table table,
+    .qaes_ans_div .panel-group {
+        margin-bottom: 0
+    }
+
+    .table-responsive-new {
+        width: 100%;
+        overflow-y: hidden;
+        border: 1px solid #ccc
+    }
+
+    div.blog_inner {
+        margin-bottom: 20px !important
+    }
+
+    .com_header span {
+        margin: 10px 0
+    }
+
+    .banner_div h1 {
+        font-size: 30px;
+        line-height: 36px;
+        font-weight: 800;
+        margin-bottom: 30px
+    }
+
+    .banner_div {
+        width: 100%;
+        float: left;
+        padding: 120px 0 15px
+    }
+
+    .trial_inner {
+        flex-direction: column;
+        margin: 0 0 30px
+    }
+
+    .trial_inner h4 {
+        margin-bottom: 15px
+    }
+
+    .padding_new {
+        padding: 60px 0 0 !important
+    }
+
+    .padding {
+        padding: 70px 0
+    }
+
+    .stripe_banner h1,
+    .stripe_banner h2 {
+        font-size: 32px;
+        line-height: 40px
+    }
+
+    .stripe_banner p {
+        display: flex;
+        align-items: center
+    }
+
+    .stripe_banner p span {
+        font-size: 14px;
+        width: 50%;
+        padding-left: 10px;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        word-break: break-word;
+        white-space: normal
+    }
+
+    .stripe_banner p span:before {
+        top: 0;
+        bottom: 0;
+        margin: auto;
+        left: 0;
+        right: auto
+    }
+
+    .flex_section_new {
+        flex-direction: column;
+        padding: 40px 0 0
+    }
+
+    .title_description_new h2 {
+        font-size: 24px;
+        line-height: 32px
+    }
+
+    .title_description_new p {
+        font-size: 14px;
+        line-height: 24px
+    }
+
+    .setup_inner h2 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .margin_top {
+        margin-top: 70px
+    }
+
+    .inner_page_main.stripe_setion {
+        padding: 20px 0
+    }
+
+    .new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul li,
+    .setup_inner p,
+    div.blog_inner .link span {
+        font-size: 14px
+    }
+
+    .stripe_innner_detail {
+        margin-bottom: 20px;
+        width: 100%
+    }
+
+    .margin_top_bottom {
+        margin: 40px 0
+    }
+
+    .banner_image img {
+        margin-top: 30px
+    }
+
+    .setup_inner h2 {
+        margin-top: 0
+    }
+
+    .payment .modal-body,
+    .payment .modal-footer,
+    .payment .modal-header,
+    .setup_stripe_full_width p {
+        width: 100%
+    }
+
+    .title_description_new h2,
+    .title_description_new p {
+        text-align: left;
+        margin-bottom: 10px !important
+    }
+
+    .new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul li::marker {
+        font-size: 18px
+    }
+
+    .payment .modal-header img.logo_payment {
+        margin-top: 0 !important;
+        width: auto;
+        overflow: hidden !important
+    }
+
+    .payment .modal-dialog {
+        display: flex;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto !important
+    }
+
+    #PaymentPopup .modal-content {
+        width: 100% !important;
+        margin: 0 auto !important;
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center
+    }
+
+    .qr_banner p br,
+    h2.left_align br {
+        display: none
+    }
+
+    a.schedule {
+        align-items: center;
+        background: #007ffa;
+        border-radius: 5px;
+        display: flex;
+        color: #fff;
+        white-space: nowrap;
+        justify-content: center
+    }
+
+    ul.new_list li {
+        padding: 10px 0;
+        font-size: 15px;
+        line-height: 25px
+    }
+}
+
+@media screen and (min-width:240px) and (max-width:320px) {
+    .stripe_banner p span {
+        font-size: 11px
+    }
+
+    .qr_banner h2 {
+        font-weight: 700;
+        font-size: 36px
+    }
+
+    a.schedule {
+        padding: 15px 10px;
+        text-align: center;
+        justify-content: center
+    }
+
+    .new_invoice_btn_app span {
+        margin: 0 10px
+    }
+
+    .inquire_txt_div h4 {
+        font-size: 16px !important
+    }
+
+    .inquire_txt_div a {
+        font-size: 15px !important
+    }
+}
+
+@media screen and (max-width:340px) {
+    .new_section .off_price_div h6 {
+        font-size: 10px;
+        line-height: 20px
+    }
+
+    body .case_new_slider .slider_image {
+        width: 43% !important
+    }
+}
+
+@media screen and (min-width:1899px) {
+    .promo_banner {
+        padding: 20px 0 25px
+    }
+
+    .text_center {
+        padding-bottom: 20px
+    }
+
+    .aff_banner_image {
+        padding: 130px 0 100px
+    }
+}
+
+@media screen and (min-width:2025px) {
+    .promo_banner {
+        padding: 25px 0
+    }
+
+    .aff_banner_image {
+        padding: 130px 0 110px
+    }
+
+    .text_center {
+        padding-bottom: 25px;
+        padding-top: 25px
+    }
+}
+
+@media screen and (min-width:2278px) {
+    .text_center {
+        padding-bottom: 35px;
+        padding-top: 40px
+    }
+}
+
+@media screen and (max-width:767px) {
+    .margin_70 {
+        margin: 32px 0 0 !important
+    }
+
+    .feature_banner .col-md-6 {
+        height: auto
+    }
+
+    .aff_banner_image h1 {
+        font-size: 23px;
+        line-height: 28px;
+        font-weight: 700
+    }
+
+    .aff_banner_image {
+        padding: 65px 0 50px
+    }
+
+    .aff_banner_image p {
+        font-size: 14px;
+        line-height: 25px
+    }
+
+    a.blue_big_button {
+        width: 150px;
+        font-size: 12px;
+        padding: 7px 0
+    }
+
+    .padding_section {
+        padding: 40px 0
+    }
+
+    .service_section_new_home .service_disc_main.change_color {
+        padding: 30px 15px
+    }
+
+    .indu_inner,
+    .menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link,
+    .service_section_new_home .service_disc_main.change_color h3 {
+        min-height: auto
+    }
+
+    .main_service_section.change_padding {
+        padding: 30px 0 0;
+        margin-bottom: 15px
+    }
+
+    .promo_banner {
+        background-position: bottom center
+    }
+
+    .promo_banner p {
+        font-size: 14px
+    }
+
+    .trial_inner.change_size h4 {
+        font-size: 22px;
+        line-height: 30px
+    }
+
+    .line_bg {
+        background-image: none
+    }
+
+    .center_div,
+    div#order_new {
+        display: inherit
+    }
+
+    .indu_banner h1 br,
+    .indu_banner p br {
+        display: none
+    }
+
+    body .indu_banner .banner_image {
+        height: 300px
+    }
+
+    body .stripe_banner.indu_banner {
+        background-position: bottom !important;
+        background-size: 100% !important
+    }
+
+    .stripe_banner.indu_banner p span,
+    ul#myTab li a {
+        font-size: 12px
+    }
+
+    .factor_section img {
+        width: auto;
+        max-width: 100%
+    }
+
+    .indu_inner span {
+        font-size: 17px
+    }
+
+    .cust_section h2 {
+        font-size: 23px;
+        line-height: 34px
+    }
+
+    h2.bottom_white_border {
+        font-size: 23px;
+        line-height: 33px
+    }
+
+    .margin_right {
+        margin-left: 0
+    }
+
+    .key_section h2.border_center {
+        font-size: 25px
+    }
+
+    div.blog_banner.indu_blog_section h2 {
+        font-weight: 600;
+        line-height: 34px;
+        font-size: 27px
+    }
+
+    div.indu_blog_section div.blog_inner {
+        min-height: 260px
+    }
+
+    #indu_blog_1,
+    #indu_blog_2,
+    #indu_blog_3,
+    #indu_blog_4 {
+        background-size: contain
+    }
+
+    .center_div {
+        align-items: center;
+        justify-content: center
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner {
+        flex-direction: column;
+        width: 100%;
+        display: none
+    }
+
+    .menu_bar {
+        overflow-x: hidden
+    }
+
+    .button_div a {
+        margin: 0
+    }
+
+    .button_div {
+        display: flex;
+        flex-direction: column;
+        align-items: center
+    }
+
+    .feature_banner p.new.new_height {
+        margin: 15px 0
+    }
+
+    .blog_banner {
+        margin-top: 20px
+    }
+
+    ul#myTab li {
+        width: 32%
+    }
+
+    .feature_banner h1 {
+        font-size: 29px;
+        line-height: 46px
+    }
+
+    .feature_banner p.new {
+        margin: 0 0 10px !important
+    }
+
+    .feature_banner {
+        padding-top: 0
+    }
+
+    .feature_banner .button_div {
+        width: 100%;
+        margin: 0;
+        align-items: flex-start !important
+    }
+
+    .feature_banner .button_div a {
+        font-size: 16px;
+        padding: 10px 0;
+        max-width: 220px
+    }
+
+    .feature_banner .button_div p {
+        font-size: 14px;
+        margin-bottom: 20px
+    }
+
+    .cancle_form textarea,
+    .feature_banner .section_left_img {
+        width: 100%
+    }
+
+    .tab_section .flex_section_new {
+        padding-bottom: 40px
+    }
+
+    .tab_section .title_description_new h2 {
+        font-size: 24px
+    }
+
+    .tab_section .title_description_new {
+        text-align: left;
+        margin-top: 30px
+    }
+
+    .tab_section .title_description_new a {
+        display: flex;
+        text-align: center;
+        margin: 25px auto 0;
+        justify-content: center
+    }
+
+    .tab_section .container-fluid {
+        overflow: hidden
+    }
+
+    .padding_top_bottom {
+        padding: 0 0 40px
+    }
+
+    .form_inner {
+        padding-left: 0
+    }
+
+    .cancle_form {
+        padding: 80px 0 40px
+    }
+}
+
+@media screen and (min-width:768px) and (max-width:991px) {
+
+    .left_image_div,
+    .no_padding_new.ml-auto.text-right,
+    .right_img_div,
+    .trial_inner {
+        text-align: center
+    }
+
+    .banner_div h1 {
+        font-size: 40px;
+        line-height: 50px
+    }
+
+    div.blog_inner,
+    div.blog_inner .compare_table {
+        margin-bottom: 20px !important
+    }
+
+    .banner_div {
+        width: 100%;
+        float: left;
+        padding: 120px 0 20px
+    }
+
+    .new_free_trial_section .free_trial_home,
+    .story_inner {
+        padding: 20px
+    }
+
+    .trial_inner.free_trial_home.trial_inner_schedule {
+        margin: 20px 0
+    }
+
+    .trial_inner {
+        margin: 30px 0 50px;
+        flex-direction: column
+    }
+
+    .trial_inner h4 {
+        margin-bottom: 30px
+    }
+
+    .story_inner {
+        margin: 20px auto;
+        width: 48%;
+        float: block;
+        border: 1px solid #bababa;
+        border-radius: 5px;
+        transition: .5s ease-in
+    }
+
+    .slider_image {
+        margin: 0 40px 90px !important
+    }
+
+    .new_width.stripe_setion .left_align:before {
+        right: auto;
+        margin: 0 auto
+    }
+
+    .stripe_innner_detail {
+        margin-bottom: 20px
+    }
+
+    .flex_section_new,
+    .same_height {
+        flex-direction: column
+    }
+
+    .margin_top_bottom {
+        margin: 40px 0
+    }
+
+    .padding {
+        padding: 100px 0
+    }
+
+    .banner_image img {
+        margin-top: 30px
+    }
+
+    .title_description_new h2,
+    .title_description_new p {
+        text-align: left
+    }
+
+    .modal-open .modal.payment {
+        overflow-x: hidden;
+        overflow-y: auto;
+        top: 65px
+    }
+
+    .frequent_question_div.new_width.new_frequent_question.pad_top {
+        padding-top: 0 !important
+    }
+
+    .center_div,
+    div#order_new {
+        display: inherit
+    }
+
+    .center_div {
+        align-items: center;
+        justify-content: center
+    }
+
+    .indu_banner h1 br,
+    .indu_banner p br {
+        display: none
+    }
+
+    .service_section_new_home.key_section .service_disc_main h3 {
+        font-size: 20px;
+        min-height: 40px
+    }
+
+    .indu_banner.stripe_banner h1 {
+        font-size: 50px
+    }
+
+    #indu_blog_1,
+    #indu_blog_2,
+    #indu_blog_3,
+    #indu_blog_4 {
+        background-size: contain
+    }
+
+    div.indu_blog_section div.blog_inner {
+        min-height: 265px
+    }
+
+    body .indu_banner .banner_image {
+        height: 480px
+    }
+
+    body .stripe_banner.indu_banner {
+        background-position: bottom !important;
+        background-size: 100% !important
+    }
+
+    .order_1 {
+        order: 1;
+        text-align: center
+    }
+
+    .order_2 {
+        order: 2
+    }
+
+    .order_3 {
+        order: 3
+    }
+
+    .indu_inner span {
+        font-size: 18px;
+        line-height: 30px
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .banner_div h1 {
+        font-size: 55px;
+        line-height: 70px
+    }
+
+    .banner_div {
+        width: 100%;
+        float: left;
+        padding: 100px 0 20px
+    }
+
+    .trial_inner a {
+        width: 195px
+    }
+
+    a.schedule {
+        font-size: 16px
+    }
+
+    #android_store,
+    #apple_store,
+    #indu_blog_1,
+    #indu_blog_2,
+    #indu_blog_3,
+    #indu_blog_4,
+    #window_store {
+        background-size: contain
+    }
+
+    .indu_banner h1 br,
+    .indu_banner p br {
+        display: none
+    }
+
+    .indu_banner {
+        background-size: 56% 62%
+    }
+
+    .stripe_banner.indu_banner h1 {
+        font-size: 33px;
+        line-height: 40px
+    }
+
+    .factor_section img {
+        width: auto;
+        max-width: 100%
+    }
+
+    .indu_inner span {
+        font-size: 17px;
+        line-height: 30px
+    }
+}
+
+@media screen and (min-width:280px) and (max-width:320px) {
+    .stripe_banner.indu_banner p span {
+        font-size: 11px
+    }
+
+    body .indu_banner .banner_image {
+        height: 255px
+    }
+
+    .indu_inner span {
+        font-size: 15px
+    }
+
+    .indu_banner .stripe_banner h1 {
+        font-size: 30px !important
+    }
+
+    h2.bottom_white_border {
+        font-size: 23px;
+        line-height: 33px
+    }
+
+    ul#myTab li a {
+        width: 100%
+    }
+
+    .feature_banner h1 {
+        font-size: 25px
+    }
+
+    ul#myTab li {
+        width: 50%
+    }
+}
+
+@media screen and (min-width:767px) and (max-width:991px) {
+    .banner_black.case_study {
+        padding: 0 !important
+    }
+
+    .banner_black.case_study .same_div_new {
+        justify-content: center !important
+    }
+
+    ul#myTab li {
+        width: 20%
+    }
+
+    ul#myTab li a {
+        color: #000;
+        width: 100% !important
+    }
+
+    .feature_banner h1 {
+        font-size: 52px;
+        line-height: 70px
+    }
+
+    .feature_banner p.new {
+        font-size: 16px;
+        line-height: 30px;
+        margin: 15px 0
+    }
+
+    .feature_banner .section_left_img {
+        margin: 0 auto;
+        text-align: center;
+        display: flex
+    }
+
+    .tab_section .title_description_new a {
+        display: flex;
+        text-align: center;
+        margin: 25px auto;
+        justify-content: center
+    }
+
+    .w_100 .flex_section_new {
+        padding: 40px 0
+    }
+
+    .tab_section .container-fluid {
+        padding: 0;
+        width: 100%;
+        overflow: hidden
+    }
+
+    .feature_banner p.custom_new_height {
+        margin: 41px 0 !important
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1200px) {
+    .feature_banner h1 {
+        font-size: 38px;
+        line-height: 57px
+    }
+
+    .feature_banner p.new {
+        margin: 10px 0
+    }
+
+    ul#myTab li a {
+        color: #000;
+        width: 100%
+    }
+
+    .tab_section .title_description_new p {
+        font-size: 14px;
+        line-height: 22px
+    }
+
+    .tab_section .container-fluid {
+        padding: 0;
+        width: 100%;
+        overflow: hidden
+    }
+
+    .tab_section .new_width .container {
+        width: 95% !important
+    }
+}
+
+@media screen and (min-width:1218px) and (max-width:1498px) {
+    .feature_banner h1 {
+        font-size: 45px !important;
+        line-height: 67px
+    }
+
+    body .feature_banner h1 {
+        font-size: 38px !important;
+        line-height: 67px
+    }
+
+    .feature_banner p.new {
+        font-size: 16px;
+        line-height: 30px;
+        margin: 50px 0
+    }
+
+    .feature_banner p.custom_new_height {
+        margin: 50px 0 0
+    }
+}
+
+@media screen and (min-width:414px) and (max-width:480px) {
+    ul#myTab li a {
+        width: 100%
+    }
+
+    ul#myTab li {
+        width: 33%
+    }
+}
+
+@media screen and (min-width:1024px) and (max-width:1280px) {
+    .new_invoice_banner.invoice_bg_div .discount_amount {
+        font-size: 23px !important
+    }
+
+    .buy_now_btn {
+        width: 260px
+    }
+
+    .case_new_slider .slider_image {
+        margin: 0 18px 30px
+    }
+}
+
+@media only screen and (max-width:1310px) {
+    .stripe_banner .container {
+        width: 95% !important
+    }
+}
+
+@media screen and (max-width:991px) {
+    .margin_70 {
+        margin: 40px 0 !important
+    }
+
+    .newsletter_wrap_new {
+        padding: 150px 0 20px !important
+    }
+
+    .news_letter_text {
+        margin-top: 20px
+    }
+
+    .newsletter_wrap_new .news_equal {
+        flex-direction: column;
+        margin-bottom: 20px
+    }
+
+    .div_same_new {
+        flex-direction: column
+    }
+
+    .business_banner_div h3,
+    .cust_demo_setion h3,
+    .pos_main_banner h1 {
+        font-size: 27px
+    }
+
+    .pos_main_banner h1 br,
+    .shedual_new_section p br {
+        display: none
+    }
+
+    .shedual_new_section h2 {
+        font-size: 27px;
+        line-height: 40px
+    }
+
+    .business_banner_div p,
+    .cust_demo_setion p,
+    .shedual_new_section p {
+        font-size: 14px
+    }
+
+    .menu_bar .navbar-nav li:last-child {
+        border-bottom: 0 !important
+    }
+
+    .menu_bar .navbar-nav li:hover .sub_menu.megamenu_inner {
+        flex-direction: column;
+        width: 100%;
+        display: none
+    }
+
+    .menu_bar .navbar-nav li .sub_menu .submenu_li .submenu_link,
+    .new_header .menu_bar ul.nav li:last-child a {
+        min-height: auto
+    }
+
+    .menu_bar {
+        overflow-x: hidden
+    }
+
+    .footerform,
+    .timedescriptionmain {
+        margin-top: 40px
+    }
+
+    .timeeffortwrapper {
+        padding-top: 50px
+    }
+
+    .featurecountbox {
+        margin-bottom: 30px
+    }
+
+    .footermaincontent p {
+        max-width: 100%
+    }
+
+    .stripe_banner.padding_new.ios_features {
+        padding-bottom: 20px !important
+    }
+
+    .stripe_banner.new_width.padding_new.mac_feature {
+        padding-top: 150px !important
+    }
+
+    .stripe_banner.padding_new.android_feature {
+        padding-bottom: 0 !important;
+        padding-top: 130px !important
+    }
+
+    .stripe_banner.padding_new.window_feature {
+        padding: 150px 0 0 !important
+    }
+
+    .popup_login_page .login_overlay,
+    .popup_signup_page .signup_overlay {
+        z-index: 999999
+    }
+
+    .login_iframe,
+    .signup_iframe {
+        z-index: 9999999
+    }
+
+    .new_header .menu_bar ul.nav li a {
+        text-align: left;
+        min-height: 48px;
+        display: flex;
+        align-items: center
+    }
+
+    .new_header .menu_bar ul.nav li a.bg_menu_link {
+        width: auto
+    }
+
+    .home_new_banner_change {
+        height: auto !important;
+        margin-bottom: 0
+    }
+
+    .margin_new_top {
+        margin-top: 0;
+        padding-top: 10px
+    }
+
+    span.title_text {
+        padding: 12px 16px !important
+    }
+
+    .add-logo-label {
+        margin-right: auto
+    }
+}
+
+@media screen and (max-width:460px) {
+
+    .login_iframe,
+    .signup_iframe {
+        width: 95%
+    }
+}
+
+@media screen and (max-width:1320px) {
+    .d-mobile-new {
+        display: flex;
+        align-items: center;
+        margin: 0 auto;
+        justify-content: center;
+        text-align: center
+    }
+
+    .mobile_left .left_align,
+    .text_inner_new h4 {
+        text-align: left
+    }
+
+    .mobile_left .left_align:before {
+        margin-left: 0
+    }
+
+    .mobile_left p {
+        text-align: left !important
+    }
+
+    .mobile_left .new_invoice_btn_app {
+        justify-content: flex-start
+    }
+
+    .mobile_left p br {
+        display: none
+    }
+
+    .padding-100 {
+        padding: 50px 0
+    }
+
+    .nav-tabs.nav-tab-new>li a {
+        font-size: 17px
+    }
+}
+
+@media screen and (max-width:445px) {
+    .modal_title p {
+        font-size: 14px;
+        line-height: 18px;
+        margin-bottom: 10px
+    }
+
+    .form-group p.font {
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 19px
+    }
+
+    .form-group p.font a,
+    .login_signup_main [type=checkbox]+span.new_padding:not(.lever) {
+        font-size: 13px
+    }
+}
+
+@media screen and (min-width:1260px) and (max-width:1560px) {
+    .free_maker_banner {
+        background-position: right center
+    }
+
+    .fe_free_invoce {
+        background-position: center
+    }
+}
+
+@font-face {
+    font-family: FontAwesome;
+    src: url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.eot?v=4.7.0);
+    src: url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.eot?#iefix&v=4.7.0) format("embedded-opentype"), url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.woff2?v=4.7.0) format("woff2"), url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.woff?v=4.7.0) format("woff"), url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.ttf?v=4.7.0) format("truetype"), url(https://cdn.mooninvoice.com/css/fonts/fontawesome-webfont.svg?v=4.7.0#fontawesomeregular) format("svg");
+    font-weight: 400;
+    font-style: normal
+}
+
+.fa {
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale
+}
+
+@media screen and (max-width:1199px) {
+    .main_circle_section {
+        padding-bottom: 410px;
+        padding-top: 40px
+    }
+
+    .inner_section,
+    .outer_section {
+        width: 100%;
+        height: auto;
+        bottom: 0;
+        border: 0;
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .inner_section>.block_section,
+    .outer_section>.block_section {
+        position: relative !important;
+        left: auto !important;
+        right: auto !important;
+        top: auto !important;
+        bottom: auto !important;
+        float: left;
+        width: 25%;
+        margin-bottom: 15px
+    }
+
+    .outer_section.change>.block_section:first-child {
+        order: 2
+    }
+
+    .outer_section.change>.block_section:nth-child(2) {
+        order: 3
+    }
+
+    .outer_section.change>.block_section:nth-child(3) {
+        order: 4
+    }
+
+    .outer_section.change .inner_section {
+        order: 1
+    }
+
+    .inner_section.change,
+    .outer_section.change_1 .inner_section {
+        align-items: center;
+        justify-content: center
+    }
+
+    .test_content h4 {
+        margin-bottom: 20px;
+        font-size: 36px
+    }
+
+    .stripe_banner.padding_new.ios_features {
+        padding-bottom: 80px !important
+    }
+
+    .trial_inner.free_trial_home.trial_inner_schedule {
+        margin: 20px 0;
+        text-align: center
+    }
+
+    .new_free_trial_section .free_trial_home {
+        padding: 35px
+    }
+
+    .ml-auto {
+        margin: auto !important;
+        text-align: center
+    }
+
+    .trial_inner .resp_flex_div a {
+        float: none
+    }
+
+    .section_banner {
+        margin-bottom: 0 !important;
+        max-height: 400px
+    }
+
+    .mi_fec_banner .feature_banner h1 br {
+        display: none !important
+    }
+}
+
+@media(max-width:1498.98px) {
+    .feature_banner.feature_banner_new .same_div_inner h1 {
+        font-size: 38px;
+        line-height: 46px
+    }
+
+    .download_free_invoice .title-sc .main-title {
+        font-size: 38px
+    }
+
+    .download_free_invoice .title_description_new .left_align {
+        font-size: 25px
+    }
+
+    .invoice_cycle_main .invoice_cycle_section .ic_tittle {
+        font-size: 32px;
+        line-height: 46px
+    }
+
+    .invoice_cycle_main {
+        padding: 70px 0
+    }
+
+    .download_free_invoice .title_description_new.most_suitable_desc .left_align {
+        font-size: 22px
+    }
+
+    .free_invoice_template .main-title {
+        font-size: 38px;
+        line-height: 42px
+    }
+}
+
+@media(max-width:1600px) {
+    .main_pos_banner .title_main_div h1 {
+        font-size: 36px;
+        line-height: 60px
+    }
+
+    .main_pos_banner {
+        background-position: 50%
+    }
+}
+
+@media(min-width:1498.98px) {
+    .fe_free_proforma_invoce.feature_banner.feature_banner_new .same_div_inner h1 {
+        font-size: 42px;
+        line-height: 64px
+    }
+}
+
+.proforma_reference_main {
+    padding: 30px 0 80px
+}
+
+.proforma_reference_main .main-title {
+    font-size: 36px;
+    margin-bottom: 50px;
+    margin-top: 0;
+    text-transform: capitalize;
+    line-height: 120%
+}
+
+@media(min-width:767.99px) {
+    .download_profoma_invoice.download_free_invoice .title-sc .main-title {
+        font-weight: 400;
+        font-size: 36px
+    }
+}
+
+@media(max-width:991.98px) {
+    .getstore-wrapper {
+        margin: 0 -10px
+    }
+
+    .getstore-wrapper li {
+        margin: 0 10px 20px
+    }
+
+    .banner-blockwrap h1 {
+        font-size: 36px
+    }
+
+    .banner-blockwrap .home_try_free_btn {
+        margin-top: 0
+    }
+
+    .banner-blockwrap .same_div_inner {
+        margin-bottom: 40px
+    }
+
+    .downloadbtns-wrap .download-btn:first-child {
+        margin-right: 20px
+    }
+
+    .findus-text {
+        margin-bottom: 25px
+    }
+
+    .faq-secwrap .toggle_icon,
+    .free_invoice_faq.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ol li,
+    .free_invoice_faq.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul li,
+    .new_frequent_question .cmn_question .panel-body p {
+        font-size: 16px
+    }
+
+    .fixed-button {
+        font-size: 14px;
+        right: -86px;
+        padding: 10px 20px
+    }
+
+    .banner-blockwrap .button_div {
+        margin-top: 35px
+    }
+
+    .download_free_invoice,
+    .download_profoma_invoice.download_free_invoice,
+    .feature_banner.feature_banner_new,
+    .feature_banner.free_maker_banner.fe_free_proforma_invoce {
+        padding: 70px 0
+    }
+
+    .download_free_invoice .flex_section_new {
+        flex-direction: column-reverse;
+        padding: 20px 0
+    }
+
+    .download_free_invoice .flex_section_new .left_content_div,
+    .download_free_invoice .flex_section_new .right_content_div {
+        padding: 15px 0 0
+    }
+
+    .invoice_cycle_main {
+        padding: 50px 0;
+        background-size: auto 100%
+    }
+
+    .invoice_cycle_main .invoice_cycle_section .ic_tittle {
+        font-size: 28px;
+        line-height: 34px
+    }
+
+    .invoice_cycle_main .invoice_cycle_section .btn {
+        padding: 15px 40px
+    }
+
+    .small_business_grd .business_col {
+        width: 50%
+    }
+
+    .free_invoice_faq .cmn_question_div {
+        padding-bottom: 70px
+    }
+
+    .proforma_reference_main {
+        padding: 0 0 70px
+    }
+
+    .feature_banner.free_maker_banner.fe_free_proforma_invoce .same_div_new {
+        flex-direction: column-reverse
+    }
+
+    .fe_free_proforma_invoce.feature_banner.feature_banner_new .same_div_inner {
+        text-align: center;
+        margin-top: 30px
+    }
+
+    .fe_free_proforma_invoce.feature_banner.feature_banner_new .same_div_inner .button_div {
+        margin: auto
+    }
+
+    .download_profoma_invoice.download_free_invoice .title-sc {
+        margin-bottom: 50px
+    }
+
+    .proforma_grd_sc .row>[class*=col-]:not(:last-child) .proforma_grd_box {
+        margin-bottom: 30px;
+        height: auto
+    }
+
+    .generate_tax_sc.proforma_invoice_format_sc .main-title {
+        font-size: 28px
+    }
+
+    .generate_tax_sc.proforma_invoice_format_sc p {
+        margin: 15px auto 0
+    }
+
+    .generate_tax_sc.proforma_invoice_format_sc .btn-sc {
+        margin-top: 20px
+    }
+}
+
+@media(max-width:1650px) {
+    .frequent_question_div.sidebar-open .cmn_question_div.faq-innerwrap {
+        width: 100%;
+        margin-left: 0
+    }
+}
+
+@media(max-width:1200px) {
+    .case-study-banner {
+        padding: 30px 0 60px
+    }
+
+    .case-study-banner .banner_text h1,
+    .case-study-banner .banner_text h2 {
+        font-size: 36px;
+        line-height: 38px
+    }
+
+    .case-study-inner-page .title_description_new h2,
+    .challenges_main .title_description_new h2 {
+        font-size: 27px;
+        line-height: 30px
+    }
+
+    .case-study-inner-page .title_description_new p.margin_bottom {
+        margin-bottom: 5px
+    }
+
+    .main_pos_banner .title_main_div h1 {
+        font-size: 30px;
+        line-height: 50px
+    }
+
+    .invoice-hackingwrapper.invoive-estimateblock .invoice-subtext {
+        padding: 50px 20px 30px
+    }
+}
+
+@media(max-width:1199.98px) {
+    .invoice-makerpage .res_80 {
+        margin-top: 70px
+    }
+
+    .invoice-makerpage .flex_section_new {
+        padding: 35px 0 !important
+    }
+
+    .invoice-makerpage .flex_section_new:first-child {
+        padding-top: 0 !important
+    }
+
+    .invoice-makerpage .flex_section_new:last-child {
+        padding-bottom: 0 !important
+    }
+
+    .faq-secwrap .cmn_question_div {
+        padding-top: 50px
+    }
+
+    .trial_inner.gettrial-boxwrap {
+        margin: 70px 0 !important
+    }
+
+    .findus-block {
+        padding-top: 70px
+    }
+
+    .faq-secwrap .que_title {
+        padding-bottom: 10px
+    }
+
+    .invoice_payment_process_banner.feature_banner.feature_banner_new .same_div_inner h1 {
+        line-height: 50px
+    }
+
+    .integration_grd_sc .row {
+        margin-left: -15px;
+        margin-right: -15px
+    }
+
+    .integration_grd_sc .row [class*=col-] {
+        padding-left: 15px;
+        padding-right: 15px
+    }
+
+    .integration_grd_sc .integration_col {
+        margin-top: 30px;
+        height: calc(100% - 30px)
+    }
+}
+
+@media(max-width:767.98px) {
+    .desc-listwrapper li::before {
+        background-size: 14px;
+        width: 20px;
+        height: 20px
+    }
+
+    .downloadbtns-wrap .download-btn:first-child {
+        margin-right: 10px
+    }
+
+    .banner-blockwrap .button_div {
+        margin-top: 25px
+    }
+
+    .beneficial_invoice_proforma.download_free_invoice .title_description_new.most_suitable_desc .left_align,
+    .faq-secwrap .que_title h2,
+    .free_construction_temp_new.free_invoice_template .main-title,
+    .proforma_invoice_format_sc .main-title,
+    .proforma_reference_main .main-title {
+        font-size: 28px
+    }
+
+    .banner-blockwrap p {
+        font-size: 18px
+    }
+
+    .banner-blockwrap .home_try_free_btn {
+        padding: 12px 54px;
+        font-size: 16px
+    }
+
+    .banner-blockwrap .same_div_inner {
+        margin-bottom: 20px
+    }
+
+    .invoice-makerpage .res_80 {
+        margin-top: 50px
+    }
+
+    .findus-title,
+    .invoice-makerpage .title_description_new h2 {
+        font-size: 28px;
+        margin-bottom: 15px !important
+    }
+
+    .desc-listwrapper li {
+        font-size: 14px;
+        margin-bottom: 10px
+    }
+
+    .beneficial_invoice .answer_description_new ul li,
+    .beneficial_invoice .title_description_new ol li,
+    .download_free_invoice .title_description_new.most_suitable_desc p,
+    .findus-text,
+    .free_construction_temp_new.free_invoice_template .free-inv-ul li,
+    .free_invoice_faq.new_frequent_question .cmn_question .panel-body p,
+    .free_invoice_faq.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ol li,
+    .free_invoice_faq.new_frequent_question .panel-default>.panel-heading+.panel-collapse>.panel-body ul li,
+    .payment-methodlist,
+    .proforma_grd_box .profoma_img_cnt_sc p,
+    .proforma_reference_main .content_section li,
+    .proforma_reference_main .content_section p {
+        font-size: 14px
+    }
+
+    .payment-methodlist li,
+    .proforma_reference_main .content_section p {
+        margin-bottom: 10px
+    }
+
+    div.content-wrapper>* {
+        margin-bottom: 15px !important
+    }
+
+    .content-wrapper {
+        padding-bottom: 20px
+    }
+
+    .faq-secwrap .panel.panel-default:last-child .toggle_icon {
+        padding-left: 8px !important;
+        padding-right: 8px !important
+    }
+
+    .feature_banner.feature_banner_new p.new {
+        margin: 10px 0 15px !important;
+        font-size: 16px
+    }
+
+    .feature_banner.feature_banner_new .same_div_inner h1 {
+        font-size: 32px;
+        line-height: 35px
+    }
+
+    .download_free_invoice .title-sc .main-title,
+    .free_invoice_template .main-title {
+        font-size: 28px;
+        line-height: 32px
+    }
+
+    .download_free_invoice .title_description_new .left_align {
+        font-size: 22px;
+        padding-bottom: 5px
+    }
+
+    .feature_banner.feature_banner_new .button_div {
+        align-items: center !important
+    }
+
+    .invoice_cycle_main .invoice_cycle_section {
+        flex-direction: column;
+        text-align: center
+    }
+
+    .invoice_cycle_main .invoice_cycle_section .ic_tittle {
+        margin-bottom: 25px
+    }
+
+    .invoice_table_sc .table {
+        table-layout: fixed;
+        min-width: 515px
+    }
+
+    .invoice_table_sc .table td,
+    .invoice_table_sc .table th {
+        padding: 15px 10px
+    }
+
+    .invoice_table_sc .table th {
+        font-size: 16px;
+        width: 35%
+    }
+
+    .invoice_table_sc .table th:first-child {
+        width: 30%
+    }
+
+    .invoice_table_sc .table .btn {
+        padding: 5px;
+        font-size: 12px;
+        width: 100%
+    }
+
+    .beneficial_invoice .answer_description_new ul li+li,
+    .proforma_reference_main .content_section li {
+        margin-top: 10px
+    }
+
+    .beneficial_invoice .title_description_new ol {
+        padding-left: 20px
+    }
+
+    .invoice_table_sc {
+        padding-top: 30px;
+        overflow-y: auto
+    }
+
+    .download_free_invoice.small_business {
+        padding-top: 0
+    }
+
+    .payment_pro_ques .main-title,
+    .proforma_reference_main .main-title {
+        margin-bottom: 30px
+    }
+
+    .proforma_reference_main .content_section {
+        padding-top: 30px
+    }
+
+    .proforma_grd_box .profoma_img_cnt_sc .pro_ttl {
+        margin: 10px 0
+    }
+
+    .free_invoice_faq .que_title * {
+        font-size: 28px;
+        line-height: 34px
+    }
+
+    .free_invoice_faq .qaes_ans_div .panel-title {
+        font-size: 16px;
+        line-height: 20px
+    }
+
+    .fe_free_proforma_invoce.feature_banner .button_div a {
+        padding: 15px 22px;
+        font-size: 14px
+    }
+
+    .construction_faq.new_frequent_question {
+        padding-top: 50px
+    }
+
+    .integration_grd_sc .row [class*=col-] {
+        width: 100%
+    }
+
+    .gateway_integration_main .main-title {
+        font-size: 26px;
+        margin-bottom: 15px
+    }
+
+    .pay_facility_main .main-title {
+        margin-bottom: 15px
+    }
+
+    .integration_grd_sc .integration_col .icn_sc .int_ttl {
+        font-size: 20px
+    }
+
+    .payment_process_main .payment_process_cnt_sc .cnt_ttl {
+        font-size: 24px;
+        line-height: 130%
+    }
+}
+
+@media(max-width:575.98px) {
+
+    .beneficial_invoice_proforma.download_free_invoice .title_description_new.most_suitable_desc .left_align,
+    .free_construction_temp_new.free_invoice_template .main-title,
+    .free_invoice_faq .que_title *,
+    .generate_tax_sc.proforma_invoice_format_sc .main-title,
+    .proforma_invoice_format_sc .main-title,
+    .proforma_reference_main .main-title {
+        font-size: 22px
+    }
+}
+
+.proforma_invoice_format_sc.land_inv_frmt_sc {
+    background: rgb(230 242 255 / 80%)
+}
+
+.free_invoice_template.free_invoice_template_new.free_landscp {
+    padding: 35px 0
+}
+
+.login_signup_main.send_Receipt_Modal .modal-dialog {
+    max-width: 960px;
+    width: 100%;
+    padding: 0 15px
+}
+
+.send_Receipt_Modal .modal-content {
+    border-radius: 25px
+}
+
+.send_Receipt_Modal .modal-content .modal-body {
+    padding: 75px 50px;
+    background-size: auto 100%;
+    background-repeat: no-repeat;
+    background-position: right;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    position: relative;
+    background-image: url(https://cdn.mooninvoice.com/image/images/sendReceiptModal.jpg)
+}
+
+.send_Receipt_Modal .modal-content .modal-body .close {
+    position: absolute;
+    right: 20px;
+    top: 20px;
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 1;
+    border-radius: 50%
+}
+
+.send_Receipt_Modal .send_receipt_cnt_sc {
+    text-align: left;
+    width: 60%;
+    padding-right: 60px
+}
+
+.send_Receipt_Modal .send_receipt_cnt_sc .cnt_ttl {
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 48px;
+    color: #000;
+    margin: 0 0 40px
+}
+
+.send_Receipt_Modal .send_receipt_cnt_sc ul {
+    margin: 0;
+    padding: 0 0 40px;
+    list-style-type: none
+}
+
+.send_Receipt_Modal .send_receipt_cnt_sc ul li {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000;
+    padding-left: 30px;
+    background-image: url(https://cdn.mooninvoice.com/image/images/sendReceiptModalTick.svg);
+    background-repeat: no-repeat
+}
+
+.send_Receipt_Modal .send_receipt_cnt_sc p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 20px;
+    color: #000;
+    margin-top: 0;
+    margin-bottom: 40px
+}
+
+.send_Receipt_Modal .send_receipt_cnt_sc .btn-sc {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px
+}
+
+.send_Receipt_Modal .send_receipt_cnt_sc .btn-sc .btn-box {
+    padding: 0 10px;
+    width: 45%
+}
+
+.send_Receipt_Modal .send_receipt_cnt_sc .btn-sc .btn-box .btn_new {
+    padding: 15px 24px;
+    box-shadow: 0 3px 12px rgba(74, 58, 255, .18);
+    border-radius: 5px;
+    display: inline-block;
+    border: 1px solid #007ffa;
+    font-size: 14px;
+    line-height: 20px;
+    font-weight: 600;
+    text-align: center;
+    width: 100%
+}
+
+.send_Receipt_Modal {
+    background-color: rgba(0, 0, 0, .68)
+}
+
+.invc_soft_mac_banner.fe_free_invoce.fe_free_invoce_new {
+    background-image: url(https://cdn.mooninvoice.com/image/images/invoice-software-mac-bg.png);
+    padding: 150px 0
+}
+
+.invc_soft_mac_banner.feature_banner.free_maker_banner .same_div_new {
+    padding-bottom: 0 !important;
+    padding-top: 0
+}
+
+.invc_soft_mac_banner .same_div_inner {
+    max-width: 540px;
+    height: auto
+}
+
+.invc_soft_mac_banner .same_div_inner h1 {
+    font-size: 44px;
+    line-height: 55px;
+    letter-spacing: .05em;
+    margin: 0
+}
+
+.invc_soft_mac_banner .same_div_inner .button_div {
+    padding-top: 40px;
+    width: unset;
+    max-width: 320px
+}
+
+.invc_soft_mac_banner .same_div_inner .button_div .home_try_free_btn {
+    background: #007ffa;
+    border-radius: 100px;
+    padding: 18px 30px
+}
+
+.invc_soft_mac_banner .same_div_img {
+    margin-top: -100px
+}
+
+.inv_gnrt_main .inv_gnrt_box {
+    padding: 40px;
+    background: #fff;
+    box-shadow: 0 0 20px rgba(0, 0, 0, .15);
+    border-radius: 10px;
+    text-align: center;
+    max-width: 740px;
+    margin: auto;
+    position: relative;
+    top: -60px
+}
+
+.inv_gnrt_main .inv_gnrt_box .inv_gnrt_ttl {
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    letter-spacing: .01em;
+    color: #000
+}
+
+.send_bills_main .title_description_new p {
+    line-height: 160%;
+    margin-bottom: 20px
+}
+
+.send_bills_main .title_description_new ul li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 160%;
+    color: rgba(30, 41, 59, .75);
+    position: relative;
+    list-style-type: none;
+    margin-bottom: 15px
+}
+
+.send_bills_main .title_description_new ul li:before {
+    content: "";
+    position: absolute;
+    left: -30px;
+    top: 3px;
+    width: 20px;
+    height: 20px;
+    background-size: cover
+}
+
+.clutter_ui_sc .clutter_ui_box {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 87px;
+    border-radius: 10px;
+    background-color: #eff5fc;
+    background-image: url(https://cdn.mooninvoice.com/image/images/clutter-free-abstract.png);
+    background-size: auto 100%;
+    background-repeat: no-repeat
+}
+
+.clutter_ui_sc .clutter_ui_box .clutter_ui_cnt_sc {
+    padding: 40px
+}
+
+.clutter_ui_sc .clutter_ui_box .clutter_ui_cnt_sc .title {
+    text-align: left;
+    border-bottom: 0;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 120%;
+    color: #007ffa
+}
+
+.clutter_ui_sc .clutter_ui_box .clutter_ui_cnt_sc p {
+    line-height: 141%;
+    color: rgba(30, 41, 59, .75)
+}
+
+.avl_on_sc .main-title {
+    margin-top: 0;
+    font-weight: 600;
+    font-size: 48px;
+    line-height: 120%;
+    text-align: center;
+    margin-bottom: 30px
+}
+
+.avl_on_sc .avl_logo_sc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px
+}
+
+.online_mac_bundle.free_invoice_template .title-sc p {
+    max-width: 880px;
+    margin: auto auto 30px
+}
+
+.online_mac_bundle.free_invoice_template .free-inv-ul {
+    max-width: 800px
+}
+
+.happy_user_main .main-title {
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-weight: 600
+}
+
+.happy_user_box {
+    padding: 25px;
+    background: #f8f8f8;
+    border-radius: 10px;
+    height: calc(100% - 30px);
+    margin-top: 30px
+}
+
+.happy_user_box .user_name {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 160%;
+    color: #1e293b;
+    display: block;
+    opacity: .5;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.happy_user_box .cmt_cnt,
+.happy_user_box .cmt_ttl {
+    font-size: 16px;
+    line-height: 160%;
+    display: block;
+    color: #1e293b
+}
+
+.happy_user_box .cmt_ttl {
+    font-weight: 500;
+    margin-bottom: 5px
+}
+
+.happy_user_box .cmt_cnt {
+    font-weight: 400;
+    opacity: .8
+}
+
+@media(max-width:1199.99px) {
+    .invc_soft_mac_banner.fe_free_invoce.fe_free_invoce_new {
+        padding: 50px 0 130px
+    }
+
+    .invc_soft_mac_banner .same_div_img {
+        margin: 0;
+        width: 100%
+    }
+
+    .invc_soft_mac_banner .same_div_inner h1 {
+        font-size: 34px;
+        line-height: 45px
+    }
+
+    .invc_soft_mac_banner .same_div_inner .button_div {
+        padding-top: 20px
+    }
+
+    .download_free_invoice.send_bills_main {
+        padding-top: 0
+    }
+}
+
+.bg-abstract.bg-abstract-1,
+.bg-abstract.bg-abstract-2,
+.bg-abstract.bg-abstract-3 {
+    width: 176px;
+    background-size: contain;
+    background-repeat: no-repeat
+}
+
+.receipt-infowrapper-bg {
+    background-color: #f7fbff;
+    margin-top: 100px;
+    padding-bottom: 50px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    position: relative
+}
+
+.bg-abstract.bg-abstract-1 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 308px
+}
+
+.bg-abstract.bg-abstract-2 {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    transform: translate(0, -50%);
+    height: 308px
+}
+
+.bg-abstract.bg-abstract-3 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 259px
+}
+
+.receipt-infowrapper-bg .main-title {
+    margin: 0;
+    font-weight: 600
+}
+
+.add-logo-input {
+    position: absolute;
+    z-index: -1;
+    opacity: 0;
+    width: 0
+}
+
+.add-logo-label {
+    width: 215px;
+    padding: 15px;
+    border-radius: 4px;
+    border: 2px dashed #c2c2c2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: auto;
+    background-size: calc(100% - 20px) auto;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 135px;
+    position: relative
+}
+
+.add-logo-label .close-add-logo {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    display: none
+}
+
+.add-logo-label img {
+    width: 30px
+}
+
+.add-logo-label.logo-preview img {
+    max-width: 100%;
+    width: auto;
+    max-height: 100%
+}
+
+.add-logo-label .add-logo-text {
+    font-size: 20px;
+    text-align: center;
+    display: block;
+    margin-top: 10px;
+    line-height: 100%;
+    color: #000
+}
+
+.after-border.no-border::after {
+    opacity: 0;
+    margin-bottom: 10px
+}
+
+.invoice-subtext.receipt-maker-subtext {
+    max-width: 670px
+}
+
+.newsletter-banner.feature_banner.feature_banner_new .same_div_inner h1 {
+    font-weight: 700;
+    font-size: 56px !important;
+    margin-bottom: 10px;
+    line-height: 1.1 !important
+}
+
+.newsletter-banner.feature_banner.feature_banner_new .same_div_inner p {
+    max-width: 485px;
+    margin-left: auto;
+    margin-right: auto
+}
+
+.tabs-blocklink.nav-tabs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 80px;
+    flex-wrap: wrap
+}
+
+.inner_newsletter_main.newsletter-mainpage .newsletter-banner {
+    padding: 145px 0
+}
+
+ul#myTab.tabs-blocklink.nav-tabs li {
+    margin: 0 5px;
+    float: none;
+    width: auto !important
+}
+
+ul#myTab.tabs-blocklink.nav-tabs li a {
+    background: 0 0 !important;
+    border-width: 3px !important;
+    transition: border .2s;
+    padding: 15px 25px !important;
+    font-weight: 400;
+    font-size: 20px;
+    color: #6b6b85;
+    font-family: "Noto Sans", sans-serif
+}
+
+ul#myTab.tabs-blocklink.nav-tabs li a.active {
+    border-color: #007ffa
+}
+
+.newsletter-wrap .flex_section_new {
+    padding: 0 0 150px
+}
+
+.newsletter-wrap .flex_section_new .section_left_img {
+    border-radius: 10px
+}
+
+.newsletter-badge {
+    padding: 5px 15px;
+    border: 1px solid #1e293b;
+    border-radius: 50px;
+    font-weight: 400;
+    font-size: 16px;
+    display: inline-block;
+    color: #1e293b;
+    font-family: "Noto Sans", sans-serif;
+    margin-bottom: 10px
+}
+
+.newsletter-wrap .title_description_new h2 {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.23;
+    color: #1e293b;
+    padding-bottom: 0
+}
+
+.newsletter-wrap .title_description_new p {
+    line-height: 1.56;
+    font-weight: 400;
+    margin-bottom: 24px;
+    color: #334155
+}
+
+.newsletter-wrap .newsletter-listing {
+    margin-bottom: 24px;
+    color: #334155;
+    font-weight: 500;
+    font-size: 16px;
+    font-family: Raleway, sans-serif;
+    list-style: none;
+    padding-left: 0
+}
+
+.newsletter-wrap .newsletter-listing li:not(:last-child) {
+    margin-bottom: 26px
+}
+
+.newsletter-wrap .newsletter-listing li::before {
+    content: "";
+    display: block;
+    flex-shrink: 0;
+    align-self: center;
+    width: 20px;
+    height: 20px;
+    margin-right: 12px;
+    background: url("https://cdn.mooninvoice.com/image/images/list-ic.svg") center/contain no-repeat
+}
+
+.newsletter-wrap .home_try_free_btn {
+    border-radius: 50px;
+    font-size: 18px;
+    letter-spacing: .01em;
+    width: auto;
+    padding: 14px 34px
+}
+
+.exp-wrapper {
+    background: #f7fbff;
+    padding: 100px 0
+}
+
+.exp-block {
+    max-width: 850px;
+    margin: 0 auto
+}
+
+.inner_newsletter_main.newsletter-mainpage {
+    margin-top: 87px
+}
+
+.mainpage-title {
+    font-size: 36px;
+    line-height: 1.19;
+    color: #1e293b;
+    letter-spacing: .005em;
+    font-weight: 700;
+    margin-top: 0
+}
+
+.date-wrap,
+.exp-block,
+.explore-cardtitle {
+    font-size: 16px;
+    line-height: 1.375
+}
+
+.exp-wrapper h2 {
+    font-family: "Titillium Web", sans-serif;
+    margin-bottom: 25px
+}
+
+.exp-block {
+    font-weight: 400;
+    color: #334155
+}
+
+.exp-block .blue_small_button {
+    font-size: 16px;
+    letter-spacing: .01em;
+    font-weight: 700;
+    border-radius: 50px;
+    padding: 16px 48px;
+    width: auto;
+    margin-top: 45px
+}
+
+.explore-wrapper h2 {
+    margin-bottom: 50px
+}
+
+.explore-cardimg img {
+    max-width: 100%;
+    width: auto;
+    height: auto
+}
+
+.banner-text h1,
+.invoice_payment_process_banner.feature_banner.feature_banner_new.est_soft_bnr .same_div_inner h1 {
+    max-width: 550px
+}
+
+.date-wrap {
+    color: rgba(30, 41, 59, .75);
+    display: inline-block
+}
+
+.explore-cardtitle {
+    font-weight: 500;
+    margin-bottom: 20px;
+    color: #1e293b;
+    letter-spacing: .005em;
+    margin-top: 10px
+}
+
+.explore-card .blue-outlinebtn {
+    background: 0;
+    border: 2px solid #007ffa;
+    border-radius: 50px;
+    letter-spacing: .01em;
+    padding: 8px 18px;
+    width: auto;
+    font-weight: 700;
+    margin-top: 0;
+    color: #007ffa
+}
+
+.explore-wrapper [class*=col-] {
+    margin-bottom: 35px
+}
+
+.explore-wrapper {
+    padding-bottom: 115px
+}
+
+@media(max-width:1199.98px) {
+    .newsletter-banner.feature_banner.feature_banner_new .same_div_inner h1 {
+        font-size: 50px !important
+    }
+
+    .feature_banner.feature_banner_new p.new,
+    ul#myTab.tabs-blocklink.nav-tabs li a {
+        font-size: 18px
+    }
+
+    .newsletter-wrap .title_description_new h2 {
+        font-size: 22px
+    }
+
+    .date-wrap,
+    .exp-block .blue_small_button,
+    .exp-block p,
+    .explore-card .blue-outlinebtn,
+    .explore-cardtitle,
+    .newsletter-badge,
+    .newsletter-wrap .newsletter-listing,
+    .title_description_new p {
+        font-size: 14px
+    }
+
+    .newsletter-wrap .home_try_free_btn {
+        font-size: 16px
+    }
+
+    .mainpage-title {
+        font-size: 32px
+    }
+
+    .newsletter-wrap {
+        padding-top: 60px
+    }
+
+    .explore-wrapper h2,
+    .tabs-blocklink.nav-tabs {
+        margin-bottom: 40px
+    }
+
+    .newsletter-wrap .flex_section_new {
+        padding-bottom: 100px
+    }
+
+    .explore-wrapper {
+        padding-bottom: 80px
+    }
+
+    .exp-wrapper {
+        padding: 60px 0
+    }
+}
+
+@media(max-width:640px) {
+    .inner_newsletter_main.newsletter-mainpage .newsletter-banner {
+        padding: 65px 0
+    }
+
+    .newsletter-banner.feature_banner.feature_banner_new .same_div_inner h1 {
+        font-size: 42px
+    }
+
+    ul#myTab.tabs-blocklink.nav-tabs li a {
+        padding: 12px 14px !important;
+        font-size: 16px
+    }
+
+    .newsletter-wrap {
+        padding-top: 50px
+    }
+
+    .tabs-blocklink.nav-tabs {
+        margin-bottom: 20px
+    }
+
+    .mainpage-title {
+        font-size: 30px
+    }
+
+    .explore-wrapper h2 {
+        margin-bottom: 30px
+    }
+
+    .inner_newsletter_main.newsletter-mainpage {
+        margin-top: 77px
+    }
+}
+
+@media(max-width:350px) {
+    .inner_newsletter_main.newsletter-mainpage {
+        margin-top: 70px
+    }
+}
+
+.invc_soft_mac_banner.invc_soft_win_banner .same_div_inner .button_div {
+    max-width: 380px
+}
+
+.inv-soft-win-cnt,
+.max-880 {
+    max-width: 880px
+}
+
+.newsletter-wrap .img-block.img-ios {
+    text-align: center;
+    background: #fcfcfc;
+    border: 2px solid #e5e7eb;
+    border-radius: 10px;
+    padding: 15px
+}
+
+.newsletter-wrap .img-block.img-ios img {
+    float: none;
+    max-height: 320px
+}
+
+.newsletter-wrap .tab-content .tab-pane>.row>[class*=col-]:nth-child(2n) .mobile_first .img-block.img-ios img {
+    margin-right: auto
+}
+
+.payment_pro_ques.jobs_ques {
+    background-image: url(https://cdn.mooninvoice.com/image/images/invoice-cycle.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto 100%
+}
+
+.payment_pro_ques.jobs_ques .main-title {
+    margin-bottom: 10px
+}
+
+.proforma_invoice_format_sc.jobs_ques p {
+    margin: 20px auto 30px;
+    color: #fff
+}
+
+.clutter_ui_sc.clutter_ui_iphone .clutter_ui_box {
+    padding: 25px 70px;
+    background-image: url(https://cdn.mooninvoice.com/image/images/clutter-ui-iphone-bnr.png);
+    background-size: 100% 100%
+}
+
+.clutter_ui_sc.clutter_ui_iphone .clutter_ui_box .clutter_img_sc {
+    max-width: 290px;
+    margin: auto
+}
+
+@media(max-width:991px) {
+    .case-study-banner .banner_text {
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center
+    }
+
+    .case-study-inner-page .left_align:before,
+    .challenges_main .left_align:before {
+        margin-left: 0
+    }
+
+    .case-study-inner-page.inner_page_main .section_left_img {
+        max-width: 500px
+    }
+
+    .challenges_main .challenges_main_col-12 .col-md-4:first-child,
+    .clutter_ui_sc.clutter_ui_iphone .clutter_ui_box .clutter_ui_cnt_sc {
+        order: 1
+    }
+
+    .challenges_main .challenges_main_col-12 .col-md-4:nth-child(2) {
+        order: 0;
+        margin-top: -120px;
+        margin-bottom: 40px
+    }
+
+    .challenges_main .challenges_main_col-12 .col-md-4:nth-child(3) {
+        order: 2
+    }
+
+    .challenges_main .left_content_div {
+        padding-bottom: 25px
+    }
+
+    .challenges_main .solution_col .left_content_div {
+        padding-bottom: 0
+    }
+
+    .challenges_main .img-col {
+        width: 100%
+    }
+
+    .challenges_main .img-col img {
+        max-width: 360px
+    }
+
+    .case-study-banner .banner_text h1 br,
+    .case-study-banner .banner_text h2 br {
+        display: none
+    }
+
+    .invc_soft_mac_banner.fe_free_invoce.fe_free_invoce_new .same_div_new {
+        flex-direction: column-reverse
+    }
+
+    .invc_soft_mac_banner .same_div_inner,
+    .invc_soft_mac_banner .same_div_inner h1 {
+        max-width: 100%;
+        text-align: center
+    }
+
+    .invc_soft_mac_banner .same_div_inner {
+        padding-top: 30px
+    }
+
+    .invc_soft_mac_banner .same_div_inner .button_div,
+    .send_bills_main .title_description_new {
+        margin: auto
+    }
+
+    .inv_gnrt_main .inv_gnrt_box .inv_gnrt_ttl {
+        font-size: 25px;
+        line-height: 30px
+    }
+
+    .clutter_ui_sc .clutter_ui_box {
+        position: relative;
+        padding: 0
+    }
+
+    .clutter_ui_sc .clutter_ui_box .clutter_img_sc {
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        z-index: 1;
+        width: auto;
+        height: calc(100% - 20px);
+        display: none
+    }
+
+    .clutter_ui_sc .clutter_ui_box .clutter_img_sc img {
+        height: 100%;
+        width: auto
+    }
+
+    .clutter_ui_box:before {
+        content: "";
+        position: absolute;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        background-color: #0000003b;
+        z-index: 2;
+        border-radius: 10px;
+        display: none
+    }
+
+    .clutter_ui_sc .clutter_ui_box .clutter_ui_cnt_sc {
+        width: 100%;
+        z-index: 3;
+        position: relative
+    }
+
+    .avl_on_sc .avl_logo_sc .logo_list {
+        width: calc(25% - 40px)
+    }
+
+    .beneficial_invoice .title_description_new h2,
+    .beneficial_invoice .title_description_new p {
+        text-align: center
+    }
+
+    .clutter_ui_sc.clutter_ui_iphone .clutter_ui_box .clutter_img_sc {
+        position: static;
+        order: 0
+    }
+}
+
+@media(max-width:767px) {
+    .free_trial.free_trail_case_study .trial_inner {
+        margin: 30px auto;
+        padding: 20px 15px
+    }
+
+    .inner_page_main.case-study-inner-page {
+        padding-bottom: 40px;
+        padding-top: 30px
+    }
+}
+
+.banner-text h1 {
+    margin-bottom: 6px
+}
+
+.banner-text p {
+    margin-bottom: 34px
+}
+
+@media screen and (max-width:991.98px) {
+    .banner-text p {
+        margin-bottom: 24px
+    }
+}
+
+@media(min-width:991.99px) {
+    .generate_tax_sc .generate_tax_box {
+        display: flex;
+        flex-wrap: wrap
+    }
+
+    .generate_tax_sc .generate_tax_box .title-sc {
+        text-align: left;
+        width: calc(100% - 400px)
+    }
+
+    .generate_tax_sc .generate_tax_box .btn-sc {
+        width: 400px;
+        text-align: right
+    }
+
+    .proforma_grd_sc .proforma_grd_box {
+        margin-bottom: 30px;
+        height: calc(100% - 30px)
+    }
+
+    .proforma_grd_sc .row>[class*=col-]:last-child .proforma_grd_box,
+    .proforma_grd_sc .row>[class*=col-]:nth-last-child(2) .proforma_grd_box,
+    .proforma_grd_sc .row>[class*=col-]:nth-last-child(3) .proforma_grd_box {
+        margin-bottom: 0;
+        height: 100%
+    }
+
+    .fe_free_proforma_invoce.feature_banner.feature_banner_new.finance_report_soft .same_div_inner h1 {
+        font-size: 38px;
+        max-width: 550px
+    }
+}
+
+.btn_sm_primary {
+    width: auto;
+    min-width: 215px;
+    margin-right: 15px !important;
+    padding: 18px 40px
+}
+
+.outline_button {
+    width: auto;
+    padding: 14px 40px;
+    font-weight: 700;
+    color: #fff;
+    background: rgba(255, 255, 255, .05);
+    border: 1px solid rgba(255, 255, 255, .5);
+    border-radius: 5px;
+    min-width: 215px;
+    max-width: 215px;
+    transition: .2s ease-in
+}
+
+.outline_button:hover {
+    color: #fff;
+    box-shadow: 0 14px 26px -12px rgb(255 255 255 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(255 255 255 / 42%);
+    transition: .2s ease-in
+}
+
+.new_invoice_banner .discount_txt.remove_padding {
+    padding-top: 0;
+    padding-bottom: 0
+}
+
+@media screen and (max-width:1580px) {
+    .home_dark_banner {
+        display: inline-flex;
+        align-items: center
+    }
+
+    .home_dark_banner.new_invoice_banner.invoice_bg_div .banner_content h1 {
+        padding-top: 0 !important
+    }
+}
+
+.active {
+    color: #00ba34 !important
+}
+
+@media screen and (max-width:767px) {
+    .banner_black.case_study .same_div_new {
+        min-height: 330px !important;
+        justify-content: center;
+        padding: 0
+    }
+
+    .mb-3 {
+        margin-bottom: 15px !important
+    }
+
+    .login_signup_main-new {
+        padding-right: 0 !important
+    }
+
+    .login_signup_main.login_signup_main-new .modal-dialog {
+        width: 95% !important
+    }
+
+    .inner_section>.block_section,
+    .outer_section>.block_section {
+        width: 50%;
+        margin-bottom: 15px
+    }
+
+    .iti-mobile .iti--container {
+        z-index: 9999999999 !important
+    }
+
+    .iti__country-list {
+        position: absolute !important;
+        z-index: 2 !important
+    }
+
+    .text_right {
+        text-align: center;
+        margin-top: 15px
+    }
+
+    .header_menu .un_style.text_right {
+        margin-top: 0 !important
+    }
+}
+
+@media screen and (min-width:768px) {
+    .text_right {
+        text-align: right
+    }
+}
+
+.font-34 {
+    font-size: 34px !important
+}
+
+@media(max-width:767.98px) {
+    .font-34 {
+        font-size: 24px !important
+    }
+}
+
+.sectionGapHalfPadding {
+    padding: 50px 0
+}
+
+.ctaBtnSc {
+    background: rgb(230 242 255 / 80%)
+}
+
+.ctaBtnSc .title {
+    font-size: 36px;
+    line-height: 120%;
+    margin: 0 0 24px;
+    font-weight: 500
+}
+
+.ctaBtnSc p {
+    font-size: 16px;
+    line-height: 20px
+}
+
+.ctaBtnSc .btn {
+    margin-top: 30px
+}
+
+.ctaBtnSc.ctaLinkListSc .title {
+    font-size: 48px;
+    font-weight: 500;
+    margin-bottom: 40px
+}
+
+.ctaBtnSc ul {
+    padding: 0;
+    margin: 0 auto;
+    max-width: 700px;
+    display: flex;
+    flex-wrap: wrap
+}
+
+.ctaBtnSc ul li {
+    width: 50%;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    margin-bottom: 20px;
+    list-style-type: none;
+    position: relative;
+    padding-left: 20px;
+    text-align: left
+}
+
+.ctaBtnSc .linkList li::before {
+    content: "\2022";
+    color: #007ffa;
+    font-size: 22px;
+    position: absolute;
+    left: 0
+}
+
+.ctaBtnSc .tickList li {
+    padding-left: 38px
+}
+
+.ctaBtnSc .tickList li::before {
+    content: "";
+    top: 7px;
+    background-image: url(https://cdn.mooninvoice.com/image/images/blue_check.svg);
+    width: 16px;
+    height: 13px;
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    background-size: cover;
+    font-size: 22px;
+    position: absolute;
+    left: 0
+}
+
+.ctaBtnSc .linkList li a {
+    color: var(--heading-color)
+}
+
+.ctaBtnSc .linkList li a:hover {
+    color: var(--primary-color)
+}
+
+.hasCtaSubTtl .title {
+    margin: 0 0 15px
+}
+
+.hasCtaSubTtl .subTtl {
+    margin-bottom: 30px
+}
+
+.hvacCtaBtnSc.ctaBtnSc .tickList {
+    max-width: 950px
+}
+
+.hvacCtaBtnSc.ctaBtnSc .tickList li {
+    font-size: 16px
+}
+
+.hvacCtaBtnSc.ctaBtnSc .tickList li:nth-child(odd) {
+    width: 42%
+}
+
+.hvacCtaBtnSc.ctaBtnSc .tickList li:nth-child(even) {
+    width: 58%
+}
+
+@media(max-width:1498.98px) {
+    .ctaBtnSc.ctaLinkListSc .title {
+        font-size: 38px;
+        line-height: 42px
+    }
+}
+
+@media(max-width:1199.98px) {
+    .ctaBtnSc .title {
+        font-size: 32px
+    }
+}
+
+@media(max-width:991.98px) {
+    .ctaBtnSc .title {
+        font-size: 28px
+    }
+
+    .hvacCtaBtnSc.ctaBtnSc .tickList li:nth-child(odd),
+    .hvacCtaBtnSc.ctaBtnSc .tickList li:nth-child(even) {
+        width: 50%
+    }
+}
+
+@media(max-width:767.98px) {
+    .ctaBtnSc ul li {
+        font-size: 16px
+    }
+
+    .ctaBtnSc.ctaLinkListSc .title {
+        font-size: 28px;
+        line-height: 32px;
+        margin-bottom: 30px
+    }
+}
+
+@media(max-width:575.98px) {
+    .ctaBtnSc .title {
+        margin: 0 0 15px
+    }
+
+    .ctaBtnSc .btn {
+        margin-top: 20px
+    }
+
+    .ctaBtnSc ul li,
+    .hvacCtaBtnSc.ctaBtnSc .tickList li:nth-child(odd),
+    .hvacCtaBtnSc.ctaBtnSc .tickList li:nth-child(even) {
+        width: 100%
+    }
+}
+
+.proforma_reference_main .inner_page_main.stripe_setion {
+    padding-top: 100px !important
+}
+
+@media(max-width:767px) {
+    .proforma_reference_main .inner_page_main.stripe_setion {
+        padding-top: 50px !important
+    }
+}

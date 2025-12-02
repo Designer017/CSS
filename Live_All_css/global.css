@@ -1,0 +1,177 @@
+.faqPanel {
+    border-top: 1px solid #c5c5c5
+}
+
+.faqPanel:last-child {
+    border-bottom: 1px solid #c5c5c5
+}
+
+.faqPanel .faqPanelTitle {
+    font-weight: 400;
+    font-size: 22px;
+    line-height: 33px;
+    font-family: var(--secondary-fonts);
+    margin: 0;
+    padding: 15px 35px 15px 15px;
+    cursor: pointer;
+    position: relative;
+    letter-spacing: 0
+}
+
+.faqPanel .faqPanelTitle:before {
+    content: '';
+    background-image: url(https://cdn.mooninvoice.com/image/images/faq-plus.svg);
+    background-size: 16px 12px;
+    width: 16px;
+    height: 12px;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translate(0, -50%)
+}
+
+.faqPanel.open .faqPanelTitle:before {
+    background-image: url(https://cdn.mooninvoice.com/image/images/faq-minus.svg)
+}
+
+.faqPanel .panelBody {
+    display: none;
+    padding: 0 15px 15px
+}
+
+.faqPanel .panelBody p,
+.faqPanel .panelBody li {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 150%;
+    color: #707070
+}
+
+.faqPanel .panelBody .numeric li {
+    list-style-type: auto
+}
+
+.faqPanel .panelBody p a,
+.faqPanel .panelBody li a {
+    color: var(--primary-color);
+    text-decoration: underline
+}
+
+.faqPanel .panelBody ul,
+.faqPanel .panelBody ol {
+    padding-left: 34px;
+    margin-top: 10px;
+    margin-bottom: 10px
+}
+
+.faqPanel .panelBody ul {
+    list-style: disc
+}
+
+.faqPanel .panelBody li+li {
+    margin-top: 4px
+}
+
+@media(min-width:991.99px) {
+    .faqMain .titleSc {
+        margin-bottom: 70px
+    }
+}
+
+@media(max-width:991.98px) {
+    .faqPanel .faqPanelTitle {
+        font-size: 20px;
+        line-height: 28px
+    }
+
+    .faqPanel .panelBody p,
+    .faqPanel .panelBody li {
+        font-size: 16px
+    }
+}
+
+@media(max-width:767.98px) {
+    .faqPanel .faqPanelTitle {
+        font-size: 16px;
+        line-height: 20px;
+        padding: 15px 15px 15px 8px
+    }
+
+    .faqPanel .faqPanelTitle:before {
+        right: 0
+    }
+
+    .faqMain .titleSc .mainTitle {
+        font-size: 28px;
+        line-height: 34px
+    }
+
+    .faqPanel .panelBody ul {
+        padding-left: 14px
+    }
+}
+
+@media(max-width:575.98px) {
+    .faqPanel .panelBody {
+        padding: 0 8px 15px
+    }
+
+    .faqPanel .panelBody p,
+    .faqPanel .panelBody li {
+        font-size: 14px
+    }
+
+    .faqMain .titleSc .mainTitle {
+        font-size: 22px;
+        line-height: 28px
+    }
+}
+
+.btn {
+    border-radius: 5px;
+    padding: 15px 40px;
+    text-transform: uppercase;
+    letter-spacing: .02em;
+    font-weight: 700;
+    display: inline-block;
+    text-align: center;
+    cursor: pointer !important;
+    border: 0;
+    transition: .2s ease-in;
+    font-size: 16px;
+    outline: 0 !important;
+    font-family: var(--secondary-fonts)
+}
+
+.btn-md {
+    padding: 23px 40px;
+    font-size: 18px;
+    line-height: 23px
+}
+
+.btn-primary {
+    background-color: var(--primary-color) !important;
+    color: #fff;
+    letter-spacing: .01em
+}
+
+.btn.rounded {
+    border-radius: 100px
+}
+
+.btn-primary-outline {
+    background-color: transparent;
+    border: 1px solid var(--primary-color);
+    color: var(--primary-color)
+}
+
+.btn-secondary {
+    background-color: var(--heading-color);
+    color: #fff
+}
+
+.btn-primary:hover,
+.btn-primary-outline:hover,
+.btn-secondary:hover {
+    box-shadow: 0 14px 26px -12px rgba(0, 122, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 122, 255, 0.42)
+}

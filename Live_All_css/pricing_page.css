@@ -1,0 +1,276 @@
+.pricing_plan_div #monthly_plan .owl-carousel .owl-nav.disabled,
+.pricing_plan_div #yearly_plan .owl-carousel .owl-nav.disabled {
+    display: none
+}
+
+.modal-body {
+    font-size: 16px;
+    margin-top: 0 !important
+}
+
+.no_padding {
+    padding: 0 !important
+}
+
+#header_main .container {
+    width: 85% !important
+}
+
+.main_offer_div {
+    display: none
+}
+
+#header_main {
+    top: 0
+}
+
+.pricing_page_main {
+    padding-top: 0
+}
+
+.dropdown {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 42px
+}
+
+.user-dropdown-new select {
+    display: none
+}
+
+.dropdown.disable {
+    align-items: flex-end
+}
+
+.dropdown.disable label {
+    padding: 5px 0;
+    padding-bottom: 5px;
+    color: #fff;
+    font-size: 17px;
+    font-weight: 400;
+    margin-bottom: 0
+}
+
+.user-dropdown {
+    border-bottom: 1px solid #000;
+    box-shadow: 0 1px 0 rgba(0, 0, 0, .0075);
+    box-sizing: border-box;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-size: 14px;
+    font-weight: 400;
+    height: 42px;
+    line-height: 40px;
+    outline: 0;
+    padding-left: 10px;
+    padding-right: 25px;
+    position: relative;
+    text-align: left !important;
+    transition: all .2s ease-in-out;
+    user-select: none;
+    white-space: nowrap;
+    width: auto;
+    background-color: transparent;
+    border: none
+}
+
+.user-dropdown:focus {
+    background-color: transparent;
+    box-shadow: none
+}
+
+.user-dropdown:hover {
+    background-color: transparent
+}
+
+.user-dropdown.open,
+.user-dropdown:active {
+    background-color: transparent !important;
+    border-color: transparent;
+    box-shadow: none
+}
+
+.user-dropdown:after {
+    height: 0;
+    width: 0;
+    border-left: 6px solid transparent;
+    border-right: 6px solid transparent;
+    border-top: 6px solid #fff;
+    transform: origin(50% 20%);
+    transition: all 125ms ease-in-out;
+    content: '';
+    display: block;
+    margin: 0 !important;
+    margin-top: 3px !important;
+    pointer-events: none;
+    position: absolute;
+    right: 5px;
+    top: 50%
+}
+
+.user-dropdown span.current {
+    border-bottom: 1px solid #fff;
+    padding: 5px 0;
+    padding-bottom: 0;
+    color: #fff;
+    font-size: 17px
+}
+
+.user-dropdown.open:after {
+    transform: rotate(-180deg)
+}
+
+div.list ul {
+    list-style: none;
+    padding-left: 0;
+    padding-right: 0
+}
+
+.user-dropdown.open .list {
+    transform: scale(1);
+    opacity: 1;
+    pointer-events: auto
+}
+
+.user-dropdown.open .option {
+    cursor: pointer
+}
+
+.user-dropdown.wide {
+    width: 100%
+}
+
+.user-dropdown.wide .list {
+    left: 0 !important;
+    right: 0 !important
+}
+
+.user-dropdown .list {
+    box-sizing: border-box;
+    transition: all .15s cubic-bezier(.25, 0, .25, 1.75), opacity .1s linear;
+    transform: scale(.75);
+    transform-origin: 50% 0;
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, .09);
+    background-color: #fff;
+    border-radius: 6px;
+    margin-top: 4px;
+    padding: 3px 0;
+    opacity: 0;
+    overflow: hidden;
+    pointer-events: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    z-index: 999
+}
+
+.user-dropdown .list:hover .option:not(:hover) {
+    background-color: transparent !important
+}
+
+.dropdown .option {
+    cursor: default;
+    font-weight: 400;
+    line-height: 40px;
+    outline: 0;
+    padding-left: 18px;
+    padding-right: 29px;
+    text-align: left;
+    transition: all .2s
+}
+
+.user-dropdown .option:focus,
+.user-dropdown .option:hover {
+    background-color: #f6f6f6 !important
+}
+
+.user-dropdown .option.selected {
+    font-weight: 600;
+    background-color: transparent !important
+}
+
+.user-dropdown .option.selected:focus {
+    background: 0 0
+}
+
+@-moz-document url-prefix() {
+    .user-dropdown:after {
+        margin: 0 3px
+    }
+}
+
+.plan_tab_content {
+    width: 70%;
+    margin: 0 auto
+}
+
+@media screen and (min-width:1800px) {
+    #header_main .container {
+        width: 75% !important
+    }
+}
+
+@media screen and (max-width:1366px) {
+    #header_main .container {
+        width: 95% !important
+    }
+}
+
+@media screen and (max-width:1200px) {
+    #header_main .container {
+        width: 100%
+    }
+
+    .logo_txt_div h2 {
+        font-size: 24px
+    }
+}
+
+@media screen and (max-width:991px) {
+    .plan_tab_content {
+        width: 100%;
+        margin: 0 auto
+    }
+
+    .sidepanel .sidepanel_btn {
+        display: inline-block;
+        margin: 0
+    }
+
+    #header_main .container {
+        width: 100% !important
+    }
+}
+
+@media screen and (max-width:767px) {
+    .most_value_txt {
+        display: block
+    }
+
+    #monthly_plan .most_value_txt,
+    #three_yearly_plan .most_value_txt,
+    #two_yearly_plan .most_value_txt {
+        display: block
+    }
+}
+
+.plan_white_details i.fa {
+    background-image: url(https://www.mooninvoice.com/public/assets_website/images/check_icon.svg);
+    background-size: 13px 10px;
+    width: 13px;
+    height: 10px;
+    position: relative;
+    top: 1px;
+    background-repeat: no-repeat;
+    margin-right: 10px
+}
+
+.plan_white_details i.fa:before {
+    content: none
+}
+
+.plan_white_details ul li span {
+    width: calc(100% - 23px)
+}

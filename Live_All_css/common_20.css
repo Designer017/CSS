@@ -1,0 +1,2711 @@
+:root {
+    --primary-color: #007aff;
+    --content-color: #666666;
+    --heading-color: #212a33;
+    --primary-fonts: "Circular Std", sans-serif;
+    --secondary-fonts: "Source Sans Pro", sans-serif;
+    --helvetica-fonts: "HelveticaNowDisplay", sans-serif;
+    --graphik-fonts: "Graphik";
+    --headerHeight: 89px;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-BoldItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-BoldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-Black.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-BlackItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-Bold.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-Bold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-Book.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-Book.woff") format("woff");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-MediumItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-Medium.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Circular Std";
+    src: url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-BookItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/CircularStd/CircularStd-BookItalic.woff") format("woff");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Light.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-ExtralightItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-ExtralightItalic.woff") format("woff");
+    font-weight: 200;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Black.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-LightItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-LightItalic.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-BlackItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-BlackItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Extralight.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Extralight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-BoldItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-BoldItalic.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Bold.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Medium.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Thin.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-MediumItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-MediumItalic.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-SemiboldItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-SemiboldItalic.woff") format("woff");
+    font-weight: 600;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-RegularItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-RegularItalic.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Regular.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Super.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Super.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Semibold.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-Semibold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-SuperItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-SuperItalic.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Graphik";
+    src: url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-ThinItalic.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/01-graphik/01-graphik-ThinItalic.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-BlackIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-BlackIta.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Bold.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Black.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Black.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-BoldIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-BoldIta.woff") format("woff");
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBdIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBdIta.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay ExtraBlack";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBlk.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBlk.woff") format("woff");
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtLt.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtLt.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay ExtraBlack";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBlkIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBlkIta.woff") format("woff");
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtLtIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtLtIta.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtraBold.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtraBold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay Hairline";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Hairline.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Hairline.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-LightIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-LightIta.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay Hairline";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-HairlineI.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-HairlineI.woff") format("woff");
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Light.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-RegIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-RegIta.woff") format("woff");
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Medium.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-MedIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-MedIta.woff") format("woff");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Regular.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ThinIta.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ThinIta.woff") format("woff");
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "HelveticaNowDisplay";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Thin.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Thin.woff") format("woff");
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Bold.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Bold.woff") format("woff");
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Light.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Light.woff") format("woff");
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-ExtraLight.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-ExtraLight.woff") format("woff");
+    font-weight: 200;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Regular.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Regular.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Regular.woff") format("woff");
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-SemiBold.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-SemiBold.woff") format("woff");
+    font-weight: 600;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: "Oswald";
+    src: url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Medium.woff2") format("woff2"), url("https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/Oswald/Oswald-Medium.woff") format("woff");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap");
+
+.font-oswald {
+    font-family: "Oswald", sans-serif !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+.slick-arrow {
+    cursor: pointer;
+}
+
+.BtnHover:hover {
+    box-shadow: 0 14px 26px -12px rgb(255 255 255 / 42%), 0 4px 23px 0 rgb(255 255 255 / 12%), 0 8px 10px -5px rgb(255 255 255 / 42%);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.fs-16 {
+    font-size: 16px;
+}
+
+.vertical_center {
+    vertical-align: middle;
+}
+
+.lite_plan_div {
+    height: 100% !important;
+}
+
+.pricing_latest .plan_details.item {
+    min-width: 310px;
+}
+
+.pricing_revamp {
+    background-image: url(https://cdn.mooninvoice.com/image/images/home_images/plan-bg-img.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.pricing_revamp .banner_sc h1 {
+    font-weight: 700 !important;
+    font-size: 46px !important;
+    line-height: 60px;
+    color: #151515 !important;
+    margin: 0;
+    font-family: var(--helvetica-fonts) !important;
+}
+
+.pricing_revamp .banner_sc {
+    min-height: 105px !important;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.pricing_revamp .banner_sc .pricing_revamp_banner_div {
+    padding: 0px 0 !important;
+    max-width: 100% !important;
+    position: relative;
+    float: none;
+    margin: auto;
+    padding-bottom: 20px !important;
+    margin-top: 50px;
+}
+
+.pricing_revamp .pricing-module {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    margin: 0 auto;
+    gap: 60px;
+}
+
+.pricing_revamp .pricing-module span {
+    color: #151515;
+    font-size: 16px;
+}
+
+.pricing_revamp .pricing-module .pricing-module-align-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.new-invoicepos-switch {
+    border-color: #fff6;
+    padding: 4px;
+    border-radius: 60px;
+    border: 2px solid #007aff66;
+    display: flex;
+    max-width: max-content;
+    margin: 50px auto 0 !important;
+    z-index: 9;
+    background: #fff;
+}
+
+.new-invoicepos-switch .toggle-button {
+    padding: 8px 22px;
+    font-size: 16px;
+    color: #151515;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    white-space: nowrap;
+    border-radius: 25px;
+    border: none;
+    background: transparent;
+    font-weight: 500;
+}
+
+.new-invoicepos-switch .toggle-button.active {
+    background: #007aff;
+    color: #fff !important;
+}
+
+.new_pricing_page_body {
+    margin-top: 30px !important;
+}
+
+.new_plan_switch .new_switch {
+    display: inline-block;
+    width: 40px !important;
+    height: 24px !important;
+    position: relative;
+    margin: 0;
+}
+
+.new_plan_switch input:checked+.new_slider:before {
+    transform: translateX(-8px) translateY(2px) !important;
+}
+
+.new_plan_switch .new_slider:before {
+    position: absolute;
+    content: "";
+    width: 20px !important;
+    height: 20px !important;
+    background: #ffffff !important;
+    border-radius: 30px;
+    transform: translateX(-22px) translateY(2px) !important;
+    transition: 0.2s;
+}
+
+.new_plan_switch .new_slider {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-radius: 30px;
+    cursor: pointer;
+    border: none !important;
+    overflow: hidden;
+    transition: 0.2s;
+}
+
+span.discountlabel_revamp {
+    font-size: 14px !important;
+    min-width: 66px !important;
+    border-radius: 6px !important;
+    padding: 2px 6px !important;
+}
+
+.discountlabel span,
+span.discountlabel {
+    font-size: 10px;
+    color: #fff;
+    background: #ff5c00;
+    border-radius: 20px;
+    min-height: 22px;
+    min-width: 60px;
+    text-align: center;
+    line-height: 22px;
+    font-weight: 500;
+}
+
+.discountlabel_revamp {
+    margin-left: 4px !important;
+}
+
+.label {
+    display: inline;
+    padding: 0.2em 0.6em 0.3em;
+    font-size: 75%;
+    line-height: 1;
+    color: #fff;
+    vertical-align: baseline;
+    border-radius: 0.25em;
+}
+
+.new_plan_switch .dropdown_label {
+    margin-left: 8px !important;
+}
+
+.new_price_dropdown_sc .dropdown_col.dropdown_col_us:after,
+.new_price_dropdown_sc .dropdown_col.dropdown_col_bs:after {
+    border-bottom: none !important;
+}
+
+.new_price_dropdown_sc .dropdown_col.dropdown_col_us:before {
+    display: none !important;
+}
+
+.new_price_dropdown_sc .dropdown_col .form-control {
+    font-family: var(--secondary-fonts), serif;
+    height: 38px !important;
+    font-size: 14px;
+    padding: 5px 5px;
+    padding-right: 15px;
+    color: #000000;
+    font-weight: 500;
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url(https://cdn.mooninvoice.com/image/images/select-dropdown.svg);
+    background-size: 10px;
+    background-repeat: no-repeat;
+    background-position: calc(100% - 5px) center;
+    border-radius: 4px !important;
+    border: 1px solid #c2c2c2 !important;
+    box-shadow: none;
+}
+
+.new_price_dropdown_sc .dropdown_col.dropdown_col_bs {
+    width: 122px !important;
+}
+
+.new_price_dropdown_sc .dropdown_col.dropdown_col_us {
+    width: 122px !important;
+    padding-left: 0px !important;
+}
+
+.plantype_yearly_silverplan .price_dropdown_sc .dropdown_col.dropdown_col_us {
+    margin-right: 0px !important;
+}
+
+.new_price_dropdown_sc {
+    gap: 8px !important;
+}
+
+.new_price_dropdown_sc .dropdown_col.single_us_col:before {
+    display: none !important;
+}
+
+.new_price_dropdown_sc .dropdown_col .drop_text_box span {
+    margin-left: 0px !important;
+}
+
+.new_price_dropdown_sc .dropdown_col.single_bs_col .drop_text_box {
+    justify-content: flex-start !important;
+    line-height: 1.9 !important;
+}
+
+.new_price_dropdown_sc .dropdown_col .drop_text_box {
+    line-height: 1.9 !important;
+}
+
+.new_price_dropdown_sc .border-box {
+    border-radius: 4px !important;
+    border: 1px solid #c2c2c2 !important;
+    height: 38px !important;
+    padding: 5px !important;
+}
+
+.new_price_dropdown_sc .border-box:hover {
+    border: 1px solid #007aff !important;
+}
+
+.new_price_dropdown_sc:before {
+    background-color: none !important;
+}
+
+.new_pricing_main_revamp .lite_plan_div {
+    border-radius: 8px !important;
+    border-color: #53535333 !important;
+}
+
+.new_pricing_main_revamp .plan_box_blue h4 {
+    font-weight: 700;
+    font-size: 24px;
+    color: #000000;
+    text-transform: capitalize;
+    line-height: 38px;
+}
+
+.new_pricing_main_revamp .small_per_month {
+    font-size: 16px;
+    font-weight: 400;
+    color: #15151580;
+}
+
+.price_dropdown_sc .dropdown_col .drop_text_box span {
+    font-size: 14px;
+    color: #000000;
+    margin-left: 10px;
+}
+
+.premium_iv_yearly_plan_details .price_dropdown_sc .dropdown_col .drop_text_box span {
+    color: #ffffff;
+}
+
+.new_pricing_main .plan_box_blue {
+    text-align: left;
+    border-radius: 22px;
+    padding: 15px 20px 20px;
+    float: none;
+    display: inline-block;
+    background: transparent !important;
+    position: relative;
+}
+
+.premium_iv_yearly_plan_details .lite_plan_div {
+    background-color: #0f0a44 !important;
+}
+
+.premium_iv_yearly_plan_details .text-white {
+    color: #ffffff;
+}
+
+.new_pricing_main_revamp .plan_box_blue h4 {
+    margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.premium_iv_yearly_plan_details .plan_box_blue::before {
+    content: "";
+    background: #ffffff !important;
+    opacity: 30%;
+}
+
+.new_pricing_main_revamp .plan_box_blue::before {
+    content: "";
+    position: absolute;
+    width: 87%;
+    background: #535353;
+    opacity: 30%;
+    height: 1px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.new_pricing_main_revamp .plan_price_per_month .big_price {
+    font-size: 32px;
+    font-weight: 700;
+    color: #000;
+}
+
+.invoice-status {
+    background-color: #007aff;
+    font-size: 14px;
+    border-radius: 4px;
+    padding: 11px 3px;
+    color: #ffffff !important;
+    font-weight: 600;
+    height: 19px;
+    margin-inline-start: 4px;
+}
+
+.premium_iv_yearly_plan_details .yearly_word_break {
+    color: #ffffff !important;
+}
+
+.premium_iv_yearly_plan_details .big_price {
+    color: #ffffff !important;
+}
+
+.premium_iv_yearly_plan_details .small_per_month {
+    color: #ffffff !important;
+}
+
+.price_dropdown_sc .dropdown_col .form-control:hover {
+    border: 1px solid #007aff !important;
+    cursor: pointer;
+}
+
+.new_pricing_main_revamp .plan_box_blue h5 {
+    font-weight: 400;
+    font-size: 16px;
+    color: #000000;
+    margin-bottom: 10px;
+    margin-top: 0px;
+}
+
+.premium_iv_yearly_plan_details p.plan_include_title {
+    color: #ffffff !important;
+}
+
+.premium_iv_yearly_plan_details .new_pricing_main_revamp .plan_white_details ul li span {
+    color: #ffffff !important;
+}
+
+.new_pricing_main_revamp .new_buy_plan .buy_plan_btn {
+    background-color: #007aff;
+    border-color: #007aff;
+    border-radius: 5px;
+    padding: 10px 0;
+    text-transform: none;
+    font-weight: 700;
+    width: 100%;
+    font-family: var(--primary-fonts);
+}
+
+.premium_iv_yearly_plan_details .buy_plan_btn {
+    background-color: #ffffff !important;
+    color: #007aff !important;
+    border-color: #ffffff !important;
+}
+
+.premium_iv_yearly_plan_details .buy_plan_btn:hover {
+    border-color: #0069cc !important;
+}
+
+.new_pricing_main_revamp .new_buy_plan .buy_plan_btn:hover {
+    background: #0069cc !important;
+    color: #ffffff !important;
+    border-color: #0069cc !important;
+}
+
+.premium_iv_yearly_plan_details .plan_white_details ul li span {
+    color: #ffffff !important;
+}
+
+.plan_detail {
+    text-align: center;
+    margin-top: 8px;
+}
+
+.plan_detail a {
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: #007aff;
+}
+
+.custom_plan_details a {
+    color: #151515;
+    opacity: 50%;
+    text-decoration: underline;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+body:not(:has(.stripe-active)) .custom_plan_details a {
+    color: #fff !important;
+}
+
+.buy_plan .buy_plan_btn {
+    background-color: transparent;
+    color: #fff;
+    border: 1.2px solid rgba(255, 255, 255, 0.75);
+    border-radius: 3px;
+    font-size: 14px;
+    font-weight: 600;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+}
+
+.buy_plan .buy_plan_btn:hover {
+    background-color: #fff;
+    color: #007aff;
+    transition: 0.2s ease-in;
+    -webkit-transition: 0.2s ease-in;
+}
+
+.premium_iv_yearly_plan_details .custom_plan_details a {
+    color: #ffffff;
+    opacity: 1;
+}
+
+.plan_details {
+    position: relative;
+}
+
+.price_dropdown_sc .dropdown_col {
+    width: 122px !important;
+    position: relative;
+    flex-grow: 1;
+}
+
+.new_badge {
+    background-color: #ea552b;
+    color: #ffffff;
+    display: inline-block;
+    padding: 5px 6px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    font-size: 14px;
+    position: absolute;
+    z-index: 5;
+    top: -13px;
+    right: 30px;
+}
+
+.new_badge::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: -10px;
+    width: 0;
+    height: 0;
+    border-bottom: 13px solid #c2441d;
+    border-left: 10px solid transparent;
+}
+
+.features-btn {
+    width: 100%;
+    padding: 14px 0px;
+    border: 1px solid #007aff;
+    border-radius: 5px;
+    color: #007aff;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #ffffff;
+    height: 54px;
+}
+
+.down-arrow {
+    vertical-align: middle;
+}
+
+.new_plancomaprision_section {
+    padding-top: 80px !important;
+}
+
+.invoice-table thead {
+    background-color: #0f0a44;
+}
+
+.invoice-table th h5 {
+    color: #ffffff !important;
+    font-weight: 700;
+    font-size: 22px;
+    margin-top: 0px;
+    margin-bottom: 0px !important;
+}
+
+th h5.plan-titles {
+    margin-bottom: 8px !important;
+}
+
+.plan-head {
+    margin-bottom: 8px;
+}
+
+.invoice-table th h4 {
+    color: #ffffff !important;
+    margin: 0 !important;
+}
+
+.invoice-table th span {
+    color: #ffffff !important;
+    margin-bottom: 0px !important;
+}
+
+.invoice-table th {
+    border-right: 1px solid #f4f4f499 !important;
+}
+
+.table_badge {
+    background: #007aff;
+    border-radius: 4px;
+    color: #ffffff;
+    font-size: 12px !important;
+    font-weight: 600 !important;
+    padding: 2px 4px;
+}
+
+.data-table td,
+.data-table th {
+    min-width: 224px !important;
+}
+
+.table_main td {
+    font-size: 18px;
+}
+
+.data-table td {
+    border-right: 1px solid #53535333;
+    padding: 19px 20px !important;
+}
+
+.table_main thead.fixed-heading {
+    position: sticky;
+    top: 93px !important;
+    z-index: 9;
+}
+
+@media screen and (max-width: 1450px) {
+    .table_main thead.fixed-heading {
+        top: 84px !important;
+    }
+}
+
+body:not(:has(.stripe-active)) .table_main thead.fixed-heading {
+    top: 88px !important;
+}
+
+@media screen and (max-width: 1450px) {
+    body:not(:has(.stripe-active)) .table_main thead.fixed-heading {
+        top: 78px !important;
+    }
+}
+
+.table_main th {
+    padding-bottom: 19px;
+    padding-top: 23px;
+}
+
+.table-flex {
+    display: flex;
+    gap: 4px;
+    align-items: center;
+    justify-content: center;
+}
+
+.data-table .plan_header a {
+    justify-content: space-between !important;
+    color: #ffffff !important;
+    padding: 19px 20px !important;
+}
+
+tr.plan_header a.active {
+    color: #ffffff !important;
+}
+
+.data-table th:first-child {
+    padding: 0 20px !important;
+}
+
+.table_main table tr td table tr:nth-child(even) {
+    background: #f4f4f4;
+}
+
+.table_main thead.fixed-heading th:first-child {
+    border-top-left-radius: 8px !important;
+    border-bottom-left-radius: 8px !important;
+}
+
+.table_main .fixed-heading th:last-child {
+    border-top-right-radius: 8px !important;
+    border-bottom-right-radius: 8px !important;
+}
+
+.toggal_plan_comparison.active img {
+    transform: rotate(180deg);
+}
+
+.toggle-active .rounded-border {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    background-color: #0f0a44;
+}
+
+.rounded-border {
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+    background-color: #0f0a44;
+}
+
+.invoice-table .table-border {
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+.tooltip-icon {
+    vertical-align: middle;
+}
+
+.tooltip-wrapper {
+    position: relative;
+    display: inline-block;
+    top: -1px;
+}
+
+.custom-tooltip {
+    display: none;
+    position: absolute;
+    right: -137px;
+    top: -68px;
+    background-color: #e5f1fe;
+    color: #000;
+    padding: 10px;
+    width: 100%;
+    min-width: 300px;
+    box-shadow: 0px 3px 8px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    z-index: 10;
+    border-bottom: 2px solid #007aff;
+    min-height: 65px;
+    height: 65px;
+}
+
+.custom-tooltip p {
+    font-size: 15px;
+    color: #1b1b1b;
+    margin-bottom: 0;
+}
+
+.tooltip-wrapper:hover .custom-tooltip {
+    display: block;
+}
+
+.tooltip-arrow {
+    position: absolute;
+    margin-left: -6px;
+    width: 15px;
+    height: 15px;
+    background: #e5f1fe;
+}
+
+.tooltip-arrow-left {
+    top: 33%;
+    left: -3px;
+    border-left: 2px solid #007aff;
+    border-bottom: 2px solid #007aff;
+    transform: rotate(45deg);
+    display: none;
+}
+
+.tooltip-arrow-down {
+    top: 91%;
+    left: 50%;
+    border-left: 2px solid #007aff;
+    border-bottom: 2px solid #007aff;
+    transform: rotate(315deg);
+}
+
+.tag {
+    display: inline-block;
+    background-color: #0e0c44;
+    color: white;
+    padding: 7px 7px 6px;
+    font-weight: bold;
+    font-family: sans-serif;
+    font-size: 12px;
+    position: absolute;
+    right: -15px;
+    top: 47px;
+    box-shadow: 2px 4px 6px rgba(0, 0, 0, 0.2);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.planRow .tag {
+    top: 27px;
+}
+
+.tag::before {
+    content: "";
+    position: absolute;
+    left: -11px;
+    top: 45%;
+    transform: translateY(-45%);
+    width: 0;
+    height: 0;
+    border-top: 13px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 12px solid #0e0c44;
+    border-radius: 3px 0 0 3px;
+}
+
+.premium_iv_yearly_plan_details .tag {
+    background-color: #ffffff;
+    color: #0e0c44;
+}
+
+.premium_iv_yearly_plan_details .tag::before {
+    border-top: 13px solid transparent;
+    border-bottom: 15px solid transparent;
+    border-right: 12px solid #ffffff;
+}
+
+.premium_iv_yearly_plan_details .tag::after {
+    background: #0e0c44;
+}
+
+.tag::after {
+    content: "";
+    position: absolute;
+    left: -5px;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 5px;
+    height: 5px;
+    background: white;
+    border-radius: 50%;
+}
+
+.lite_plan_div_tag {
+    position: relative;
+    overflow: visible !important;
+    display: flex;
+    flex-direction: column;
+}
+
+.plan_white_details {
+    flex: 1 1 auto;
+    display: flex;
+    flex-direction: column;
+    max-height: 385px;
+    overflow: auto;
+    scrollbar-width: thin;
+    scrollbar-color: #888 transparent;
+}
+
+.plan_white_details::-webkit-scrollbar {
+    width: 3px;
+}
+
+.plan_white_details::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.plan_white_details::-webkit-scrollbar-thumb {
+    background-color: #888;
+    border-radius: 10px;
+}
+
+.plan_white_details::-webkit-scrollbar-thumb:hover {
+    background-color: #555;
+}
+
+.lite_plan_div_tag .plan_white_details ul {
+    flex: 1 1 auto;
+}
+
+.fa {
+    display: inline-block;
+    font: 14px/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.plan_white_details ul li:last-child,
+.pricing_page_main {
+    padding-bottom: 0;
+}
+
+.plan_white_details ul li i {
+    margin-right: 15px;
+}
+
+.plan_white_details ul li {
+    padding-bottom: 15px;
+    font-size: 14px;
+    line-height: 16px;
+    font-weight: 500;
+    display: flex;
+    color: #333333;
+}
+
+.plan_white_details p {
+    margin-bottom: 8px;
+}
+
+.table_main .plan_header a span.arrow_icon:after {
+    background: url(https://cdn.mooninvoice.com/image/images/home_images/up-arrow.png) no-repeat 0 0 !important;
+    width: 18px;
+    height: 10px;
+    top: 3px;
+    position: absolute;
+    right: 0px;
+    content: "";
+    background-size: 18px;
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+.table_main .plan_header a {
+    font-size: 22px;
+}
+
+.table_main .plan_header a {
+    font-weight: 600;
+    font-size: 26px;
+    color: #000000;
+    text-transform: capitalize;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+
+.new_pricing_main_revamp .new_buy_plan .try-free-btn {
+    background-color: #ffffff;
+    color: #007aff;
+    margin-top: 10px;
+}
+
+.premium_iv_yearly_plan_details .try-free-btn {
+    background: #0f0a44 !important;
+    color: #ffffff !important;
+}
+
+.premium_iv_yearly_plan_details .try-free-btn:hover {
+    background-color: #0f0a44 !important;
+    color: #ffffff !important;
+}
+
+.table_buy_btn {
+    border-radius: 5px;
+    width: 100%;
+    background: #ffffff;
+    color: #007aff;
+    font-weight: 700;
+}
+
+.table_buy_btn:hover,
+.table_buy_btn:focus {
+    color: #ffffff;
+    background-color: #0069cc;
+}
+
+.box-buy-btn {
+    padding: 10px 0px 0px;
+}
+
+.table_main table.main_table {
+    height: 100%;
+}
+
+.mainheaderbox.py-13 {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+}
+
+.quad-column-table .plan_name {
+    text-align: center;
+    flex-grow: 1;
+}
+
+.table_main th span {
+    font-size: 24px;
+}
+
+.table_main th span {
+    font-weight: 700;
+    font-size: 24px;
+    font-family: var(--primary-fonts);
+    color: #000000;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+.table_main th {
+    border-right: 1px solid rgba(0, 0, 0, 0.2);
+    padding: 13px;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+@media (max-width: 1298.98px) {
+    .custom-tooltip {
+        left: 37px;
+        top: -13px;
+        min-width: 224px;
+        border-bottom: none;
+        border-left: 2px solid #007aff;
+    }
+
+    .tooltip-arrow-left {
+        display: block;
+    }
+
+    .tooltip-arrow-down {
+        display: none;
+    }
+}
+
+@media (min-width: 992px) {
+    .data-table.quad-column-table :is(th:first-child, td:first-child) {
+        min-width: 324px !important;
+        width: 324px !important;
+        vertical-align: middle;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .pricing_revamp .banner_sc h1 {
+        font-size: 38px !important;
+    }
+
+    .pricing_revamp .banner_sc .pricing_revamp_banner_div {
+        margin-top: 50px;
+    }
+
+    .planSection {
+        overflow-x: scroll;
+    }
+}
+
+@media (max-width: 1024px) {
+    .plan_tab_content .zero_padding {
+        overflow-x: auto;
+    }
+
+    .new_badge {
+        top: 27px;
+    }
+
+    .new_pricing_page_body .boxes-pb-mob {
+        padding-top: 40px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .pricing_revamp .banner_sc h1 {
+        font-size: 28px !important;
+    }
+
+    .pricing_revamp .banner_sc .pricing_revamp_banner_div {
+        margin-top: 10px;
+        padding-bottom: 10px !important;
+    }
+
+    .new-invoicepos-switch {
+        margin: 30px auto 0 !important;
+    }
+
+    .new_plancomaprision_section {
+        padding-top: 30px !important;
+    }
+
+    .plan_subheader {
+        padding: 0px !important;
+    }
+
+    .new_pricing_page_body .boxes-pb-mob {
+        padding-top: 40px;
+    }
+
+    .new_badge {
+        top: 27px;
+    }
+
+    .posPlansMain .new_badge {
+        top: -13px;
+    }
+
+    .planRow {
+        padding-top: 40px;
+    }
+
+    .check-arrow {
+        width: 16px;
+    }
+
+    .pricing_revamp .pricing-module {
+        gap: 10px;
+    }
+
+    .newfaqMain::after,
+    .newfaqMain::before {
+        width: 360px !important;
+        height: 370px !important;
+        background-size: 55% !important;
+    }
+
+    .newfaqMain::before {
+        top: 30px !important;
+    }
+
+    .newfaqMain::after {
+        bottom: 0px !important;
+    }
+
+    .faqPanel .faqPanelTitle {
+        font-size: 20px !important;
+        line-height: 32px !important;
+    }
+
+    .faqPanel .faqPanelTitle:before,
+    .faqPanel .faqPanelTitle:after {
+        width: 35px !important;
+        height: 35px !important;
+        background-size: 100% !important;
+        right: 0 !important;
+    }
+
+    .newfaqMain .titleSc .mainTitle {
+        font-size: 36px !important;
+    }
+
+    .newfaqMain {
+        padding: 40px 0 !important;
+        margin-bottom: 37px;
+    }
+
+    .newfaqMain .faqPanel .faqPanelHeading svg {
+        min-width: 35px;
+        min-height: 35px;
+        max-width: 35px;
+        max-height: 35px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .pricing_revamp .banner_sc h1 {
+        line-height: 48px !important;
+    }
+
+    .pricing_revamp .pricing-module span {
+        font-size: 14px;
+    }
+
+    .pricing-module-align-div .check-arrow {
+        width: 18px;
+        height: 18px;
+    }
+
+    .new_plan_switch {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .new_pricing_page_body {
+        margin-top: 25px !important;
+    }
+
+    .new_pricing_page_body .boxes-pb-mob {
+        padding-top: 30px;
+    }
+
+    .new_badge {
+        top: 17px;
+    }
+
+    .planRow {
+        padding-top: 30px;
+    }
+
+    .pricing_revamp .pricing-module {
+        gap: 18px 24px;
+        flex-wrap: wrap;
+    }
+
+    .page_newfaqMain::after,
+    .page_newfaqMain::before {
+        display: none;
+    }
+
+    .plaincomppart .table_main.table_four_col_main table {
+        table-layout: auto;
+    }
+
+    .newfaqMain::after,
+    .newfaqMain::before {
+        width: 220px !important;
+        height: 305px !important;
+        background-size: 80% !important;
+    }
+
+    .newfaqMain::before {
+        top: 124px !important;
+    }
+
+    .newfaqMain .titleSc .mainTitle {
+        font-size: 28px !important;
+        line-height: 38px !important;
+    }
+
+    .newfaqMain .faqPanel {
+        padding: 16px 22px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .pricing_revamp .pricing-module {
+        gap: 15px 17px;
+    }
+
+    .posPlansMain .new_pricing_main {
+        margin-top: 0px !important;
+    }
+
+    .faqPanel .faqPanelTitle {
+        font-size: 18px !important;
+        line-height: 30px !important;
+    }
+
+    .newfaqMain .titleSc .mainTitle {
+        font-size: 22px !important;
+        line-height: 28px !important;
+    }
+
+    .newfaqMain .faqPanel {
+        padding: 16px !important;
+    }
+}
+
+.titleSc {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titleSc .mainTitle {
+    margin-top: 0px;
+    margin-bottom: 30px;
+    position: relative;
+}
+
+.titleSc h2 {
+    font-size: 46px;
+    font-weight: 700;
+    color: #151515;
+    margin-bottom: 20px;
+}
+
+.titleSc p {
+    color: #535353;
+    font-size: 16px;
+}
+
+.newfaqMain {
+    background: #f5f5f5;
+    position: relative;
+}
+
+.newfaqMain .container {
+    z-index: 2;
+    position: inherit;
+}
+
+.newfaqMain .faqPanel {
+    border: 1px solid #fff;
+    border-radius: 16px;
+    padding: 16px 32px;
+    background: #fff;
+    margin-bottom: 12px;
+}
+
+.newfaqMain .faqPanel:hover {
+    border: 1px solid #007aff;
+}
+
+.newfaqMain .faqPanelHeading {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 16px;
+    background: #fff;
+    cursor: pointer;
+}
+
+.newfaqMain .faqPanel .panelBody p,
+.newfaqMain .faqPanel .panelBody li {
+    padding-right: 68px;
+}
+
+.faqPanel .panelBody ul {
+    padding-left: 34px;
+    list-style: disc;
+    margin-top: 10px;
+}
+
+.faqPanel .panelBody li+li {
+    margin-top: 10px;
+}
+
+.titleSc p a {
+    color: var(--primary-color);
+}
+
+.text-underline {
+    text-decoration: underline !important;
+    text-underline-offset: 4px;
+}
+
+.text-darkblack {
+    color: #535353 !important;
+}
+
+.newfaqMain .faqPanel .faqPanelTitle {
+    padding: 0px;
+    font-weight: 700 !important;
+    color: #151515;
+    margin: 0;
+    width: 100%;
+    padding-right: 40px;
+    font-size: 22px;
+    line-height: 46px;
+    position: relative;
+}
+
+.faqPanel .faqPanelTitle:before,
+.faqPanel .faqPanelTitle:after {
+    content: "";
+    width: 48px;
+    height: 48px;
+    background-repeat: no-repeat !important;
+    position: absolute;
+    right: 15px;
+    top: 50%;
+    transform: translate(0px, -50%);
+}
+
+.faqPanelTitle::before,
+.newfaqMain .titleSc .mainTitle:before {
+    right: 0px;
+    background: url(https://cdn.mooninvoice.com/image/images/newhome/faq_up_arrow.svg) !important;
+}
+
+.faqPanel.open .faqPanelTitle::before {
+    background: url(https://cdn.mooninvoice.com/image/images/newhome/faq_down_arrow.svg) !important;
+    background-size: 100% !important;
+}
+
+.newfaqMain .titleSc .mainTitle {
+    margin-bottom: 12px;
+    font-size: 46px;
+    line-height: 68px;
+    font-weight: 600;
+    color: #151515;
+}
+
+.newfaqMain .titleSc {
+    margin-bottom: 40px;
+}
+
+.newfaqPanel .panelBody .numeric li {
+    list-style-type: auto;
+}
+
+.newfaqMain {
+    padding: 80px 0;
+}
+
+.newfaqMain .faqPanel .faqPanelHeading svg {
+    cursor: pointer;
+}
+
+.newfaqMain .faqPanel.open .faqPanelHeading svg {
+    transform: rotate(180deg);
+}
+
+.newfaqMain .faqPanel .panelBody {
+    padding: 0px;
+}
+
+.newfaqMain .faqPanel .panelBody p,
+.newfaqMain .faqPanel .panelBody li {
+    font-weight: 500;
+    font-size: 16px;
+    color: #535353;
+    margin-bottom: 0;
+}
+
+.newfaqMain::after,
+.newfaqMain::before {
+    content: "";
+    position: absolute;
+    bottom: 10px;
+    left: 0;
+    width: 360px;
+    height: 650px;
+    background: url("https://cdn.mooninvoice.com/image/images_new/faq-animation.svg") no-repeat;
+    z-index: 0;
+    opacity: 1 !important;
+    background-size: 80%;
+}
+
+.newfaqMain::before {
+    top: 10px;
+    left: auto;
+    right: 0;
+    transform: rotate(180deg);
+    top: -152px;
+}
+
+.newfaqMain::after {
+    bottom: -142px;
+}
+
+@media (max-width: 1440.98px) {
+    .titleSc h2 {
+        font-size: 34px;
+        line-height: 44px;
+    }
+}
+
+@media (max-width: 1366.98px) {
+    .titleSc h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 1366.98px) {
+    .titleSc h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (max-width: 1366.98px) {
+    .titleSc h2 {
+        font-size: 30px;
+        line-height: 40px;
+    }
+}
+
+@media (min-width: 991.98px) {
+    .titleSc h2 {
+        margin-bottom: 70px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .titleSc h2 {
+        font-size: 28px;
+        line-height: 34px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .titleSc h2 {
+        font-size: 22px;
+        line-height: 28px;
+    }
+}
+
+.header-height {
+    margin-top: 90.25px;
+}
+
+@media screen and (max-width: 1450.98px) {
+    .header-height {
+        margin-top: 78px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .header-height {
+        margin-top: 74px;
+    }
+}
+
+@media screen and (max-width: 1069.98px) {
+    .header-height {
+        margin-top: 71px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .header-height {
+        margin-top: 67px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .header-height {
+        margin-top: 63.2969px;
+    }
+}
+
+@media screen and (max-width: 576.98px) {
+    .header-height {
+        margin-top: 60px;
+    }
+}
+
+.common_blue_small_button:hover {
+    box-shadow: 0 14px 26px -12px rgba(0, 122, 255, 0.42), 0 4px 23px 0 rgba(0, 0, 0, 0.12), 0 8px 10px -5px rgba(0, 122, 255, 0.42);
+    transition: 0.2s ease-in;
+}
+
+.common_blue_small_button {
+    background: #007ffa;
+    align-items: center;
+    width: 160px;
+    border-radius: 5px;
+    font-size: 16px;
+    padding: 10px 0;
+    margin-top: 25px;
+    transition: 0.5s;
+    display: inline-block;
+    color: #fff;
+    border: 2px solid transparent;
+}
+
+.business_banner_div .common_blue_small_button {
+    width: 200px;
+}
+
+.cust_demo_setion .common_blue_small_button {
+    width: 205px;
+}
+
+.black-friday-theme-wrap {
+    background: #121212 !important;
+}
+
+.black-friday-theme-wrap .banner_sc h1 {
+    color: #ffffff !important;
+}
+
+.black-friday-theme-wrap .pricing-module span {
+    color: #ffffff !important;
+}
+
+.black-friday-theme-wrap .plan_switch .label span a {
+    color: #ffffff !important;
+}
+
+.black-friday-theme-wrap .discountlabel span,
+.black-friday-theme-wrap span.discountlabel {
+    background: linear-gradient(to bottom, #fe382d, #9a0000) !important;
+    text-transform: uppercase;
+}
+
+.black-friday .new-invoicepos-switch .toggle-button.active {
+    background: linear-gradient(to bottom, #fe382d, #9a0000) !important;
+}
+
+.black-friday .red-stroke {
+    stroke: #fe382d;
+}
+
+.black-friday-theme-wrap .new-invoicepos-switch {
+    border: 2px solid #9a0000;
+}
+
+.black-friday .plan_box_blue,
+.black-friday .lite_plan_div {
+    background: rgb(0, 0, 0, 0.8) !important;
+}
+
+.black-friday .plan_box_blue h4 {
+    color: #ffffff;
+}
+
+.black-friday .yearly_word_break {
+    color: #ffffff;
+}
+
+.black-friday .small_per_month,
+.black-friday .big_price {
+    color: #ffffff !important;
+}
+
+.black-friday-theme-wrap .new_pricing_main_revamp .new_buy_plan .buy_plan_btn {
+    background-color: linear-gradient(to bottom, #fe382d, #9a0000);
+}
+
+.black-friday .price_dropdown_sc .dropdown_col .drop_text_box span {
+    color: #ffffff !important;
+}
+
+.black-friday .border-box {
+    border: 1px solid #1e1e1e !important;
+}
+
+.black-friday .new_buy_plan .buy_plan_btn {
+    background: linear-gradient(to bottom, #fe382d, #9a0000);
+    border-color: #9a0000 !important;
+    color: #ffffff !important;
+}
+
+.black-friday .new_buy_plan .buy_plan_btn:hover {
+    background: linear-gradient(to bottom, #fe382d, #9a0000) !important;
+    box-shadow: 0 14px 26px -12px rgb(255 255 255 / 42%), 0 4px 23px 0 rgb(255 255 255 / 12%), 0 8px 10px -5px rgb(255 255 255 / 42%) !important;
+    border-color: #9a0000 !important;
+}
+
+.black-friday .plan_white_details ul li span {
+    color: #ffffff !important;
+}
+
+.black-friday p.plan_include_title {
+    color: #ffffff !important;
+}
+
+.black-friday p.plan_include_title span {
+    color: #fe382d;
+}
+
+.black-friday .features-btn {
+    background: #000000;
+    color: #ffffff;
+    border: 1px solid #1e1e1e;
+}
+
+.black-friday .white-down-arrow {
+    fill: #ffffff;
+}
+
+.black-friday .invoice-table thead {
+    background: #000000;
+}
+
+.black-friday .table_buy_btn {
+    background: linear-gradient(to bottom, #fe382d, #9a0000);
+    color: #ffffff;
+}
+
+.black-friday .premium_iv_yearly_plan_details .try-free-btn {
+    background: linear-gradient(to bottom, #fe382d, #9a0000) !important;
+    color: #ffffff !important;
+}
+
+.black-friday .rounded-border,
+.black-friday .table_main .plan_header {
+    background-color: #3a2b00;
+}
+
+.black-friday table tr td table tr:nth-child(odd) {
+    background: #0d0d0d;
+}
+
+.black-friday table tr td table tr:nth-child(even) {
+    background: #1e1e1e;
+}
+
+.black-friday .table_main td {
+    color: #ffffff;
+}
+
+.black-friday .invoice-table th {
+    border-right: 1px solid #1e1e1e !important;
+}
+
+.black-friday .red-tick-mark {
+    fill: #ffffff;
+}
+
+.black-friday .white-tick-mark {
+    fill: #ffffff;
+}
+
+.black-friday .ai-powered-invoicing h2,
+.black-friday .feedback-header h2 {
+    color: #ffffff;
+}
+
+.black-friday .blue-text {
+    color: #fe382d;
+}
+
+.black-friday .boxes,
+.black-friday .pricing_slider {
+    background: #000000;
+}
+
+.black-friday .free_trial_btn {
+    color: #ffffff !important;
+    background: linear-gradient(to bottom, #fe382d, #9a0000);
+}
+
+.black-friday .tag {
+    background: linear-gradient(to bottom, #fecb00, #ffa800);
+    color: #000000;
+}
+
+.black-friday .tag::before {
+    border-right: 12px solid #e9c00c;
+}
+
+.black-friday .tag::after {
+    background: #000000;
+}
+
+.black-friday .table_main .plan_header a {
+    color: #ffb200 !important;
+}
+
+.black-friday .custom-tooltip {
+    border-bottom: 2px solid #9a0000;
+    background: #000000;
+}
+
+.black-friday .custom-tooltip p {
+    color: #ffffff;
+}
+
+.black-friday .tooltip-arrow {
+    background: #000000;
+}
+
+.black-friday .tooltip-arrow-down {
+    border-left: 2px solid #9a0000;
+    border-bottom: 2px solid #9a0000;
+}
+
+.black-friday .faqMain {
+    background: #121212;
+}
+
+.black-friday .titleSc h2 {
+    color: #ffffff;
+}
+
+.black-friday .titleSc p {
+    color: rgba(255, 255, 255, 0.5);
+}
+
+.black-friday .newfaqMain .faqPanel,
+.black-friday .newfaqMain .faqPanelHeading {
+    background: #0d0d0d;
+}
+
+.black-friday .newfaqMain .faqPanel {
+    border: 1px solid #1e1e1e;
+}
+
+.black-friday .newfaqMain .faqPanel .faqPanelTitle {
+    color: #ffffff;
+}
+
+.black-friday .newfaqMain .faqPanel .panelBody p,
+.black-friday .newfaqMain .faqPanel .panelBody li {
+    color: #ffffff;
+}
+
+.black-friday .circle-fill {
+    fill: #1e1e1e;
+}
+
+.black-friday .arrow-fill {
+    fill: rgba(255, 255, 255, 0.5);
+}
+
+.black-friday .newfaqMain::after,
+.black-friday .newfaqMain::before {
+    background: url("https://cdn.mooninvoice.com/image/images/home_images/faq-animation-black-friday-2.webp");
+    background-repeat: no-repeat !important;
+}
+
+.black-friday .slide-block {
+    background: #1e1e1e;
+    border: 1px solid #1e1e1e;
+}
+
+.black-friday .feedbacks,
+.black-friday .profile-block p {
+    color: #ffffff;
+}
+
+.black-friday .section-feedback {
+    background: #121212;
+}
+
+.black-friday .invoice-status,
+.black-friday .table_badge {
+    background: linear-gradient(to bottom, #fe382d, #9a0000);
+}
+
+.black-friday .new_badge {
+    background: linear-gradient(to bottom, #fe382d, #9a0000);
+}
+
+.black-friday .new_badge::before {
+    border-bottom: 13px solid #9a0000;
+}
+
+.black-friday .new_price_dropdown_sc .border-box:hover,
+.black-friday .price_dropdown_sc .dropdown_col .form-control:hover {
+    border: 1px solid #9a0000 !important;
+}
+
+.black-friday .d-none {
+    display: none;
+}
+
+.black-friday .plan_white_details i.fa {
+    background: url("https://cdn.mooninvoice.com/image/images/home_images/red-check-mark.svg") !important;
+    background-repeat: no-repeat !important;
+    width: 18px;
+    height: 15px;
+}
+
+.black-friday .main_body {
+    border: 1px solid #1e1e1e;
+}
+
+.billingwrapper,
+.feature_banner,
+.invoicebannerwrap,
+.newsletter-wrap {
+    padding-top: 100px;
+}
+
+.black-friday .form-control {
+    background: #000000 !important;
+    color: #fff !important;
+}
+
+.black-friday .form-control {
+    background-image: url("https://cdn.mooninvoice.com/image/images/home_images/light-dropdown.svg") !important;
+    background-position: calc(100% - 5px) center !important;
+    background-repeat: no-repeat !important;
+    border: 1px solid #1e1e1e !important;
+}
+
+.black-friday .premium-active .lite_plan_div {
+    border-color: #fe382d !important;
+}
+
+.scroll_top_link {
+    cursor: pointer;
+    margin-bottom: 0 !important;
+}
+
+.black-friday-banner-img {
+    background-image: url("https://cdn.mooninvoice.com/image/images/home_images/black-friday-banner1.webp");
+    width: 100%;
+    min-height: 300px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+}
+
+@media (max-width: 1199.98px) {
+    .black-friday .plan_tab_content .zero_padding {
+        overflow-x: auto !important;
+    }
+
+    .black-friday .new_pricing_page_body .boxes-pb-mob {
+        padding-top: 40px;
+    }
+
+    .black-friday .new_badge {
+        top: 28px;
+    }
+
+    .black-friday .plan_subheader {
+        padding: 0 !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    body:has(.stripe-active) .black-friday {
+        margin-top: 150px !important;
+    }
+
+    .pricing_page_main,
+    .feature_banner,
+    .privacy_banner,
+    .banner-blockwrap,
+    .service_banner,
+    .payment_banner_section {
+        margin-top: 101px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .black-friday {
+        margin-top: 53px !important;
+    }
+
+    .black-friday .plan_switch .label {
+        margin-right: 0px;
+    }
+
+    .black-friday .label {
+        padding: 0.2em 0.1em 0.3em;
+    }
+
+    .black-friday span.discountlabel_revamp {
+        padding: 2px 4px !important;
+    }
+}
+
+@media (min-width: 1450.99px) {
+    .home-page-wrapper {
+        margin-top: 158px !important;
+    }
+
+    .pricing_page_main,
+    .feature_banner,
+    .privacy_banner,
+    .banner-blockwrap,
+    .service_banner,
+    .payment_banner_section {
+        margin-top: 125px !important;
+    }
+
+    body:not(:has(.stripe-active)) .home-page-wrapper,
+    body:not(:has(.stripe-active)) .pricing_page_main,
+    body:not(:has(.stripe-active)) .feature_banner,
+    body:not(:has(.stripe-active)) .privacy_banner,
+    body:not(:has(.stripe-active)) .banner-blockwrap,
+    body:not(:has(.stripe-active)) .service_banner,
+    body:not(:has(.stripe-active)) .payment_banner_section {
+        margin-top: 88px !important;
+    }
+}
+
+@media (max-width: 1450.98px) and (min-width: 991.99px) {
+    .home-page-wrapper {
+        margin-top: 154px !important;
+    }
+
+    body:not(:has(.stripe-active)) .home-page-wrapper {
+        margin-top: 78px !important;
+    }
+
+    .pricing_page_main,
+    .feature_banner,
+    .privacy_banner,
+    .banner-blockwrap,
+    .service_banner,
+    .payment_banner_section {
+        margin-top: 115px !important;
+    }
+
+    body:not(:has(.stripe-active)) .pricing_page_main,
+    body:not(:has(.stripe-active)) .feature_banner,
+    body:not(:has(.stripe-active)) .privacy_banner,
+    body:not(:has(.stripe-active)) .banner-blockwrap,
+    body:not(:has(.stripe-active)) .service_banner,
+    body:not(:has(.stripe-active)) .payment_banner_section {
+        margin-top: 75px !important;
+    }
+
+    body:not(:has(.stripe-active)) .pricing_page_main.black-friday {
+        margin-top: 73px !important;
+    }
+}
+
+@media screen and (max-width: 1300.98px) {
+    .black-friday-banner-img {
+        min-height: 250px;
+    }
+}
+
+@media (max-width: 991.98px) and (min-width: 767.99px) {
+    .home-page-wrapper {
+        margin-top: 125px !important;
+    }
+
+    .pricing_page_main,
+    .feature_banner,
+    .privacy_banner,
+    .banner-blockwrap,
+    .service_banner,
+    .payment_banner_section {
+        margin-top: 130px !important;
+    }
+
+    body:not(:has(.stripe-active)) .home-page-wrapper {
+        margin-top: 58px !important;
+    }
+
+    body:not(:has(.stripe-active)) .pricing_page_main,
+    body:not(:has(.stripe-active)) .feature_banner,
+    body:not(:has(.stripe-active)) .privacy_banner,
+    body:not(:has(.stripe-active)) .banner-blockwrap,
+    body:not(:has(.stripe-active)) .service_banner,
+    body:not(:has(.stripe-active)) .payment_banner_section {
+        margin-top: 68px !important;
+    }
+
+    body:not(:has(.stripe-active)) .pricing_page_main.black-friday {
+        margin-top: 64px !important;
+    }
+}
+
+@media screen and (max-width: 1024.98px) {
+    .black-friday-banner-img {
+        min-height: 180px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .black-friday-banner-img {
+        min-height: 120px;
+    }
+
+    .home-page-wrapper,
+    .pricing_page_main,
+    .feature_banner,
+    .privacy_banner,
+    .banner-blockwrap,
+    .service_banner,
+    .payment_banner_section {
+        margin-top: 124px !important;
+    }
+
+    body:not(:has(.stripe-active)) .home-page-wrapper {
+        margin-top: 58px !important;
+    }
+
+    body:not(:has(.stripe-active)) .pricing_page_main,
+    body:not(:has(.stripe-active)) .feature_banner,
+    body:not(:has(.stripe-active)) .privacy_banner,
+    body:not(:has(.stripe-active)) .banner-blockwrap,
+    body:not(:has(.stripe-active)) .service_banner,
+    body:not(:has(.stripe-active)) .payment_banner_section {
+        margin-top: 62px !important;
+    }
+
+    body:not(:has(.stripe-active)) .pricing_page_main.black-friday {
+        margin-top: 60px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .black-friday-banner-img {
+        min-height: 100px;
+    }
+
+    .home-page-wrapper {
+        margin-top: 50px !important;
+    }
+
+    .pricing_page_main,
+    .feature_banner,
+    .privacy_banner,
+    .banner-blockwrap,
+    .service_banner,
+    .payment_banner_section {
+        margin-top: 55px !important;
+    }
+
+    body:not(:has(.stripe-active)) .home-page-wrapper {
+        margin-top: 50px !important;
+    }
+
+    body:not(:has(.stripe-active)) .pricing_page_main,
+    body:not(:has(.stripe-active)) .feature_banner,
+    body:not(:has(.stripe-active)) .privacy_banner,
+    body:not(:has(.stripe-active)) .banner-blockwrap,
+    body:not(:has(.stripe-active)) .service_banner,
+    body:not(:has(.stripe-active)) .payment_banner_section {
+        margin-top: 55px !important;
+    }
+
+    body:not(:has(.stripe-active)) .pricing_page_main.black-friday {
+        margin-top: 52px !important;
+    }
+
+    .bf-bannerimg {
+        height: 140px;
+    }
+
+    body:has(.stripe-active) .footer-2025 {
+        padding-bottom: 130px;
+    }
+}
+
+@media (max-width: 340.98px) {
+    .black-friday-banner-img {
+        min-height: 100px;
+    }
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+    width: 100% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px !important;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-sm,
+    .container-md {
+        max-width: 720px !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 960px !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 975px !important;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 1050px !important;
+    }
+}
+
+@media screen and (min-width: 991.98px) and (max-width: 1350px) {
+
+    .guidnewtitleSc-before-after-div::after,
+    .guidnewtitleSc-before-after-div::before,
+    .butterflies-div::before,
+    .butterflies-div::after {
+        opacity: 0.5;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1320px !important;
+    }
+}
+
+.arrow-none {
+    display: none !important;
+}
+
+.ctabanner {
+    position: relative;
+}
+
+.guidnewtitleSc-before-after-div {
+    position: relative;
+}
+
+.newtitleSc::before,
+.newtitleSc::after {
+    display: none;
+}
+
+.newtitleSc-before-after-div::before,
+.newtitleSc-before-after-div::after {
+    display: none !important;
+}
+
+.guidnewtitleSc-before-after-div::before {
+    content: "";
+    background-image: url(https://cdn.mooninvoice.com/image/images/newhome/grid_box.png);
+    width: 148px;
+    height: 148px;
+    display: block;
+    position: absolute;
+    left: 110px;
+    top: 25px;
+    background-repeat: no-repeat;
+}
+
+.guidnewtitleSc-before-after-div::after {
+    content: "";
+    background-image: url(https://cdn.mooninvoice.com/image/images/newhome/grid_box.png);
+    width: 148px;
+    height: 148px;
+    display: block;
+    position: absolute;
+    right: 135px;
+    top: 25px;
+    background-repeat: no-repeat;
+}
+
+.butterflies-div::after {
+    content: "" !important;
+    background-image: url(https://cdn.mooninvoice.com/image/images/newhome/quared-shap.png);
+    width: 132px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+}
+
+.butterflies-div::before {
+    content: "";
+    background-image: url(https://cdn.mooninvoice.com/image/images/newhome/quared-shap.png);
+    width: 155px;
+    height: 132px;
+    display: block;
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    background-repeat: no-repeat;
+}
+
+@media (max-width: 991.98px) {
+    .ctabanner {
+        padding: 170px 0;
+        background-image: none;
+    }
+
+    .guidnewtitleSc-before-after-div::before {
+        left: 50px;
+        top: 10px;
+        background-size: 70%;
+    }
+
+    .guidnewtitleSc-before-after-div::after {
+        position: absolute;
+        right: 40px;
+        top: auto;
+        bottom: 0;
+        background-size: 70%;
+    }
+
+    .butterflies-div::after {
+        bottom: auto;
+        left: -26px;
+        background-size: 70%;
+        top: 90px;
+    }
+
+    .butterflies-div::before {
+        width: 132px;
+        bottom: 0;
+        right: -15px;
+        background-size: 70%;
+        background-position: bottom;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .ctabanner {
+        padding: 115px 0 130px;
+    }
+
+    .guidnewtitleSc-before-after-div::before {
+        background-size: 60%;
+    }
+
+    .guidnewtitleSc-before-after-div::after {
+        right: 20px;
+        bottom: -10px;
+        background-size: 60%;
+    }
+
+    .butterflies-div::after {
+        background-size: 60%;
+        top: 65px;
+    }
+
+    .butterflies-div::before {
+        background-size: 60%;
+    }
+}

@@ -1,0 +1,119 @@
+*,
+:after,
+:before {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box
+}
+
+.search_main {
+    background: #f5f5f5;
+    padding: 25px 0;
+}
+
+.search_main .search-form {
+    position: relative;
+}
+
+.search_main .search-form .form-control {
+    width: 100%;
+    background: #fff;
+    border: 1px solid #d1d1d1;
+    -moz-border-radius: 100px;
+    -webkit-border-radius: 100px;
+    border-radius: 100px;
+    font-size: 16px;
+    padding: 20px 25px;
+    height: 60px;
+}
+
+.search_main .search-form .btn {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translate(0px, -50%);
+    padding: 8px 18px;
+    border-radius: 100px;
+    display: flex;
+    align-items: center;
+    background-color: var(--primary-color);
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    color: #ffffff;
+    line-height: 20px;
+    transition: 0.3s;
+}
+
+.search_main .search-form .btn:hover {
+    box-shadow: 0 14px 26px -12px rgb(0 122 255 / 42%), 0 4px 23px 0 rgb(0 0 0 / 12%), 0 8px 10px -5px rgb(0 122 255 / 42%);
+}
+
+.search_main .search-form .btn svg {
+    margin-right: 5px;
+}
+
+.help_listing_main {
+    padding: 50px 0px;
+}
+
+.help_list_section {
+    min-height: 100%;
+    border-bottom: 1px solid #E6E6E6;
+    padding: 25px 0;
+}
+
+.help_list_section .help_list_title {
+    margin-top: 0px;
+    color: #4d4d4d;
+    display: flex;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 34px;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+.help_list_section .help_list_title .icon {
+    width: 30px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--primary-color);
+    margin-right: 15px;
+    border-radius: 5px;
+}
+
+.help_list_section ul.help_listing {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    padding-left: 40px;
+}
+
+.help_list_section ul.help_listing li {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+.help_list_section ul.help_listing li a {
+    display: flex;
+    align-items: center;
+    font-size: 16px;
+    color: var(--content-color);
+}
+
+.help_list_section ul.help_listing li a:hover {
+    color: var(--primary-color);
+}
+
+.help_list_section ul.help_listing li a img {
+    width: 30px;
+    margin-right: 10px;
+}
+
+.row {
+    display: flex;
+    flex-wrap: wrap;
+}
