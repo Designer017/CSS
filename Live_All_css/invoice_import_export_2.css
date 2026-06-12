@@ -1,7 +1,5 @@
 .modal,
-svg:not(:root) {
-    overflow: hidden
-}
+
 
 .close,
 .font-bold,
@@ -61,14 +59,9 @@ div.blog_inner:hover .link span .gray_arrow {
     display: none
 }
 
-a:active,
-a:hover {
-    outline: 0
-}
 
-h1 {
-    margin: .67em 0
-}
+
+
 
 h1,
 h2,
@@ -78,16 +71,9 @@ ul {
     margin-bottom: 10px
 }
 
-img {
-    border: 0
-}
 
-button,
-input {
-    margin: 0;
-    font: inherit;
-    color: inherit
-}
+
+
 
 .btn,
 .form-control,
@@ -113,69 +99,10 @@ button {
     cursor: pointer
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    padding: 0;
-    border: 0
-}
 
-input {
-    line-height: normal
-}
 
-input[type=checkbox] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0
-}
 
-@media print {
 
-    *,
-    :after,
-    :before {
-        color: #000 !important;
-        text-shadow: none !important;
-        background: 0 0 !important;
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")"
-    }
-
-    a[href^="javascript:"]:after {
-        content: ""
-    }
-
-    img {
-        page-break-inside: avoid;
-        max-width: 100% !important
-    }
-
-    h2,
-    h3,
-    p {
-        orphans: 3;
-        widows: 3
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid
-    }
-
-    .label {
-        border: 1px solid #000
-    }
-}
 
 .btn,
 .btn-primary:active,
@@ -190,45 +117,19 @@ label {
     max-width: 100%
 }
 
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot);
-    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff) format("woff"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
-}
 
-*,
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
 
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    font-size: 10px;
-    -webkit-tap-highlight-color: transparent
-}
 
-button,
-input {
-    font-size: inherit;
-    line-height: inherit
-}
 
-a:focus,
-a:hover {
-    color: #23527c
-}
+
+
+
+
+
 
 .btn:active:focus,
 .btn:focus,
-a:focus,
-input[type=checkbox]:focus {
-    outline: -webkit-focus-ring-color auto 5px;
-    outline-offset: -2px
-}
+
 
 h1,
 h2,
@@ -245,27 +146,18 @@ h3 {
     margin-top: 20px
 }
 
-h1 {
-    font-size: 36px
-}
 
-h2 {
-    font-size: 30px
-}
 
-h3 {
-    font-size: 24px
-}
+
+
+
 
 h4 {
     margin-top: 10px;
     font-size: 18px
 }
 
-p {
-    margin: 0 0 10px;
-    font-size: 16px
-}
+
 
 #PaymentPopup .modal-header .close,
 div.indu_blog_section div.blog_inner .link,
@@ -301,16 +193,10 @@ ul ul {
     margin-bottom: 20px
 }
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
+
 
 #header_main,
 .col-xs-12,
-.container,
 .free_trial,
 .inner_page_main.new_width.stripe_setion.pad_top .flex_section_new .section_left_img,
 .qaes_ans_div,
@@ -321,10 +207,7 @@ body {
     width: 100%
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
+
 
 .col-lg-12,
 .col-lg-4,
@@ -504,10 +387,7 @@ label {
     font-weight: 700
 }
 
-input[type=checkbox] {
-    margin: 4px 0 0;
-    line-height: normal
-}
+
 
 .form-control {
     display: block;
@@ -524,38 +404,19 @@ input[type=checkbox] {
     transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
 }
 
-.form-control:focus {
-    border-color: #66afe9;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
-}
 
-.form-control::-moz-placeholder {
-    color: #999;
-    opacity: 1
-}
 
-.form-control:-ms-input-placeholder {
-    color: #999
-}
 
-.form-control::-webkit-input-placeholder {
-    color: #999
-}
 
-.form-control::-ms-expand {
-    background-color: transparent;
-    border: 0
-}
 
-.form-group {
-    margin-bottom: 15px
-}
 
-.panel-group .panel+.panel {
-    margin-top: 5px
-}
+
+
+
+
+
+
+
 
 .close,
 .label {
@@ -575,11 +436,7 @@ input[type=checkbox] {
     border-radius: 4px
 }
 
-.btn:focus,
-.btn:hover {
-    color: #333;
-    text-decoration: none
-}
+
 
 .btn:active {
     outline: 0;
@@ -587,38 +444,15 @@ input[type=checkbox] {
     box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4
-}
 
-.btn-primary:focus {
-    color: #fff;
-    background-color: #286090;
-    border-color: #122b40
-}
 
-.btn-primary:active,
-.btn-primary:hover {
-    color: #fff;
-    background-color: #286090;
-    border-color: #204d74
-}
 
-.btn-primary:active:focus,
-.btn-primary:active:hover {
-    color: #fff;
-    background-color: #204d74;
-    border-color: #122b40
-}
 
-.fade {
-    opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
-    transition: opacity .15s linear
-}
+
+
+
+
+
 
 .nav {
     padding-left: 0;
@@ -668,9 +502,7 @@ body {
     border-bottom-color: transparent
 }
 
-.panel-default {
-    border-color: #ddd
-}
+
 
 .label {
     display: inline;
@@ -774,21 +606,9 @@ button.close {
     outline: 0
 }
 
-.modal.fade .modal-dialog {
-    -webkit-transition: -webkit-transform .3s ease-out;
-    -o-transition: -o-transform .3s ease-out;
-    transition: transform .3s ease-out;
-    -webkit-transform: translate(0, -25%);
-    -ms-transform: translate(0, -25%);
-    -o-transform: translate(0, -25%);
-    transform: translate(0, -25%)
-}
 
-.modal-dialog {
-    position: relative;
-    width: auto;
-    margin: 10px
-}
+
+
 
 .modal-content {
     position: relative;
@@ -801,25 +621,13 @@ button.close {
     box-shadow: 0 3px 9px rgba(0, 0, 0, .5)
 }
 
-.modal-header {
-    padding: 15px;
-    border-bottom: 1px solid #e5e5e5
-}
 
-.modal-header .close {
-    margin-top: -2px
-}
 
-.modal-body {
-    position: relative;
-    padding: 15px
-}
 
-.modal-footer {
-    padding: 15px;
-    text-align: right;
-    border-top: 1px solid #e5e5e5
-}
+
+
+
+
 
 @media (min-width:768px) {
     .modal-dialog {
@@ -833,8 +641,7 @@ button.close {
     }
 }
 
-.container:after,
-.container:before,
+
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -849,7 +656,7 @@ button.close {
     content: " "
 }
 
-.container:after,
+
 .modal-footer:after,
 .modal-header:after,
 .nav:after,
@@ -897,25 +704,11 @@ body {
     overflow-x: hidden
 }
 
-body,
-html {
-    scroll-behavior: smooth
-}
 
-a,
-a:focus,
-a:hover,
-button,
-button:focus,
-button:hover {
-    text-decoration: none;
-    outline: 0
-}
 
-.logo_div {
-    width: 100%;
-    padding: 10px 0
-}
+
+
+
 
 .right_content_div {
     float: left;
@@ -1005,11 +798,7 @@ h4 {
     margin: 0 auto
 }
 
-a:focus,
-button:focus,
-input:focus {
-    outline: 0 !important
-}
+
 
 #cookie-notice {
     color: #fff;
@@ -2835,41 +2624,6 @@ ul#myTab li.active a {
     color: #00ba34 !important
 }
 
-@media (min-width:1800.99px) {
-    .container {
-        max-width: 1250px
-    }
-}
-
-@media (max-width:1800.98px) and (min-width:1500.99px) {
-    .container {
-        max-width: 1250px
-    }
-}
-
-@media (max-width:1500.98px) and (min-width:1199.99px) {
-    .container {
-        max-width: 1250px
-    }
-}
-
-@media (max-width:1199.98px) and (min-width:991.99px) {
-    .container {
-        max-width: 960px
-    }
-}
-
-@media (max-width:991.98px) and (min-width:767.99px) {
-    .container {
-        max-width: 720px
-    }
-}
-
-@media (max-width:767.98px) and (min-width:576px) {
-    .container {
-        max-width: 540px
-    }
-}
 
 @media (min-width:1450.99px) {
     .feature_banner {

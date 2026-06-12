@@ -498,38 +498,6 @@ code {
 	border-radius: 4px
 }
 
-.container {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto
-}
-
-@media (min-width:768px) {
-	.container {
-		width: 750px
-	}
-}
-
-@media (min-width:992px) {
-	.container {
-		width: 970px
-	}
-}
-
-@media (min-width:1200px) {
-	.container {
-		width: 1170px
-	}
-}
-
-.container-fluid {
-	padding-right: 15px;
-	padding-left: 15px;
-	margin-right: auto;
-	margin-left: auto
-}
-
 .row {
 	margin-right: -15px;
 	margin-left: -15px
@@ -3062,10 +3030,6 @@ button.close {
 
 .btn-toolbar:after,
 .btn-toolbar:before,
-.container-fluid:after,
-.container-fluid:before,
-.container:after,
-.container:before,
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -3087,8 +3051,6 @@ button.close {
 }
 
 .btn-toolbar:after,
-.container-fluid:after,
-.container:after,
 .modal-footer:after,
 .modal-header:after,
 .nav:after,
@@ -3223,15 +3185,6 @@ button:hover {
 	-webkit-box-shadow: 0 3px 0 0 rgba(0, 0, 0, .02), 0 1px 4px 0 rgba(0, 0, 0, .12);
 	background-color: #fff
 }
-
-.container {
-	width: 85%
-}
-
-.header .container {
-	width: 85%
-}
-
 .header .container .no_padding {
 	padding: 0
 }
@@ -3768,10 +3721,6 @@ ul.nav li.feature_item:hover .menu_item {
 	width: 100%;
 	background-color: #192a3c !important;
 	padding: 50px 0
-}
-
-.top_footer .container {
-	width: 95%
 }
 
 .footer_right_border {
@@ -5169,12 +5118,6 @@ input[type=submit].submit_newslater:hover {
 .submit_newslater:focus,
 .submit_newslater:hover {
 	color: #fff
-}
-
-@media (min-width:1800px) {
-	.container {
-		width: 75% !important
-	}
 }
 
 .service_bg_div {
@@ -7328,10 +7271,6 @@ input[type=submit].submit_newslater:hover {
 	-webkit-transition: all .2s ease-in
 }
 
-.new_frequent_question .container {
-	width: 60% !important
-}
-
 .all_pro_logo .single_pro_logo:last-child:after {
 	content: none
 }
@@ -7484,10 +7423,6 @@ input[type=submit].submit_newslater:hover {
 	color: #fff;
 	border-radius: 4px;
 	text-align: center
-}
-
-.new_invoice_banner .container {
-	width: 85% !important
 }
 
 .new_invoice_banner .right_content_div {
@@ -8937,18 +8872,6 @@ ul.new_list li img {
 	font-weight: 700
 }
 
-.qr_banner .container {
-	width: 75%
-}
-
-.header_section .container {
-	width: 75%
-}
-
-.stripe_banner .container {
-	width: 85% !important
-}
-
 .pad_top {
 	padding-top: 50px !important
 }
@@ -8971,14 +8894,6 @@ div.blog_inner {
 	min-height: 300px;
 	background-color: #fff;
 	text-align: center
-}
-
-div.blog_banner .container {
-	width: 75%
-}
-
-.compare_table .container {
-	width: 75%
 }
 
 #apple_store {
@@ -9116,10 +9031,6 @@ div.blog_banner h2 {
 .comersion_div {
 	width: 100%;
 	float: left
-}
-
-.comersion_div .container {
-	width: 80%
 }
 
 .comersion_inner {
@@ -9479,10 +9390,6 @@ h4 {
 .comersion_div {
 	width: 100%;
 	float: left
-}
-
-.comersion_div .container {
-	width: 80%
 }
 
 .comersion_inner {
@@ -10052,22 +9959,6 @@ div#customer_review.owl-carousel .owl-stage .owl-item:hover .story_inner_wrap a 
 	text-decoration: none
 }
 
-.comersion_div .container {
-	width: 85%
-}
-
-.compare_table .container {
-	width: 85%
-}
-
-.blog_banner.new_width .container {
-	width: 85%
-}
-
-.new_width .container {
-	width: 85% !important
-}
-
 .padding_top_new {
 	padding-top: 40px
 }
@@ -10440,10 +10331,6 @@ a.invoice_webapp_link.color_white {
 	margin: 0 auto
 }
 
-.inner_page_main.stripe_setion .container {
-	width: 75%
-}
-
 .inner_page_main.stripe_setion {
 	padding: 20px 0 50px
 }
@@ -10553,10 +10440,6 @@ ul.new_list li img {
 	font-weight: 700
 }
 
-.qr_banner .container {
-	width: 75%
-}
-
 .pad_top {
 	padding-top: 50px !important
 }
@@ -10578,10 +10461,6 @@ div.blog_inner {
 	width: auto;
 	min-height: 300px;
 	background-color: #fff
-}
-
-div.blog_banner .container {
-	width: 75%
 }
 
 #apple_store {
@@ -10786,10 +10665,6 @@ body .footer_black_firday .top_footer .footer_right_border:last-child {
 @media screen and (min-width:1200px) {
 	.top_footer .wrap_flex_div {
 		margin: 0 -25px
-	}
-
-	.top_footer .container {
-		width: 85%
 	}
 
 	.top_footer .wrap_flex_div {
@@ -12319,10 +12194,6 @@ ul#myTab li a:hover {
 	margin: 80px 0
 }
 
-.indu_main .container {
-	width: 88%
-}
-
 .cancle_form {
 	padding: 120px 0
 }
@@ -13311,10 +13182,6 @@ div.logo {
 
 .box-shedo-0 {
 	box-shadow: none
-}
-
-.padding_free_new .container {
-	width: 70% !important
 }
 
 .login_signup_main.login_signup_main-new .modal-dialog {
@@ -14516,9 +14383,6 @@ span.title_text {
 }
 
 @media screen and (max-width:1800px) {
-	.pricing_page_main .container {
-		width: 90%
-	}
 
 	.first_section .right_content_div {
 		padding-left: 90px
@@ -14622,10 +14486,6 @@ span.title_text {
 		padding: 0 20px
 	}
 
-	.new_frequent_question .container {
-		width: 85% !important
-	}
-
 	.single_pro_logo img {
 		padding: 0 20px
 	}
@@ -14681,10 +14541,6 @@ span.title_text {
 @media screen and (max-width:1500px) {
 	h1.custom_font {
 		font-size: 47px
-	}
-
-	.pricing_main_div .container {
-		width: 80%
 	}
 
 	.box_div {
@@ -14876,22 +14732,6 @@ span.title_text {
 		background-position: top center !important
 	}
 
-	.stripe_banner.padding.custom_padding_new .container {
-		width: 95% !important
-	}
-
-	.container {
-		width: 95% !important
-	}
-
-	.stripe_banner.indu_banner.indu_banner_8.new_width.padding_bottom_new.padding_top_bottom_new .container {
-		width: 95% !important
-	}
-
-	.new_invoice_banner .container {
-		width: 95% !important
-	}
-
 	.new_header .menu_bar ul.nav {
 		padding-right: 150px
 	}
@@ -14958,24 +14798,9 @@ span.title_text {
 }
 
 @media screen and (max-width:1366px) {
-	.stripe_banner.indu_banner.indu_banner_11.new_width.padding_bottom_new.padding_top_bottom_new .container {
-		width: 95% !important
-	}
-
-	.stripe_banner.indu_banner.indu_banner_10.new_width.padding_bottom_new.padding_top_bottom_new .container {
-		width: 95% !important
-	}
 
 	h1.custom_font {
 		font-size: 43px
-	}
-
-	.container {
-		width: 95% !important
-	}
-
-	.pricing_main_div .container {
-		width: 90%
 	}
 
 	.first_section .title_description h1 {
@@ -14989,10 +14814,6 @@ span.title_text {
 	.plan_select_main p {
 		font-size: 14px;
 		letter-spacing: -.4px
-	}
-
-	.pricing_page_main .container {
-		width: 95%
 	}
 
 	.plan_box_blue h5 {
@@ -15010,14 +14831,6 @@ span.title_text {
 	.stripe_banner.indu_banner.indu_banner_8.new_width.padding_bottom_new.padding_top_bottom_new h1 {
 		font-size: 47px;
 		line-height: 52px
-	}
-
-	.stripe_banner.indu_banner.indu_banner_7.new_width.padding_bottom_new.padding_top_bottom_new .container {
-		width: 95% !important
-	}
-
-	.stripe_banner.indu_banner.indu_banner_9.new_width.padding_bottom_new.padding_top_bottom_new .container {
-		width: 95% !important
 	}
 
 	.new_invoice_banner .discount_txt {
@@ -15073,17 +14886,6 @@ span.title_text {
 }
 
 @media screen and (max-width:1280px) {
-	body .new_frequent_question .container {
-		width: 95% !important
-	}
-
-	.stripe_banner.indu_banner.indu_banner_1.new_width.padding_bottom_new.padding_top_bottom_new .container {
-		width: 95% !important
-	}
-
-	.stripe_banner.padding.custom_padding_new .container {
-		width: 95% !important
-	}
 
 	.menu_bar ul.nav li a {
 		padding: 8px 13px
@@ -15345,10 +15147,6 @@ span.title_text {
 
 	.review_ordinarry_section .col-lg-12 {
 		padding: 0
-	}
-
-	.pricing_main_div .container {
-		width: 100%
 	}
 
 	.pricing-item.gold_plan ul {
@@ -15685,10 +15483,6 @@ span.title_text {
 }
 
 @media screen and (max-width:1100px) {
-	.review_bg_div .container {
-		width: 100%;
-		padding: 0
-	}
 
 	.cmn_plan_price,
 	.gold_plan_main,
@@ -15745,10 +15539,6 @@ span.title_text {
 
 	.business_grow_div {
 		padding: 30px 0
-	}
-
-	.new_frequent_question .container {
-		width: 80% !important
 	}
 
 	.plan_tab {
@@ -15893,11 +15683,6 @@ span.title_text {
 	.mobile_header {
 		display: flex;
 		align-items: center
-	}
-
-	#header_main .container {
-		width: 100%;
-		padding: 0
 	}
 
 	.logo_div {
@@ -16302,10 +16087,6 @@ span.title_text {
 
 	.business_body {
 		display: inline-block
-	}
-
-	.new_frequent_question .container {
-		width: 90% !important
 	}
 
 	.plan_tab_content .zero_padding {
@@ -17031,10 +16812,6 @@ span.title_text {
 		flex-direction: column
 	}
 
-	.container {
-		width: 100%
-	}
-
 	body .padding_update {
 		padding: 0 !important
 	}
@@ -17120,10 +16897,6 @@ span.title_text {
 
 	.row_section {
 		padding: 30px 0
-	}
-
-	.top_footer .container {
-		width: 100%
 	}
 
 	.four_col_footer {
@@ -17434,11 +17207,6 @@ span.title_text {
 		margin: 0;
 		width: 100%
 	}
-
-	.pricing_page_main .container {
-		width: 100%
-	}
-
 	.plan_box_blue h4 {
 		margin-bottom: 10px
 	}
@@ -17462,10 +17230,6 @@ span.title_text {
 
 	.feture_desc_div p {
 		font-size: 15px
-	}
-
-	.new_frequent_question .container {
-		width: 100% !important
 	}
 
 	.cmn_question_div {
@@ -19148,28 +18912,6 @@ span.title_text {
 	}
 }
 
-@media screen and (min-width:1800px) {
-	.stripe_banner .container {
-		width: 85% !important
-	}
-
-	.compare_table .container {
-		width: 65% !important
-	}
-
-	.header_section .container {
-		width: 65% !important
-	}
-
-	.indu_main .container {
-		width: 77% !important
-	}
-
-	body .padding_free_new .container {
-		width: 65% !important
-	}
-}
-
 @media screen and (max-width:767px) {
 	.business_banner_div a.blue_small_button {
 		width: 180px
@@ -19328,46 +19070,6 @@ span.title_text {
 
 	.trial_inner a {
 		width: 195px
-	}
-}
-
-@media screen and (min-width:1800px) {
-	.comersion_div .container {
-		width: 65% !important
-	}
-
-	.free_trial .container {
-		width: 65% !important
-	}
-
-	.stripe_banner .container {
-		width: 75% !important
-	}
-
-	.header_section .container {
-		width: 65% !important
-	}
-}
-
-@media screen and (min-width:1500px) {
-	.comersion_div .container {
-		width: 75% !important
-	}
-
-	.free_trial .container {
-		width: 85% !important
-	}
-
-	.compare_table .container {
-		width: 70% !important
-	}
-
-	.header_section .container {
-		width: 70% !important
-	}
-
-	.inner_page_main.stripe_setion .container {
-		width: 65% !important
 	}
 }
 
@@ -19628,21 +19330,6 @@ span.title_text {
 }
 
 @media screen and (min-width:1800px) {
-	body .comersion_div .container {
-		width: 75% !important
-	}
-
-	.free_trial .container {
-		width: 75% !important
-	}
-
-	.free_trial .container {
-		width: 70% !important
-	}
-
-	.blog_banner.new_width .container {
-		width: 75%
-	}
 
 	.compare_div {
 		width: 350px;
@@ -19651,26 +19338,6 @@ span.title_text {
 }
 
 @media screen and (min-width:1600px) {
-	.comersion_div .container {
-		width: 75% !important
-	}
-
-	.free_trial .container {
-		width: 75% !important
-	}
-
-	.new_width .container {
-		width: 75% !important
-	}
-
-	body .story_section .container {
-		width: 75%
-	}
-
-	.blog_banner.new_width .container {
-		width: 75%
-	}
-
 	.compare_div {
 		width: 350px;
 		margin: 0 auto
@@ -20971,10 +20638,6 @@ span.title_text {
 		width: 100%;
 		overflow: hidden
 	}
-
-	.tab_section .new_width .container {
-		width: 95% !important
-	}
 }
 
 @media screen and (min-width:1218px) and (max-width:1498px) {
@@ -21018,13 +20681,6 @@ span.title_text {
 		width: 260px
 	}
 }
-
-@media only screen and (max-width:1310px) {
-	.stripe_banner .container {
-		width: 95% !important
-	}
-}
-
 @media screen and (max-width:991px) {
 
 	.popup_login_page .login_overlay,
@@ -21068,12 +20724,6 @@ span.title_text {
 	.login_iframe,
 	.signup_iframe {
 		width: 95%
-	}
-}
-
-@media screen and (max-width:1600px) {
-	.padding_free_new .container {
-		width: 85% !important
 	}
 }
 
@@ -21157,9 +20807,6 @@ span.title_text {
 }
 
 @media screen and (max-width:1024px) {
-	.padding_free_new .container {
-		width: 100% !important
-	}
 
 	.inner_page_main p.text br {
 		display: none

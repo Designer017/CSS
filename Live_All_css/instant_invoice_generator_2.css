@@ -1,8 +1,6 @@
 .modal,
 .modal-open,
-svg:not(:root) {
-    overflow: hidden
-}
+
 
 .btn,
 .btn_sm_primary,
@@ -175,9 +173,7 @@ div.blog_inner:hover .link span .gray_arrow {
 
 .free_invoice_template .free-inv-ul li a:hover,
 .text-primary,
-a {
-    color: #337ab7
-}
+
 
 .close,
 .fe_free_proforma_invoce.feature_banner.feature_banner_new .same_div_inner h1,
@@ -189,14 +185,10 @@ b {
     font-weight: 700
 }
 
-h1 {
-    margin: .67em 0
-}
+
 
 .home_try_free_btn.try_free_btn,
-img {
-    border: 0
-}
+
 
 button,
 input,
@@ -206,9 +198,7 @@ select {
     color: inherit
 }
 
-button {
-    overflow: visible
-}
+
 
 button,
 select {
@@ -223,9 +213,7 @@ input[type=submit] {
     cursor: pointer
 }
 
-input {
-    line-height: normal
-}
+
 
 input[type=checkbox],
 input[type=radio] {
@@ -313,26 +301,11 @@ body {
     background-color: #fff
 }
 
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot);
-    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff) format("woff"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
-}
 
-*,
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
 
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    font-size: 10px;
-    -webkit-tap-highlight-color: transparent
-}
+
+
+
 
 body {
     margin: 0;
@@ -378,12 +351,7 @@ output {
 .h1,
 .h2,
 .h3,
-h1,
-h2,
-h3 {
-    margin-top: 20px;
-    margin-bottom: 10px
-}
+
 
 .h4,
 .h5,
@@ -397,31 +365,20 @@ h6 {
 }
 
 .h1,
-h1 {
-    font-size: 36px
-}
+
 
 .h2,
-h2 {
-    font-size: 30px
-}
+
 
 .h3,
 .trial_inner.change_size h4,
-h3 {
-    font-size: 24px
-}
+
 
 .h4,
 .try_free_btn,
-h4 {
-    font-size: 18px
-}
 
-p {
-    margin: 0 0 10px;
-    font-size: 16px
-}
+
+
 
 .small,
 small {
@@ -445,7 +402,6 @@ small {
 .featurecountbox,
 .gredientsignuppart p,
 .gredientsignupwrap,
-.invoicefaq-block.new_frequent_question .container,
 .item.customer_sliderbox,
 .label,
 .landingtestipart,
@@ -465,10 +421,7 @@ small {
 }
 
 .maintop-wrap .happyuser-wrapp .toptitle-wrapper h2,
-ul {
-    margin-top: 0;
-    margin-bottom: 10px
-}
+
 
 .accordion-block,
 .app_store_img:nth-child(3),
@@ -498,18 +451,7 @@ body {
     font-family: Raleway, sans-serif
 }
 
-.container,
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
-
 @media(min-width:768px) {
-    .container {
-        width: 750px
-    }
 
     .col-sm-1,
     .col-sm-10,
@@ -631,10 +573,7 @@ body {
 .container-fluid>.navbar-header,
 .container>.navbar-collapse,
 .container>.navbar-header,
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
+
 
 .col-lg-1,
 .col-lg-10,
@@ -730,13 +669,6 @@ input[type=submit].btn-block {
     width: 100%
 }
 
-.col-xs-9,
-.header_section .container,
-.inner_page_main.stripe_setion .container,
-.qr_banner .container,
-div.blog_banner .container {
-    width: 75%
-}
 
 .cmn_question a:hover,
 .desc-listwrapper li,
@@ -773,11 +705,7 @@ div.blog_banner .container {
 .send_bills_main img,
 .youtube_img img,
 .yt_image iframe,
-img,
-img.img-fluid,
-label {
-    max-width: 100%
-}
+
 
 .cmn_question_div,
 .featurebox,
@@ -806,9 +734,6 @@ output {
 }
 
 @media(min-width:992px) {
-    .container {
-        width: 970px
-    }
 
     .col-md-1,
     .col-md-10,
@@ -1058,32 +983,12 @@ label {
     }
 }
 
-.btn {
-    padding: 6px 12px;
-    font-size: 14px;
-    font-weight: 400;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    border-radius: 4px
-}
 
-.fade {
-    opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
-    transition: opacity .15s linear
-}
+
+
 
 .navbar-default .navbar-toggle,
-.panel-default {
-    border-color: #ddd
-}
+
 
 .panel-title,
 .panel-title>.small,
@@ -1415,10 +1320,6 @@ body {
 
 .btn-toolbar:after,
 .btn-toolbar:before,
-.container-fluid:after,
-.container-fluid:before,
-.container:after,
-.container:before,
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -1441,7 +1342,7 @@ body {
 
 .btn-toolbar:after,
 .container-fluid:after,
-.container:after,
+
 .modal-footer:after,
 .modal-header:after,
 .nav:after,
@@ -1460,9 +1361,6 @@ body {
 }
 
 @media(min-width:1200px) {
-    .container {
-        width: 1170px
-    }
 
     .col-lg-1,
     .col-lg-10,
@@ -1596,40 +1494,17 @@ body {
     }
 }
 
-body {
-    cursor: default;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    overflow-x: hidden
-}
 
-body,
-html {
-    scroll-behavior: smooth
-}
 
-a,
-a:focus,
-a:hover,
-button,
-button:focus,
-button:hover {
-    text-decoration: none;
-    outline: 0
-}
+
+
+
 
 #header_main {
     left: 0
 }
 
-.banner_section .store_img_div img,
-.blog_banner.new_width .container,
-.comersion_div .container,
-.compare_table .container,
-.container,
-.header .container {
+.banner_section .store_img_div img {
     width: 85%
 }
 
@@ -1696,11 +1571,6 @@ button:hover {
     background-color: #192a3c !important;
     padding: 50px 0
 }
-
-.top_footer .container {
-    width: 95%
-}
-
 .four_col_footer h3 {
     color: #fff;
     margin-bottom: 25px;
@@ -1761,12 +1631,6 @@ h4 {
 .small_per_month,
 .year_offer_txt_div span {
     font-family: Montserrat, sans-serif
-}
-
-@media(min-width:1800px) {
-    .container {
-        width: 75% !important
-    }
 }
 
 .cmn_question,
@@ -1964,13 +1828,6 @@ h4 {
     margin-top: 0 !important
 }
 
-.container,
-.new_invoice_banner .container,
-.new_width .container,
-.stripe_banner .container {
-    width: 85% !important
-}
-
 .new_invoice_banner .try_free_btn,
 .try_free_btn {
     border: 2px solid transparent;
@@ -2113,10 +1970,6 @@ span.mobile_view {
         padding: 0
     }
 
-    .top_footer .container {
-        width: 85%
-    }
-
     .banner-imageblock {
         width: 100%;
         margin-left: -70px
@@ -2192,13 +2045,6 @@ div.logo {
     z-index: 9999
 }
 
-@media screen and (max-width:1600px) {
-
-    .new_frequent_question .container,
-    .padding_free_new .container {
-        width: 85% !important
-    }
-}
 
 @media screen and (max-width:1550px) {
     .trial_inner.trial_inner_schedule a {
@@ -2338,13 +2184,6 @@ div.logo {
         background-position: top center !important
     }
 
-    .container,
-    .new_invoice_banner .container,
-    .stripe_banner.indu_banner.indu_banner_8.new_width.padding_bottom_new.padding_top_bottom_new .container,
-    .stripe_banner.padding.custom_padding_new .container {
-        width: 95% !important
-    }
-
     .new_header .menu_bar ul.nav {
         padding-right: 150px
     }
@@ -2409,23 +2248,9 @@ div.logo {
 
 @media screen and (max-width:1366px) {
 
-    .container,
-    .smaller_container,
-    .stripe_banner.indu_banner.indu_banner_10.new_width.padding_bottom_new.padding_top_bottom_new .container,
-    .stripe_banner.indu_banner.indu_banner_11.new_width.padding_bottom_new.padding_top_bottom_new .container,
-    .stripe_banner.indu_banner.indu_banner_7.new_width.padding_bottom_new.padding_top_bottom_new .container,
-    .stripe_banner.indu_banner.indu_banner_9.new_width.padding_bottom_new.padding_top_bottom_new .container {
-        width: 95% !important
-    }
-
     h1.custom_font {
         font-size: 43px
     }
-
-    .pricing_main_div .container {
-        width: 90%
-    }
-
     .first_section .title_description h1 {
         max-width: 70%
     }
@@ -2437,10 +2262,6 @@ div.logo {
     .plan_select_main p {
         font-size: 14px;
         letter-spacing: -.4px
-    }
-
-    .pricing_page_main .container {
-        width: 95%
     }
 
     .plan_box_blue h5 {
@@ -2471,12 +2292,6 @@ div.logo {
 }
 
 @media screen and (max-width:1280px) {
-
-    .stripe_banner.indu_banner.indu_banner_1.new_width.padding_bottom_new.padding_top_bottom_new .container,
-    .stripe_banner.padding.custom_padding_new .container,
-    body .new_frequent_question .container {
-        width: 95% !important
-    }
 
     .menu_bar ul.nav li a {
         padding: 8px 13px
@@ -2585,8 +2400,7 @@ div.logo {
 
     .app_store_img img,
     .banner_section .store_img_div,
-    .inner_page_main .section_left_img,
-    .pricing_main_div .container {
+    .inner_page_main .section_left_img  {
         width: 100%
     }
 
@@ -2969,10 +2783,6 @@ div.logo {
 }
 
 @media screen and (max-width:1100px) {
-    .review_bg_div .container {
-        width: 100%;
-        padding: 0
-    }
 
     .cmn_plan_price,
     .gold_plan_main,
@@ -3029,10 +2839,6 @@ div.logo {
 
     .business_grow_div {
         padding: 30px 0
-    }
-
-    .new_frequent_question .container {
-        width: 80% !important
     }
 
     .plan_tab {
@@ -3235,10 +3041,7 @@ div.logo {
         align-items: center
     }
 
-    #header_main .container {
-        width: 100%;
-        padding: 0
-    }
+
 
     .logo_div {
         width: 30%;
@@ -3571,10 +3374,6 @@ div.logo {
 
     .four_col_div .extra_more_padding {
         margin-bottom: 15px
-    }
-
-    .new_frequent_question .container {
-        width: 90% !important
     }
 
     .plan_tab_content .zero_padding {
@@ -4105,9 +3904,6 @@ div.logo {
 }
 
 @media screen and (max-width:767px) {
-    body .new_width .container {
-        width: 95% !important
-    }
 
     .table-responsive {
         width: 100%;
@@ -4177,10 +3973,7 @@ div.logo {
     }
 
     .budget_price_section .pricing_plan_div,
-    .container,
-    .d-flex-1 .col-md-6,
-    .pricing_page_main .container,
-    .top_footer .container {
+    .d-flex-1 .col-md-6 {
         width: 100%
     }
 
@@ -4630,7 +4423,6 @@ div.logo {
         margin: 30px auto
     }
 
-    .new_frequent_question .container,
     .plan_details {
         width: 100% !important
     }
@@ -6322,43 +6114,6 @@ div.logo {
     }
 }
 
-@media screen and (min-width:1800px) {
-
-    .container,
-    .stripe_banner .container {
-        width: 75% !important
-    }
-
-    .comersion_div .container,
-    .compare_table .container,
-    .free_trial .container,
-    .header_section .container,
-    body .padding_free_new .container {
-        width: 65% !important
-    }
-
-    .indu_main .container {
-        width: 77% !important
-    }
-}
-
-@media screen and (min-width:1500px) {
-
-    .comersion_div .container,
-    .inner_page_main.stripe_setion .container {
-        width: 75% !important
-    }
-
-    .free_trial .container {
-        width: 85% !important
-    }
-
-    .compare_table .container,
-    .header_section .container {
-        width: 70% !important
-    }
-}
-
 @media screen and (min-width:1400px) {
     .padding_new {
         padding: 130px 0 100px !important
@@ -7271,10 +7026,6 @@ div.logo {
         width: 100%;
         overflow: hidden
     }
-
-    .tab_section .new_width .container {
-        width: 95% !important
-    }
 }
 
 @media screen and (min-width:1218px) and (max-width:1498px) {
@@ -7322,13 +7073,6 @@ div.logo {
         margin: 0 18px 30px
     }
 }
-
-@media only screen and (max-width:1310px) {
-    .stripe_banner .container {
-        width: 95% !important
-    }
-}
-
 @media screen and (max-width:991px) {
     .margin_70 {
         margin: 40px 0 !important

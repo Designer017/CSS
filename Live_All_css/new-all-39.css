@@ -27,14 +27,9 @@ progress {
     display: none
 }
 
-a {
-    background-color: transparent
-}
 
-a:active,
-a:hover {
-    outline: 0
-}
+
+
 
 b {
     font-weight: 700
@@ -60,13 +55,9 @@ sub {
     bottom: -.25em
 }
 
-img {
-    border: 0
-}
 
-svg:not(:root) {
-    overflow: hidden
-}
+
+
 
 code {
     font-size: 1em
@@ -80,9 +71,7 @@ select {
     color: inherit
 }
 
-button {
-    overflow: visible
-}
+
 
 button,
 select {
@@ -102,15 +91,9 @@ html input[disabled] {
     cursor: default
 }
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    padding: 0;
-    border: 0
-}
 
-input {
-    line-height: normal
-}
+
+
 
 input[type=checkbox],
 input[type=radio] {
@@ -202,11 +185,7 @@ table {
     }
 }
 
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot);
-    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff) format("woff"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
-}
+
 
 * {
     -webkit-box-sizing: border-box;
@@ -320,12 +299,7 @@ h6 small {
 .h1,
 .h2,
 .h3,
-h1,
-h2,
-h3 {
-    margin-top: 20px;
-    margin-bottom: 10px
-}
+
 
 .h1 .small,
 .h1 small,
@@ -368,39 +342,26 @@ h6 small {
 }
 
 .h1,
-h1 {
-    font-size: 36px
-}
+
 
 .h2,
-h2 {
-    font-size: 30px
-}
+
 
 .h3,
-h3 {
-    font-size: 24px
-}
+
 
 .h4,
-h4 {
-    font-size: 18px
-}
+
 
 .h5,
-h5 {
-    font-size: 14px
-}
+
 
 .h6,
 h6 {
     font-size: 12px
 }
 
-p {
-    margin: 0 0 10px;
-    font-size: 16px
-}
+
 
 .small,
 small {
@@ -466,10 +427,7 @@ a.bg-success:hover {
     border-bottom: 1px solid #eee
 }
 
-ul {
-    margin-top: 0;
-    margin-bottom: 10px
-}
+
 
 ul ul {
     margin-bottom: 0
@@ -493,42 +451,7 @@ code {
     border-radius: 4px
 }
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
 
-@media (min-width:768px) {
-    .container {
-        width: 750px
-    }
-}
-
-@media (min-width:992px) {
-    .container {
-        width: 970px
-    }
-}
-
-@media (min-width:1200px) {
-    .container {
-        width: 1170px
-    }
-}
-
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
-
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
 
 .col-lg-1,
 .col-lg-10,
@@ -1131,12 +1054,6 @@ table col[class*=col-] {
 .table-responsive {
     min-height: .01%;
     overflow-x: auto
-}
-
-.invoicebannerwrap .container {
-    margin-right: 0;
-    width: 93% !important;
-    padding-right: 0
 }
 
 .headerbannerwrap {
@@ -2290,10 +2207,6 @@ table col[class*=col-] {
     font-size: 12px !important
 }
 
-.container.f_width {
-    max-width: 1320px !important
-}
-
 .timefeaturepart .mobile_second img {
     max-width: 100%;
     width: 100%
@@ -2510,11 +2423,6 @@ table col[class*=col-] {
         font-size: 16px;
         line-height: 25px
     }
-
-    body .new_width .container {
-        width: 95% !important
-    }
-
     .w_100 .flex_section_new {
         margin: 15px 0
     }
@@ -2611,30 +2519,15 @@ output {
     transition: border-color ease-in-out .15s, box-shadow ease-in-out .15s
 }
 
-.form-control:focus {
-    border-color: #66afe9;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
-}
 
-.form-control::-moz-placeholder {
-    color: #999;
-    opacity: 1
-}
 
-.form-control:-ms-input-placeholder {
-    color: #999
-}
 
-.form-control::-webkit-input-placeholder {
-    color: #999
-}
 
-.form-control::-ms-expand {
-    background-color: transparent;
-    border: 0
-}
+
+
+
+
+
 
 .form-control[disabled],
 .form-control[readonly] {
@@ -2682,9 +2575,7 @@ input[type=search] {
     }
 }
 
-.form-group {
-    margin-bottom: 15px
-}
+
 
 .checkbox {
     position: relative;
@@ -2963,19 +2854,10 @@ select[multiple].input-lg {
 }
 
 .btn.focus,
-.btn:focus,
-.btn:hover {
-    color: #333;
-    text-decoration: none
-}
+
 
 .btn.active,
-.btn:active {
-    background-image: none;
-    outline: 0;
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
-}
+
 
 .btn[disabled] {
     cursor: not-allowed;
@@ -3033,18 +2915,10 @@ select[multiple].input-lg {
     border-color: #ccc
 }
 
-.btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4
-}
+
 
 .btn-primary.focus,
-.btn-primary:focus {
-    color: #fff;
-    background-color: #286090;
-    border-color: #122b40
-}
+
 
 .btn-primary:hover {
     color: #fff;
@@ -3063,12 +2937,7 @@ select[multiple].input-lg {
 .btn-primary.active:focus,
 .btn-primary.active:hover,
 .btn-primary:active.focus,
-.btn-primary:active:focus,
-.btn-primary:active:hover {
-    color: #fff;
-    background-color: #204d74;
-    border-color: #122b40
-}
+
 
 .btn-primary.active,
 .btn-primary:active {
@@ -3205,12 +3074,7 @@ input[type=submit].btn-block {
     width: 100%
 }
 
-.fade {
-    opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
-    transition: opacity .15s linear
-}
+
 
 .fade.in {
     opacity: 1
@@ -4133,9 +3997,7 @@ a.label:hover {
     border-radius: 4px
 }
 
-.panel-group .panel+.panel {
-    margin-top: 5px
-}
+
 
 .panel-group .panel-heading {
     border-bottom: 0
@@ -4153,9 +4015,7 @@ a.label:hover {
     border-bottom: 1px solid #ddd
 }
 
-.panel-default {
-    border-color: #ddd
-}
+
 
 .panel-default>.panel-heading {
     color: #333;
@@ -4265,28 +4125,9 @@ button.close {
     overflow: hidden
 }
 
-.modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1050;
-    display: none;
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
-    outline: 0
-}
 
-.modal.fade .modal-dialog {
-    -webkit-transition: -webkit-transform .3s ease-out;
-    -o-transition: -o-transform .3s ease-out;
-    transition: transform .3s ease-out;
-    -webkit-transform: translate(0, -25%);
-    -ms-transform: translate(0, -25%);
-    -o-transform: translate(0, -25%);
-    transform: translate(0, -25%)
-}
+
+
 
 .modal.in .modal-dialog {
     -webkit-transform: translate(0, 0);
@@ -4300,11 +4141,7 @@ button.close {
     overflow-y: auto
 }
 
-.modal-dialog {
-    position: relative;
-    width: auto;
-    margin: 10px
-}
+
 
 .modal-content {
     position: relative;
@@ -4337,30 +4174,18 @@ button.close {
     opacity: .5
 }
 
-.modal-header {
-    padding: 15px;
-    border-bottom: 1px solid #e5e5e5
-}
 
-.modal-header .close {
-    margin-top: -2px
-}
+
+
 
 .modal-title {
     margin: 0;
     line-height: 1.42857143
 }
 
-.modal-body {
-    position: relative;
-    padding: 15px
-}
 
-.modal-footer {
-    padding: 15px;
-    text-align: right;
-    border-top: 1px solid #e5e5e5
-}
+
+
 
 .modal-footer .btn+.btn {
     margin-bottom: 0;
@@ -4511,8 +4336,7 @@ button.close {
 .btn-toolbar:before,
 .container-fluid:after,
 .container-fluid:before,
-.container:after,
-.container:before,
+
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -4535,7 +4359,7 @@ button.close {
 
 .btn-toolbar:after,
 .container-fluid:after,
-.container:after,
+
 .modal-footer:after,
 .modal-header:after,
 .nav:after,
@@ -4617,10 +4441,7 @@ body {
     overflow-x: hidden
 }
 
-body,
-html {
-    scroll-behavior: smooth
-}
+
 
 a,
 a:focus,
@@ -4661,14 +4482,6 @@ button:hover {
 
 .header.smaller {
     background-color: #fff
-}
-
-.container {
-    width: 85%
-}
-
-.header .container {
-    width: 85%
 }
 
 .header .container .no_padding {
@@ -5207,10 +5020,6 @@ ul.nav li.feature_item:hover .menu_item {
     width: 100%;
     background-color: #192a3c !important;
     padding: 50px 0
-}
-
-.top_footer .container {
-    width: 95%
 }
 
 .footer_right_border {
@@ -6609,12 +6418,6 @@ input[type=submit].submit_newslater:hover {
 .submit_newslater:focus,
 .submit_newslater:hover {
     color: #fff
-}
-
-@media (min-width:1800px) {
-    .container {
-        width: 75% !important
-    }
 }
 
 .service_bg_div {
@@ -8767,9 +8570,6 @@ input[type=submit].submit_newslater:hover {
     -webkit-transition: all .2s ease-in
 }
 
-.new_frequent_question .container {
-    width: 60% !important
-}
 
 .all_pro_logo .single_pro_logo:last-child:after {
     content: none
@@ -8925,9 +8725,6 @@ input[type=submit].submit_newslater:hover {
     text-align: center
 }
 
-.new_invoice_banner .container {
-    width: 85% !important
-}
 
 .new_invoice_banner .right_content_div {
     padding-left: 0 !important;
@@ -10657,17 +10454,6 @@ ul.new_list li img {
     font-weight: 700
 }
 
-.qr_banner .container {
-    width: 75%
-}
-
-.header_section .container {
-    width: 75%
-}
-
-.stripe_banner .container {
-    width: 85% !important
-}
 
 .pad_top {
     padding-top: 50px !important
@@ -10693,13 +10479,6 @@ div.blog_inner {
     text-align: center
 }
 
-div.blog_banner .container {
-    width: 75%
-}
-
-.compare_table .container {
-    width: 75%
-}
 
 #apple_store {
     background-image: url(https://cdn.mooninvoice.com/image/images/app_apple_store_bg.png);
@@ -10836,10 +10615,6 @@ div.blog_banner h2 {
 .comersion_div {
     width: 100%;
     float: left
-}
-
-.comersion_div .container {
-    width: 80%
 }
 
 .comersion_inner {
@@ -11203,10 +10978,6 @@ h4 {
 .comersion_div {
     width: 100%;
     float: left
-}
-
-.comersion_div .container {
-    width: 80%
 }
 
 .comersion_inner {
@@ -11776,22 +11547,6 @@ div#customer_review.owl-carousel .owl-stage .owl-item:hover .story_inner_wrap a 
     text-decoration: none
 }
 
-.comersion_div .container {
-    width: 85%
-}
-
-.compare_table .container {
-    width: 85%
-}
-
-.blog_banner.new_width .container {
-    width: 85%
-}
-
-.new_width .container {
-    width: 85% !important
-}
-
 .padding_top_new {
     padding-top: 40px
 }
@@ -12164,10 +11919,6 @@ a.invoice_webapp_link.color_white {
     margin: 0 auto
 }
 
-.inner_page_main.stripe_setion .container {
-    width: 75%
-}
-
 .inner_page_main.stripe_setion {
     padding: 20px 0 50px
 }
@@ -12277,10 +12028,6 @@ ul.new_list li img {
     font-weight: 700
 }
 
-.qr_banner .container {
-    width: 75%
-}
-
 .pad_top {
     padding-top: 50px !important
 }
@@ -12302,10 +12049,6 @@ div.blog_inner {
     width: auto;
     min-height: 300px;
     background-color: #fff
-}
-
-div.blog_banner .container {
-    width: 75%
 }
 
 #apple_store {
@@ -12525,10 +12268,6 @@ body .footer_black_firday .top_footer .footer_right_border:last-child {
 @media screen and (min-width:1200px) {
     .top_footer .wrap_flex_div {
         margin: 0 -25px
-    }
-
-    .top_footer .container {
-        width: 85%
     }
 
     .top_footer .wrap_flex_div {
@@ -13590,13 +13329,6 @@ ul.plateform_submenu li:first-child {
         padding: 20px
     }
 
-    .invoicebannerwrap .container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto
-    }
-
     .customer_slider {
         padding: 40px 0
     }
@@ -13639,14 +13371,6 @@ ul.plateform_submenu li:first-child {
 a.new_width {
     width: 100px;
     text-align: center
-}
-
-@media screen and (min-width:1600px) and (max-width:1920px) {
-    .invoicebannerwrap .container {
-        margin-right: 0;
-        width: 88% !important;
-        padding-right: 0
-    }
 }
 
 @media screen and (min-width:1153px) and (max-width:1200px) {
@@ -14187,10 +13911,6 @@ ul#myTab li a:hover {
 
 .trial_inner.free_trial_home {
     margin: 10px 0 30px
-}
-
-.indu_main .container {
-    width: 88%
 }
 
 .cancle_form {
@@ -15194,10 +14914,6 @@ div.logo {
 
 .box-shedo-0 {
     box-shadow: none
-}
-
-.padding_free_new .container {
-    width: 70% !important
 }
 
 .login_signup_main.login_signup_main-new .modal-dialog {
@@ -16530,9 +16246,6 @@ span.title_text {
 }
 
 @media screen and (max-width:1800px) {
-    .pricing_page_main .container {
-        width: 90%
-    }
 
     .first_section .right_content_div {
         padding-left: 90px
@@ -16636,10 +16349,6 @@ span.title_text {
         padding: 0 20px
     }
 
-    .new_frequent_question .container {
-        width: 85% !important
-    }
-
     .single_pro_logo img {
         padding: 0 20px
     }
@@ -16695,10 +16404,6 @@ span.title_text {
 @media screen and (max-width:1500px) {
     h1.custom_font {
         font-size: 47px
-    }
-
-    .pricing_main_div .container {
-        width: 80%
     }
 
     .box_div {
@@ -16890,22 +16595,6 @@ span.title_text {
         background-position: top center !important
     }
 
-    .stripe_banner.padding.custom_padding_new .container {
-        width: 95% !important
-    }
-
-    .container {
-        width: 95% !important
-    }
-
-    .stripe_banner.indu_banner.indu_banner_8.new_width.padding_bottom_new.padding_top_bottom_new .container {
-        width: 95% !important
-    }
-
-    .new_invoice_banner .container {
-        width: 95% !important
-    }
-
     .new_header .menu_bar ul.nav {
         padding-right: 150px
     }
@@ -16976,24 +16665,9 @@ span.title_text {
 }
 
 @media screen and (max-width:1366px) {
-    .stripe_banner.indu_banner.indu_banner_11.new_width.padding_bottom_new.padding_top_bottom_new .container {
-        width: 95% !important
-    }
-
-    .stripe_banner.indu_banner.indu_banner_10.new_width.padding_bottom_new.padding_top_bottom_new .container {
-        width: 95% !important
-    }
 
     h1.custom_font {
         font-size: 43px
-    }
-
-    .container {
-        width: 95% !important
-    }
-
-    .pricing_main_div .container {
-        width: 90%
     }
 
     .first_section .title_description h1 {
@@ -17007,10 +16681,6 @@ span.title_text {
     .plan_select_main p {
         font-size: 14px;
         letter-spacing: -.4px
-    }
-
-    .pricing_page_main .container {
-        width: 95%
     }
 
     .plan_box_blue h5 {
@@ -17028,14 +16698,6 @@ span.title_text {
     .stripe_banner.indu_banner.indu_banner_8.new_width.padding_bottom_new.padding_top_bottom_new h1 {
         font-size: 47px;
         line-height: 52px
-    }
-
-    .stripe_banner.indu_banner.indu_banner_7.new_width.padding_bottom_new.padding_top_bottom_new .container {
-        width: 95% !important
-    }
-
-    .stripe_banner.indu_banner.indu_banner_9.new_width.padding_bottom_new.padding_top_bottom_new .container {
-        width: 95% !important
     }
 
     .new_invoice_banner .discount_txt {
@@ -17091,17 +16753,6 @@ span.title_text {
 }
 
 @media screen and (max-width:1280px) {
-    body .new_frequent_question .container {
-        width: 95% !important
-    }
-
-    .stripe_banner.indu_banner.indu_banner_1.new_width.padding_bottom_new.padding_top_bottom_new .container {
-        width: 95% !important
-    }
-
-    .stripe_banner.padding.custom_padding_new .container {
-        width: 95% !important
-    }
 
     .menu_bar ul.nav li a {
         padding: 8px 13px
@@ -17363,10 +17014,6 @@ span.title_text {
 
     .review_ordinarry_section .col-lg-12 {
         padding: 0
-    }
-
-    .pricing_main_div .container {
-        width: 100%
     }
 
     .pricing-item.gold_plan ul {
@@ -17703,10 +17350,6 @@ span.title_text {
 }
 
 @media screen and (max-width:1100px) {
-    .review_bg_div .container {
-        width: 100%;
-        padding: 0
-    }
 
     .cmn_plan_price,
     .gold_plan_main,
@@ -17763,10 +17406,6 @@ span.title_text {
 
     .business_grow_div {
         padding: 30px 0
-    }
-
-    .new_frequent_question .container {
-        width: 80% !important
     }
 
     .plan_tab {
@@ -17927,10 +17566,7 @@ span.title_text {
         align-items: center
     }
 
-    #header_main .container {
-        width: 100%;
-        padding: 0
-    }
+
 
     .logo_div {
         width: 30%;
@@ -18334,10 +17970,6 @@ span.title_text {
 
     .business_body {
         display: inline-block
-    }
-
-    .new_frequent_question .container {
-        width: 90% !important
     }
 
     .plan_tab_content .zero_padding {
@@ -19117,10 +18749,6 @@ span.title_text {
         padding-bottom: 0
     }
 
-    .container {
-        width: 100%
-    }
-
     body .padding_update {
         padding: 0 !important
     }
@@ -19206,10 +18834,6 @@ span.title_text {
 
     .row_section {
         padding: 30px 0
-    }
-
-    .top_footer .container {
-        width: 100%
     }
 
     .four_col_footer {
@@ -19526,10 +19150,6 @@ span.title_text {
         width: 100%
     }
 
-    .pricing_page_main .container {
-        width: 100%
-    }
-
     .plan_box_blue h4 {
         margin-bottom: 10px
     }
@@ -19553,10 +19173,6 @@ span.title_text {
 
     .feture_desc_div p {
         font-size: 15px
-    }
-
-    .new_frequent_question .container {
-        width: 100% !important
     }
 
     .cmn_question_div {
@@ -21453,28 +21069,6 @@ span.title_text {
     }
 }
 
-@media screen and (min-width:1800px) {
-    .stripe_banner .container {
-        width: 85% !important
-    }
-
-    .compare_table .container {
-        width: 65% !important
-    }
-
-    .header_section .container {
-        width: 65% !important
-    }
-
-    .indu_main .container {
-        width: 77% !important
-    }
-
-    body .padding_free_new .container {
-        width: 65% !important
-    }
-}
-
 @media screen and (max-width:767px) {
     .business_banner_div a.blue_small_button {
         width: 180px
@@ -21647,46 +21241,6 @@ span.title_text {
 
     .trial_inner a {
         width: 195px
-    }
-}
-
-@media screen and (min-width:1800px) {
-    .comersion_div .container {
-        width: 65% !important
-    }
-
-    .free_trial .container {
-        width: 65% !important
-    }
-
-    .stripe_banner .container {
-        width: 75% !important
-    }
-
-    .header_section .container {
-        width: 65% !important
-    }
-}
-
-@media screen and (min-width:1500px) {
-    .comersion_div .container {
-        width: 75% !important
-    }
-
-    .free_trial .container {
-        width: 85% !important
-    }
-
-    .compare_table .container {
-        width: 70% !important
-    }
-
-    .header_section .container {
-        width: 70% !important
-    }
-
-    .inner_page_main.stripe_setion .container {
-        width: 65% !important
     }
 }
 
@@ -21967,21 +21521,6 @@ span.title_text {
 }
 
 @media screen and (min-width:1800px) {
-    body .comersion_div .container {
-        width: 75% !important
-    }
-
-    .free_trial .container {
-        width: 75% !important
-    }
-
-    .free_trial .container {
-        width: 70% !important
-    }
-
-    .blog_banner.new_width .container {
-        width: 75%
-    }
 
     .compare_div {
         width: 350px;
@@ -21990,25 +21529,6 @@ span.title_text {
 }
 
 @media screen and (min-width:1600px) {
-    .comersion_div .container {
-        width: 75% !important
-    }
-
-    .free_trial .container {
-        width: 75% !important
-    }
-
-    .new_width .container {
-        width: 75% !important
-    }
-
-    body .story_section .container {
-        width: 75%
-    }
-
-    .blog_banner.new_width .container {
-        width: 75%
-    }
 
     .compare_div {
         width: 350px;
@@ -23384,10 +22904,6 @@ span.title_text {
         width: 100%;
         overflow: hidden
     }
-
-    .tab_section .new_width .container {
-        width: 95% !important
-    }
 }
 
 @media screen and (min-width:1218px) and (max-width:1498px) {
@@ -23435,13 +22951,6 @@ span.title_text {
         margin: 0 18px 30px
     }
 }
-
-@media only screen and (max-width:1310px) {
-    .stripe_banner .container {
-        width: 95% !important
-    }
-}
-
 @media screen and (max-width:991px) {
 
     .popup_login_page .login_overlay,
@@ -23485,12 +22994,6 @@ span.title_text {
     .login_iframe,
     .signup_iframe {
         width: 95%
-    }
-}
-
-@media screen and (max-width:1600px) {
-    .padding_free_new .container {
-        width: 85% !important
     }
 }
 
@@ -23602,10 +23105,6 @@ span.title_text {
 
     .no_padding_new.ml-auto.text-right {
         text-align: center
-    }
-
-    .padding_free_new .container {
-        width: 100% !important
     }
 
     .inner_page_main p.text br {

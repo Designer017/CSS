@@ -12,10 +12,6 @@
     padding: 0 !important;
 }
 
-#header_main .container {
-    width: 85% !important;
-}
-
 .main_offer_div {
     display: none;
 }
@@ -1241,22 +1237,7 @@ table.main_table svg {
     display: none;
 }
 
-@media screen and (min-width: 1800px) {
-    #header_main .container {
-        width: 75% !important;
-    }
-}
-
-@media screen and (max-width: 1366px) {
-    #header_main .container {
-        width: 95% !important;
-    }
-}
-
 @media screen and (max-width: 1200px) {
-    #header_main .container {
-        width: 100%;
-    }
 
     .logo_txt_div h2 {
         font-size: 24px;
@@ -1311,10 +1292,6 @@ table.main_table svg {
     .sidepanel .sidepanel_btn {
         display: inline-block;
         margin: 0;
-    }
-
-    #header_main .container {
-        width: 100% !important;
     }
 
     .table_main th h4,
@@ -1534,13 +1511,6 @@ table.main_table svg {
 
     .plan_tab_content .zero_padding .plan_details.item {
         padding: 0 15px;
-    }
-
-    .plancomaprision_section .container {
-        margin: 0;
-        padding: 0;
-        width: 100% !important;
-        max-width: 100%;
     }
 
     .plan_switch.pos_switch {

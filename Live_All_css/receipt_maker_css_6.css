@@ -1,15 +1,9 @@
 .w-100,
 .youtube_img img,
-img,
-img.img-fluid,
-label {
-    max-width: 100%
-}
+
 
 .modal,
-svg:not(:root) {
-    overflow: hidden
-}
+
 
 .form-control,
 .panel,
@@ -91,18 +85,14 @@ span.title_text {
     display: none
 }
 
-a {
-    color: #337ab7
-}
+
 
 .close,
 b {
     font-weight: 700
 }
 
-h1 {
-    margin: .67em 0
-}
+
 
 h1,
 h2,
@@ -113,9 +103,7 @@ ul {
 }
 
 .home_try_free_btn.try_free_btn,
-img {
-    border: 0
-}
+
 
 button,
 input,
@@ -135,16 +123,6 @@ select {
     text-transform: none
 }
 
-input {
-    line-height: normal
-}
-
-input[type=checkbox] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0
-}
 
 input[type=number]::-webkit-inner-spin-button,
 input[type=number]::-webkit-outer-spin-button {
@@ -156,20 +134,9 @@ table {
     border-collapse: collapse
 }
 
-*,
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
 
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    font-size: 10px;
-    -webkit-tap-highlight-color: transparent
-}
+
+
 
 button,
 input,
@@ -197,27 +164,16 @@ h4 {
     margin-top: 10px
 }
 
-h1 {
-    font-size: 36px
-}
 
-h2 {
-    font-size: 30px
-}
 
-h3 {
-    font-size: 24px
-}
+
+
+
 
 .try_free_btn,
-h4 {
-    font-size: 18px
-}
 
-p {
-    margin: 0 0 10px;
-    font-size: 16px
-}
+
+
 
 #PaymentPopup .modal-header .close,
 .download_app_div h3,
@@ -247,12 +203,7 @@ body {
     font-family: Raleway, sans-serif
 }
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
+
 
 .card_icons,
 .footer_newslater,
@@ -266,10 +217,7 @@ body {
     width: 100%
 }
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
+
 
 #header_main,
 .modal {
@@ -317,21 +265,11 @@ label {
     font-weight: 700
 }
 
-input[type=checkbox] {
-    margin: 4px 0 0;
-    line-height: normal
-}
 
-.fade {
-    opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
-    transition: opacity .15s linear
-}
 
-.panel-default {
-    border-color: #ddd
-}
+
+
+
 
 .panel-title,
 .panel-title>a {
@@ -390,8 +328,6 @@ body {
     float: left
 }
 
-.container:after,
-.container:before,
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -408,7 +344,6 @@ body {
     content: " "
 }
 
-.container:after,
 .modal-footer:after,
 .modal-header:after,
 .nav:after,
@@ -436,25 +371,9 @@ body {
     overflow-x: hidden
 }
 
-body,
-html {
-    scroll-behavior: smooth
-}
 
-a,
-a:focus,
-a:hover,
-button,
-button:focus,
-button:hover {
-    text-decoration: none;
-    outline: 0
-}
 
-.container,
-.header .container {
-    width: 85%
-}
+
 
 #footer_main,
 .section_left_img {
@@ -473,10 +392,6 @@ button:hover {
     width: 100%;
     background-color: #192a3c !important;
     padding: 50px 0
-}
-
-.top_footer .container {
-    width: 95%
 }
 
 .four_col_footer h3 {
@@ -603,10 +518,6 @@ h4 {
 
 .mt-0 {
     margin-top: 0 !important
-}
-
-.container {
-    width: 85% !important
 }
 
 .try_free_btn {
@@ -777,18 +688,6 @@ div.logo {
     z-index: 9999
 }
 
-@media screen and (max-width:1400px) {
-    .container {
-        width: 95% !important
-    }
-}
-
-@media screen and (max-width:1366px) {
-    .container {
-        width: 95% !important
-    }
-}
-
 @media screen and (max-width:1280px) {
     .title_description h2 {
         font-size: 22px;
@@ -947,12 +846,6 @@ div.logo {
         text-align: left;
         vertical-align: middle !important;
         width: 46% !important
-    }
-}
-
-@media screen and (min-width:1800px) {
-    .container {
-        width: 75% !important
     }
 }
 

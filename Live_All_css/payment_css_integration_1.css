@@ -9,9 +9,7 @@ img {
     vertical-align: middle
 }
 
-a {
-    background-color: transparent
-}
+
 
 footer,
 header,
@@ -27,14 +25,9 @@ nav {
     display: inline-block
 }
 
-a {
-    color: #337ab7
-}
 
-a:active,
-a:hover {
-    outline: 0
-}
+
+
 
 .close,
 .font_bold,
@@ -42,122 +35,15 @@ a:hover {
     font-weight: 600;
 }
 
-h1 {
-    margin: .67em 0
-}
 
-img {
-    border: 0
-}
 
-svg:not(:root) {
-    overflow: hidden
-}
 
-button,
-input {
-    margin: 0;
-    font: inherit;
-    color: inherit
-}
 
-button {
-    overflow: visible
-}
 
-button {
-    text-transform: none
-}
 
-button {
-    -webkit-appearance: button;
-    cursor: pointer
-}
 
-button::-moz-focus-inner,
-input::-moz-focus-inner {
-    padding: 0;
-    border: 0
-}
 
-input {
-    line-height: normal
-}
 
-input[type=checkbox] {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box;
-    padding: 0
-}
-
-@media print {
-
-    *,
-    :after,
-    :before {
-        color: #000 !important;
-        text-shadow: none !important;
-        background: 0 0 !important;
-        -webkit-box-shadow: none !important;
-        box-shadow: none !important
-    }
-
-    a,
-    a:visited {
-        text-decoration: underline
-    }
-
-    a[href]:after {
-        content: " (" attr(href) ")"
-    }
-
-    a[href^="javascript:"]:after {
-        content: ""
-    }
-
-    img {
-        page-break-inside: avoid;
-        max-width: 100% !important
-    }
-
-    h2,
-    h3,
-    p {
-        orphans: 3;
-        widows: 3
-    }
-
-    h2,
-    h3 {
-        page-break-after: avoid
-    }
-
-    .label {
-        border: 1px solid #000
-    }
-}
-
-@font-face {
-    font-family: "Glyphicons Halflings";
-    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot);
-    src: url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.eot?#iefix) format("embedded-opentype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff2) format("woff2"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.woff) format("woff"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.ttf) format("truetype"), url(https://cdn.mooninvoice.com/css/fonts/glyphicons-halflings-regular.svg#glyphicons_halflingsregular) format("svg")
-}
-
-*,
-:after,
-:before {
-    -webkit-box-sizing: border-box;
-    -moz-box-sizing: border-box;
-    box-sizing: border-box
-}
-
-html {
-    -webkit-text-size-adjust: 100%;
-    -ms-text-size-adjust: 100%;
-    font-size: 10px;
-    -webkit-tap-highlight-color: transparent
-}
 
 body {
     margin: 0;
@@ -167,22 +53,11 @@ body {
     font-family: var(--secondary-fonts);
 }
 
-button,
-input {
-    font-size: inherit;
-    line-height: inherit
-}
 
-a:focus,
-a:hover {
-    color: #23527c
-}
 
-a:focus,
-input[type=checkbox]:focus {
-    outline: -webkit-focus-ring-color auto 5px;
-    outline-offset: -2px
-}
+
+
+
 
 h1,
 h2,
@@ -193,38 +68,24 @@ h6 {
     color: inherit
 }
 
-h1,
-h2,
-h3 {
-    margin-top: 20px;
-    margin-bottom: 10px
-}
+
 
 h6 {
     margin-top: 10px;
     margin-bottom: 10px
 }
 
-h1 {
-    font-size: 36px
-}
 
-h2 {
-    font-size: 30px
-}
 
-h3 {
-    font-size: 24px
-}
+
+
+
 
 h6 {
     font-size: 12px
 }
 
-p {
-    margin: 0 0 10px;
-    font-size: 16px
-}
+
 
 .btn,
 .label,
@@ -233,15 +94,9 @@ p {
     text-align: center
 }
 
-ul {
-    margin-top: 0;
-    margin-bottom: 10px
-}
 
-.btn,
-ul ul {
-    margin-bottom: 0
-}
+
+
 
 #PaymentPopup .modal-content,
 .form input,
@@ -251,17 +106,9 @@ ul ul {
     font-family: var(--secondary-fonts);
 }
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto
-}
 
-.row {
-    margin-right: -15px;
-    margin-left: -15px
-}
+
+
 
 .col-lg-12,
 .col-lg-4,
@@ -370,146 +217,47 @@ label {
     }
 }
 
-label {
-    display: inline-block;
-    margin-bottom: 5px;
-    font-weight: 700
-}
 
-input[type=checkbox] {
-    margin: 4px 0 0;
-    line-height: normal
-}
 
-.form-control {
-    display: block;
-    width: 100%;
-    height: 34px;
-    padding: 6px 12px;
-    color: #555;
-    background-color: #fff;
-    border: 1px solid #ccc;
-    border-radius: 4px;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
-    -webkit-transition: border-color .15s ease-in-out, -webkit-box-shadow .15s ease-in-out;
-    -o-transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
-    transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out
-}
 
-.form-control:focus {
-    border-color: #66afe9;
-    outline: 0;
-    -webkit-box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6);
-    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075), 0 0 8px rgba(102, 175, 233, .6)
-}
 
-.form-control::-moz-placeholder {
-    color: #999;
-    opacity: 1
-}
 
-.form-control:-ms-input-placeholder {
-    color: #999
-}
 
-.form-control::-webkit-input-placeholder {
-    color: #999
-}
 
-.form-control::-ms-expand {
-    background-color: transparent;
-    border: 0
-}
 
-.form-group {
-    margin-bottom: 15px
-}
 
-.btn {
-    line-height: 1.42857143
-}
 
-.btn {
-    padding: 6px 12px;
-    font-size: 14px;
-    font-weight: 400;
-    -ms-touch-action: manipulation;
-    touch-action: manipulation;
-    cursor: pointer;
-    -webkit-user-select: none;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    user-select: none;
-    border: 1px solid transparent;
-    border-radius: 4px
-}
 
-.btn:active:focus,
-.btn:focus {
-    outline: -webkit-focus-ring-color auto 5px;
-    outline-offset: -2px
-}
 
-.btn:focus,
-.btn:hover {
-    color: #333;
-    text-decoration: none
-}
 
-.btn:active {
-    background-image: none;
-    outline: 0;
-    -webkit-box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125);
-    box-shadow: inset 0 3px 5px rgba(0, 0, 0, .125)
-}
 
-.btn-primary {
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4
-}
 
-.btn-primary:focus {
-    color: #fff;
-    background-color: #286090;
-    border-color: #122b40
-}
 
-.btn-primary:active,
-.btn-primary:hover {
-    color: #fff;
-    background-color: #286090;
-    border-color: #204d74
-}
 
-.btn-primary:active:focus,
-.btn-primary:active:hover {
-    color: #fff;
-    background-color: #204d74;
-    border-color: #122b40
-}
 
-.fade {
-    opacity: 0;
-    -webkit-transition: opacity .15s linear;
-    -o-transition: opacity .15s linear;
-    transition: opacity .15s linear
-}
 
-.label {
-    display: inline;
-    padding: .2em .6em .3em;
-    font-size: 75%;
-    line-height: 1;
-    color: #fff;
-    vertical-align: baseline;
-    border-radius: .25em
-}
 
-.close {
-    line-height: 1
-}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .payment .modal-footer {
     border-top: 0
@@ -539,66 +287,21 @@ button.close {
     border: 0
 }
 
-.modal {
-    position: fixed;
-    top: 0;
-    right: 0;
-    bottom: 0;
-    left: 0;
-    z-index: 1050;
-    display: none;
-    overflow: hidden;
-    -webkit-overflow-scrolling: touch;
-    outline: 0
-}
 
-.modal.fade .modal-dialog {
-    -webkit-transition: -webkit-transform .3s ease-out;
-    -o-transition: -o-transform .3s ease-out;
-    transition: transform .3s ease-out;
-    -webkit-transform: translate(0, -25%);
-    -ms-transform: translate(0, -25%);
-    -o-transform: translate(0, -25%);
-    transform: translate(0, -25%)
-}
 
-.modal-dialog {
-    position: relative;
-    width: auto;
-    margin: 10px
-}
 
-.modal-content {
-    position: relative;
-    background-color: #fff;
-    -webkit-background-clip: padding-box;
-    background-clip: padding-box;
-    border: 1px solid rgba(0, 0, 0, .2);
-    border-radius: 6px;
-    outline: 0;
-    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, .5);
-    box-shadow: 0 3px 9px rgba(0, 0, 0, .5)
-}
 
-.modal-header {
-    padding: 15px;
-    border-bottom: 1px solid #e5e5e5
-}
 
-.modal-header .close {
-    margin-top: -2px
-}
 
-.modal-body {
-    position: relative;
-    padding: 15px
-}
 
-.modal-footer {
-    padding: 15px;
-    text-align: right;
-    border-top: 1px solid #e5e5e5
-}
+
+
+
+
+
+
+
+
 
 @media (min-width:768px) {
     .modal-dialog {
@@ -618,8 +321,7 @@ body {
     width: 100%;
 }
 
-.container:after,
-.container:before,
+
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -630,17 +332,14 @@ body {
     content: " "
 }
 
-.container:after,
+
 .modal-footer:after,
 .modal-header:after,
 .row:after {
     clear: both
 }
 
-#header_main {
-    background-color: #fff;
-    z-index: 99
-}
+
 
 @media (min-width:1200px) {
 
@@ -663,40 +362,15 @@ body {
     }
 }
 
-body {
-    cursor: default;
-    -moz-user-select: none;
-    -ms-user-select: none;
-    -webkit-user-select: none;
-    -webkit-touch-callout: none;
-    overflow-x: hidden
-}
 
-body,
-html {
-    scroll-behavior: smooth
-}
 
-a,
-a:focus,
-a:hover,
-button,
-button:focus,
-button:hover {
-    text-decoration: none;
-    outline: 0
-}
 
-#header_main {
-    position: fixed;
-    left: 0;
-    top: 0
-}
 
-.logo_div {
-    width: 100%;
-    padding: 10px 0
-}
+
+
+
+
+
 
 .payment .modal-body {
     padding: 0
@@ -726,11 +400,7 @@ button:hover {
     color: #fff
 }
 
-a:focus,
-button:focus,
-input:focus {
-    outline: 0 !important
-}
+
 
 #cookie-notice {
     color: #fff;
@@ -1595,44 +1265,4 @@ div.logo {
     height: 5px;
     font-size: 20px;
     color: #707070
-}
-
-.container {
-    width: 100%;
-}
-
-@media (min-width: 1800.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1800.98px) and (min-width: 1500.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1500.98px) and (min-width: 1199.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1199.98px) and (min-width: 991.99px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (max-width: 991.98px) and (min-width: 767.99px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (max-width: 767.98px) and (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
 }

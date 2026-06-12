@@ -8694,9 +8694,6 @@ i.btn-danger {
 }
 
 @media (max-width:991px) {
-    .navbar .container {
-        width: 100%
-    }
 
     .navbar .container .navbar-toggler-right {
         right: 0
@@ -13751,13 +13748,6 @@ a.pswp__share--download:hover {
     .double-nav {
         padding-top: 4px;
         padding-bottom: 4px
-    }
-}
-
-@media only screen and (max-width:768px) {
-    .double-nav .container {
-        padding-left: 0;
-        padding-right: 0
     }
 }
 

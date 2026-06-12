@@ -12,10 +12,6 @@
     padding: 0 !important
 }
 
-#header_main .container {
-    width: 85% !important
-}
-
 .main_offer_div {
     display: none
 }
@@ -206,22 +202,7 @@ div.list ul {
     margin: 0 auto
 }
 
-@media screen and (min-width:1800px) {
-    #header_main .container {
-        width: 75% !important
-    }
-}
-
-@media screen and (max-width:1366px) {
-    #header_main .container {
-        width: 95% !important
-    }
-}
-
 @media screen and (max-width:1200px) {
-    #header_main .container {
-        width: 100%
-    }
 
     .logo_txt_div h2 {
         font-size: 24px
@@ -237,10 +218,6 @@ div.list ul {
     .sidepanel .sidepanel_btn {
         display: inline-block;
         margin: 0
-    }
-
-    #header_main .container {
-        width: 100% !important
     }
 }
 

@@ -1,0 +1,2437 @@
+.cal-btn {
+    border-radius: 10px !important;
+    text-transform: none !important;
+}
+
+.cal-btn-wrap {
+    display: flex;
+    gap: 30px;
+    margin-top: 30px;
+}
+
+.cal-btn-white {
+    border: 1px solid #ffffff !important;
+}
+
+.sectionGapPadding {
+    padding: 100px 0;
+}
+
+.sectionGapHalfPadding {
+    padding: 60px 0;
+}
+
+@media (max-width: 1440.98px) {
+    .sectionGapPadding {
+        padding: 80px 0;
+    }
+
+    .sectionGapHalfPadding {
+        padding: 50px 0;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .sectionGapPadding {
+        padding: 50px 0;
+    }
+
+    .sectionGapHalfPadding {
+        padding: 50px 0;
+    }
+}
+
+.noTopPadding {
+    padding-top: 0px;
+}
+
+.noBottomPadding {
+    padding-bottom: 0px;
+}
+
+.titleSc {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.titleSc .mainTitle {
+    font-size: 36px;
+    line-height: 120%;
+    margin: 0 auto 25px;
+    font-weight: 500;
+    color: #1e293b;
+    letter-spacing: unset;
+}
+
+.titleSc p {
+    font-size: 16px;
+    line-height: 160%;
+    color: #334155;
+}
+
+.titleSc.titleLeft {
+    text-align: left;
+}
+
+@media (min-width: 991.99px) {
+    .row.row-align-center-lg {
+        align-items: center;
+    }
+}
+
+.font-white {
+    color: #ffffff !important;
+}
+
+.font-primary {
+    color: var(--primary-color) !important;
+}
+
+.bg-grey {
+    background: #f7fbff;
+}
+
+.bg-grey-dark {
+    background-color: rgba(229, 242, 255, 1) !important;
+    border-radius: 40px;
+}
+
+.font-bold {
+    font-weight: 700 !important;
+}
+
+@media (max-width: 991.98px) {
+    .row-reverese-md-sm-xs>[class*="col-"]:nth-child(1) {
+        order: 1;
+    }
+
+    .row-reverese-md-sm-xs>[class*="col-"]:nth-child(2) {
+        order: 0;
+    }
+}
+
+.bg-transparent {
+    background-color: transparent !important;
+}
+
+.bnrSc {
+    min-height: 620px;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+
+.bnrSc .bnrCntBox {
+    max-width: 600px;
+}
+
+.bnrSc .bnrCntBox * {
+    color: #ffffff;
+}
+
+.bnrSc .bnrCntBox .title {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 76px;
+    margin-bottom: 32px;
+    position: relative;
+}
+
+.bnrSc .bnrCntBox .title:before {
+    content: "";
+    width: 50px;
+    height: 2px;
+    background-color: #ffffff;
+    position: absolute;
+    bottom: -12px;
+    left: 0px;
+}
+
+.bnrSc .bnrCntBox p {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+}
+
+.bnrSc ul.tick-ul {
+    margin-top: 30px;
+}
+
+.bnrSc ul.tick-ul li {
+    font-size: 16px;
+    padding-left: 30px;
+    position: relative;
+    text-align: left;
+    margin: 7.5px 0px;
+    list-style: none;
+}
+
+.bnrSc ul.tick-ul li:before {
+    content: "";
+    position: absolute;
+    top: 0px;
+    left: 0;
+    background-image: url(https://cdn.mooninvoice.com/image/images/round-circle.svg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.bnrSc .tick-ul.tick-ul-half {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.bnrSc .tick-ul.tick-ul-half li {
+    width: 50%;
+}
+
+.bnrSc .btn-sc {
+    margin-top: 30px;
+}
+
+@media (max-width: 1450.98px) {
+    .bnrSc {
+        min-height: 450px;
+    }
+}
+
+@media (max-width: 1366.98px) {
+    .bnrSc .bnrCntBox .title {
+        font-size: 50px;
+        line-height: 62px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .bnrSc {
+        min-height: auto;
+        background-position: center;
+    }
+
+    .bnrSc .bnrCntBox .title {
+        font-size: 40px;
+        line-height: 52px;
+    }
+}
+
+@media (max-width: 767.98px) {
+
+    .bnrSc .bnrCntBox .title {
+        font-size: 32px;
+        line-height: 38px;
+    }
+
+    .bnrSc .tick-ul.tick-ul-half li {
+        width: 100%;
+    }
+}
+
+.cmsSc .ttl {
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 120%;
+    color: #1e293b;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.cmsSc p,
+.cmsSc li {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 150%;
+    color: #334155;
+}
+
+.cmsSc ul,
+.cmsSc ol,
+.cmsSc p {
+    margin-bottom: 20px;
+    margin-top: 0px;
+}
+
+.cmsSc ul,
+.cmsSc ol {
+    margin-left: 50px;
+}
+
+.cmsSc ul {
+    list-style-type: disc;
+}
+
+.cmsSc ol {
+    list-style-type: numeric;
+}
+
+.cmsSc li+li {
+    margin-top: 10px;
+}
+
+.cmsSc p.strong {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.cmsSc p.strong.mb-5 {
+    margin-bottom: 5px;
+}
+
+.cmsSc .btn-sc {
+    padding-top: 30px;
+}
+
+.cmsSc .double-arrow-ul {
+    margin: 0px;
+}
+
+.cmsSc .double-arrow-ul li {
+    list-style-type: none;
+    padding-left: 35px;
+    position: relative;
+}
+
+.cmsSc .double-arrow-ul li:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-image: url(https://cdn.mooninvoice.com/image/images/chevron-double-right.svg);
+    background-size: cover;
+    width: 22px;
+    height: 22px;
+}
+
+.rentInvoiceGrdSc.cmsSc .ttl {
+    max-width: 380px;
+}
+
+.cmsSc .tick-ul {
+    padding: 0;
+    margin: 0;
+}
+
+.cmsSc .tick-ul li {
+    list-style-type: none;
+    padding-left: 30px;
+    position: relative;
+}
+
+.cmsSc .tick-ul li:before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 0;
+    background-image: url(https://cdn.mooninvoice.com/image/images/round-circle.svg);
+    background-size: cover;
+    width: 20px;
+    height: 20px;
+}
+
+.cmsSc .tick-ul li {
+    margin-top: 15px;
+}
+
+.cmsSc .tick-ul.tick-ul-half {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.cmsSc .tick-ul.tick-ul-half li {
+    width: 50%;
+}
+
+@media (max-width: 991.98px) {
+    .cmsSc .btn-sc {
+        padding-top: 0px;
+    }
+
+    .cmsSc.cmsGridSc .imgSc {
+        text-align: center;
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .cmsSc .ttl {
+        font-size: 26px;
+    }
+
+    .cmsSc p,
+    .cmsSc li {
+        font-size: 14px;
+    }
+
+    .cmsSc .tick-ul li {
+        margin-top: 10px;
+    }
+}
+
+@media (max-width: 575.98px) {
+
+    .cmsSc ul,
+    .cmsSc ol {
+        margin-left: 15px;
+    }
+
+    .cmsSc .ttl {
+        font-size: 22px;
+    }
+}
+
+ul.aboutListSc {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+ul.aboutListSc li {
+    width: 25%;
+    text-align: center;
+    position: relative;
+    list-style: none;
+}
+
+ul.aboutListSc li+li::before {
+    content: "";
+    background-image: url(../../../../images/line_svg.svg);
+    width: 100%;
+    position: absolute;
+    left: -150px;
+    top: 50px;
+    height: 2px;
+    background-size: cover;
+    z-index: 1;
+}
+
+ul.aboutListSc li img {
+    width: 100px;
+    height: 100px;
+    z-index: 2;
+    position: relative;
+}
+
+ul.aboutListSc li span {
+    display: block;
+    font-size: 16px;
+    line-height: 25px;
+    margin-top: 15px;
+}
+
+@media (min-width: 1440.99px) {
+    .aboutUsSc .titleSc .mainTitle {
+        font-size: 48px;
+        line-height: 55px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .aboutUsSc .titleSc {
+        margin-bottom: 0;
+    }
+
+    ul.aboutListSc li {
+        width: 100%;
+    }
+
+    ul.aboutListSc li:before {
+        opacity: 0;
+    }
+
+    ul.aboutListSc li+li {
+        margin-top: 30px;
+    }
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+.calcSc {
+    display: flex;
+    flex-wrap: wrap;
+    background: #ffffff;
+    box-shadow: 0px 0px 40px rgba(0, 0, 0, 0.07);
+    border-radius: 15px;
+}
+
+.calcSc .calcFormBox {
+    padding: 30px 103px 30px 40px;
+    width: calc(100% - 540px);
+}
+
+.calcSc .calcFormBox .title {
+    font-size: 36px;
+    line-height: 46px;
+    margin: 0 0 30px;
+}
+
+.calcSc .calcFormBox .title span {
+    display: block;
+}
+
+.calcSc .calcMarginBox {
+    width: 540px;
+    background-color: var(--primary-color);
+    background-image: url(https://cdn.mooninvoice.com/image/images/profit_margin_calc_abstract.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    padding: 70px 30px 35px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    position: relative;
+}
+
+.calcSc .calcMarginBox .marginPriceBox {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.marginPriceBox .priceSc {
+    width: 50%;
+    color: #ffffff;
+    margin-top: 30px;
+}
+
+.marginPriceBox .priceSc:nth-child(1) {
+    width: 100%;
+    margin-top: 0;
+}
+
+.marginPriceBox .priceSc .title {
+    font-size: 20px;
+    line-height: 25px;
+}
+
+.marginPriceBox .priceSc .price {
+    font-weight: 700;
+    font-size: 50px;
+    line-height: 63px;
+    display: block;
+}
+
+.calcMarginBox .btnSc .btn {
+    background-color: #ffffff;
+    color: var(--primary-color);
+    width: 100%;
+    border-radius: 5px;
+    font-weight: 600;
+    
+    text-transform: capitalize;
+    transition: 0.3s;
+}
+
+.calcMarginBox .btnSc .btn:hover {
+    box-shadow: 0 14px 26px -12px rgb(255 255 255 / 42%), 0 4px 23px 0 rgb(255 255 255 / 12%), 0 8px 10px -5px rgb(255 255 255 / 42%);
+}
+
+.calcFormBox .form-group:not(.form-group-no-flex) {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.calcFormBox .form-group+.form-group {
+    margin-top: 30px;
+}
+
+.calcFormBox .form-group:not(.no-tooltip) .pure-material-textfield-outlined {
+    width: calc(100% - 35px);
+}
+
+.calcFormBox .pure-material-textfield-outlined>input {
+    border-color: #c2c2c2;
+    border-top-color: transparent;
+    padding: 11px 15px 11px 25px;
+    transition: none;
+}
+
+.calcFormBox .pure-material-textfield-outlined>input {
+    border-top: 0;
+}
+
+.calcFormBox .pure-material-textfield-outlined>input:focus {
+    border-color: var(--primary-color);
+    border-top-color: transparent;
+    border-top: 0px;
+}
+
+.calcFormBox .pure-material-textfield-outlined>input+span,
+.calcFormBox .pure-material-textfield-outlined>input+span::before,
+.calcFormBox .pure-material-textfield-outlined>input+span::after {
+    transition: none;
+}
+
+.calcFormBox .pure-material-textfield-outlined>input:not(:focus):placeholder-shown,
+.calcFormBox .pure-material-textfield-outlined>input:hover:not(:focus):placeholder-shown {
+    border-top-color: transparent;
+    border-top: 0px !important;
+}
+
+.calcFormBox .pure-material-textfield-outlined .custom_span {
+    height: 15px;
+    line-height: 15px !important;
+    font-size: 12px !important;
+}
+
+.calcFormBox .pure-material-textfield-outlined .custom_span:before,
+.calcFormBox .pure-material-textfield-outlined .custom_span:after {
+    border-color: #c2c2c2 !important;
+}
+
+.calcFormBox .pure-material-textfield-outlined:hover .custom_span:before,
+.calcFormBox .pure-material-textfield-outlined:hover .custom_span:after {
+    border-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.87) !important;
+}
+
+.calcFormBox .pure-material-textfield-outlined input:focus~.custom_span:before,
+.calcFormBox .pure-material-textfield-outlined input:focus~.custom_span:after {
+    border-color: #007aff !important;
+}
+
+.calcFormBox .form-group .icon {
+    position: absolute;
+    left: 15px;
+    top: 15px;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.calcFormBox select {
+    -moz-appearance: none;
+    -webkit-appearance: none;
+    appearance: none;
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMjQiIGhlaWdodD0iMjQiIHZpZXdCb3g9IjAgMCAyNCAyNCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgb3BhY2l0eT0iMC41Ij4KPHBhdGggZD0iTTcgMTBMMTIgMTVMMTcgMTBIN1oiIGZpbGw9ImJsYWNrIi8+CjwvZz4KPC9zdmc+Cg==");
+    background-repeat: no-repeat;
+    background-position: calc(100% - 10px) center;
+}
+
+.calcFormBox .pure-material-textfield-outlined>select {
+    box-sizing: border-box;
+    margin: 0;
+    border: solid 1px;
+    border-radius: 4px;
+    width: 100%;
+    height: inherit;
+    color: #000;
+    background-color: transparent;
+    box-shadow: none;
+    font-size: 16px;
+    caret-color: rgb(var(--pure-material-primary-rgb, 33, 150, 243));
+    transition: border 0.2s, box-shadow 0.2s;
+    line-height: 21px;
+    font-weight: normal;
+    font-style: normal;
+    
+    border-color: #c2c2c2;
+    padding: 11px 15px 11px 25px;
+    transition: none;
+    border-top-color: transparent;
+    border-top: 0px !important;
+}
+
+.calcFormBox .pure-material-textfield-outlined>select+span {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    border-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.6);
+    width: 100%;
+    max-height: 100%;
+    color: #828282;
+    font-size: 12px;
+    line-height: 15px;
+    cursor: text;
+    font-weight: normal;
+    transition: color 0.2s, font-size 0.2s, line-height 0.2s;
+}
+
+.calcFormBox .pure-material-textfield-outlined>select+span::before,
+.calcFormBox .pure-material-textfield-outlined>select+span::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    margin-top: 6px;
+    border-top: solid 1px;
+    border-top-color: #ededed;
+    min-width: 10px;
+    height: 8px;
+    pointer-events: none;
+    box-shadow: inset 0 1px transparent;
+    transition: border-color 0.2s, box-shadow 0.2s;
+    transition: none;
+    border-color: #c2c2c2 !important;
+}
+
+.calcFormBox .pure-material-textfield-outlined>select+span::before {
+    margin-right: 4px;
+    border-left: solid 1px transparent;
+    border-radius: 4px 0;
+}
+
+.calcFormBox .pure-material-textfield-outlined>select+span::after {
+    flex-grow: 1;
+    margin-left: 4px;
+    border-right: solid 1px transparent;
+    border-radius: 0 4px;
+}
+
+.calcFormBox .pure-material-textfield-outlined:hover>select,
+.calcFormBox .pure-material-textfield-outlined:hover>select:not(:focus):placeholder-shown {
+    border-color: rgba(var(--pure-material-onsurface-rgb, 0, 0, 0), 0.87);
+}
+
+.calcFormBox .no-price-icn :is(.pure-material-textfield-outlined > select, .pure-material-textfield-outlined > input) {
+    padding-left: 30px;
+}
+
+.calcFormBox .tooltip_sc {
+    margin-top: 6px;
+    position: relative;
+}
+
+.calcFormBox .tooltip_sc span {
+    box-shadow: 0 -10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
+    display: block;
+    font-size: 0.75rem;
+    line-height: 1rem;
+    border-radius: 5px;
+    padding: 0.25rem;
+    width: 190px;
+    position: absolute;
+    top: 30px;
+    left: -83px;
+    z-index: 9;
+    background-color: #ffffff;
+    display: none;
+}
+
+.calcFormBox .tooltip_sc span:before {
+    content: "";
+    position: absolute;
+    left: 50%;
+    top: -6px;
+    width: 20px;
+    height: 10px;
+    border-bottom: solid 10px rgb(255 255 255);
+    border-left: solid 10px transparent;
+    border-right: solid 10px transparent;
+    transform: translate(-50%, 0px);
+}
+
+.calcFormBox .tooltip_sc:hover span {
+    display: block;
+}
+
+.radio-label {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    color: #000;
+}
+
+.radio-label input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+}
+
+.checkmark {
+    position: absolute;
+    top: -2px;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee0;
+    border: 2px solid #7f7f7f;
+    border-radius: 50%;
+}
+
+.radio-label input:checked~.checkmark {
+    background-color: transparent;
+    border-color: var(--primary-color);
+}
+
+.checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+}
+
+.radio-label input:checked~.checkmark:after {
+    display: block;
+}
+
+.radio-label .checkmark:after {
+    top: 4px;
+    left: 4px;
+    width: 13px;
+    height: 13px;
+    border-radius: 50%;
+    background: var(--primary-color);
+}
+
+.calcFormBox .btn-sc .btn {
+    width: 100%;
+    border-radius: 30px;
+    padding: 20px 80px;
+}
+
+.calcSc .calcFormBox .cnt-box {
+    margin-top: 50px;
+}
+
+.calcSc .calcFormBox .cnt-box .title {
+    font-size: 20px;
+    line-height: 24px;
+    color: rgba(30, 41, 59, 1);
+    margin-bottom: 20px;
+}
+
+.calcSc .calcFormBox .cnt-box ul {
+    list-style-type: decimal;
+    color: rgba(51, 65, 85, 1);
+    padding-left: 25px;
+}
+
+.calcSc .calcFormBox .cnt-box ul li+li {
+    margin-top: 15px;
+}
+
+.gstCalcMain .calcSc .calcMarginBox {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.gstCalcMain .calcSc .calcMarginBox::before {
+    content: "";
+    position: absolute;
+    bottom: 0px;
+    left: 0;
+    width: 100%;
+    height: 178px;
+    background-image: url(https://cdn.mooninvoice.com/image/images/gst_calc_abstract.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+}
+
+.gstCalcMain .calcSc .calcMarginBox .marginPriceBox {
+    display: block;
+    width: 100%;
+}
+
+.gstCalcMain .marginPriceBox .priceSc {
+    margin: auto;
+    padding: 16px 26px;
+    width: 100%;
+}
+
+.gstCalcMain .marginPriceBox .priceSc .title {
+    font-size: 30px;
+    line-height: 40px;
+}
+
+.gstCalcMain .marginPriceBox .priceSc .price {
+    font-size: 46px;
+    line-height: 60px;
+}
+
+.gstCalcMain .additionSc {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 50px;
+}
+
+.gstCalcMain .additionSc .amount span {
+    display: block;
+    color: #ffffff;
+}
+
+.gstCalcMain .additionSc .amount .addPrice {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+.gstCalcMain .additionSc .amount .addInfo {
+    font-size: 22px;
+    line-height: 25px;
+    margin-top: 5px;
+}
+
+.gstCalcMain .additionSc .amount.amountPlus {
+    margin: 0 40px;
+}
+
+.gstCalcMain .no-flex {
+    display: block;
+}
+
+.calcFormBox .no-price-icn {
+    position: relative;
+}
+
+.calcFormBox .pure-material-textfield-outlined {
+    min-height: 56px;
+}
+
+.calcFormBox .no-price-icn::before {
+    content: "$";
+    position: absolute;
+    left: 14px;
+    top: 32px;
+    transform: translateY(-12px);
+    font-size: 16px;
+    color: #828282;
+    pointer-events: none;
+    z-index: 9;
+}
+
+.calcFormBox .no-price-icn input {
+    padding-left: 34px;
+    line-height: 24px;
+}
+
+@media (min-width: 1199.99px) {
+    .gstCalcMain .calcSc .calcFormBox {
+        padding: 50px 103px 50px 80px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .calcSc .calcFormBox {
+        width: calc(100% - 450px);
+        padding: 30px;
+    }
+
+    .calcSc .calcMarginBox {
+        width: 450px;
+    }
+
+    .calcSc .calcFormBox .title span {
+        display: inline;
+    }
+}
+
+@media (max-width: 991.98px) {
+
+    .calcSc .calcMarginBox,
+    .calcSc .calcFormBox {
+        width: 100%;
+    }
+
+    .calcSc .calcMarginBox .btnSc {
+        margin-top: 40px;
+    }
+
+    .calcSc .calcMarginBox {
+        border-top-right-radius: 0px;
+        border-bottom-left-radius: 15px;
+    }
+
+    .gstCalcMain .calcSc .calcMarginBox::before {
+        height: 138px;
+    }
+
+    .calcSc .calcFormBox .cnt-box {
+        margin-top: 30px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .calcSc .calcFormBox .title {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .marginPriceBox .priceSc .title {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .marginPriceBox .priceSc .price {
+        font-size: 40px;
+        line-height: 50px;
+    }
+
+    .gstCalcMain .additionSc .amount.amountPlus {
+        margin: 0 15px;
+    }
+
+    .gstCalcMain .additionSc .amount .addPrice {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
+    .gstCalcMain .additionSc .amount .addInfo {
+        font-size: 18px;
+        line-height: 20px;
+    }
+
+    .gstCalcMain .marginPriceBox .priceSc {
+        width: 100%;
+    }
+
+    .gstCalcMain .marginPriceBox .priceSc .title {
+        font-size: 22px;
+        line-height: 30px;
+    }
+
+    .gstCalcMain .marginPriceBox .priceSc .price {
+        font-size: 34px;
+        line-height: 50px;
+    }
+
+    .gstCalcMain .additionSc {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .calcSc .calcFormBox {
+        padding: 20px;
+    }
+
+    .calcSc .calcFormBox .title {
+        font-size: 24px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+
+    .calcFormBox .form-group+.form-group {
+        margin-top: 20px;
+    }
+
+    .calcFormBox .tooltip_sc span {
+        right: 0px;
+        left: unset;
+    }
+
+    .calcFormBox .tooltip_sc span:before {
+        right: -5px;
+        left: unset;
+    }
+
+    .calcSc .calcMarginBox {
+        background-size: 200px auto;
+        padding: 30px 20px 30px;
+    }
+
+    .marginPriceBox .priceSc:not(:first-child) {
+        margin-top: 15px;
+    }
+
+    .marginPriceBox .priceSc .title {
+        font-size: 16px;
+    }
+
+    .marginPriceBox .priceSc .price {
+        font-size: 26px;
+        line-height: 32px;
+    }
+
+    .calcSc .calcMarginBox .btnSc {
+        margin-top: 30px;
+    }
+
+    .calcMarginBox .btnSc .btn {
+        padding: 15px;
+    }
+}
+
+.letHelpSc {
+    padding: 50px 0;
+    background-color: rgb(230 242 255 / 80%);
+}
+
+.letHelpSc .titleSc {
+    margin-bottom: 0px;
+}
+
+.letHelpSc .mainTitle {
+    font-size: 36px;
+    line-height: 120%;
+    font-weight: 700;
+}
+
+.letHelpSc .subTitle {
+    font-size: 40px;
+    line-height: 48px;
+    font-weight: 700;
+    color: #000;
+}
+
+.letHelpSc .btn {
+    margin-top: 30px;
+}
+
+.noCntLetSc.letHelpSc .btn {
+    margin-top: 10px;
+}
+
+.letHelpSc ul {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 615px;
+    margin: auto;
+    margin-top: 25px;
+}
+
+.letHelpSc ul li {
+    width: 50%;
+    text-align: left;
+    position: relative;
+    padding-left: 15px;
+    color: #334155;
+    font-size: 16px;
+    line-height: 150%;
+    margin-top: 15px;
+}
+
+.letHelpSc ul li::before {
+    content: "";
+    width: 5px;
+    height: 5px;
+    border-radius: 50%;
+    background-color: var(--primary-color);
+    position: absolute;
+    left: 0px;
+    top: 10px;
+}
+
+.letHelpSc.noTopPadding {
+    padding-top: 0px;
+}
+
+.profit_margin-cal_box {
+    padding-bottom: 100px;
+    gap: 50px 0px;
+}
+
+@media (min-width: 991.99px) {
+    .letHelpSc.bottomGapPadding {
+        padding-bottom: 100px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .letHelpSc .subTitle {
+        font-size: 36px;
+        line-height: 120%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .letHelpSc .subTitle {
+        font-size: 26px;
+    }
+
+    .profit_margin-cal_box {
+        padding-bottom: 50px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .letHelpSc .mainTitle {
+        font-size: 28px;
+    }
+
+    .letHelpSc.hasListSc .titleSc {
+        text-align: left;
+    }
+
+    .letHelpSc ul {
+        margin-top: 0px;
+    }
+
+    .letHelpSc ul li {
+        width: 100%;
+    }
+
+    .profit_margin-cal_box {
+        gap: 30px 0px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .letHelpSc .mainTitle {
+        font-size: 22px;
+        margin: 0 auto 15px;
+    }
+
+    .letHelpSc .btn {
+        margin-top: 20px;
+    }
+}
+
+.typeGridSc .gridSc .gridBox {
+    background: #ffffff;
+    border: 1px solid #f1f1f6;
+    box-shadow: 0px 20px 90px rgba(30, 41, 59, 0.05);
+    border-radius: 8px;
+    padding: 30px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 30px;
+    height: calc(100% - 30px);
+}
+
+.typeGridSc .gridSc .gridBox:hover {
+    box-shadow: 0 20px 90px rgb(30 41 59 / 5%);
+}
+
+.typeGridSc .gridSc .gridBox::before,
+.typeGridSc .gridSc .gridBox::after {
+    content: "";
+    position: absolute;
+    left: -20px;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e8f3ff;
+    filter: blur(30px);
+    z-index: 1;
+}
+
+.typeGridSc .gridSc .gridBox::before {
+    top: -20px;
+}
+
+.typeGridSc .gridSc .gridBox::after {
+    bottom: -20px;
+}
+
+.typeGridSc .gridSc .gridBox .icnSc {
+    width: 60px;
+    height: 60px;
+    background-color: #e8f3ff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+}
+
+.typeGridSc .gridSc .gridBox .title {
+    font-weight: 700;
+    font-size: 18px;
+    
+    line-height: 120%;
+    color: var(--heading-color);
+    border-bottom: 0;
+    text-align: left;
+    margin: 15px 0;
+    display: block;
+    cursor: auto;
+}
+
+.typeGridSc .gridSc .gridBox p {
+    font-size: 16px;
+    line-height: 160%;
+}
+
+.typeGridSc .gridSc .gridBox p a {
+    color: var(--primary-color);
+    text-decoration: underline;
+}
+
+.typeGridSc .gridSc .gridBox .tick-ul li {
+    padding-left: 28px;
+    position: relative;
+    font-size: 16px;
+}
+
+.typeGridSc .gridSc .gridBox .tick-ul li+li {
+    margin-top: 10px;
+}
+
+.typeGridSc .gridSc .gridBox .tick-ul li::before {
+    content: "";
+    background-image: url("data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTgiIGhlaWdodD0iMTgiIHZpZXdCb3g9IjAgMCAxOCAxOCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPGcgY2xpcC1wYXRoPSJ1cmwoI2NsaXAwXzE0NDg1Xzk2MDQpIj4KPHBhdGggZD0iTTcuNjU3NDYgMTMuNUM3LjMxNTIyIDEzLjUgNi45OTEwNyAxMy4zNjk1IDYuNzgzMzYgMTMuMTQ0NUwzLjk3MjI2IDEwLjEwOTNDMy44ODUzNSAxMC4wMTU1IDMuODIxOSA5LjkwODcxIDMuNzg1NTQgOS43OTQ5MkMzLjc0OTE3IDkuNjgxMTMgMy43NDA2MSA5LjU2MjYgMy43NjAzNCA5LjQ0NjExQzMuNzgwMDcgOS4zMjk2MiAzLjgyNzcgOS4yMTc0NSAzLjkwMDUxIDkuMTE2MDFDMy45NzMzMiA5LjAxNDU3IDQuMDY5ODkgOC45MjU4NSA0LjE4NDY5IDguODU0OTJDNC4yOTk0NCA4Ljc4MzcgNC40MzAyNyA4LjczMTY5IDQuNTY5NjcgOC43MDE4NkM0LjcwOTA3IDguNjcyMDQgNC44NTQzMSA4LjY2NDk5IDQuOTk3MDUgOC42ODExMUM1LjEzOTc5IDguNjk3MjQgNS4yNzcyNCA4LjczNjIyIDUuNDAxNTEgOC43OTU4NEM1LjUyNTc4IDguODU1NDUgNS42MzQ0MyA4LjkzNDUyIDUuNzIxMjMgOS4wMjg1MUw3LjU3MDkxIDExLjAyNDFMMTIuMjIxNSA0LjkyMTU2QzEyLjM3NTcgNC43MjAwNyAxMi42MjE0IDQuNTc2NzkgMTIuOTA0OCA0LjUyMzE2QzEzLjE4ODEgNC40Njk1MiAxMy40ODU5IDQuNTA5OTEgMTMuNzMyOCA0LjYzNTQ2QzE0LjI0NjYgNC44OTY0OCAxNC40MDQ3IDUuNDQ5MzkgMTQuMDgzNyA1Ljg2OTg2TDguNTg4OTggMTMuMDc3QzguNDk1MTggMTMuMjAwNSA4LjM2NTkgMTMuMzAzNSA4LjIxMjM0IDEzLjM3N0M4LjA1ODc4IDEzLjQ1MDUgNy44ODU2IDEzLjQ5MjMgNy43MDc4MSAxMy40OTg3QzcuNjkwNSAxMy41IDcuNjc0NzcgMTMuNSA3LjY1NzQ2IDEzLjVaIiBmaWxsPSIjMDA3RkZBIi8+CjwvZz4KPGRlZnM+CjxjbGlwUGF0aCBpZD0iY2xpcDBfMTQ0ODVfOTYwNCI+CjxyZWN0IHdpZHRoPSIxMS4xNiIgaGVpZ2h0PSI5LjM2IiBmaWxsPSJ3aGl0ZSIgdHJhbnNmb3JtPSJ0cmFuc2xhdGUoMy40MjE4OCA0LjMyMDMxKSIvPgo8L2NsaXBQYXRoPgo8L2RlZnM+Cjwvc3ZnPgo=");
+    width: 18px;
+    height: 18px;
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 3px;
+}
+
+@media (min-width: 1199.99px) {
+    .typeGridSc .gridSc>.row {
+        margin-left: -12.5px;
+        margin-right: -12.5px;
+        justify-content: center;
+    }
+
+    .typeGridSc .gridSc>.row>[class*="col-"] {
+        padding-left: 12.5px;
+        padding-right: 12.5px;
+    }
+
+    .typeGridSc .gridSc.gridTwoCol>.row {
+        margin-left: -21.5px;
+        margin-right: -21.5px;
+        justify-content: center;
+    }
+
+    .typeGridSc .gridSc.gridTwoCol>.row>[class*="col-"] {
+        padding-left: 21.5px;
+        padding-right: 21.5px;
+    }
+
+    .typeGridSc .gridSc .gridBox {
+        margin-bottom: 25px;
+        height: calc(100% - 25px);
+    }
+
+    .typeGridSc .gridSc.gridTwoCol .gridBox {
+        margin-bottom: 43px;
+        height: calc(100% - 43px);
+    }
+}
+
+@media (max-width: 767.98px) {
+    .typeGridSc .gridSc .row>*:not(.col-sm-6) .gridBox {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .typeGridSc .gridSc .gridBox {
+        height: auto;
+        margin-bottom: 20px;
+    }
+}
+
+.invoice_table_sc .table {
+    margin: auto;
+    border-collapse: separate;
+    
+    width: 100%;
+    max-width: 100%;
+}
+
+.invoice_table_sc .table td,
+.invoice_table_sc .table th {
+    border-top: 1px solid #cbd5e1;
+    border-left: 1px solid #cbd5e1;
+    padding: 15px;
+    color: var(--heading-color);
+    vertical-align: middle;
+}
+
+.invoice_table_sc .table td {
+    font-weight: 700;
+}
+
+.invoice_table_sc .table th {
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 150%;
+    text-align: center;
+    letter-spacing: 0.005em;
+}
+
+.invoice_table_sc .table td:first-child {
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 150%;
+    letter-spacing: 0.005em;
+}
+
+.invoice_table_sc .table th:first-child {
+    border-top-left-radius: 10px;
+    text-align: left;
+    width: 45%;
+}
+
+.invoice_table_sc .table td:not(:first-child) {
+    text-align: center;
+}
+
+.invoice_table_sc .table td:last-child,
+.invoice_table_sc .table th:last-child {
+    border-right: 1px solid #cbd5e1;
+}
+
+.invoice_table_sc .table tr:last-child td {
+    border-bottom: 1px solid #cbd5e1;
+}
+
+.invoice_table_sc .table th:last-child {
+    border-top-right-radius: 10px;
+}
+
+.invoice_table_sc .table tr:last-child td:first-child {
+    border-bottom-left-radius: 10px;
+}
+
+.invoice_table_sc .table tr:last-child td:last-child {
+    border-bottom-right-radius: 10px;
+}
+
+.invoice_table_sc .btn {
+    padding: 10px 30px;
+}
+
+
+@media (min-width: 1440.99px) {
+    .comparisonSc .titleSc .mainTitle {}
+}
+
+@media (max-width: 991.98px) {
+    .invoice_table_sc .table th:first-child {
+        width: auto;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .invoice_table_sc {
+        overflow-y: auto;
+    }
+
+    .invoice_table_sc .table {
+        table-layout: fixed;
+        min-width: 515px;
+    }
+
+    .invoice_table_sc .table td,
+    .invoice_table_sc .table th {
+        padding: 15px 10px;
+    }
+
+    .invoice_table_sc .table th {
+        font-size: 16px;
+        width: 35%;
+    }
+
+    .invoice_table_sc .table th:first-child {
+        width: 30%;
+    }
+
+    .invoice_table_sc .table .btn {
+        padding: 5px;
+        font-size: 12px;
+        width: 100%;
+    }
+}
+
+.position-inherit {
+    position: inherit !important;
+}
+
+.full_width_section {
+    position: relative;
+}
+
+.img_section_left {
+    position: absolute;
+    left: 0;
+}
+
+.full_left_image {
+    background-image: url(https://cdn.mooninvoice.com/image/images/full_blue_bg.svg);
+    background-size: cover;
+    width: 55vw;
+    height: 100%;
+}
+
+.full_right_image {
+    left: auto;
+    right: 0;
+    width: 45vw;
+    height: 100%;
+    background-size: cover;
+}
+
+.full_left_image,
+.full_right_image {
+    background-position: center center;
+}
+
+.full_width_section .show_content {
+    position: relative;
+    padding: 50px 0;
+}
+
+.full_width_section h3 {
+    font-weight: 700;
+    font-size: 55px;
+    line-height: 70px;
+    position: relative;
+    color: #fff;
+    margin-bottom: 15px;
+}
+
+.full_width_section p {
+    color: #fff;
+}
+
+.full_width_section .btn_sm {
+    padding: 18px 45px 18px 45px;
+    background-color: #fff;
+    color: rgba(0, 0, 0, 1);
+    text-transform: uppercase;
+    display: inline-block;
+    border-radius: 50px;
+    font-size: 16px;
+    font-weight: 700;
+    margin-top: 40px;
+}
+
+@media (max-width: 1199.98px) {
+    .full_width_section h3 {
+        font-size: 38px;
+        line-height: 52px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .full_width_section .row {
+        flex-direction: column-reverse;
+    }
+
+    .img_section_left {
+        position: static;
+    }
+
+    .full_right_image {
+        min-height: 350px;
+        position: relative;
+        width: 100%;
+    }
+
+    .full_width_section .show_content {
+        padding: 25px 40px;
+    }
+
+    .full_left_image {
+        left: 15px;
+        width: 100%;
+        max-width: calc(100% - 30px);
+        position: absolute;
+        margin: 0 auto;
+    }
+
+    .position-inherit {
+        position: relative !important;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .full_width_section .show_content {
+        padding: 25px 25px;
+        text-align: center;
+    }
+
+    .full_width_section h3 {
+        font-size: 24px;
+        line-height: 35px;
+        margin-top: 0px;
+    }
+
+    .full_width_section .btn_sm {
+        margin-top: 20px;
+    }
+}
+
+.freetools-wrapper {
+    background: #e5f2ff;
+    padding: 50px 0 80px;
+}
+
+.freetools-wrapper .mainTitle {
+    line-height: 1.19;
+    color: #212a33 !important;
+}
+
+.freetools-wrapper .titleSc {
+    color: #666666;
+}
+
+.tools-box h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+
+.tools-box span {
+    margin-bottom: 0;
+    font-weight: 600;
+    color: #1e293b;
+    font-size: 16px;
+    display: block;
+}
+
+.tools-box .btnn_new {
+    padding: 18px 45px;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+.sectionblock-wrap .ttl {
+    line-height: 1.47;
+}
+
+.sectionblock-wrap .checks-ul {
+    list-style: none;
+    color: #1e293b;
+    padding-left: 0;
+    margin: 0 0 20px;
+}
+
+.sectionblock-wrap .checks-ul li {
+    display: flex;
+    color: rgba(30, 41, 59, 0.75);
+}
+
+.sectionblock-wrap .checks-ul li:before {
+    content: "";
+    display: block;
+    width: 20px;
+    height: 20px;
+    background: url("https://cdn.mooninvoice.com/image/images/check-circleic.svg") no-repeat center;
+    flex-shrink: 0;
+    margin-right: 10px;
+}
+
+.blockwrap>*:last-child {
+    margin-bottom: 0 !important;
+    padding-bottom: 0;
+}
+
+.sectionblock-wrap .row {
+    display: flex;
+    align-items: center;
+}
+
+.sectionblock-wrap .row:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+.sectionblock-wrap .listbox {
+    color: rgba(30, 41, 59, 0.75);
+    margin-left: 28px;
+}
+
+.sectionblock-wrap .listbox li {
+    color: rgba(30, 41, 59, 0.75);
+}
+
+@media screen and (min-width: 992px) {
+    .freetools-wrapper .titleSc {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .mobile-space {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 767.98px) {
+    .freetools-wrapper .row {
+        gap: 40px;
+    }
+
+    .tools-box h3 {
+        font-size: 20px;
+        margin-bottom: 3px;
+        margin-top: 0px;
+    }
+
+    .tools-box span {
+        font-size: 14px;
+    }
+
+    .tools-box .btnn_new {
+        padding: 15px 35px;
+        margin-top: 10px;
+    }
+
+    .text-center.tools-box img {
+        max-width: 34px;
+    }
+}
+
+.bluebg-wrapper {
+    background: #e5f2ff;
+    --font-36: 36px;
+    --space24: 24px;
+    --space34: 34px;
+    padding: 50px 0;
+}
+
+.bluebg-wrapper h2 {
+    color: #212a33;
+    font-size: var(--font-36);
+    line-height: 1.19;
+    margin-bottom: var(--space24);
+    margin-top: 0;
+}
+
+.bluebg-wrapper p {
+    margin-bottom: var(--space34);
+    font-size: 16px;
+    color: #334155;
+}
+
+.bluebg-wrapper .btnn-sm_new {
+    border-radius: 50px;
+    padding: 19px 56px;
+}
+
+.calcSc .calcMarginBox.centeralign {
+    justify-content: center;
+}
+
+@media screen and (max-width: 767.98px) {
+    .bluebg-wrapper {
+        --font-36: 26px;
+        --space24: 20px;
+        --space34: 18px;
+        padding: 30px 0;
+    }
+}
+
+@media screen and (max-width: 575.98px) {
+    .bluebg-wrapper {
+        --font-36: 22px;
+    }
+}
+
+.ctabanner {
+    background: #0f0a44;
+    overflow: hidden;
+}
+
+.newtitleSc .mainTitle {
+    color: #ffffff;
+}
+
+.newtitleSc p {
+    color: #ffffff !important;
+}
+
+.newtitleSc .btn-md {
+    padding: 18px 21px;
+}
+
+.newtitleSc {
+    position: relative;
+    z-index: 20;
+}
+
+.newtitleSc .btn-primary {
+    background: #ffffff;
+    color: #0f0a44;
+    border-radius: 10px;
+}
+
+.newtitleSc::after {
+    content: "";
+    background-image: url(https://cdn.mooninvoice.com/image/images/newhome/grid_box.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 148px;
+    height: 148px;
+    right: 0;
+    top: 0px;
+}
+
+.newtitleSc::before {
+    content: "";
+    background-image: url(https://cdn.mooninvoice.com/image/images/newhome/grid_box.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 148px;
+    height: 148px;
+    left: 0;
+}
+
+.newtitleSc-before-after-div::before {
+    content: "";
+    background-image: url(https://cdn.mooninvoice.com/image/images/newhome/quared-shap.png);
+    position: absolute;
+    width: 125px;
+    height: 125px;
+    left: 100%;
+    top: 85px;
+    background-repeat: no-repeat;
+}
+
+.newtitleSc-before-after-div::after {
+    content: "";
+    background-image: url(https://cdn.mooninvoice.com/image/images/newhome/quared-shap.png);
+    position: absolute;
+    width: 120px;
+    height: 120px;
+    right: 103%;
+    top: 80px;
+    background-repeat: no-repeat;
+}
+
+.border-box {
+    border: 1px solid #d5d5d5;
+    border-radius: 40px;
+}
+
+.pl-0 {
+    padding-left: 0 !important;
+}
+
+.border-box-2 {
+    background: #edf5ff url("https://cdn.mooninvoice.com/image/images/newhome/box-banner-bg.png") no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.box-bg-blue {
+    background: #edf5ff;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.box-bg-blue .imgSc {
+    background: url("https://cdn.mooninvoice.com/image/images/newhome/box-banner-bg.png");
+}
+
+.box-bg-blue .imgSc img {
+    padding: 40px 0px 30px;
+}
+
+.pr-0 {
+    padding-right: 0 !important;
+}
+
+.cal_cntSc {
+    padding-left: 15px;
+}
+
+.cal_cntSc .ttl {
+    font-size: 42px;
+}
+
+.cal_cntSc .subTitle {
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.cal_letHelpSc {
+    padding: 50px;
+}
+
+.text-dark {
+    color: #151515 !important;
+}
+
+.d-block-mob {
+    display: none;
+}
+
+.d-none-mob {
+    display: block;
+}
+
+.pt-25 {
+    padding: 30px 0;
+}
+
+.cnt-box ul li {
+    font-weight: 700;
+}
+
+.mb-0 {
+    margin-bottom: 0 !important;
+}
+
+@media (max-width: 1450.98px) {
+
+    .newtitleSc::after,
+    .newtitleSc::before {
+        background-size: 100%;
+    }
+
+    .newtitleSc::after {
+        right: 70px !important;
+    }
+
+    .newtitleSc-before-after-div::before,
+    .newtitleSc-before-after-div::after {
+        background-size: 100%;
+    }
+
+    .newtitleSc-before-after-div::before {
+        left: 93% !important;
+    }
+
+    .newtitleSc::before {
+        left: 70px !important;
+    }
+
+    .newtitleSc-before-after-div::after {
+        right: 95% !important;
+    }
+}
+
+@media (max-width: 1299.99px) {
+
+    .newtitleSc::after,
+    .newtitleSc::before {
+        background-size: 80% !important;
+    }
+
+    .newtitleSc::after {
+        right: 80px !important;
+    }
+
+    .newtitleSc::before {
+        left: 100px !important;
+    }
+
+    .newtitleSc-before-after-div::before,
+    .newtitleSc-before-after-div::after {
+        background-size: 65%;
+    }
+
+    .newtitleSc-before-after-div::before {
+        left: 90% !important;
+        top: 80px;
+    }
+
+    .newtitleSc-before-after-div::after {
+        right: 89% !important;
+        top: 85px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .border-box-2 {
+        border-top-left-radius: 0;
+        border-bottom-left-radius: 0;
+    }
+
+    .box-bg-blue {
+        border-top-right-radius: 40px;
+        border-bottom-right-radius: 40px;
+    }
+
+    .cal_cntSc .subTitle {
+        font-size: 30px;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .ctabanner {
+        padding: 70px 0;
+        background-image: none;
+    }
+
+    .newtitleSc::after,
+    .newtitleSc::before {
+        display: none;
+    }
+
+    .newtitleSc-before-after-div::before,
+    .newtitleSc-before-after-div::after {
+        display: none;
+    }
+
+    .pl-0 {
+        padding-left: 0 !important;
+        padding-right: 0 !important;
+    }
+
+    .box-bg-blue {
+        border-radius: 40px;
+    }
+
+    .pr-0 {
+        padding-right: 0 !important;
+        padding-left: 0 !important;
+    }
+
+    .border-box-2 {
+        border-radius: 40px;
+        padding: 0 15px !important;
+    }
+
+    .d-block-mob {
+        display: block;
+    }
+
+    .d-none-mob {
+        display: none;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .box-bg-blue .imgSc img {
+        padding: 20px 0px;
+    }
+
+    .cal_cntSc .subTitle {
+        font-size: 22px;
+    }
+
+    .cal_cntSc .font-primary {
+        font-size: 22px;
+    }
+
+    .border-box {
+        margin-inline: 0px !important;
+    }
+
+    .cal-btn-wrap {
+        gap: 20px;
+        justify-content: center;
+    }
+
+    .cal-btn {
+        padding: 18px !important;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .cal_cntSc .font-primary {
+        font-size: 19px;
+    }
+
+    .cal_cntSc .ttl {
+        margin-bottom: 0;
+    }
+
+    .cal_cntSc .subTitle {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+}
+
+@media (max-width: 475.98px) {
+    .cal-btn {
+        padding: 10px !important;
+        font-size: 14px !important;
+    }
+
+    .cal-btn-wrap {
+        gap: 10px;
+    }
+}
+
+@media (max-width: 390px) {
+    .cal-btn {
+        padding: 10px 3px !important;
+        font-size: 12px !important;
+    }
+}
+
+.markup_cal_typeGridSc {
+    padding-bottom: 50px;
+}
+
+.markup-border-box {
+    align-items: stretch !important;
+}
+
+.blue-bg-markup-cal {
+    background: #edf5ff;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+    background-color: #eaf4ff;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.light-green-markup-cal {
+    background: #e7ffe5;
+    border-top-left-radius: 40px;
+    border-bottom-left-radius: 40px;
+}
+
+.purple-markup-cal {
+    background: #f1efff;
+    border-top-right-radius: 40px;
+    border-bottom-right-radius: 40px;
+}
+
+.markup_cal_typeGridSc .gridSc .gridBox {
+    background: #f4f9ff;
+    border-radius: 30px;
+    box-shadow: none;
+    border: none;
+}
+
+.markup_cal_free_tools {
+    background: none;
+    padding-bottom: 130px;
+}
+
+.markup_cal_free_tools .cta-seaction {
+    margin-top: 20px;
+}
+
+.markup_cal_free_tools .titleSc .cta-seaction h3 {
+    font-size: 24px;
+    line-height: 40px;
+}
+
+.markup_cal_free_tools .titleSc p {
+    color: #666666;
+    margin-bottom: 30px;
+}
+
+.markup_cal_free_tools .free_tools_sub_div {
+    box-shadow: 0px 20px 90px rgba(30, 41, 59, 0.05);
+    border: 1px solid #f1f1f6;
+    border-radius: 8px;
+    padding: 30px 0 30px;
+    position: relative;
+    max-height: 100%;
+    height: 100%;
+}
+
+.markup_cal_free_tools .free_tools_sub_div .tool-btn-div {
+    position: absolute;
+    bottom: -20px;
+    left: 28%;
+    transform: translateX(-50px);
+    width: 257px;
+    max-width: 100%;
+}
+
+.markup_cal_free_tools .tool-btn-div .btn {
+    margin-top: 0;
+    width: 100%;
+    padding: 18px;
+}
+
+.markup_cal_free_tools .markup_cal_free_tools .titleSc .mainTitle {
+    margin-bottom: 24px;
+}
+
+.img-center {
+    text-align: center !important;
+}
+
+.markup_calcsc {
+    flex-wrap: nowrap;
+}
+
+.markupCalcMain .markup_calcsc .calcFormBox {
+    padding: 50px 40px 50px 40px;
+}
+
+.markupCalcMain .markup_calcsc .markupcalcFormBox {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.markupcalcFormBox_bg {
+    background: #edf5ff;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+}
+
+.markupcalcFormBox_bg .pure-material-textfield-outlined>input {
+    background-color: #ffffff;
+    padding-left: 25px !important;
+}
+
+.no-price-icn {
+    position: relative;
+}
+
+.markup::before {
+    content: "%" !important;
+}
+
+.no-price-icn input {
+    padding-left: 25px;
+}
+
+.markup_cal_letHelpSc p {
+    margin-bottom: 50px;
+}
+
+.markup_cal_letHelpSc .subTitle {
+    display: block;
+}
+
+.markup_cal_typeGridSc .gridSc .gridBox .title {
+    font-size: 22px;
+    font-weight: 800;
+    margin: 15px 0 10px;
+}
+
+.free_tools_sub_div::before {
+    top: -20px;
+}
+
+.free_tools_sub_div::before,
+.free_tools_sub_div::after {
+    content: "";
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    background-color: #e8f3ff;
+    filter: blur(30px);
+    z-index: 1;
+}
+
+.free_tools_sub_div::before {
+    left: -20px;
+}
+
+.free_tools_sub_div::after {
+    right: -20px;
+}
+
+.my-70 {
+    margin-top: 70px;
+}
+
+.markup_cal_cntSc {
+    padding: 40px 20px;
+}
+
+.markup_cal_typeGridSc h2 {
+    margin-bottom: 20px !important;
+}
+
+.cancle-text {
+    text-decoration: line-through;
+}
+
+.markup_calc_refresh_btn_div {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.markup_calc_refresh_btn {
+    background-color: transparent;
+    border: 1px solid #007aff;
+    border-radius: 3px;
+    color: #007aff;
+    padding: 10px 30px;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.markup-calculator-icon {
+    background: none;
+    border: none;
+    position: absolute;
+    top: 15px;
+    right: 0;
+    bottom: 0;
+    height: 32px;
+    width: 32px;
+    color: #86c332;
+}
+
+.value_calculate {}
+
+.form-group {
+    position: relative;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.tooltip-icon-div {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.tooltip-icon-div img.tooltip-icon-img {
+    width: 25px;
+    height: 25px;
+    object-fit: contain;
+    transition: transform 0.2s ease-in-out;
+}
+
+.tooltip-icon-div:hover img.tooltip-icon-img {
+    transform: scale(1.1);
+}
+
+.tooltip-icon-div::after {
+    content: attr(data-tooltip) !important;
+    position: absolute;
+    bottom: 150%;
+    left: 50%;
+    transform: translateX(-50%);
+    background: #333;
+    color: #fff;
+    font-size: 12px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    z-index: 10;
+    white-space: normal !important;
+    word-wrap: break-word;
+    overflow: visible !important;
+    text-overflow: unset !important;
+    width: 200px;
+    text-align: center;
+}
+
+.tooltip-icon-div::before {
+    content: "";
+    position: absolute;
+    bottom: 26px;
+    left: 50%;
+    transform: translateX(-50%);
+    border-width: 6px;
+    border-style: solid;
+    border-color: #333 transparent transparent transparent;
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease-in-out;
+    z-index: 9;
+}
+
+.tooltip-icon-div:hover::after,
+.tooltip-icon-div:hover::before {
+    opacity: 1;
+    visibility: visible;
+}
+
+@media (max-width: 1299.98px) {
+    .tooltip-icon-div::after {
+        width: 150px;
+        left: -145%;
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 1199.98px) {
+    .markup_cal_free_tools .free_tools_sub_div .tool-btn-div {
+        width: 220px;
+        left: 29%;
+    }
+}
+
+@media (max-width: 991.98px) {
+    .markup_cal_free_tools .cta-seaction {
+        gap: 50px;
+    }
+
+    .markup_calcsc {
+        flex-wrap: wrap;
+        padding: 0;
+    }
+
+    .newcntSc {
+        padding-left: 0;
+    }
+
+    .markup_cal_free_tools .free_tools_sub_div .tool-btn-div {
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .blue-bg-markup-cal,
+    .purple-markup-cal {
+        border-top-left-radius: 40px;
+        border-bottom-right-radius: 0;
+    }
+
+    .light-green-markup-cal {
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 0;
+    }
+
+    .markup_cal_free_tools {
+        padding-top: 0;
+    }
+
+    .markup_cal_cntSc {
+        padding: 30px 0px 20px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .markup_cal_letHelpSc .subTitle {
+        font-size: 22px;
+    }
+
+    .markup_cal_typeGridSc .gridSc .gridBox {
+        height: calc(100% - 30px);
+    }
+
+    .markup_cal_free_tools {
+        padding-bottom: 70px;
+    }
+}
+
+@media (max-width: 576.98px) {
+    .markupCalcMain .markup_calcsc .calcFormBox {
+        padding: 30px 20px 30px !important;
+    }
+
+    .free_tools_sub_div::after {
+        right: -15px;
+    }
+
+    .markup_cal_letHelpSc {
+        padding: 30px;
+    }
+
+    .markup_cal_letHelpSc .subTitle {
+        font-size: 18px;
+    }
+
+    .markup_cal_letHelpSc p {
+        margin-bottom: 30px;
+    }
+}
+
+@media (max-width: 420px) {
+    .markup_cal_letHelpSc {
+        padding: 15px;
+    }
+
+    .markup_cal_letHelpSc .subTitle {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 355px) {
+    .markup_cal_letHelpSc .subTitle {
+        font-size: 14px;
+    }
+}

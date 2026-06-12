@@ -2,57 +2,6 @@
     --headerHeight: 90px;
 }
 
-.container,
-.container-fluid,
-.container-lg,
-.container-md,
-.container-sm,
-.container-xl {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
-@media (min-width: 576px) {
-
-    .container,
-    .container-sm {
-        max-width: 90%;
-    }
-}
-
-@media (min-width: 768px) {
-
-    .container,
-    .container-md,
-    .container-sm {
-        max-width: 90%;
-    }
-}
-
-@media (min-width: 992px) {
-
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm {
-        max-width: 95%;
-    }
-}
-
-@media (min-width: 1200px) {
-
-    .container,
-    .container-lg,
-    .container-md,
-    .container-sm,
-    .container-xl {
-        max-width: 1250px;
-    }
-}
-
 .pricing_plan_div #monthly_plan .owl-carousel .owl-nav.disabled,
 .pricing_plan_div #yearly_plan .owl-carousel .owl-nav.disabled {
     display: none;
@@ -1823,13 +1772,6 @@ p.plan_include_title span {
 
     .table_main .plan_header span.arrow_icon svg {
         width: 12px;
-    }
-
-    .plancomaprision_section .container {
-        margin: 0;
-        padding: 0;
-        width: 100% !important;
-        max-width: 100%;
     }
 
     .plan_switch.pos_switch {

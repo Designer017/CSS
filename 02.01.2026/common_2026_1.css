@@ -1,0 +1,1202 @@
+* {
+    font-family: var(--font-family-main) !important;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+span,
+li,
+ol,
+ul,
+label,
+input,
+textarea,
+small,
+b {
+    user-select: text;
+    cursor: text;
+}
+
+button,
+button a,
+button span,
+a,
+a span,
+a p {
+    cursor: pointer;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-BlackIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-BlackIta.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Black.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Black.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Bold.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Bold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtLt.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtLt.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay ExtraBlack';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBlkIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBlkIta.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtLtIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtLtIta.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-BoldIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-BoldIta.woff') format('woff');
+    font-weight: bold;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay ExtraBlack';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBlk.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBlk.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtraBold.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtraBold.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Light.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Light.woff') format('woff');
+    font-weight: 300;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-LightIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-LightIta.woff') format('woff');
+    font-weight: 300;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBdIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ExtBdIta.woff') format('woff');
+    font-weight: 900;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Medium.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Medium.woff') format('woff');
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Regular.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-RegIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-RegIta.woff') format('woff');
+    font-weight: normal;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ThinIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-ThinIta.woff') format('woff');
+    font-weight: 100;
+    font-style: italic;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Thin.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-Thin.woff') format('woff');
+    font-weight: 100;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HelveticaNowDisplay';
+    src: url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-MedIta.woff2') format('woff2'),
+        url('https://cdn.mooninvoice.com/fonts/HelveticaNowDisplayFont/HelveticaNowDisplay-MedIta.woff') format('woff');
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+}
+
+
+:root {
+    /* ===== Colors ===== */
+    --color-blue: #007AFF;
+    --color-black: #151515;
+    --color-gray: #535353;
+    --color-light-blue: #F5F9FF;
+    --color-white: #FFFFFF;
+    --color-highlight: #FCB41A;
+    --color-hero: #0F0044;
+
+    /* Light Mode Tokens */
+    --bg-primary: var(--color-white);
+    --bg-secondary: #F8F8F8;
+    --text-primary: var(--color-blue);
+    --text-secondary: var(--color-black);
+    --text-darkblue: #0F0A44;
+    --border-color: rgba(0, 0, 0, 0.1);
+    --btn-hover: #0062CC;
+
+    /* === Font Family === */
+    --font-family-main: "Helvetica Now Display", sans-serif;
+
+    --h1-size: clamp(28px, 3vw, 48px);
+    --h1-line: clamp(40px, 4vw, 56px);
+
+    --h2-size: clamp(24px, 2vw, 36px);
+    --h2-line: clamp(34px, 3vw, 44px);
+
+    --h3-size: clamp(22px, 2vw, 28px);
+    --h3-line: clamp(30px, 3vw, 36px);
+
+    --h4-size: clamp(17px, 2vw, 22px);
+    --h4-line: clamp(26px, 3vw, 30px);
+
+    --h5-size: clamp(16px, 2.5vw, 18px);
+    --h5-line: clamp(24px, 3vw, 26px);
+
+    --h6-size: clamp(16px, 2vw, 16px);
+    --h6-line: clamp(22px, 3vw, 24px);
+
+    /* Weights from your style sheet */
+    --weight-800: 800;
+    --weight-700: 700;
+    --weight-600: 600;
+    --weight-500: 500;
+    --weight-400: 400;
+
+    --font-size-26: clamp(18px, 2vw, 26px);
+    --font-size26-line: clamp(24px, 3vw, 34px);
+
+    --font-size-24: clamp(17px, 2vw, 24px);
+    --font-size24-line: clamp(22px, 3vw, 32px);
+
+    --font-size-20: clamp(18px, 2vw, 20px);
+    --font-size20-line: clamp(24px, 3vw, 28px);
+
+    --body-large-size: clamp(16px, 2.5vw, 18px);
+    --body-large-line: clamp(24px, 4vw, 28px);
+
+    --body-default-size: clamp(14px, 2vw, 16px);
+    --body-default-line: clamp(20px, 3vw, 24px);
+
+    --body-small-size: clamp(12px, 2vw, 14px);
+    --body-small-line: clamp(18px, 3vw, 20px);
+
+    --body-xs-size: clamp(10px, 1.5vw, 12px);
+    --body-xs-line: clamp(14px, 2vw, 18px);
+    --space-80: 80px;
+    --space-50: 50px;
+    --space-25: 25px;
+}
+
+@media screen and (max-width: 1300.98px) {
+    :root {
+        --space-80: 60px;
+        --space-50: 30px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    :root {
+        --space-80: 40px;
+        --space-50: 20px;
+        --space-25: 13px;
+    }
+}
+
+/* ===================================================== */
+/*                        DARK MODE                      */
+/* ===================================================== */
+.dark {
+
+    --bg-primary: #007aff;
+    --bg-secondary: #1A1A1A;
+    --bg-black: #000000;
+
+    --text-primary: #007aff;
+    --text-black: #000000;
+    --text-secondary: #535353;
+    --border-color: #007aff;
+
+    /* Slightly lighter brand colors for contrast */
+    --color-highlight: #FFCD47;
+    --color-gray: #A9A9A9;
+}
+
+.font-main {
+    font-family: var(--font-family-main) !important;
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+.text-uppercase {
+    text-transform: uppercase;
+}
+
+.text-capitalize {
+    text-transform: capitalize;
+}
+
+.text-darkblue {
+    color: var(--text-darkblue);
+}
+
+.white-stripe {
+    color: var(--text-darkblue);
+    font-style: italic;
+    padding-inline: 3px;
+    background-color: var(--color-white);
+}
+
+/* ----- Margin Utilities ----- */
+.space-m-0 {
+    margin: 0px !important;
+}
+
+.space-p-0 {
+    padding: 0px !important;
+}
+
+.space-m-80 {
+    margin: var(--space-80);
+}
+
+.space-mt-80 {
+    margin-block-start: var(--space-80);
+}
+
+.space-mb-80 {
+    margin-block-end: var(--space-80);
+}
+
+.space-ms-80 {
+    margin-inline-start: var(--space-80);
+}
+
+.space-me-80 {
+    margin-inline-end: var(--space-80);
+}
+
+.space-mx-80 {
+    margin-inline-start: var(--space-80);
+    margin-inline-end: var(--space-80);
+}
+
+.space-my-80 {
+    margin-block-start: var(--space-80);
+    margin-block-end: var(--space-80);
+}
+
+/* ----- Padding Utilities ----- */
+.space-p-80 {
+    padding: var(--space-80);
+}
+
+.space-pt-80 {
+    padding-block-start: var(--space-80);
+}
+
+.space-pb-80 {
+    padding-block-end: var(--space-80);
+}
+
+.space-ps-80 {
+    padding-inline-start: var(--space-80);
+}
+
+.space-pe-80 {
+    padding-inline-end: var(--space-80);
+}
+
+.space-px-80 {
+    padding-inline-start: var(--space-80);
+    padding-inline-end: var(--space-80);
+}
+
+.space-py-80 {
+    padding-block-start: var(--space-80);
+    padding-block-end: var(--space-80);
+}
+
+.m-0 {
+    margin: 0px;
+}
+
+.pt-20 {
+    padding-block-start: 20px;
+}
+
+.pb-40 {
+    padding-block-end: 40px;
+}
+
+
+/* ----- Margin Utilities for 50 ----- */
+.space-m-50 {
+    margin: var(--space-50);
+}
+
+.space-mt-50 {
+    margin-block-start: var(--space-50);
+}
+
+.space-mb-50 {
+    margin-block-end: var(--space-50);
+}
+
+.space-ms-50 {
+    margin-inline-start: var(--space-50);
+}
+
+.space-me-50 {
+    margin-inline-end: var(--space-50);
+}
+
+.space-mx-50 {
+    margin-inline-start: var(--space-50);
+    margin-inline-end: var(--space-50);
+}
+
+.space-my-50 {
+    margin-block-start: var(--space-50);
+    margin-block-end: var(--space-50);
+}
+
+/* ----- Padding Utilities for 50 ----- */
+.space-p-50 {
+    padding: var(--space-50);
+}
+
+.space-pt-50 {
+    padding-block-start: var(--space-50);
+}
+
+.space-pb-50 {
+    padding-block-end: var(--space-50);
+}
+
+.space-ps-50 {
+    padding-inline-start: var(--space-50);
+}
+
+.space-pe-50 {
+    padding-inline-end: var(--space-50);
+}
+
+.space-px-50 {
+    padding-inline-start: var(--space-50);
+    padding-inline-end: var(--space-50);
+}
+
+.space-py-50 {
+    padding-block-start: var(--space-50);
+    padding-block-end: var(--space-50);
+}
+
+.space-pt-25 {
+    padding-block-start: var(--space-25);
+}
+
+.space-pb-25 {
+    padding-block-end: var(--space-25);
+}
+
+.space-py-25 {
+    padding-block: var(--space-25);
+}
+
+.space-my-25 {
+    margin-block: var(--space-25);
+}
+
+.space-mt-25 {
+    margin-block-start: var(--space-25);
+}
+
+.space-mb-25 {
+    margin-block-end: var(--space-25);
+}
+
+/* -------------------------
+   Headings
+-------------------------- */
+h1,
+.heading-1 {
+    font-size: var(--h1-size) !important;
+    line-height: var(--h1-line) !important;
+    font-weight: var(--weight-700) !important;
+    color: var(--text-secondary);
+    margin: 0px;
+}
+
+h2,
+.heading-2 {
+    font-size: var(--h2-size) !important;
+    line-height: var(--h2-line) !important;
+    font-weight: var(--weight-600) !important;
+    color: var(--text-secondary);
+    margin: 0px;
+}
+
+h3,
+.heading-3 {
+    font-size: var(--h3-size) !important;
+    line-height: var(--h3-line) !important;
+    font-weight: var(--weight-600) !important;
+    color: var(--text-secondary);
+}
+
+h4,
+.heading-4 {
+    font-size: var(--h4-size) !important;
+    line-height: var(--h4-line) !important;
+    font-weight: var(--weight-600) !important;
+    color: var(--text-secondary);
+}
+
+h5,
+.heading-5 {
+    font-size: var(--h5-size) !important;
+    line-height: var(--h5-line) !important;
+    font-weight: var(--weight-400) !important;
+    color: var(--text-secondary);
+}
+
+h6,
+.heading-6 {
+    font-size: var(--h6-size) !important;
+    line-height: var(--h6-line) !important;
+    font-weight: var(--weight-400) !important;
+    color: var(--text-secondary);
+}
+
+.font-26 {
+    font-size: var(--font-size-26) !important;
+    line-height: var(--font-size26-line) !important;
+}
+
+.font-24 {
+    font-size: var(--font-size-24) !important;
+    line-height: var(--font-size24-line) !important;
+}
+
+.font-22 {
+    font-size: 22px !important;
+}
+
+.font-20 {
+    font-size: var(--font-size-20) !important;
+    line-height: var(--font-size20-line) !important;
+}
+
+/* -------------------------
+   Body Text
+-------------------------- */
+p,
+.text-body,
+.paragraph,
+li {
+    font-size: var(--body-default-size) !important;
+    line-height: var(--body-default-line) !important;
+    color: var(--text-secondary);
+    font-family: var(--font-family-main) !important;
+    margin: 0px;
+}
+
+/* Body Large */
+.text-body-large {
+    font-size: var(--body-large-size) !important;
+    line-height: var(--body-large-line) !important;
+    color: var(--text-secondary);
+    font-family: var(--font-family-main) !important;
+}
+
+/* Body Small */
+.text-body-small {
+    font-size: var(--body-small-size) !important;
+    line-height: var(--body-small-line) !important;
+    color: var(--text-secondary) !important;
+    font-family: var(--font-family-main) !important;
+}
+
+/* Body Extra Small */
+.text-body-xs {
+    font-size: var(--body-xs-size) !important;
+    line-height: var(--body-xs-line) !important;
+    color: var(--text-secondary) !important;
+    font-family: var(--font-family-main) !important;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+}
+
+/* -------------------------
+   Font Weight Utilities
+-------------------------- */
+.fw-800 {
+    font-weight: var(--weight-800) !important;
+}
+
+.fw-bold {
+    font-weight: var(--weight-700) !important;
+}
+
+.fw-semibold {
+    font-weight: var(--weight-600) !important;
+}
+
+.fw-medium {
+    font-weight: var(--weight-500) !important;
+}
+
+.fw-normal {
+    font-weight: var(--weight-400) !important;
+}
+
+/* -------------------------
+   Text Color Utilities
+-------------------------- */
+.text-primary {
+    color: var(--text-primary) !important;
+}
+
+.text-secondary {
+    color: var(--text-secondary) !important;
+}
+
+.text-black {
+    color: var(--text-black) !important;
+}
+
+.text-highlight {
+    color: var(--color-highlight) !important;
+}
+
+.text-white {
+    color: var(--color-white);
+}
+
+
+/* -------------------------
+   Base Button
+-------------------------- */
+.btn-custom {
+    font-weight: 700;
+    border-radius: 8px;
+    padding: 0px 20px;
+    line-height: 1;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid transparent;
+    cursor: pointer;
+    transition: all 0.25s ease;
+}
+
+/* Disable */
+.btn-custom:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* -------------------------
+   Sizes
+-------------------------- */
+.btn-sm {
+    height: 40px;
+    font-size: 14px;
+}
+
+.btn-md {
+    height: 48px;
+    font-size: 16px;
+}
+
+.btn-lg {
+    height: 56px;
+    font-size: 18px;
+}
+
+/* -------------------------
+   Shape
+-------------------------- */
+.btn-rounded {
+    border-radius: 8px;
+}
+
+.btn-pill {
+    border-radius: 40px;
+}
+
+/* -------------------------
+   primary Buttons
+-------------------------- */
+
+/* Default */
+.btn-primary {
+    background: var(--color-blue);
+    border-color: var(--color-blue);
+    color: #fff;
+}
+
+/* Hover */
+.btn-primary:hover {
+    background: #0062d6;
+    border-color: #0062d6;
+}
+
+/* Focus */
+.btn-primary:focus {
+    box-shadow: 0 0 0 3px rgba(0, 117, 255, .4);
+}
+
+/* Disabled */
+.btn-primary:disabled {
+    background: #b3d8ff;
+    border-color: #b3d8ff;
+    color: #ffffff;
+}
+
+/* -------------------------
+White Buttons
+-------------------------- */
+
+/* Default */
+/* border-color: #d5d5d5;
+    color: #222; */
+.btn-white {
+    background: #ffffff;
+    border-color: var(--color-white);
+    color: var(--text-darkblue);
+}
+
+/* Hover */
+.btn-white:hover {
+    background: var(--color-blue) !important;
+    border-color: var(--color-blue) !important;
+    color: #fff !important;
+}
+
+.text-primary.btn-white:hover {
+    color: #fff !important;
+}
+
+.btn-white.text-primary.hover-white:hover {
+    background: transparent !important;
+    color: #fff !important;
+    border-color: #fff !important;
+}
+
+
+/* Focus */
+.btn-white:focus {
+    box-shadow: 0 0 0 3px rgba(150, 150, 150, .3);
+}
+
+/* Disabled */
+.btn-white:disabled {
+    background: #f7f7f7;
+    border-color: #e6e6e6;
+    color: #bfbfbf;
+}
+
+.btn-outline-primary {
+    border-color: var(--color-blue);
+}
+
+.btn-transparent {
+    background: transparent !important;
+    border-color: var(--color-white);
+}
+
+.btn-transparent:hover {
+    background: var(--color-blue) !important;
+}
+
+.hover-imgwhite:hover img {
+    filter: brightness(0) invert(1);
+}
+
+.w-100 {
+    width: 100%;
+}
+
+.h-100 {
+    height: 100%;
+}
+
+.w-fit {
+    width: fit-content;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.imgwidth-88 {
+    width: 88%;
+}
+@media screen and (max-width:991.92px) {
+    .imgwidth-88{
+        width: 100%;
+    }
+
+    .mobile-button-align {
+        justify-content: center !important;
+    }
+}
+
+.flex {
+    display: flex !important;
+}
+
+.logo_link.pos {
+    width: 236px;
+}
+
+/* Start Header Offer Active CSS*/
+
+.HeadOfferActive {
+    margin-top: 158px !important;
+}
+
+body:not(:has(.stripe-active)) .HeadOfferActive {
+    margin-top: 86px !important;
+}
+
+.image-align-left {
+    text-align: left !important;
+}
+
+.newfaqMain .titleSc .mainTitle:before {
+    display: none !important;
+}
+
+img {
+    max-width: 100%;
+}
+
+@media screen and (max-width: 1450.99px) {
+    .HeadOfferActive {
+        margin-top: 158px !important;
+    }
+
+    body:not(:has(.stripe-active)) .HeadOfferActive {
+        margin-top: 77px !important;
+    }
+}
+
+@media screen and (max-width: 991.99px) {
+    .HeadOfferActive {
+        margin-top: 158px !important;
+    }
+
+    body:not(:has(.stripe-active)) .HeadOfferActive {
+        margin-top: 60px !important;
+    }
+
+    .tab-mx-auto {
+        margin-inline: auto;
+    }
+
+    .btn-sm {
+        height: 38px;
+        font-size: 13px;
+        padding: 0px 16px;
+    }
+
+    .btn-md {
+        height: 44px;
+        font-size: 15px;
+        padding: 0px 18px;
+    }
+
+    .btn-lg {
+        height: 52px;
+        font-size: 17px;
+        padding: 0px 20px;
+    }
+
+    .maxw-80 {
+        max-width: 80%;
+    }
+
+    .tab-gap-10 {
+        gap: 10px;
+    }
+
+    .tab-text-center {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 575.99px) {
+    .HeadOfferActive {
+        margin-top: 52px !important;
+    }
+
+    body:not(:has(.stripe-active)) .HeadOfferActive {
+        margin-top: 52px !important;
+    }
+
+    .btn-sm {
+        height: 36px;
+        font-size: 12px;
+        padding: 0px 14px;
+    }
+
+    .btn-md {
+        height: 42px;
+        font-size: 14px;
+        padding: 0px 16px;
+    }
+
+    .btn-lg {
+        height: 48px;
+        font-size: 16px;
+        padding: 0px 18px;
+    }
+}
+
+/* End Header Offer Active CSS*/
+
+
+@media screen and (max-width: 1450.98px) {
+    .logo_link.pos {
+        width: 195px;
+    }
+}
+
+@media screen and (max-width: 991.98px) {
+    .logo_link.pos {
+        width: 187px;
+    }
+}
+
+@media screen and (max-width: 576.98px) {
+    .logo_link.pos {
+        width: 187px;
+    }
+}
+
+
+
+@media screen and (max-width: 1300.98px) {
+    .black-friday-banner-img {
+        min-height: 250px;
+    }
+}
+
+@media screen and (max-width: 1024.98px) {
+    .black-friday-banner-img {
+        min-height: 180px;
+    }
+}
+
+@media (max-width: 767.98px) {
+    .black-friday-banner-img {
+        min-height: 120px;
+    }
+
+    .newfaqMain .faqPanelHeading {
+        padding-bottom: 8px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    .black-friday-banner-img {
+        min-height: 100px;
+    }
+
+    .bf-bannerimg {
+        height: 140px;
+    }
+}
+
+@media (max-width: 340.98px) {
+    .black-friday-banner-img {
+        min-height: 100px;
+    }
+}
+
+.cta-text-white * {
+    color: #fff;
+}
+
+.image-align-left {
+    text-align: left !important;
+}
+
+@media screen and (max-width:991.98px) {
+    .image-align-left {
+        text-align: center !important;
+    }
+}
+
+@media screen and (max-width:575.98px) {
+    .btn-mobile-view {
+        display: flex;
+        gap: 10px;
+    }
+
+    .btn-mobile-view a,
+    .btn-mobile-view span {
+        width: 100%;
+    }
+}
+
+
+.card-header-title {
+    font-size: 18px !important;
+}
+
+a {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease-in-out;
+    transition: all 0.5s ease-in-out;
+}
+
+.text-underline {
+    text-decoration: underline !important;
+    text-underline-offset: 4px;
+}
+
+.align-items-unset {
+    align-items: unset !important;
+}
+
+.errorcolor {
+    color: red;
+}
+
+.numbered-list>li {
+    counter-increment: list-counter;
+    list-style: none;
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.numbered-list>li::before {
+    content: counter(list-counter) ". ";
+    position: absolute;
+    left: -1.5em;
+}
+
+.numbered-list {
+    counter-reset: list-counter;
+    padding-left: 2em;
+}
+
+.numbered-list li ul {
+    counter-reset: sub-counter;
+    margin-top: 5px;
+}
+
+.numbered-list li ul li {
+    list-style: none;
+    position: relative;
+    padding-left: 2em;
+}
+
+.numbered-list li ul li::before {
+    counter-increment: sub-counter;
+    content: counters(list-counter, ".") "." counter(sub-counter) " ";
+    font-weight: bold;
+    position: absolute;
+    left: 0;
+}
+
+.annual_monthly_plan_offer.halloween-fest-annual_monthly_plan_offer.christmas_offer {
+    background-color: #9a071f !important;
+}
+
+.parent-relative * {
+    position: relative;
+    z-index: 5;
+}
+
+.container,
+.container-sm,
+.container-md,
+.container-lg,
+.container-xl,
+.container-xxl {
+    width: 100% !important;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media (min-width: 576px) {
+
+    .container,
+    .container-sm {
+        max-width: 540px !important;
+    }
+}
+
+@media (min-width: 768px) {
+
+    .container,
+    .container-sm,
+    .container-md {
+        max-width: 720px !important;
+    }
+}
+
+@media (min-width: 992px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 960px !important;
+    }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1050px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 975px !important;
+    }
+}
+
+@media screen and (min-width: 1050px) and (max-width: 1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg {
+        max-width: 1050px !important;
+    }
+}
+
+@media screen and (min-width: 991.98px) and (max-width: 1350px) {
+
+    .guidnewtitleSc-before-after-div::after,
+    .guidnewtitleSc-before-after-div::before,
+    .butterflies-div::before,
+    .butterflies-div::after {
+        opacity: 0.5;
+    }
+}
+
+@media (min-width: 1200px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl {
+        max-width: 1320px !important;
+    }
+}
+
+.container:after,
+.container:before,
+.modal-footer:after,
+.modal-footer:before,
+.modal-header:after,
+.modal-header:before,
+.row:after,
+.row:before {
+    display: table;
+    content: " "
+}
+.container:after,
+.modal-footer:after,
+.modal-header:after,
+.row:after {
+    clear: both
+}
+
+.ctabanner.guidnewtitleSc-before-after-div  h2, .ctabanner.guidnewtitleSc-before-after-div  p {
+    color: #fff !important;
+}

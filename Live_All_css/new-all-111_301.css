@@ -666,7 +666,6 @@ small {
 .featurecountbox,
 .gredientsignuppart p,
 .gredientsignupwrap,
-.invoicefaq-block.new_frequent_question .container,
 .item.customer_sliderbox,
 .label,
 .landingtestipart,
@@ -797,14 +796,6 @@ code {
 .title h2,
 .title p {
     font-family: var(--secondary-fonts);
-}
-
-.container,
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 @media (min-width: 768px) {
@@ -4252,8 +4243,7 @@ body {
 .btn-toolbar:before,
 .container-fluid:after,
 .container-fluid:before,
-.container:after,
-.container:before,
+
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -4276,7 +4266,7 @@ body {
 
 .btn-toolbar:after,
 .container-fluid:after,
-.container:after,
+
 .modal-footer:after,
 .modal-header:after,
 .nav:after,
@@ -4893,10 +4883,6 @@ ul.nav li.feature_item:hover .menu_item:before {
     width: 100%;
     background-color: #192a3c !important;
     padding: 50px 0;
-}
-
-.top_footer .container {
-    width: 95%;
 }
 
 .footer_right_border {
@@ -10748,10 +10734,6 @@ body .footer_black_firday .top_footer .footer_right_border:last-child {
         padding: 0;
     }
 
-    .top_footer .container {
-        width: 85%;
-    }
-
     .banner-imageblock {
         width: 100%;
         margin-left: -70px;
@@ -11684,13 +11666,6 @@ p.white_color {
         padding: 20px;
     }
 
-    .invoicebannerwrap .container {
-        padding-right: 15px;
-        padding-left: 15px;
-        margin-right: auto;
-        margin-left: auto;
-    }
-
     .customer_sliderbox p {
         font-size: 28px;
         line-height: 1.5;
@@ -11727,14 +11702,6 @@ p.white_color {
 a.new_width {
     width: 100px;
     text-align: center;
-}
-
-@media screen and (min-width: 1600px) and (max-width: 1920px) {
-    .invoicebannerwrap .container {
-        margin-right: 0;
-        width: 88% !important;
-        padding-right: 0;
-    }
 }
 
 @media screen and (min-width: 1153px) and (max-width: 1200px) {
@@ -16040,8 +16007,7 @@ span.title_text {
     }
 
     .budget_price_section .pricing_plan_div,
-    .d-flex-1 .col-md-6,
-    .top_footer .container {
+    .d-flex-1 .col-md-6 {
         width: 100%;
     }
 
@@ -24766,11 +24732,6 @@ ul#myTab.tabs-blocklink.nav-tabs li a.active {
     bottom: 0;
 }
 
-.automateworkflow-wrap .container {
-    position: relative;
-    z-index: 1;
-}
-
 .payment_pro_ques.automateworkflow-wrap .main-title {
     margin-bottom: 55px;
     text-transform: capitalize;
@@ -25624,45 +25585,6 @@ ul#myTab.tabs-blocklink.nav-tabs li a.active {
     }
 }
 
-.container {
-    width: 100%;
-}
-
-@media (min-width: 1800.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1800.98px) and (min-width: 1500.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1500.98px) and (min-width: 1199.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1199.98px) and (min-width: 991.99px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (max-width: 991.98px) and (min-width: 767.99px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (max-width: 767.98px) and (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
 
 .free_trial.free_trail_case_study .row {
     justify-content: center;

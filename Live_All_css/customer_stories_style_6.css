@@ -284,14 +284,6 @@ ul ul {
     margin-bottom: 20px;
 }
 
-.container,
-.container-fluid {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .row {
     margin-right: -15px;
     margin-left: -15px;
@@ -320,7 +312,6 @@ ul ul {
 #header_main,
 .case-study-inner-page.inner_page_main .section_left_img,
 .col-xs-12,
-.container,
 .customer_story.owl-carousel.owl-theme,
 .free_trial,
 .inner_page_main.new_width.stripe_setion.pad_top .flex_section_new .section_left_img,
@@ -707,10 +698,6 @@ button.close {
     }
 }
 
-.container-fluid:after,
-.container-fluid:before,
-.container:after,
-.container:before,
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -721,8 +708,6 @@ button.close {
     content: " ";
 }
 
-.container-fluid:after,
-.container:after,
 .modal-footer:after,
 .modal-header:after,
 .row:after {
@@ -2462,41 +2447,6 @@ div.blog_banner h2 {
     }
 }
 
-@media (min-width: 1800.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1800.98px) and (min-width: 1500.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1500.98px) and (min-width: 1199.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1199.98px) and (min-width: 991.99px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (max-width: 991.98px) and (min-width: 767.99px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (max-width: 767.98px) and (min-width: 576px) {
-    .container {
-        max-width: 540px;
-    }
-}
 
 .free_trial.free_trail_case_study .row {
     justify-content: center;

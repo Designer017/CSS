@@ -1405,13 +1405,6 @@ a:active {
         background-color: transparent;
     }
 }
-
-@media (min-width: 1200.99px) {
-    .header-main .container {
-        max-width: 1319px;
-    }
-}
-
 .header-main .header-section {
     display: flex;
     align-items: center;

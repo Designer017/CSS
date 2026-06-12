@@ -876,7 +876,7 @@ body {
     content: " ";
 }
 
-.container:after,
+
 .modal-footer:after,
 .modal-header:after,
 .panel-body:after,
@@ -2922,10 +2922,6 @@ span.mobile_view {
 }
 
 @media (max-width: 767.98px) {
-    .contact_custom_main .container {
-        max-width: 100%;
-        width: 100%;
-    }
 
     .contact_custom_plan .btn {
         width: calc(50% - 10px);

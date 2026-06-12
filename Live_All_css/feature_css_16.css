@@ -289,13 +289,6 @@ ul ul {
     margin-bottom: 20px;
 }
 
-.container {
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-}
-
 .row {
     margin-right: -15px;
     margin-left: -15px;
@@ -317,7 +310,6 @@ ul ul {
 
 #header_main,
 .col-xs-12,
-.container,
 .free_trial,
 .qaes_ans_div,
 .qaes_ans_div .panel,
@@ -770,8 +762,7 @@ button.close {
     border-top: 1px solid #e5e5e5;
 }
 
-.container:after,
-.container:before,
+
 .modal-footer:after,
 .modal-footer:before,
 .modal-header:after,
@@ -784,7 +775,7 @@ button.close {
     content: " ";
 }
 
-.container:after,
+
 .modal-footer:after,
 .modal-header:after,
 .panel-body:after,
@@ -2597,42 +2588,6 @@ a.schedule {
 
     .list-beside li:nth-child(2n) {
         order: 1;
-    }
-}
-
-@media (min-width: 1800.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1800.98px) and (min-width: 1500.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1500.98px) and (min-width: 1199.99px) {
-    .container {
-        max-width: 1250px;
-    }
-}
-
-@media (max-width: 1199.98px) and (min-width: 991.99px) {
-    .container {
-        max-width: 960px;
-    }
-}
-
-@media (max-width: 991.98px) and (min-width: 767.99px) {
-    .container {
-        max-width: 720px;
-    }
-}
-
-@media (max-width: 767.98px) and (min-width: 576px) {
-    .container {
-        max-width: 540px;
     }
 }
 
